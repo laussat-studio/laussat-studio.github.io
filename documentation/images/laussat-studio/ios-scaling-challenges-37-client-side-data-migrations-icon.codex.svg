@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ios scaling challenges 37 client side data migrations icon</title>
+  <desc id="desc">Custom asset for ios-scaling-challenges-37-client-side-data-migrations (icon).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4C9F70"/>
+      <stop offset="100%" stop-color="#1B263B"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="30.72" fill="url(#bg)"/>
+  <rect x="55.64" y="166.82" width="102.22" height="70.46" rx="35.84" fill="#1B263B" opacity="0.85"/>
+  <circle cx="206.52" cy="71.91" r="30.72" fill="#FCA311" opacity="0.9"/>
+  <path d="M 96.02 151.52 L 142.10 192.48 L 183.06 136.16 Z" fill="#FCA311" opacity="0.6"/>
+  <text x="20.48" y="225.28" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 37 client side data migrations</text>
+</svg>
