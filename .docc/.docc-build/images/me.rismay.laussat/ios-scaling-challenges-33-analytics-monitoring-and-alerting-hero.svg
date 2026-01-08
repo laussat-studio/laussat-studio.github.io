@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">ios scaling challenges 33 analytics monitoring and alerting hero</title>
+  <desc id="desc">Custom asset for ios-scaling-challenges-33-analytics-monitoring-and-alerting (hero).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5E548E"/>
+      <stop offset="100%" stop-color="#2A6F97"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="72.00" fill="url(#bg)"/>
+  <rect x="555.76" y="381.87" width="715.77" height="157.25" rx="84.00" fill="#2A6F97" opacity="0.85"/>
+  <circle cx="561.03" cy="386.97" r="122.40" fill="#F95738" opacity="0.9"/>
+  <path d="M 603.54 324.61 L 819.54 420.61 L 1011.54 288.61 Z" fill="#F95738" opacity="0.6"/>
+  <text x="96.00" y="528.00" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="54.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 33 analytics monitoring and alerting</text>
+</svg>

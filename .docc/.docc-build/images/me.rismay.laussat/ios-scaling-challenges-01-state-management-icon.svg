@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ios scaling challenges 01 state management icon</title>
+  <desc id="desc">Custom asset for ios-scaling-challenges-01-state-management (icon).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1B263B"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="30.72" fill="url(#bg)"/>
+  <rect x="55.64" y="172.65" width="98.61" height="68.78" rx="35.84" fill="#1B263B" opacity="0.85"/>
+  <circle cx="71.65" cy="59.83" r="47.31" fill="#B8F2E6" opacity="0.9"/>
+  <path d="M 43.14 133.29 L 89.22 174.25 L 130.18 117.93 Z" fill="#B8F2E6" opacity="0.6"/>
+  <text x="20.48" y="225.28" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 01 state management</text>
+</svg>
