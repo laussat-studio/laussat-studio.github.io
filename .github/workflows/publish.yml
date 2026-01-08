@@ -39,7 +39,7 @@ jobs:
           docc convert "laussat-studio.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path /documentation/laussat-studio
+            --hosting-base-path /
           touch "${output_root}/.nojekyll"
 
       - name: Upload Pages artifact
