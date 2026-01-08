@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">ios scaling challenges 31 feature flag hell card</title>
+  <desc id="desc">Custom asset for ios-scaling-challenges-31-feature-flag-hell (card).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1D4E89"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="48.00" fill="url(#bg)"/>
+  <rect x="169.45" y="60.15" width="262.82" height="83.82" rx="56.00" fill="#1D4E89" opacity="0.85"/>
+  <circle cx="137.63" cy="247.19" r="64.32" fill="#EE964B" opacity="0.9"/>
+  <path d="M 260.46 222.51 L 368.46 286.51 L 464.46 198.51 Z" fill="#EE964B" opacity="0.6"/>
+  <text x="48.00" y="352.00" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 31 feature flag hell</text>
+</svg>

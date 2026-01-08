@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ios scaling challenges 14 application state and event driven changes icon</title>
+  <desc id="desc">Custom asset for ios-scaling-challenges-14-application-state-and-event-driven-changes (icon).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E3A53"/>
+      <stop offset="100%" stop-color="#5E548E"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="30.72" fill="url(#bg)"/>
+  <rect x="98.21" y="87.10" width="120.25" height="74.66" rx="35.84" fill="#5E548E" opacity="0.85"/>
+  <circle cx="99.36" cy="56.38" r="36.86" fill="#FCA311" opacity="0.9"/>
+  <path d="M 75.88 126.79 L 121.96 167.75 L 162.92 111.43 Z" fill="#FCA311" opacity="0.6"/>
+  <text x="20.48" y="225.28" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 14 application state and event driven changes</text>
+</svg>
