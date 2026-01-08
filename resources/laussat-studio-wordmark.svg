@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <title>Laussat Studio wordmark</title>
+  <style>
+    .wordmark { font-size: 120px; font-weight: 600; }
+    .serif { font-family: "Times New Roman", "Times", serif; fill: #3E4248; }
+    .sans { font-family: "Helvetica Neue", Arial, sans-serif; fill: #111111; }
+  </style>
+
+  <rect width="1200" height="260" fill="none"/>
+
+  <text class="wordmark" x="80" y="170">
+    <tspan class="serif">Laussat St</tspan>
+    <tspan class="sans">udio</tspan>
+  </text>
+</svg>
