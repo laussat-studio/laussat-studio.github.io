@@ -4,6 +4,7 @@
   @PageKind(article)
   @PageColor(gray)
   @TechnologyRoot
+  @DisplayName("Studio Laussat")
   @TitleHeading("Creative Studio")
   @PageImage(purpose: icon, source: "laussat-studio-icon.codex", alt: "Studio Laussat Icon")
   @PageImage(purpose: card, source: "laussat-studio-card.codex", alt: "Studio Laussat Card")
