@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-18-manual-testing-hero.codex", alt: "Manual testing hero")
 
 @Image(source: "ios-scaling-challenges-18-manual-testing-hero.codex", alt: "Manual testing Hero")
 

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-16-modular-architecture-and-dependency-injection-hero.codex", alt: "Modular architecture and dependency injection hero")
 
 @Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-hero.codex", alt: "Modular architecture and dependency injection Hero")
 

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-lessons-hero.codex", alt: "Lessons Learned hero")
 
 @Image(source: "system-designs-google-maps-font-system-lessons-hero.codex", alt: "Lessons hero")
 

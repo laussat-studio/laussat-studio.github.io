@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-15-localization-hero.codex", alt: "Localization hero")
 
 @Image(source: "ios-scaling-challenges-15-localization-hero.codex", alt: "Localization Hero")
 

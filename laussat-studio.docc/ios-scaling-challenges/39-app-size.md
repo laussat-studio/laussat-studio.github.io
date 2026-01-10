@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-39-app-size-hero.codex", alt: "App size hero")
 
 @Image(source: "ios-scaling-challenges-39-app-size-hero.codex", alt: "App size Hero")
 

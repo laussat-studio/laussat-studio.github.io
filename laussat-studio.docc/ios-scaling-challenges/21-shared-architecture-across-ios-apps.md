@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-21-shared-architecture-across-ios-apps-hero.codex", alt: "Shared architecture across iOS apps hero")
 
 @Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-hero.codex", alt: "Shared architecture across iOS apps Hero")
 

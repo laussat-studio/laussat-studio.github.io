@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-22-tooling-maturity-for-large-ios-teams-hero.codex", alt: "Tooling maturity for large iOS teams hero")
 
 @Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-hero.codex", alt: "Tooling maturity for large iOS teams Hero")
 

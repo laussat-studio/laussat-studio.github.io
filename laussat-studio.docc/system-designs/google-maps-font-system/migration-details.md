@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-migration-details-hero.codex", alt: "Font Migration Details hero")
 
 @Image(source: "system-designs-google-maps-font-system-migration-details-hero.codex", alt: "Font migration details Hero")
 

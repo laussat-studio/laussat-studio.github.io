@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-35-advanced-code-quality-checks-hero.codex", alt: "Advanced code quality checks hero")
 
 @Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-hero.codex", alt: "Advanced code quality checks Hero")
 

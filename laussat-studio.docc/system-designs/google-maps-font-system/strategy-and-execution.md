@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-strategy-and-execution-hero.codex", alt: "Strategy and Execution hero")
 
 @Image(source: "system-designs-google-maps-font-system-strategy-and-execution-hero.codex", alt: "Strategy and execution hero")
 

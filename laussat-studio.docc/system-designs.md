@@ -20,7 +20,6 @@ and were refined under real‑world constraints.
 
 @Image(source: "laussat-studio-hero.codex", alt: "Studio Laussat Hero")
 
-@Image(source: "doc-system-designs-hero.codex", alt: "System designs doc hero")
 
 ## Topics
 

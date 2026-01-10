@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-01-state-management-hero.codex", alt: "State management hero")
 
 @Image(source: "ios-scaling-challenges-01-state-management-hero.codex", alt: "State management Hero")
 

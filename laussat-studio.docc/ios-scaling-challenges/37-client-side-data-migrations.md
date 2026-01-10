@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-37-client-side-data-migrations-hero.codex", alt: "Client side data migrations hero")
 
 @Image(source: "ios-scaling-challenges-37-client-side-data-migrations-hero.codex", alt: "Client-side data migrations Hero")
 

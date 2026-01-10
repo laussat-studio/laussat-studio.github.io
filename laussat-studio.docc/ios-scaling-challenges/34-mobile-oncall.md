@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-34-mobile-oncall-hero.codex", alt: "Mobile oncall hero")
 
 @Image(source: "ios-scaling-challenges-34-mobile-oncall-hero.codex", alt: "Mobile oncall Hero")
 

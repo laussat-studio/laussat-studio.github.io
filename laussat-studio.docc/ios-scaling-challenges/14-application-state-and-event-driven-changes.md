@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-14-application-state-and-event-driven-changes-hero.codex", alt: "Application state and event driven changes hero")
 
 @Image(source: "ios-scaling-challenges-14-application-state-and-event-driven-changes-hero.codex", alt: "Application state and event-driven changes Hero")
 

@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-part-2-app-complexity-hero.codex", alt: "App Complexity hero")
 
 @Image(source: "ios-scaling-challenges-part-2-app-complexity-hero.codex", alt: "App complexity hero")
 

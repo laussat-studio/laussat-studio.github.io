@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-executive-summary-hero.codex", alt: "Executive Summary hero")
 
 @Image(source: "system-designs-google-maps-font-system-executive-summary-hero.codex", alt: "Executive summary hero")
 

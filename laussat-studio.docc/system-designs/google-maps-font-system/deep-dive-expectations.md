@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-deep-dive-expectations-hero.codex", alt: "Project Deep Dive Expectations hero")
 
 @Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-hero.codex", alt: "Project deep dive expectations Hero")
 

@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-part-1-nature-of-ios-apps-hero.codex", alt: "Nature Of iOS Apps hero")
 
 @Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-hero.codex", alt: "Nature of iOS apps hero")
 

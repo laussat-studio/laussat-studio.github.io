@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-part-5-stepping-up-your-game-hero.codex", alt: "Stepping Up Your Game hero")
 
 @Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-hero.codex", alt: "Stepping up your game hero")
 

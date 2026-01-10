@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-05-push-and-background-notifications-hero.codex", alt: "Push and background notifications hero")
 
 @Image(source: "ios-scaling-challenges-05-push-and-background-notifications-hero.codex", alt: "Push and background notifications Hero")
 

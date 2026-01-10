@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-part-3-large-ios-teams-hero.codex", alt: "Large iOS Teams hero")
 
 @Image(source: "ios-scaling-challenges-part-3-large-ios-teams-hero.codex", alt: "Large iOS teams hero")
 

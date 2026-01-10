@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-03-long-tail-of-old-app-versions-hero.codex", alt: "Long tail of old app versions hero")
 
 @Image(source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-hero.codex", alt: "Long tail of old app versions Hero")
 

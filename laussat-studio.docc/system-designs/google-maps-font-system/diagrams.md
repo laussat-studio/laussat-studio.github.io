@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-diagrams-hero.codex", alt: "Diagrams hero")
 
 @Image(source: "system-designs-google-maps-font-system-diagrams-hero.codex", alt: "Diagrams Hero")
 

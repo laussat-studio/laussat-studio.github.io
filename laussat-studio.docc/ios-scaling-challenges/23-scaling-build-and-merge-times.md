@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-23-scaling-build-and-merge-times-hero.codex", alt: "Scaling build and merge times hero")
 
 @Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-hero.codex", alt: "Scaling build and merge times Hero")
 

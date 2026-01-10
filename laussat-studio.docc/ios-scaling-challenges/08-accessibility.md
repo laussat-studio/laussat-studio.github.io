@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-08-accessibility-hero.codex", alt: "Accessibility hero")
 
 @Image(source: "ios-scaling-challenges-08-accessibility-hero.codex", alt: "Accessibility Hero")
 

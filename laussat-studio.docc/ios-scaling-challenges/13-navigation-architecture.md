@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-13-navigation-architecture-hero.codex", alt: "Navigation architecture hero")
 
 @Image(source: "ios-scaling-challenges-13-navigation-architecture-hero.codex", alt: "Navigation architecture Hero")
 

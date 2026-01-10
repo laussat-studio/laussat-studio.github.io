@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-09-ci-cd-and-the-build-train-hero.codex", alt: "CI and the build train hero")
 
 @Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-hero.codex", alt: "CI and the build train Hero")
 

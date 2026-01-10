@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-28-cross-platform-vs-native-decision-framework-hero.codex", alt: "Cross platform vs native decision framework hero")
 
 @Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-hero.codex", alt: "Cross-platform vs native decision framework Hero")
 

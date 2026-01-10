@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-12-in-app-purchases-hero.codex", alt: "In app purchases hero")
 
 @Image(source: "ios-scaling-challenges-12-in-app-purchases-hero.codex", alt: "In-app purchases Hero")
 

@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-part-4-cross-platform-ios-lens-hero.codex", alt: "Cross Platform Through An iOS Lens hero")
 
 @Image(source: "ios-scaling-challenges-part-4-cross-platform-ios-lens-hero.codex", alt: "Cross-platform iOS lens hero")
 

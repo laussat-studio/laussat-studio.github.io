@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-29-web-pwa-and-server-driven-apps-hero.codex", alt: "Web PWA and server driven apps hero")
 
 @Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-hero.codex", alt: "Web, PWA, and server-driven apps Hero")
 

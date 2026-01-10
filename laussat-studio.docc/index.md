@@ -14,7 +14,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-laussat-studio-hero.codex", alt: "Studio Laussat hero")
 
 @Image(source: "laussat-studio-hero.codex", alt: "Studio Laussat Hero")
 

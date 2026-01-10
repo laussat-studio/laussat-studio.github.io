@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-38-forced-upgrading-hero.codex", alt: "Forced upgrading hero")
 
 @Image(source: "ios-scaling-challenges-38-forced-upgrading-hero.codex", alt: "Forced upgrading Hero")
 

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-02-mistakes-are-hard-to-revert-hero.codex", alt: "Mistakes are hard to revert hero")
 
 @Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-hero.codex", alt: "Mistakes are hard to revert Hero")
 

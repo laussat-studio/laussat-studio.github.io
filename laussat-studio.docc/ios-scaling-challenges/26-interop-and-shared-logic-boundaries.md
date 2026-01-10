@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-26-interop-and-shared-logic-boundaries-hero.codex", alt: "Interop and shared logic boundaries hero")
 
 @Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-hero.codex", alt: "Interop and shared logic boundaries Hero")
 

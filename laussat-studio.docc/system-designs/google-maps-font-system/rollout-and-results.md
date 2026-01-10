@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-rollout-and-results-hero.codex", alt: "Rollout and Results hero")
 
 @Image(source: "system-designs-google-maps-font-system-rollout-and-results-hero.codex", alt: "Rollout and results hero")
 

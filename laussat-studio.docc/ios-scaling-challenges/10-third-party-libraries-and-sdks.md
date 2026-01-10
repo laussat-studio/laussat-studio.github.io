@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-10-third-party-libraries-and-sdks-hero.codex", alt: "Third party libraries and SDKs hero")
 
 @Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-hero.codex", alt: "Third-party libraries and SDKs Hero")
 

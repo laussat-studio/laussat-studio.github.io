@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-19-planning-and-decision-making-hero.codex", alt: "Planning and decision making hero")
 
 @Image(source: "ios-scaling-challenges-19-planning-and-decision-making-hero.codex", alt: "Planning and decision making Hero")
 

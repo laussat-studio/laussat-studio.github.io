@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-17-automated-testing-hero.codex", alt: "Automated testing hero")
 
 @Image(source: "ios-scaling-challenges-17-automated-testing-hero.codex", alt: "Automated testing Hero")
 

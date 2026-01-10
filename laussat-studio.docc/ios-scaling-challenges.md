@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-ios-scaling-challenges-hero.codex", alt: "Scaling challenges hero")
 
 @Image(source: "ios-scaling-challenges-hero.codex", alt: "Scaling challenges Hero")
 

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-30-experimentation-hero.codex", alt: "Experimentation hero")
 
 @Image(source: "ios-scaling-challenges-30-experimentation-hero.codex", alt: "Experimentation Hero")
 

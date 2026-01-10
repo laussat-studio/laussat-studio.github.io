@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-32-performance-hero.codex", alt: "Performance hero")
 
 @Image(source: "ios-scaling-challenges-32-performance-hero.codex", alt: "Performance Hero")
 

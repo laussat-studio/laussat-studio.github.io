@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-27-cross-platform-feature-development-hero.codex", alt: "Cross platform feature development hero")
 
 @Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-hero.codex", alt: "Cross-platform feature development Hero")
 

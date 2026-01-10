@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-31-feature-flag-hell-hero.codex", alt: "Feature flag hell hero")
 
 @Image(source: "ios-scaling-challenges-31-feature-flag-hell-hero.codex", alt: "Feature flag hell Hero")
 

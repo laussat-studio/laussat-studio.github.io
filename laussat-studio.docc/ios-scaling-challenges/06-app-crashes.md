@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-06-app-crashes-hero.codex", alt: "App crashes hero")
 
 @Image(source: "ios-scaling-challenges-06-app-crashes-hero.codex", alt: "App crashes Hero")
 

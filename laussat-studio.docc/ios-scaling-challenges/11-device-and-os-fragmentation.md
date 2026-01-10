@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-11-device-and-os-fragmentation-hero.codex", alt: "Device and OS fragmentation hero")
 
 @Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-hero.codex", alt: "Device and OS fragmentation Hero")
 

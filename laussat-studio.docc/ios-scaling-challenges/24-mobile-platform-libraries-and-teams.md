@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-24-mobile-platform-libraries-and-teams-hero.codex", alt: "Mobile platform libraries and teams hero")
 
 @Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-hero.codex", alt: "Mobile platform libraries and teams Hero")
 

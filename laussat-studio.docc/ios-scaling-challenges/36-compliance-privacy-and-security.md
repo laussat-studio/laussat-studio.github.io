@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-36-compliance-privacy-and-security-hero.codex", alt: "Compliance privacy and security hero")
 
 @Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-hero.codex", alt: "Compliance, privacy, and security Hero")
 

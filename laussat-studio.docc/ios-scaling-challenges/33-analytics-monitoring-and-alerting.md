@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-33-analytics-monitoring-and-alerting-hero.codex", alt: "Analytics monitoring and alerting hero")
 
 @Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-hero.codex", alt: "Analytics, monitoring, and alerting Hero")
 

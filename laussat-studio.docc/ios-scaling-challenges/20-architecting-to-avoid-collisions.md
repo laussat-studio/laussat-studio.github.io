@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-20-architecting-to-avoid-collisions-hero.codex", alt: "Architecting to avoid collisions hero")
 
 @Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-hero.codex", alt: "Architecting to avoid collisions Hero")
 

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-04-deeplinks-and-routing-hero.codex", alt: "Deeplinks and routing hero")
 
 @Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-hero.codex", alt: "Deeplinks and routing Hero")
 

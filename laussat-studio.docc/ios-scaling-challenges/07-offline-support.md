@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-07-offline-support-hero.codex", alt: "Offline support hero")
 
 @Image(source: "ios-scaling-challenges-07-offline-support-hero.codex", alt: "Offline support Hero")
 

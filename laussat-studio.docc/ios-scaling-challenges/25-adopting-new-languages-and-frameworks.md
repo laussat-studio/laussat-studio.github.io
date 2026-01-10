@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "doc-25-adopting-new-languages-and-frameworks-hero.codex", alt: "Adopting new languages and frameworks hero")
 
 @Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-hero.codex", alt: "Adopting new languages and frameworks Hero")
 
