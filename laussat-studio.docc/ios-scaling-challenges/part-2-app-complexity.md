@@ -18,15 +18,6 @@
 
 As apps grow, navigation, localization, and testing become systems problems.
 
-## Topics
-
-- <doc:13-navigation-architecture>
-- <doc:14-application-state-and-event-driven-changes>
-- <doc:15-localization>
-- <doc:16-modular-architecture-and-dependency-injection>
-- <doc:17-automated-testing>
-- <doc:18-manual-testing>
-
 ## Diagram: Context snapshot
 
 @Image(source: "ios-scaling-challenges-part-2-app-complexity-context.mermaid", alt: "Context snapshot")
@@ -42,3 +33,14 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:13-navigation-architecture>
+- <doc:14-application-state-and-event-driven-changes>
+- <doc:15-localization>
+- <doc:16-modular-architecture-and-dependency-injection>
+- <doc:17-automated-testing>
+- <doc:18-manual-testing>
+
+

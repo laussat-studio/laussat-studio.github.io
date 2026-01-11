@@ -18,16 +18,7 @@
 
 A map of the biggest challenges that surface when iOS apps and teams scale.
 
-@Image(source: "laussat-studio-hero.codex", alt: "Studio Laussat Hero")
-
-
-## Topics
-
-- <doc:part-1-nature-of-ios-apps>
-- <doc:part-2-app-complexity>
-- <doc:part-3-large-ios-teams>
-- <doc:part-4-cross-platform-ios-lens>
-- <doc:part-5-stepping-up-your-game>
+@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
 ## Diagram: Context snapshot
 
@@ -44,3 +35,12 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:part-1-nature-of-ios-apps>
+- <doc:part-2-app-complexity>
+- <doc:part-3-large-ios-teams>
+- <doc:part-4-cross-platform-ios-lens>
+- <doc:part-5-stepping-up-your-game>
+

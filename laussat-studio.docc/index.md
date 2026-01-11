@@ -5,8 +5,8 @@
   @PageColor(gray)
   @TechnologyRoot
   @TitleHeading("Creative Studio")
-  @PageImage(purpose: icon, source: "laussat-studio-icon.codex", alt: "Studio Laussat Icon")
-  @PageImage(purpose: card, source: "laussat-studio-card.codex", alt: "Studio Laussat Card")
+  @PageImage(purpose: icon, source: "index-icon.codex", alt: "Studio Laussat Icon")
+  @PageImage(purpose: card, source: "index-card.codex", alt: "Studio Laussat Card")
 }
 
 @Options {
@@ -14,7 +14,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@PageImage(purpose: hero, source: "laussat-studio-hero.codex", alt: "Studio Laussat Hero")
+@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
 
 A creative production house for apps, media, and digital experiences.

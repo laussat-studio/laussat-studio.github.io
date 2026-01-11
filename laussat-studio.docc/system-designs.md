@@ -18,13 +18,7 @@
 A library of prior work case studies: system designs that shipped in production
 and were refined under real‑world constraints.
 
-@Image(source: "laussat-studio-hero.codex", alt: "Studio Laussat Hero")
-
-
-## Topics
-
-- <doc:system-design-dimensions>
-- <doc:google-maps-typography-design-overview>
+@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
 ## Diagram: Context snapshot
 
@@ -41,3 +35,9 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:system-design-dimensions>
+- <doc:google-maps-typography-design-overview>
+

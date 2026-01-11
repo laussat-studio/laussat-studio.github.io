@@ -23,6 +23,22 @@ could matter, then select only the dimensions that fit your case study.
 - Add only the dimensions that change decisions or outcomes.
 - Keep diagrams embedded in the dimension where they are discussed.
 
+## Diagram: Context snapshot
+
+@Image(source: "system-designs-system-design-dimensions-system-design-dimensions-context.mermaid", alt: "Context snapshot")
+
+```mermaid
+%% file: system-designs-system-design-dimensions-system-design-dimensions-context.svg
+%% title: System Design Dimensions - Context snapshot
+flowchart LR
+  A["System Design Dimensions"] --> B["Constraints and scope"]
+  B --> C["Complexity drivers"]
+  C --> D["Design tradeoffs"]
+  D --> E["Risk: regressions and drift"]
+  D --> F["Risk: migration cost"]
+  D --> G["Risk: stakeholder misalignment"]
+```
+
 ## Topics
 
 - <doc:dimensions-executive-summary>
@@ -42,18 +58,4 @@ could matter, then select only the dimensions that fit your case study.
 - <doc:dimensions-lessons-and-next-steps>
 - <doc:dimensions-appendix-and-references>
 
-## Diagram: Context snapshot
 
-@Image(source: "system-designs-system-design-dimensions-system-design-dimensions-context.mermaid", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-system-design-dimensions-context.svg
-%% title: System Design Dimensions - Context snapshot
-flowchart LR
-  A["System Design Dimensions"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

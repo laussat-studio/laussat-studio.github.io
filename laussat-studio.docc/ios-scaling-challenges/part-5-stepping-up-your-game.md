@@ -18,19 +18,6 @@
 
 Operational maturity keeps large apps stable, observable, and trustworthy.
 
-## Topics
-
-- <doc:30-experimentation>
-- <doc:31-feature-flag-hell>
-- <doc:32-performance>
-- <doc:33-analytics-monitoring-and-alerting>
-- <doc:34-mobile-oncall>
-- <doc:35-advanced-code-quality-checks>
-- <doc:36-compliance-privacy-and-security>
-- <doc:37-client-side-data-migrations>
-- <doc:38-forced-upgrading>
-- <doc:39-app-size>
-
 ## Diagram: Context snapshot
 
 @Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-context.mermaid", alt: "Context snapshot")
@@ -46,3 +33,18 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:30-experimentation>
+- <doc:31-feature-flag-hell>
+- <doc:32-performance>
+- <doc:33-analytics-monitoring-and-alerting>
+- <doc:34-mobile-oncall>
+- <doc:35-advanced-code-quality-checks>
+- <doc:36-compliance-privacy-and-security>
+- <doc:37-client-side-data-migrations>
+- <doc:38-forced-upgrading>
+- <doc:39-app-size>
+
+

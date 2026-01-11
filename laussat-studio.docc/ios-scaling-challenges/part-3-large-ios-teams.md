@@ -18,15 +18,6 @@
 
 Scale is a coordination problem: ownership, tooling, and shared platforms.
 
-## Topics
-
-- <doc:19-planning-and-decision-making>
-- <doc:20-architecting-to-avoid-collisions>
-- <doc:21-shared-architecture-across-ios-apps>
-- <doc:22-tooling-maturity-for-large-ios-teams>
-- <doc:23-scaling-build-and-merge-times>
-- <doc:24-mobile-platform-libraries-and-teams>
-
 ## Diagram: Context snapshot
 
 @Image(source: "ios-scaling-challenges-part-3-large-ios-teams-context.mermaid", alt: "Context snapshot")
@@ -42,3 +33,14 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:19-planning-and-decision-making>
+- <doc:20-architecting-to-avoid-collisions>
+- <doc:21-shared-architecture-across-ios-apps>
+- <doc:22-tooling-maturity-for-large-ios-teams>
+- <doc:23-scaling-build-and-merge-times>
+- <doc:24-mobile-platform-libraries-and-teams>
+
+

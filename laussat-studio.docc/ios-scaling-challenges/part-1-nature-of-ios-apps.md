@@ -19,21 +19,6 @@
 The constraints of Apple platforms shape every architectural decision, from
 state to distribution.
 
-## Topics
-
-- <doc:01-state-management>
-- <doc:02-mistakes-are-hard-to-revert>
-- <doc:03-long-tail-of-old-app-versions>
-- <doc:04-deeplinks-and-routing>
-- <doc:05-push-and-background-notifications>
-- <doc:06-app-crashes>
-- <doc:07-offline-support>
-- <doc:08-accessibility>
-- <doc:09-ci-cd-and-the-build-train>
-- <doc:10-third-party-libraries-and-sdks>
-- <doc:11-device-and-os-fragmentation>
-- <doc:12-in-app-purchases>
-
 ## Diagram: Context snapshot
 
 @Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-context.mermaid", alt: "Context snapshot")
@@ -49,3 +34,20 @@ flowchart LR
   D --> F["Risk: migration cost"]
   D --> G["Risk: stakeholder misalignment"]
 ```
+
+## Topics
+
+- <doc:01-state-management>
+- <doc:02-mistakes-are-hard-to-revert>
+- <doc:03-long-tail-of-old-app-versions>
+- <doc:04-deeplinks-and-routing>
+- <doc:05-push-and-background-notifications>
+- <doc:06-app-crashes>
+- <doc:07-offline-support>
+- <doc:08-accessibility>
+- <doc:09-ci-cd-and-the-build-train>
+- <doc:10-third-party-libraries-and-sdks>
+- <doc:11-device-and-os-fragmentation>
+- <doc:12-in-app-purchases>
+
+
