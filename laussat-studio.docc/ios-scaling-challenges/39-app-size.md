@@ -17,7 +17,7 @@
 
 Binary size grows with assets, duplicate frameworks, and unused code paths.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Asset catalogs and bundles expand faster than cleanup.
 - Static linking and generics can bloat binaries.

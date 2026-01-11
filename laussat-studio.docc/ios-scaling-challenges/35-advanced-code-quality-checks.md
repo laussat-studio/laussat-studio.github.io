@@ -17,7 +17,7 @@
 
 Static analysis, sanitizers, and API break checks guard long-term quality.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Quality checks add time unless automated and budgeted.
 - Inconsistent enforcement leads to uneven standards.

@@ -17,7 +17,7 @@
 
 Core Data and SQLite migrations require careful versioning and testing.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Schema drift across releases complicates migration paths.
 - Large datasets make migrations slow or fragile.

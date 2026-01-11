@@ -17,7 +17,7 @@
 
 Performance issues surface as cold starts, jank, and energy regressions.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Main-thread work grows with feature accumulation.
 - Asset and networking costs stack across modules.

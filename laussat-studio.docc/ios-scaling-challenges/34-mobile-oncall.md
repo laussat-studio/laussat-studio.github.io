@@ -17,7 +17,7 @@
 
 Mobile incidents require quick triage, rollback paths, and server gating.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Rollout timelines and App Store delays slow mitigation.
 - Cross-platform coordination complicates incident response.

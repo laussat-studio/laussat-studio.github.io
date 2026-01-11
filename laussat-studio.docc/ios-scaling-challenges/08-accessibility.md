@@ -17,7 +17,7 @@
 
 Large apps regress accessibility as screens multiply and UI components diverge.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - VoiceOver order, labels, and Dynamic Type must be maintained across modules.
 - Visual changes can break contrast or motion expectations quietly.

@@ -18,7 +18,7 @@
 WKWebView and server-driven UI introduce new constraints for navigation, auth,
 and accessibility.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - App and web navigation must stay in sync.
 - Latency and caching behavior drive user perception.

@@ -17,7 +17,7 @@
 
 Choosing React Native, WebView, or native has long-term product implications.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Shared stacks can slow platform-specific performance tuning.
 - Debugging toolchains multiply when stacks diverge.

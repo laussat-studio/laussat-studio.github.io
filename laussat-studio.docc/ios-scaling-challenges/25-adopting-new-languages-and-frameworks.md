@@ -17,7 +17,7 @@
 
 Swift language updates and SwiftUI adoption require staged migration strategy.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Mixed paradigms create uneven architecture and training gaps.
 - Concurrency changes can introduce new correctness requirements.

@@ -17,7 +17,7 @@
 
 Feature parity across platforms requires shared contracts without shared UI.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Inconsistent server models lead to divergent client behavior.
 - Testing parity requires shared fixtures and specs.

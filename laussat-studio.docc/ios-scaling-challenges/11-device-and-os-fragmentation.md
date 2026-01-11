@@ -18,7 +18,7 @@
 iOS fragmentation is subtle: iPad multitasking, input modes, and hardware
 capability tiers.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Layouts must survive split view, rotation, and pointer input.
 - Performance profiles vary across memory and GPU classes.

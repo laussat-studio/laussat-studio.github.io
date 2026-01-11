@@ -17,7 +17,7 @@
 
 A platform team provides shared foundations and guardrails for product teams.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Without shared ownership, teams reinvent core features.
 - Platform changes lack adoption playbooks.

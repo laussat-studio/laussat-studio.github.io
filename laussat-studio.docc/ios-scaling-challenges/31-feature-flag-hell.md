@@ -17,7 +17,7 @@
 
 Flags accumulate quickly and can harden into permanent complexity.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Flags create hidden branches that are rarely tested.
 - Ownership and cleanup are unclear across teams.

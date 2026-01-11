@@ -17,7 +17,7 @@
 
 SDK sprawl affects startup time, privacy posture, and update cadence.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Binary frameworks hide behavior and can introduce swizzling risks.
 - Vendor release cycles rarely align with App Store schedules.

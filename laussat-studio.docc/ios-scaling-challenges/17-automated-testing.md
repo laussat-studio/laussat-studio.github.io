@@ -17,7 +17,7 @@
 
 iOS test stability is fragile under concurrency, UI timing, and data variance.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - XCTest and XCUITest flake under slow devices and async workflows.
 - SwiftUI testing coverage remains inconsistent across teams.

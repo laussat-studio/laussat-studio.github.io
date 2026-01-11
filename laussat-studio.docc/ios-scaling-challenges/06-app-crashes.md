@@ -17,7 +17,7 @@
 
 Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Symbolication and dSYM hygiene are easy to break across releases.
 - Crash signatures vary by OS, device, and feature flag states.

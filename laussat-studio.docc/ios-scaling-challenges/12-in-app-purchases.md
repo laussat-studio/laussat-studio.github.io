@@ -17,7 +17,7 @@
 
 StoreKit subscriptions and entitlements require strict modeling and verification.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Subscription states change asynchronously across devices.
 - Receipt validation needs server enforcement to prevent drift.

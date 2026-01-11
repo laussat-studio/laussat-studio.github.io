@@ -35,7 +35,7 @@ and distance badge that previously drifted across teams and release trains.
 - Reduced the style catalog from roughly 15 styles to about 10.
 - Migrated a high-risk surface (Search Results) with no regressions at max Dynamic Type.
 
-## Why It Worked
+## Why it Worked
 
 - We separated typography migration from import‑hygiene migration.
 - We preserved legacy call sites with compatibility shims.

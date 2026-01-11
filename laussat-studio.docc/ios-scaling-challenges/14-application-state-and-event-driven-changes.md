@@ -17,7 +17,7 @@
 
 App lifecycle events, push notifications, and auth refreshes collide at scale.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Multiple event sources trigger the same behaviors.
 - Background and foreground transitions interrupt in-flight work.

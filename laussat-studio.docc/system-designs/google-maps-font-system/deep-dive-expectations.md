@@ -23,7 +23,7 @@ and decision-driven. This is not a code walkthrough.
 
 ## Ten-minute Narrative Template
 
-### 0:00 To 0:45 - Context and Why It Mattered
+### 0:00 To 0:45 - Context and Why it Mattered
 
 - Problem, user impact, business risk, scale.
 - Mention that the work is within the last year.

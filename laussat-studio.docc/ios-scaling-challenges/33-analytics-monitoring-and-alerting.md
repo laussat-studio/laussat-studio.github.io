@@ -17,7 +17,7 @@
 
 Mobile observability needs client metrics, crash rates, and SLOs.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Metrics differ across cohorts and app versions.
 - Signal loss happens when logging is inconsistent.

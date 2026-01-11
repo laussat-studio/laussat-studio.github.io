@@ -18,7 +18,7 @@
 Large iOS apps juggle UIKit and SwiftUI lifecycles, async state, and multiple
 stores of truth.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Multiple entry points fight over ownership of state and navigation.
 - MainActor boundaries and reentrancy make subtle bugs hard to reproduce.

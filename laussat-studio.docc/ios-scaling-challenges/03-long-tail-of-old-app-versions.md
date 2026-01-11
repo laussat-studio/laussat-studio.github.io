@@ -18,7 +18,7 @@
 Real adoption curves mean you support multiple OS and app versions long after a
 release ships.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Back-deployed APIs and availability checks fragment code paths.
 - Server contracts must remain compatible with older client behavior.

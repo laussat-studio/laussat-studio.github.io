@@ -17,7 +17,7 @@
 
 Privacy manifests, ATT, and secure storage require disciplined governance.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Data flows shift faster than privacy disclosures are updated.
 - Platform policies change annually, forcing urgent updates.

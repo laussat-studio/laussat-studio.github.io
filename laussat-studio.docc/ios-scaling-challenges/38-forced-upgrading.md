@@ -17,7 +17,7 @@
 
 Minimum OS or app version enforcement must balance safety and user trust.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Users can stay on old versions for months.
 - Backend compatibility windows complicate enforcement.

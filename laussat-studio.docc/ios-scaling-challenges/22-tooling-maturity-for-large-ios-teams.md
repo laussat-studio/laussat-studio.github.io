@@ -17,7 +17,7 @@
 
 Large teams need consistent linting, documentation, and metrics to scale.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Tooling decisions drift by team and codebase.
 - Metrics are missing or inconsistent across surfaces.

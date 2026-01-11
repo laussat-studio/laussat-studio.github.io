@@ -17,7 +17,7 @@
 
 Modularization helps scale, but only if boundaries align with product domains.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Module graphs drift without ownership and API contracts.
 - DI systems can become global service locators.

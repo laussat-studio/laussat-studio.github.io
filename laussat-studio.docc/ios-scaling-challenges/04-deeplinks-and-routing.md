@@ -18,7 +18,7 @@
 Universal Links, custom schemes, and scene lifecycles make deep links brittle at
 scale.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Cold start and warm start flows diverge across scenes and tabs.
 - Attribution and logging need to survive auth gates and delayed routing.

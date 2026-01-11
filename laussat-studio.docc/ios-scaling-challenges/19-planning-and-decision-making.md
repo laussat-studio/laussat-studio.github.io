@@ -17,7 +17,7 @@
 
 Planning must account for App Store latency, platform changes, and deprecations.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Platform changes can invalidate plans late in the cycle.
 - API removals require migration windows for multiple releases.

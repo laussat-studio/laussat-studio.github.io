@@ -18,7 +18,7 @@
 Shared SDKs and design systems can scale a portfolio, but only with careful
 versioning.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Internal SDKs must support multiple release cadences.
 - Migration tooling is required to avoid breaking dependent apps.

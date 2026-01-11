@@ -17,7 +17,7 @@
 
 iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Bridging layers add ABI and build system complexity.
 - Ownership and testing across language boundaries is harder to enforce.

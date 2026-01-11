@@ -18,7 +18,7 @@
 Code signing, provisioning, and Xcode tooling make mobile release pipelines more
 fragile.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Build reproducibility depends on exact toolchain and signing state.
 - TestFlight and App Store gating introduce non-engineering delays.

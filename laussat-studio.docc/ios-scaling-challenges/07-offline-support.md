@@ -18,7 +18,7 @@
 Offline experiences demand durable persistence, conflict resolution, and clear
 sync rules.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Multiple stores and caches drift without a single source of truth.
 - Background sync limitations amplify stale data and conflicts.

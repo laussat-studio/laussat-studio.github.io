@@ -17,7 +17,7 @@
 
 Manual testing is still essential for device-specific and accessibility checks.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Device matrices expand faster than test capacity.
 - Accessibility and low-memory scenarios need real hardware.

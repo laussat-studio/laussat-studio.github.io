@@ -18,7 +18,7 @@
 Large apps combine stacks, tabs, and split views that must remain consistent
 under deep link entry.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Multiple navigation systems compete across UIKit and SwiftUI.
 - Scene-based routing makes cold start logic complex.

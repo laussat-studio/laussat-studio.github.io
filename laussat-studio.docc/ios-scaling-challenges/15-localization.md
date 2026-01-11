@@ -17,7 +17,7 @@
 
 Localization expands layout and can destabilize UI when strings grow.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - String catalogs and pluralization rules are easy to fragment.
 - Right-to-left and accessibility sizes amplify layout issues.

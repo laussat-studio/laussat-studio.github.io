@@ -17,7 +17,7 @@
 
 Large teams need boundaries to avoid multiple features colliding in one area.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Shared surfaces invite conflicting assumptions and dependencies.
 - Global singletons hide ownership and create coupling.

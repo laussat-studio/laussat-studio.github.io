@@ -17,7 +17,7 @@
 
 APNs delivery is best-effort, and background work is constrained by OS policy.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Silent pushes and background tasks are throttled unpredictably.
 - Background URL sessions and refresh windows vary by device state.

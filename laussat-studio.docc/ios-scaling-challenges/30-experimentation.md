@@ -17,7 +17,7 @@
 
 Experimentation requires careful rollout, measurement, and guardrails.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - Client-side flag evaluation can drift from server expectations.
 - Long release cycles delay feedback loops.

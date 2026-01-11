@@ -18,7 +18,7 @@
 App Store review, phased release, and client rollout make hotfixes slow and
 rollback paths narrow.
 
-## Why It Gets Harder at Scale
+## Why it Gets Harder at Scale
 
 - App Store propagation delays keep broken builds in the wild.
 - Server flags cannot undo client regressions that ship in the binary.
