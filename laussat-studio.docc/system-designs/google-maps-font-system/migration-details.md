@@ -20,7 +20,7 @@
 The font migration replaced a fragmented typography surface with a canonical
 pipeline that was safe to roll out in a large iOS app ecosystem.
 
-## Before state
+## Before State
 
 - Five parallel font API families were in use across hundreds of references.
 - Usage was direct and indirect, so many call sites depended on typography APIs
@@ -35,7 +35,7 @@ pipeline that was safe to roll out in a large iOS app ecosystem.
   - `MDCFont.font1`
   - `MDC2Font.font4` (reversed to match `font1` over time)
 
-## Target state
+## Target State
 
 - One canonical pipeline: tokens to provider to scaled font output.
 - Legacy entry points routed through shims that mapped into tokens.
@@ -47,7 +47,7 @@ pipeline that was safe to roll out in a large iOS app ecosystem.
   - `fontFamilyMedium`
   - `fontFamilyLarge`
 
-## Diagram: Runtime font resolution
+## Diagram: Runtime Font Resolution
 
 @Image(source: "maps-font-runtime-flow.mermaid", alt: "Canonical pipeline runtime flow")
 
@@ -69,7 +69,7 @@ sequenceDiagram
   Font-->>View: set font
 ```
 
-## Diagram: Compat umbrella during transition
+## Diagram: Compat Umbrella During Transition
 
 @Image(source: "maps-font-umbrella-after.mermaid", alt: "Compat umbrella during transition")
 
@@ -114,7 +114,7 @@ flowchart TB
   U --> R[Gradual elimination of transitive dependencies]
 ```
 
-## Migration strategy
+## Migration Strategy
 
 1. Freeze the typography spec and build a token map.
 2. Implement a new font API and a compatibility layer for legacy calls.
@@ -124,7 +124,7 @@ flowchart TB
 6. Roll out in canary stages with metrics gates.
 7. Retire legacy APIs and enforce lint rules against old constructors.
 
-## Batch prioritization recipe
+## Batch Prioritization Recipe
 
 Migrations were prioritized by repeatable automation recipes that the refactor
 tool could run end-to-end:
@@ -138,7 +138,7 @@ tool could run end-to-end:
 7. Update snapshots or baselines when expected.
 8. Send for review.
 
-## Example migration: Search Results row
+## Example Migration: Search Results Row
 
 1. Map title/subtitle/badge styles to tokens (`titleMedium`, `bodySmall`,
    `caption`).
@@ -147,7 +147,7 @@ tool could run end-to-end:
 4. Run max Dynamic Type snapshots and scroll perf benchmarks.
 5. Promote after two green cohorts; keep rollback to legacy helpers.
 
-## Diagram: Migration plan
+## Diagram: Migration Plan
 
 @Image(source: "maps-font-migration-plan.mermaid", alt: "Migration plan and rollback points")
 
@@ -168,7 +168,7 @@ flowchart TB
   S6 -. rollback .-> R1
 ```
 
-## Automation pipeline
+## Automation Pipeline
 
 - Scan the codebase to locate font call sites.
 - Cluster results by module and owner.
@@ -176,7 +176,7 @@ flowchart TB
 - Run targeted tests and snapshot suites.
 - Triage diffs, update baselines when expected, and track metrics.
 
-## Refactor CLI architecture
+## Refactor CLI Architecture
 
 The `refactor-cli` tool runs on macOS or Linux cloud workers and executes a
 JSON array of steps (find, replace, add import, build, test, find screenshots,
@@ -217,7 +217,7 @@ flowchart LR
   VC --> OUT
 ```
 
-## Before to after: API sprawl to dependency injection
+## Before to After: API Sprawl to Dependency Injection
 
 @Image(source: "maps-font-before-after-di.mermaid", alt: "Before to after typography system")
 
@@ -250,25 +250,25 @@ flowchart LR
   G --> SH
 ```
 
-## Contrast: color upgrade
+## Contrast: Color Upgrade
 
 The earlier color upgrade had no design token usage. All changes were manual
 and applied directly by developers.
 
-## Snapshot triage loop
+## Snapshot Triage Loop
 
 - If a diff is expected, update baselines and record the reason.
 - If a diff is a regression, fix the mapping or layout constraint.
 - If a diff is noise, refine the test or filtering rule.
 
-## Rollout controls
+## Rollout Controls
 
 - Feature flags to enable quick rollback.
 - Canary cohorts by OS version and device class.
 - Monitoring for crash-free rate, layout regressions, and performance.
 - Type 2 experimentation cohorts: 1, 5, 10, 50, 100.
 
-## Testing And Validation
+## Testing and Validation
 
 - Snapshot suites for key screens at multiple Dynamic Type sizes.
 - Targeted UI tests for text-heavy flows and critical layouts.
@@ -279,14 +279,14 @@ and applied directly by developers.
 - The automated snapshot tool failed on Linux when the command length exceeded
   the character limit, so batches were split to keep commands shorter.
 
-## Risks And Tradeoffs
+## Risks and Tradeoffs
 
 - **Tradeoff:** Temporary shim layer increases surface area.
   **Benefit:** Safe migration without breaking call sites.
 - **Tradeoff:** Duplicate APIs during transition.
   **Benefit:** Teams can migrate on their own schedule.
 
-## Decision rationale
+## Decision Rationale
 
 - A big-bang migration was rejected due to risk and review overhead.
 - An incremental shim-based approach limited blast radius and enabled

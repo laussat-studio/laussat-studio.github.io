@@ -1,4 +1,4 @@
-# Mistakes are hard to revert
+# Mistakes Are Hard to Revert
 
 @Metadata {
   @PageKind(article)
@@ -16,15 +16,15 @@ This page records how the Google Maps typography system addressed "Mistakes are 
 We avoided global variables for experiment control because mistakes are hard to
 revert at scale.
 
-## System design response
+## System Design Response
 
 We moved to service-based dependency injection that runs before the app
 delegate lifecycle begins.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 N/A.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.mistakes-are-hard-to-revert-context.mermaid", alt: "Context snapshot")
 

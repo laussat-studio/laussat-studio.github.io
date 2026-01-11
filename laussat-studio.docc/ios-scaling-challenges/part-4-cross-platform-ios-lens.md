@@ -18,7 +18,7 @@
 
 Cross-platform choices still land inside the Apple ecosystem and its tradeoffs.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-part-4-cross-platform-ios-lens-context.mermaid", alt: "Context snapshot")
 

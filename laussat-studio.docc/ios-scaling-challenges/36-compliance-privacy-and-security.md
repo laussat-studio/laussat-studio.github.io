@@ -1,4 +1,4 @@
-# Compliance, privacy, and security
+# Compliance, Privacy, and Security
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Privacy manifests, ATT, and secure storage require disciplined governance.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Data flows shift faster than privacy disclosures are updated.
 - Platform policies change annually, forcing urgent updates.
 
-## Scale signals
+## Scale Signals
 
 - App Store review rejections for privacy or tracking.
 - Logging includes sensitive data unintentionally.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Include privacy review gates in release workflows.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-context.mermaid", alt: "Context snapshot")
 

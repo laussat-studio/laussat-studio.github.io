@@ -1,4 +1,4 @@
-# Advanced code quality checks
+# Advanced Code Quality Checks
 
 @Metadata {
   @PageKind(article)
@@ -15,14 +15,14 @@ This page records how the Google Maps typography system addressed "Advanced code
 
 We needed to simplify the API surface to improve quality checks.
 
-## System design response
+## System Design Response
 
 We reduced the API surface from ~40 references to 11 APIs.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We removed dependency on M1 libraries and deleted C-based APIs.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.advanced-code-quality-checks-context.mermaid", alt: "Context snapshot")
 

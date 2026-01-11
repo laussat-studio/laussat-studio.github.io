@@ -1,4 +1,4 @@
-# Manual testing
+# Manual Testing
 
 @Metadata {
   @PageKind(article)
@@ -16,16 +16,16 @@ This page records how the Google Maps typography system addressed "Manual testin
 Manual testing depended on the QA team and feedback loops from Manila. The
 process was not centered on snapshot or screenshot testing.
 
-## System design response
+## System Design Response
 
 We prioritized early manual testing to catch regressions before automation
 could.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We created test scripts for known edge languages to cover a sizeable percentage
 of languages.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.manual-testing-context.mermaid", alt: "Context snapshot")
 

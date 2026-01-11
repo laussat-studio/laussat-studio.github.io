@@ -22,7 +22,7 @@ Document SLOs and performance expectations.
 - Failure modes and recovery strategy.
 - Capacity planning or scale limits.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-context.mermaid", alt: "Context snapshot")
 

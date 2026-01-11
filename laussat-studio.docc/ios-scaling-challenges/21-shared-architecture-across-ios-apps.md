@@ -1,4 +1,4 @@
-# Shared architecture across iOS apps
+# Shared Architecture Across iOS Apps
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Shared SDKs and design systems can scale a portfolio, but only with careful
 versioning.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Internal SDKs must support multiple release cadences.
 - Migration tooling is required to avoid breaking dependent apps.
 
-## Scale signals
+## Scale Signals
 
 - Shared libraries block releases due to incompatible changes.
 - Teams fork shared modules to avoid upgrades.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use semantic versioning and adapters for backward compatibility.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-context.mermaid", alt: "Context snapshot")
 

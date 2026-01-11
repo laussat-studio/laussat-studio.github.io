@@ -1,4 +1,4 @@
-# Interop and shared logic boundaries
+# Interop and Shared Logic Boundaries
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "Interop and s
 The font system needed to be set up across multiple test harnesses and still
 work consistently at shared logic boundaries.
 
-## System design response
+## System Design Response
 
 We reduced the number of test runners to make the shared setup reliable.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 N/A.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.interop-and-shared-logic-boundaries-context.mermaid", alt: "Context snapshot")
 

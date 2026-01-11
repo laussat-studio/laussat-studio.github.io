@@ -1,4 +1,4 @@
-# Cross-platform vs native decision framework
+# Cross-platform vs Native Decision Framework
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "Cross-platfor
 Cross-platform frameworks would load the app about 2x slower (measured), which
 was unacceptable for the typography rollout.
 
-## System design response
+## System Design Response
 
 We stayed native.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: we denied this path because of performance.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.cross-platform-vs-native-decision-framework-context.mermaid", alt: "Context snapshot")
 

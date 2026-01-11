@@ -1,4 +1,4 @@
-# Analytics, monitoring, and alerting
+# Analytics, Monitoring, and Alerting
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Mobile observability needs client metrics, crash rates, and SLOs.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Metrics differ across cohorts and app versions.
 - Signal loss happens when logging is inconsistent.
 
-## Scale signals
+## Scale Signals
 
 - No clear crash-free, launch time, or network error budgets.
 - Oncall lacks actionable client telemetry.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Standardize metrics and alerting for each release.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.mermaid", alt: "Context snapshot")
 

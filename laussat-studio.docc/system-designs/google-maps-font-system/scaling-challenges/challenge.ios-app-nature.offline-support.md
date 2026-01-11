@@ -1,4 +1,4 @@
-# Offline support
+# Offline Support
 
 @Metadata {
   @PageKind(article)
@@ -16,17 +16,17 @@ This page records how the Google Maps typography system addressed "Offline suppo
 Offline behavior required a safe fallback path. We needed a way to keep the
 system stable even when the new font configuration could not be fetched.
 
-## System design response
+## System Design Response
 
 We cached the experiment setting and kept using it until the app was removed.
 On first boot we defaulted to the old font system as a safety fallback in case
 of crashes or missing configuration.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: offline by default ensured the old font system remained the safe path
 until configuration could be fetched.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.offline-support-context.mermaid", alt: "Context snapshot")
 

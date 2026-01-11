@@ -19,19 +19,19 @@ and layouts tuned for SF could clip or regress once the new fonts landed.
 
 Han unification was a concern, but the rollout scope was limited to Hong Kong.
 
-## System design response
+## System Design Response
 
 Key labels disabled `clipToBounds` to accommodate Google Sans ascenders on iOS.
 That avoided truncation without reworking every baseline or line-height rule.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: even if the rollout focused on Hong Kong, Chinese users can
 travel abroad, so localization exposure extends beyond a single region.
 
 Vietnamese localization remains especially difficult. Future work: use new
 locale-aware labels.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.localization-context.mermaid", alt: "Context snapshot")
 

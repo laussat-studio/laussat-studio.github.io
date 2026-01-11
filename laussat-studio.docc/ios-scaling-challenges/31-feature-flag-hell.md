@@ -1,4 +1,4 @@
-# Feature flag hell
+# Feature Flag Hell
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Flags accumulate quickly and can harden into permanent complexity.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Flags create hidden branches that are rarely tested.
 - Ownership and cleanup are unclear across teams.
 
-## Scale signals
+## Scale Signals
 
 - Dead flags linger past their intended window.
 - Complex conditional logic spreads across modules.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Enforce flag lifetimes and audits each release.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-31-feature-flag-hell-context.mermaid", alt: "Context snapshot")
 

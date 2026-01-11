@@ -1,4 +1,4 @@
-# Interop and shared logic boundaries
+# Interop and Shared Logic Boundaries
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Bridging layers add ABI and build system complexity.
 - Ownership and testing across language boundaries is harder to enforce.
 
-## Scale signals
+## Scale Signals
 
 - Build failures cluster around bridging headers or linker errors.
 - Teams duplicate logic to avoid cross-language changes.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Keep bridges thin and isolate shared logic behind stable APIs.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.mermaid", alt: "Context snapshot")
 

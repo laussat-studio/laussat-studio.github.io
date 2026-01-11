@@ -15,14 +15,14 @@ This page records how the Google Maps typography system addressed "Accessibility
 
 We had to ensure text did not clip when accessibility sizing was applied.
 
-## System design response
+## System Design Response
 
 Accessibility testing ran as its own dedicated test phase.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We verified that text was not misread due to missing glyphs.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.accessibility-context.mermaid", alt: "Context snapshot")
 

@@ -22,7 +22,7 @@ Explain how correctness was proven before and after launch.
 - Validation steps or QA gates.
 - Regression or snapshot tooling.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-testing-and-validation-context.mermaid", alt: "Context snapshot")
 

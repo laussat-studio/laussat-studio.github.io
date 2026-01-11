@@ -1,4 +1,4 @@
-# Stakeholders And Ownership
+# Stakeholders and Ownership
 
 @Metadata {
   @PageKind(article)
@@ -33,7 +33,7 @@
 - QA validated staged rollouts across multiple OS and device cohorts.
 - Search Results owners approved token mapping and snapshot baselines.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-context.mermaid", alt: "Context snapshot")
 

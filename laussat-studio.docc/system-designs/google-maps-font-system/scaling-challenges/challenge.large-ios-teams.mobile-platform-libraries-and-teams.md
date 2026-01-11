@@ -1,4 +1,4 @@
-# Mobile platform libraries and teams
+# Mobile Platform Libraries and Teams
 
 @Metadata {
   @PageKind(article)
@@ -16,17 +16,17 @@ This page records how the Google Maps typography system addressed "Mobile platfo
 We needed to coordinate mobile platform libraries and teams to review typography
 changes at scale.
 
-## System design response
+## System Design Response
 
 We branched approvals into specific batches so team members could review
 screenshots, created tutorials and documentation for expectations, and drafted
 design guidance.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: we added another font category for legal reasons and ad revenue, and
 teams were satisfied with the outcome.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.mobile-platform-libraries-and-teams-context.mermaid", alt: "Context snapshot")
 

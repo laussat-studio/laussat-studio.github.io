@@ -20,13 +20,13 @@ accessibility, or performance at massive scale.
 
 This case study follows the <doc:system-design-dimensions> template.
 
-## Reference example
+## Reference Example
 
 This case study uses the Search Results row as the reference surface for the
 system design: title, subtitle, and distance badge mapped to canonical tokens,
 validated at max Dynamic Type, and gated behind a surface-level rollout flag.
 
-## Template coverage
+## Template Coverage
 
 This case study covers the following dimensions:
 
@@ -40,7 +40,7 @@ Optional dimensions if we expand later:
 
 Appendix and References.
 
-## Problem statement
+## Problem Statement
 
 Large iOS apps often hard-code fonts in dozens of UI layers. Changing a font
 family can trigger layout regressions, accessibility issues, and inconsistent
@@ -57,7 +57,7 @@ design system umbrella import pulled in typography along with unrelated
 subsystems. Any change to typography risked breaking both UI layout and
 import stability.
 
-## Role and scope
+## Role and Scope
 
 - **Scope:** iOS typography system and migration strategy.
 - **Focus:** Build a canonical font pipeline and staged migration plan.
@@ -75,7 +75,7 @@ import stability.
 - Rewriting every UI to a new architecture.
 - Removing all legacy UIKit or SwiftUI typography usage.
 
-## Architecture overview
+## Architecture Overview
 
 - **Font registry:** A centralized registry that maps semantic roles to concrete
   font descriptors.
@@ -103,7 +103,7 @@ flowchart LR
   B --> G[Reduce drift: single source of truth]
 ```
 
-## Execution strategy
+## Execution Strategy
 
 - Establish a canonical font registry and token contract.
 - Add shims so legacy APIs flow through the new pipeline.
@@ -111,7 +111,7 @@ flowchart LR
   unbounded churn.
 - Roll out by shared components first, then feature call sites.
 
-## Before state (what made this hard)
+## Before State (What Made This Hard)
 
 @Image(source: "maps-font-before-apis.mermaid", alt: "Before state with five typography APIs")
 
@@ -177,7 +177,7 @@ flowchart TB
 - **Maps-scale churn:** Deleting the umbrella immediately would trigger failures
   in unrelated code, exploding the churn and review risk.
 
-## Canonical pipeline (after state)
+## Canonical Pipeline (After State)
 
 @Image(source: "maps-font-after-canonical.mermaid", alt: "After state with canonical tokens and shims")
 
@@ -228,7 +228,7 @@ flowchart TB
   SE --> T
 ```
 
-## Migration implications
+## Migration Implications
 
 - **Decoupling concerns:** The migration had to separate the canonical
   typography pipeline from the import-stability concern.
@@ -242,7 +242,7 @@ flowchart TB
   components first (the largest source of indirect imports), then migrate
   feature call sites to collapse the transitive surface area fastest.
 
-## Data model
+## Data Model
 
 - **Semantic roles:** `display`, `title`, `body`, `caption`, `code`.
 - **Variants:** `regular`, `medium`, `semibold`, `bold`.
@@ -260,7 +260,7 @@ flowchart TB
 4. Metrics instrumentation tracks layout and performance changes.
 5. Rollout proceeds via staged flag and measurement gates.
 
-## System design aspects
+## System Design Aspects
 
 - **Single source of truth:** Tokens live in a shared module consumed by app and
   UI kit. Changes are versioned and reviewed like API changes.
@@ -281,12 +281,12 @@ flowchart TB
 - Token adoption coverage by module and surface.
 - Rollback rate and error spikes tied to font load failures.
 
-## Rollout strategy
+## Rollout Strategy
 
 Begin with internal builds and TestFlight cohorts. Gate rollout by OS version
 and device class. Maintain a rollback toggle to revert the font mapping quickly.
 
-## Example: Search results row
+## Example: Search Results Row
 
 **Context:** A search results list cell renders a title, subtitle, and distance
 badge. Before the migration, each element picked a font locally and drifted
@@ -317,7 +317,7 @@ across releases.
 - No increase in text layout time on fast scroll benchmarks.
 - Type 2 experimentation rollout at 1, 5, 10, 50, 100.
 
-## Risks and mitigations
+## Risks and Mitigations
 
 **Risk:** Layout overflow in tight UI components. **Mitigation:** Targeted UI
 snapshots with max Dynamic Type size.

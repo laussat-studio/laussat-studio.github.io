@@ -1,4 +1,4 @@
-# Planning and decision making
+# Planning and Decision Making
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Planning must account for App Store latency, platform changes, and deprecations.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Platform changes can invalidate plans late in the cycle.
 - API removals require migration windows for multiple releases.
 
-## Scale signals
+## Scale Signals
 
 - No clear deprecation plans or migration guides.
 - Release calendars drift due to late scope changes.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use RFCs with explicit rollback and migration timelines.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-19-planning-and-decision-making-context.mermaid", alt: "Context snapshot")
 

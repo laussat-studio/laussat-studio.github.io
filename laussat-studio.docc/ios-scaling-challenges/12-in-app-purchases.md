@@ -1,4 +1,4 @@
-# In-app purchases
+# In-app Purchases
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 StoreKit subscriptions and entitlements require strict modeling and verification.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Subscription states change asynchronously across devices.
 - Receipt validation needs server enforcement to prevent drift.
 
-## Scale signals
+## Scale Signals
 
 - Users see entitlement mismatches across devices.
 - Restore flows behave inconsistently across cohorts.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Treat entitlements as server-verified state, not client truth.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-12-in-app-purchases-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Push and background notifications
+# Push and Background Notifications
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 APNs delivery is best-effort, and background work is constrained by OS policy.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Silent pushes and background tasks are throttled unpredictably.
 - Background URL sessions and refresh windows vary by device state.
 
-## Scale signals
+## Scale Signals
 
 - Background sync success rates fluctuate across cohorts.
 - Users report missing updates despite correct server behavior.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Design idempotent background work with explicit retry queues.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-05-push-and-background-notifications-context.mermaid", alt: "Context snapshot")
 

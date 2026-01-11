@@ -1,4 +1,4 @@
-# Long tail of old app versions
+# Long Tail of Old App Versions
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Real adoption curves mean you support multiple OS and app versions long after a
 release ships.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Back-deployed APIs and availability checks fragment code paths.
 - Server contracts must remain compatible with older client behavior.
 
-## Scale signals
+## Scale Signals
 
 - Feature logic branches by OS and app version throughout the codebase.
 - API changes require long compatibility windows and duplicated paths.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Maintain a capabilities matrix and plan deprecations in advance.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-context.mermaid", alt: "Context snapshot")
 

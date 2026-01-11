@@ -1,4 +1,4 @@
-# Client-side data migrations
+# Client-side Data Migrations
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Core Data and SQLite migrations require careful versioning and testing.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Schema drift across releases complicates migration paths.
 - Large datasets make migrations slow or fragile.
 
-## Scale signals
+## Scale Signals
 
 - Upgrade crashes spike after migrations ship.
 - Users report data loss or missing records.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Test migrations against historical snapshots and large data sets.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-37-client-side-data-migrations-context.mermaid", alt: "Context snapshot")
 

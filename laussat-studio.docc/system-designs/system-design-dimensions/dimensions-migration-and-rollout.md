@@ -22,7 +22,7 @@ Describe how the new system replaced the old one safely.
 - Backwards compatibility plan.
 - Rollback criteria and thresholds.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-migration-and-rollout-context.mermaid", alt: "Context snapshot")
 

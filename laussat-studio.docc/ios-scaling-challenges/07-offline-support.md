@@ -1,4 +1,4 @@
-# Offline support
+# Offline Support
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Offline experiences demand durable persistence, conflict resolution, and clear
 sync rules.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Multiple stores and caches drift without a single source of truth.
 - Background sync limitations amplify stale data and conflicts.
 
-## Scale signals
+## Scale Signals
 
 - Users see stale content after reconnecting.
 - Retry queues grow without deterministic resolution.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Build an offline state machine with explicit sync stages.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-07-offline-support-context.mermaid", alt: "Context snapshot")
 

@@ -22,7 +22,7 @@ Clarify who owned which parts of the work and who depended on the outcome.
 - Partner teams and their requirements.
 - Decision-making and escalation paths.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-stakeholders-and-ownership-context.mermaid", alt: "Context snapshot")
 

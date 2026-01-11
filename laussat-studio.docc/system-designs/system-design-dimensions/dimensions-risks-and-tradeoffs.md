@@ -22,7 +22,7 @@ Make the decision logic explicit.
 - Alternative designs that were rejected.
 - Risk mitigations and escape hatches.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.mermaid", alt: "Context snapshot")
 

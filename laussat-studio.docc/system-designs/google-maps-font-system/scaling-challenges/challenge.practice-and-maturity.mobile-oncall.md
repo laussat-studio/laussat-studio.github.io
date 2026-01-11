@@ -1,4 +1,4 @@
-# Mobile oncall
+# Mobile Oncall
 
 @Metadata {
   @PageKind(article)
@@ -15,15 +15,15 @@ This page records how the Google Maps typography system addressed "Mobile oncall
 
 Mobile on-call needed a clear escalation path for typography changes.
 
-## System design response
+## System Design Response
 
 We had SRE coverage for on-call support.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: no incidents were reported.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.mobile-oncall-context.mermaid", alt: "Context snapshot")
 

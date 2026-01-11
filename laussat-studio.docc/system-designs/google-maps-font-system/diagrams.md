@@ -18,7 +18,7 @@
 Diagrams now live alongside the narrative sections that explain them. Use this
 page as an index and a rendering note, not a gallery.
 
-## Diagram locations
+## Diagram Locations
 
 - Google Maps typography design overview
 - Problem context
@@ -29,12 +29,12 @@ page as an index and a rendering note, not a gallery.
   diagram required.
 - Refactor CLI architecture lives in migration details.
 
-## Source of truth
+## Source of Truth
 
 Mermaid sources live in `docc/websites/laussat-studio.docc/resources/mermaid/`.
 Rendered SVGs live at the bundle root: `docc/websites/laussat-studio.docc/resources/`.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-diagrams-context.mermaid", alt: "Context snapshot")
 
@@ -50,7 +50,7 @@ flowchart LR
   D --> G["Risk: stakeholder misalignment"]
 ```
 
-## Rendered exports (validator index)
+## Rendered Exports (Validator Index)
 
 @Image(source: "maps-font-level0.codex", alt: "Google Maps font migration overview")
 @Image(source: "maps-font-before-apis.codex", alt: "Before state with five typography APIs")

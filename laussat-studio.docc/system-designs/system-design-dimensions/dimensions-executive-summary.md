@@ -27,7 +27,7 @@ impact.
 
 - Detailed architecture or full decision logs.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-executive-summary-context.mermaid", alt: "Context snapshot")
 

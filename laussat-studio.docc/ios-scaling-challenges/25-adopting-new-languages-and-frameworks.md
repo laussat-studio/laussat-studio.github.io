@@ -1,4 +1,4 @@
-# Adopting new languages and frameworks
+# Adopting New Languages and Frameworks
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Swift language updates and SwiftUI adoption require staged migration strategy.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Mixed paradigms create uneven architecture and training gaps.
 - Concurrency changes can introduce new correctness requirements.
 
-## Scale signals
+## Scale Signals
 
 - Teams fork patterns for the same UI problems.
 - Migration work blocks roadmap commitments.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use staged migrations with playbooks and training checkpoints.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.mermaid", alt: "Context snapshot")
 

@@ -17,21 +17,21 @@
 
 Performance issues surface as cold starts, jank, and energy regressions.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Main-thread work grows with feature accumulation.
 - Asset and networking costs stack across modules.
 
-## Scale signals
+## Scale Signals
 
 - Launch time and frame drops exceed performance budgets.
 - Performance varies widely by device class.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Set explicit budgets and profile against them every release.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-32-performance-context.mermaid", alt: "Context snapshot")
 

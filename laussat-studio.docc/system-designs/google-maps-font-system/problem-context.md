@@ -29,7 +29,7 @@ exception.
 Search Results was the canary: titles, subtitles, and distance badges were defined in three
 different font helpers, creating visible drift and unpredictable truncation.
 
-## Requirements and constraints
+## Requirements and Constraints
 
 - Support Dynamic Type and accessibility parity across every surface.
 - Keep font rendering performance within existing layout budgets.
@@ -37,14 +37,14 @@ different font helpers, creating visible drift and unpredictable truncation.
 - Keep rollouts reversible with a fast kill switch.
 - Limit churn so teams can keep shipping in parallel.
 
-## Root causes
+## Root Causes
 
 - Five parallel font API families.
 - Umbrella imports that coupled typography with unrelated design system modules.
 - Inconsistent scaling logic across screens and components.
 - No shared cache for font descriptors, causing repeated work in scroll-heavy views.
 
-## Diagram: API sprawl (before state)
+## Diagram: API Sprawl (Before State)
 
 @Image(source: "maps-font-before-apis-40plus.mermaid", alt: "Before state with 40 plus font APIs")
 
@@ -73,14 +73,14 @@ flowchart LR
   F --> I["UIKit vs SwiftUI mismatch"]
 ```
 
-## Stakeholders and ownership
+## Stakeholders and Ownership
 
 - **Design systems:** defined typography tokens and semantic roles.
 - **Maps iOS platform:** built the canonical pipeline and shims.
 - **Feature teams:** migrated call sites and validated layout behavior.
 - **Quality and release:** monitored rollouts and triaged regressions.
 
-## Diagram: Umbrella coupling
+## Diagram: Umbrella Coupling
 
 @Image(source: "maps-font-umbrella-before.mermaid", alt: "Umbrella header coupling before the migration")
 

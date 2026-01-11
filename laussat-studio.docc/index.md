@@ -27,7 +27,7 @@ A creative production house for apps, media, and digital experiences.
 
 Studio Laussat is the creative imprint for our published applications and media productions.
 
-## Mermaid source
+## Mermaid Source
 
 - [laussat-studio-context.mermaid](laussat-studio-context.mermaid)
 

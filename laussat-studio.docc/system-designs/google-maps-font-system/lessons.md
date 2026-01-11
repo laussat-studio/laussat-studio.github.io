@@ -15,7 +15,7 @@
 
 @Image(source: "system-designs-google-maps-font-system-lessons-hero.codex", alt: "Lessons hero")
 
-## What stuck
+## What Stuck
 
 - Decouple migration tracks so teams can ship safely.
 - Preserve legacy APIs while the new system proves itself.
@@ -23,7 +23,7 @@
 - Treat one high-traffic surface (Search Results) as the reference example.
 - Contrast: the color upgrade had no design token usage, so changes were manual.
 
-## What we would do again
+## What We Would Do Again
 
 - Invest in observability from day one.
 - Make rollback a first‑class capability.
@@ -37,7 +37,7 @@
 - Extend tokens to cover new typography use cases without adding new APIs.
 - Document the Search Results example as a reusable template for future rollouts.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-lessons-context.mermaid", alt: "Context snapshot")
 

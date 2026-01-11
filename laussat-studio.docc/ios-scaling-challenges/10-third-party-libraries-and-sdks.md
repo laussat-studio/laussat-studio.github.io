@@ -1,4 +1,4 @@
-# Third-party libraries and SDKs
+# Third-party Libraries and SDKs
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 SDK sprawl affects startup time, privacy posture, and update cadence.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Binary frameworks hide behavior and can introduce swizzling risks.
 - Vendor release cycles rarely align with App Store schedules.
 
-## Scale signals
+## Scale Signals
 
 - App startup time grows with each new SDK.
 - Privacy manifests and data flows drift out of compliance.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Wrap third-party SDKs behind internal adapters and version them.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Application state and event-driven changes
+# Application State and Event-driven Changes
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 App lifecycle events, push notifications, and auth refreshes collide at scale.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Multiple event sources trigger the same behaviors.
 - Background and foreground transitions interrupt in-flight work.
 
-## Scale signals
+## Scale Signals
 
 - Duplicate handlers trigger repeated UI updates.
 - Hard-to-reproduce state races after interruptions.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Centralize event handling with throttling and clear priorities.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-14-application-state-and-event-driven-changes-context.mermaid", alt: "Context snapshot")
 

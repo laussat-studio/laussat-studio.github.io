@@ -1,4 +1,4 @@
-# Scaling challenges coverage
+# Scaling Challenges Coverage
 
 @Metadata {
   @PageKind(article)
@@ -11,7 +11,7 @@
 
 A coverage map for how the Google Maps typography system addressed each scaling challenge.
 
-## Diagram: Coverage map
+## Diagram: Coverage Map
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-context.mermaid", alt: "Coverage map")
 
@@ -29,7 +29,7 @@ flowchart LR
 
 ## See Also
 
-### Nature of iOS apps
+### Nature of iOS Apps
 
 - <doc:challenge.ios-app-nature.state-management>
 - <doc:challenge.ios-app-nature.mistakes-are-hard-to-revert>
@@ -42,7 +42,7 @@ flowchart LR
 - <doc:challenge.ios-app-nature.ci-cd-and-the-build-train>
 - <doc:challenge.ios-app-nature.third-party-libraries-and-sdks>
 
-### App complexity
+### App Complexity
 
 - <doc:challenge.app-complexity.device-and-os-fragmentation>
 - <doc:challenge.app-complexity.in-app-purchases>
@@ -53,7 +53,7 @@ flowchart LR
 - <doc:challenge.app-complexity.automated-testing>
 - <doc:challenge.app-complexity.manual-testing>
 
-### Large iOS teams
+### Large iOS Teams
 
 - <doc:challenge.large-ios-teams.planning-and-decision-making>
 - <doc:challenge.large-ios-teams.architecting-to-avoid-collisions>
@@ -62,18 +62,18 @@ flowchart LR
 - <doc:challenge.large-ios-teams.scaling-build-and-merge-times>
 - <doc:challenge.large-ios-teams.mobile-platform-libraries-and-teams>
 
-### Native vs cross-platform
+### Native vs Cross-platform
 
 - <doc:challenge.cross-platform.cross-platform-feature-development>
 - <doc:challenge.cross-platform.web-pwa-and-server-driven-apps>
 
-### Native development
+### Native Development
 
 - <doc:challenge.native-development.adopting-new-languages-and-frameworks>
 - <doc:challenge.native-development.interop-and-shared-logic-boundaries>
 - <doc:challenge.native-development.cross-platform-vs-native-decision-framework>
 
-### Practice and maturity
+### Practice and Maturity
 
 - <doc:challenge.practice-and-maturity.experimentation>
 - <doc:challenge.practice-and-maturity.feature-flag-hell>

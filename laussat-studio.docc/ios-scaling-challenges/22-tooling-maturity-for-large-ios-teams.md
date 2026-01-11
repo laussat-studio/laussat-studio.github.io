@@ -1,4 +1,4 @@
-# Tooling maturity for large iOS teams
+# Tooling Maturity for Large iOS Teams
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Large teams need consistent linting, documentation, and metrics to scale.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Tooling decisions drift by team and codebase.
 - Metrics are missing or inconsistent across surfaces.
 
-## Scale signals
+## Scale Signals
 
 - Style and lint baselines differ across modules.
 - Build and test metrics are not tracked or visible.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Provide a paved road for linting, docs, and performance budgets.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.mermaid", alt: "Context snapshot")
 

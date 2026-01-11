@@ -1,4 +1,4 @@
-# Modular architecture and dependency injection
+# Modular Architecture and Dependency Injection
 
 @Metadata {
   @PageKind(article)
@@ -15,15 +15,15 @@ This page records how the Google Maps typography system addressed "Modular archi
 
 We moved away from ad hoc state setting controlled by controllers.
 
-## System design response
+## System Design Response
 
 We introduced a service-based experiment that loads the right implementation
 at runtime.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We removed the chance of state restoration invalidating the experiment.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.modular-architecture-and-dependency-injection-context.mermaid", alt: "Context snapshot")
 

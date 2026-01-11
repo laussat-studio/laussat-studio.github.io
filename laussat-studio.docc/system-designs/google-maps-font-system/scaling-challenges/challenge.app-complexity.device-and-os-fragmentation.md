@@ -1,4 +1,4 @@
-# Device and OS fragmentation
+# Device and OS Fragmentation
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "Device and OS
 Four supported OS versions and a 300 million user base multiplied risk for any
 typography change.
 
-## System design response
+## System Design Response
 
 We explicitly tested on small screens as part of the rollout plan.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We monitored crash rates by OS version, including an early iOS release.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.device-and-os-fragmentation-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Mobile platform libraries and teams
+# Mobile Platform Libraries and Teams
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 A platform team provides shared foundations and guardrails for product teams.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Without shared ownership, teams reinvent core features.
 - Platform changes lack adoption playbooks.
 
-## Scale signals
+## Scale Signals
 
 - Multiple authentication or networking stacks coexist.
 - Upgrades stall due to unclear ownership.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Define a platform roadmap with adoption and deprecation plans.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.mermaid", alt: "Context snapshot")
 

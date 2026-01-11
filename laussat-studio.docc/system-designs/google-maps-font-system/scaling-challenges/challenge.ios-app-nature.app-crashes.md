@@ -1,4 +1,4 @@
-# App crashes
+# App Crashes
 
 @Metadata {
   @PageKind(article)
@@ -15,15 +15,15 @@ This page records how the Google Maps typography system addressed "App crashes".
 
 We needed robust system metrics at key entry points to catch crash regressions.
 
-## System design response
+## System Design Response
 
 We used a crash metric dashboard to track entry-point stability.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Prior crashes happened at boot time, sometimes from unset experiment variables,
 incorrect enums, or ARC early deallocation.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.app-crashes-context.mermaid", alt: "Context snapshot")
 

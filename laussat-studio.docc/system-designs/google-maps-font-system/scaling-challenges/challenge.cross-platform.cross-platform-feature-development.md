@@ -1,4 +1,4 @@
-# Cross-platform feature development
+# Cross-platform Feature Development
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "Cross-platfor
 iPad vs iPhone were on two different timelines, so they needed separate
 experiment setups.
 
-## System design response
+## System Design Response
 
 We kept both surfaces stable throughout the transition.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 iPhone and iPad shipped two design systems at the same time.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.cross-platform.cross-platform-feature-development-context.mermaid", alt: "Context snapshot")
 

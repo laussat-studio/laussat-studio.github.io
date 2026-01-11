@@ -1,4 +1,4 @@
-# Scaling build and merge times
+# Scaling Build and Merge Times
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Swift build costs rise fast when module boundaries and interfaces drift.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Interface churn invalidates caches and slows incremental builds.
 - Large test suites block merge velocity.
 
-## Scale signals
+## Scale Signals
 
 - CI queues grow while merge times increase.
 - Local builds exceed acceptable iteration budgets.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Invest in module graph hygiene and cache-aware build tooling.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Third-party libraries and SDKs
+# Third-party Libraries and SDKs
 
 @Metadata {
   @PageKind(article)
@@ -16,15 +16,15 @@ This page records how the Google Maps typography system addressed "Third-party l
 We controlled the font stack directly, so third-party libraries and SDKs did
 not add risk to the typography rollout.
 
-## System design response
+## System Design Response
 
 We had no third-party libraries in the font path and guarded against first-party
 risks.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We tracked crash metrics broken down by Apple OS versions.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.third-party-libraries-and-sdks-context.mermaid", alt: "Context snapshot")
 

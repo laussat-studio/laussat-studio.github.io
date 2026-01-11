@@ -22,7 +22,7 @@ Show the measurable impact of the system design.
 - User or business impact.
 - Long-term maintenance wins.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-results-and-metrics-context.mermaid", alt: "Context snapshot")
 

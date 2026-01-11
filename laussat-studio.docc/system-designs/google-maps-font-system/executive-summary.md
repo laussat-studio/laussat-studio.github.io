@@ -35,13 +35,13 @@ and distance badge that previously drifted across teams and release trains.
 - Reduced the style catalog from roughly 15 styles to about 10.
 - Migrated a high-risk surface (Search Results) with no regressions at max Dynamic Type.
 
-## Why it worked
+## Why It Worked
 
 - We separated typography migration from import‑hygiene migration.
 - We preserved legacy call sites with compatibility shims.
 - We phased migration through shared components before feature surfaces.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-executive-summary-context.mermaid", alt: "Context snapshot")
 
@@ -57,10 +57,24 @@ flowchart LR
   D --> G["Risk: stakeholder misalignment"]
 ```
 
-## Start state
+## Start State
 
-@Image(source: "system-designs-google-maps-font-system-typography-stack-start", alt: "Typography stack before migration")
+@TabNavigator {
+  @Tab("Animated") {
+    @Image(source: "system-designs-google-maps-font-system-typography-stack-start", alt: "Typography stack before migration (animated)")
+  }
+  @Tab("Exploded") {
+    @Image(source: "system-designs-google-maps-font-system-typography-stack-start-exploded", alt: "Typography stack before migration (exploded)")
+  }
+}
 
-## Final state
+## Final State
 
-@Image(source: "system-designs-google-maps-font-system-typography-stack-hero", alt: "Google Maps typography stack")
+@TabNavigator {
+  @Tab("Animated") {
+    @Image(source: "svg-google-maps-fonts-terra-stack-animated", alt: "Google Maps typography stack from front to isometric")
+  }
+  @Tab("Exploded") {
+    @Image(source: "svg-google-maps-fonts-terra-stack-exploded", alt: "Google Maps typography stack exploded")
+  }
+}

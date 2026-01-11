@@ -17,13 +17,13 @@
 A system design template organized as dimensions. Use it as a checklist for what
 could matter, then select only the dimensions that fit your case study.
 
-## How to use
+## How to Use
 
 - Start with the executive summary and problem context.
 - Add only the dimensions that change decisions or outcomes.
 - Keep diagrams embedded in the dimension where they are discussed.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-system-design-dimensions-context.mermaid", alt: "Context snapshot")
 

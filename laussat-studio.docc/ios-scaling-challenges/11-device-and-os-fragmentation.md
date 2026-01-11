@@ -1,4 +1,4 @@
-# Device and OS fragmentation
+# Device and OS Fragmentation
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 iOS fragmentation is subtle: iPad multitasking, input modes, and hardware
 capability tiers.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Layouts must survive split view, rotation, and pointer input.
 - Performance profiles vary across memory and GPU classes.
 
-## Scale signals
+## Scale Signals
 
 - iPad-specific bugs rise after major releases.
 - Features behave differently on older devices.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Build capability-driven UI paths and test real device tiers.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-context.mermaid", alt: "Context snapshot")
 

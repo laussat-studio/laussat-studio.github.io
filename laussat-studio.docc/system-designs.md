@@ -1,4 +1,4 @@
-# System designs
+# System Designs
 
 @Metadata {
   @PageKind(article)
@@ -20,7 +20,7 @@ and were refined under real‑world constraints.
 
 @Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-context.mermaid", alt: "Context snapshot")
 

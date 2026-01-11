@@ -1,4 +1,4 @@
-# Deeplinks and routing
+# Deeplinks and Routing
 
 @Metadata {
   @PageKind(article)
@@ -17,16 +17,16 @@ Deep links and routing required state to be set before navigation. We could not
 use a global variable; state had to be established by a low-level service
 setup before routing occurred.
 
-## System design response
+## System Design Response
 
 The service-level agreement let us run close to the beginning of the app
 lifecycle.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We verified that weird state restoration and rarely used paths did not trigger
 incorrect font usage.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.deeplinks-and-routing-context.mermaid", alt: "Context snapshot")
 

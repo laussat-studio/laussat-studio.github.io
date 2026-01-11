@@ -1,4 +1,4 @@
-# Client-side data migrations
+# Client-side Data Migrations
 
 @Metadata {
   @PageKind(article)
@@ -13,11 +13,11 @@ This page records how the Google Maps typography system addressed "Client-side d
 
 ## Challenge
 
-## System design response
+## System Design Response
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.client-side-data-migrations-context.mermaid", alt: "Context snapshot")
 

@@ -18,7 +18,7 @@
 
 Operational maturity keeps large apps stable, observable, and trustworthy.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-context.mermaid", alt: "Context snapshot")
 

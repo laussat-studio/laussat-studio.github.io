@@ -1,4 +1,4 @@
-# App crashes
+# App Crashes
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Symbolication and dSYM hygiene are easy to break across releases.
 - Crash signatures vary by OS, device, and feature flag states.
 
-## Scale signals
+## Scale Signals
 
 - Crash-free sessions drop after phased rollout begins.
 - OOM and watchdog terminations cluster on older devices.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Treat crash-free rate as a budget with strict alerting.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-06-app-crashes-context.mermaid", alt: "Context snapshot")
 

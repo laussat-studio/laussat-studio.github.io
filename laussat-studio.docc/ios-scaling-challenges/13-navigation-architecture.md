@@ -1,4 +1,4 @@
-# Navigation architecture
+# Navigation Architecture
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Large apps combine stacks, tabs, and split views that must remain consistent
 under deep link entry.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Multiple navigation systems compete across UIKit and SwiftUI.
 - Scene-based routing makes cold start logic complex.
 
-## Scale signals
+## Scale Signals
 
 - Back navigation differs across surfaces.
 - Deep links land in inconsistent routes or missing tabs.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Maintain a single route registry with clear ownership rules.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-13-navigation-architecture-context.mermaid", alt: "Context snapshot")
 

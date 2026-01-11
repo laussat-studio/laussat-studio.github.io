@@ -18,7 +18,7 @@
 
 As apps grow, navigation, localization, and testing become systems problems.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-part-2-app-complexity-context.mermaid", alt: "Context snapshot")
 

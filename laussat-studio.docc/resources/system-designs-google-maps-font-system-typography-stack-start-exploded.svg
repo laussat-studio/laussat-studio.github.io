@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
-  <title>Google Maps typography stack (animated)</title>
+  <title>Google Maps typography stack (exploded)</title>
   <style>
     .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 20px; fill: #1f2328; font-weight: 700; }
     .label-small { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; fill: #1f2328; font-weight: 700; }
@@ -20,15 +20,12 @@
 
   <rect width="1200" height="720" fill="none"/>
 
-  <g transform="translate(600 360)">
-    <g id="tilt">
-      <animateTransform attributeName="transform" type="skewX" values="0;-30;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="scale" values="1 1;1 0.75;1 1" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite" additive="sum"/>
+  <g transform="translate(680 360)">
+    <g id="tilt" transform="skewX(-30) scale(1 0.75)">
 
       <g transform="translate(-600 -420)">
         <!-- OS layer -->
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-20 140;0 0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+        <g transform="translate(-20 140)">
           <rect class="os-1 tile" x="200" y="420" width="200" height="120"/>
           <rect class="os-2 tile" x="400" y="420" width="200" height="120"/>
           <rect class="os-3 tile" x="600" y="420" width="200" height="120"/>
@@ -40,8 +37,7 @@
         </g>
 
         <!-- Apple framework layer -->
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-90 60;0 0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+        <g transform="translate(-90 60)">
           <rect class="framework-1 tile" x="200" y="420" width="266" height="120"/>
           <rect class="framework-2 tile" x="466" y="420" width="267" height="120"/>
           <rect class="framework-3 tile" x="733" y="420" width="267" height="120"/>
@@ -51,8 +47,7 @@
         </g>
 
         <!-- Design system layer -->
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-140 -80;0 0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+        <g transform="translate(-140 -80)">
           <!-- ? (12 uneven boxes) -->
           <rect class="unknown tile" x="200" y="420" width="140" height="30"/>
           <rect class="unknown tile" x="340" y="420" width="180" height="30"/>
@@ -100,11 +95,8 @@
         </g>
 
         <!-- Google Maps typography -->
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-240 -160;0 0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
-          <rect class="top tile" x="200" y="420" width="800" height="120" opacity="1">
-            <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.6;1" dur="8s" repeatCount="indefinite"/>
-          </rect>
+        <g transform="translate(-240 -160)">
+          <rect class="top tile" x="200" y="420" width="800" height="120" opacity="1"/>
           <text class="label" x="600" y="480" text-anchor="middle" dominant-baseline="middle">Google Maps Typography</text>
         </g>
       </g>

@@ -16,16 +16,16 @@ This page records how the Google Maps typography system addressed "Performance".
 All performance metrics had to remain neutral. The first custom font load on
 Search made that target difficult to hit.
 
-## System design response
+## System Design Response
 
 We gated the first custom font load behind a long-running experiment to verify
 that performance metrics stayed neutral before broad rollout.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 The rollout did not add new font downloads because Google One already shipped
 the font in a small part of the app, reducing network and startup risk.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.performance-context.mermaid", alt: "Context snapshot")
 

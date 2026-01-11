@@ -20,7 +20,7 @@ Use this page to capture missing details as we refine the system design story.
 
 
 
-## Resolved details
+## Resolved Details
 
 - Google Sans for headline/actions, Apple system for 16pt and below.
 - API surface: headline (`s`, `m`, `l`), body (`s`, `m`, `l`), text (`s`, `m`).
@@ -35,7 +35,7 @@ Use this page to capture missing details as we refine the system design story.
 
 ## Architecture
 
-## Data Flows And Interfaces
+## Data Flows and Interfaces
 
 - What is the exact API signature for requesting a font (token + traits + size
   category)?
@@ -50,7 +50,7 @@ Use this page to capture missing details as we refine the system design story.
   - iPad stayed on the old typography for about one more year, increasing
     split-state complexity.
 
-## Reliability, Scalability, And Performance
+## Reliability, Scalability, and Performance
 
 - What was the cache key and eviction strategy for the intermediate cache?
   - Cache key: font family + font size.
@@ -61,7 +61,7 @@ Use this page to capture missing details as we refine the system design story.
 - How did scroll FPS change on Search Results under max Dynamic Type?
   - N/A.
 
-## Testing And Validation
+## Testing and Validation
 
 - Which snapshot suites were mandatory before rollout gates?
   - All suites. 100k+ screenshots across every feature surface (location-sharing,
@@ -71,21 +71,21 @@ Use this page to capture missing details as we refine the system design story.
 - Did we standardize a Search Results golden dataset for snapshot diffs?
   - Snapshot diffs were used; multilingual variants made standardization hard.
 
-## Migration And Rollout
+## Migration and Rollout
 
 - What was the rollback trigger during the two-month experiment?
 - Which cohort gates were used for the Search Results flag?
 
-## Metrics And Results
+## Metrics and Results
 
 - What were the measurable deltas (diff volume, crash-free, perf)?
 - Which metrics gates decided progression between rollout stages?
 
-## Security, Privacy, And Compliance
+## Security, Privacy, and Compliance
 
 - Confirm whether this was not applicable, or list any policy requirements.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-open-questions-context.mermaid", alt: "Context snapshot")
 

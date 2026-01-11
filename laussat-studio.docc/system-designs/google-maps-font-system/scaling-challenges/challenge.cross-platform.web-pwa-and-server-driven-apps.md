@@ -1,4 +1,4 @@
-# Web, PWA, and server-driven apps
+# Web, PWA, and Server-driven Apps
 
 @Metadata {
   @PageKind(article)
@@ -15,14 +15,14 @@ This page records how the Google Maps typography system addressed "Web, PWA, and
 
 Web teams handled these APIs for server-driven and web surfaces.
 
-## System design response
+## System Design Response
 
 We rejected this path due to performance.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 N/A.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.cross-platform.web-pwa-and-server-driven-apps-context.mermaid", alt: "Context snapshot")
 

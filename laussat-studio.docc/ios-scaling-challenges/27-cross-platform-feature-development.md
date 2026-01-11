@@ -1,4 +1,4 @@
-# Cross-platform feature development
+# Cross-platform Feature Development
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Feature parity across platforms requires shared contracts without shared UI.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Inconsistent server models lead to divergent client behavior.
 - Testing parity requires shared fixtures and specs.
 
-## Scale signals
+## Scale Signals
 
 - iOS behavior drifts from web or Android experiences.
 - API changes break one platform at a time.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use shared schemas and contract tests to keep parity.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-context.mermaid", alt: "Context snapshot")
 

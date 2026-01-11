@@ -18,7 +18,7 @@
 
 Scale is a coordination problem: ownership, tooling, and shared platforms.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-part-3-large-ios-teams-context.mermaid", alt: "Context snapshot")
 

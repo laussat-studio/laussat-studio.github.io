@@ -1,4 +1,4 @@
-# Deeplinks and routing
+# Deeplinks and Routing
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Universal Links, custom schemes, and scene lifecycles make deep links brittle at
 scale.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Cold start and warm start flows diverge across scenes and tabs.
 - Attribution and logging need to survive auth gates and delayed routing.
 
-## Scale signals
+## Scale Signals
 
 - Deep links work in some entry paths but fail in others.
 - Attribution and routing metrics are missing or inconsistent.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Centralize routing and log every deep link decision path.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-context.mermaid", alt: "Context snapshot")
 

@@ -22,7 +22,7 @@ Detail the inputs, outputs, and API contracts that define system boundaries.
 - Data ownership and versioning.
 - Backward compatibility expectations.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-data-flows-and-interfaces-context.mermaid", alt: "Context snapshot")
 

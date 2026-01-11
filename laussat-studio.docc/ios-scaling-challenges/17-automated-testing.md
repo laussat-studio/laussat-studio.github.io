@@ -1,4 +1,4 @@
-# Automated testing
+# Automated Testing
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 iOS test stability is fragile under concurrency, UI timing, and data variance.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - XCTest and XCUITest flake under slow devices and async workflows.
 - SwiftUI testing coverage remains inconsistent across teams.
 
-## Scale signals
+## Scale Signals
 
 - Flake budgets increase and slow releases.
 - Teams disable tests to unblock merges.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use hermetic test data and enforce flake budgets.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-17-automated-testing-context.mermaid", alt: "Context snapshot")
 

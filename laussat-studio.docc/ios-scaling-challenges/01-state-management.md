@@ -1,4 +1,4 @@
-# State management
+# State Management
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Large iOS apps juggle UIKit and SwiftUI lifecycles, async state, and multiple
 stores of truth.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Multiple entry points fight over ownership of state and navigation.
 - MainActor boundaries and reentrancy make subtle bugs hard to reproduce.
 
-## Scale signals
+## Scale Signals
 
 - UI desync between tabs, scenes, or deep link entry paths.
 - Frequent "state reset" bugs after background or cold start.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Define a single state graph per feature and enforce ownership.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-01-state-management-context.mermaid", alt: "Context snapshot")
 

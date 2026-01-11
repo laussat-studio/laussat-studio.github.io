@@ -1,4 +1,4 @@
-# Feature flag hell
+# Feature Flag Hell
 
 @Metadata {
   @PageKind(article)
@@ -17,16 +17,16 @@ We learned from night mode that feature flags could explode. The new header
 style + fonts on iPhone vs the old header + old fonts created a 4x decision
 tree for certain design tokens and fonts.
 
-## System design response
+## System Design Response
 
 We lowered experimentation decisions from developer-level switches to internal
 tooling decisions.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: developers do not need to worry about experimentation decisions in
 the design system.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.feature-flag-hell-context.mermaid", alt: "Context snapshot")
 

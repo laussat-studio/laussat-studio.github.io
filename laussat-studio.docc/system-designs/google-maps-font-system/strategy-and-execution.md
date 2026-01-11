@@ -41,7 +41,7 @@ creating new APIs.
 - **Contract surface:** a shared `.h` protocol that could link to either Apple
   fonts or Google fonts.
 
-## Data Flows And Interfaces
+## Data Flows and Interfaces
 
 - UI components request a semantic token rather than a raw font.
 - The provider resolves the token and applies Dynamic Type scaling.
@@ -51,14 +51,14 @@ creating new APIs.
 - API surface was constrained to headline (`s`, `m`, `l`), body (`s`, `m`, `l`),
   and text (`s`, `m`) to cap style explosion.
 
-## Example: Search Results row
+## Example: Search Results Row
 
 - **Before:** Title, subtitle, and distance badge each used separate helpers.
 - **Token mapping:** `titleMedium.semibold`, `bodySmall.regular`, `caption.regular`.
 - **Flagging:** The new mapping was gated for the Search Results surface only.
 - **Validation:** Snapshot diffs at max Dynamic Type and scroll perf counters.
 
-## Reliability, Scalability, And Performance
+## Reliability, Scalability, and Performance
 
 - Cached descriptors reduce repeated font construction.
 - Font mapping is deterministic to avoid layout jitter between releases.
@@ -66,18 +66,18 @@ creating new APIs.
 - The libraries were guarded at compile time and runtime to keep linking safe.
 - The ten canonical styles were preloaded to reduce runtime churn.
 
-## Security, Privacy, And Compliance
+## Security, Privacy, and Compliance
 
 - No user data is processed by the font pipeline.
 - Fonts are bundled and validated to avoid runtime fetches.
 - Rollouts respect platform policies for Dynamic Type and accessibility.
 
-## Behavioral shift
+## Behavioral Shift
 
 Teams stopped hand‑tuning fonts per screen and instead aligned on semantic roles. The cost of a
 font change dropped from weeks of QA to a measured, staged rollout.
 
-## Diagram: Shared dependency map
+## Diagram: Shared Dependency Map
 
 @Image(source: "maps-font-dependency-map.mermaid", alt: "Dependency map for shared API first")
 
@@ -102,7 +102,7 @@ flowchart TB
   X --> SH
 ```
 
-## Diagram: Migration decision tree
+## Diagram: Migration Decision Tree
 
 @Image(source: "maps-font-decision-tree.mermaid", alt: "Decision tree for migration strategy")
 
@@ -125,7 +125,7 @@ flowchart TB
   O3 --> P[Chosen: incremental via shim and tokens]
 ```
 
-## Diagram: Automation pipeline
+## Diagram: Automation Pipeline
 
 @Image(source: "maps-font-automation-pipeline.mermaid", alt: "Automation pipeline")
 

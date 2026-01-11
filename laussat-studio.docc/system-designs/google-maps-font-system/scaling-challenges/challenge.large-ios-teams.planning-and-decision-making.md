@@ -1,4 +1,4 @@
-# Planning and decision making
+# Planning and Decision Making
 
 @Metadata {
   @PageKind(article)
@@ -17,16 +17,16 @@ Planning and decision-making were heavily impacted by the scale of change. For
 colors, teams previously assigned developers to update ~5k references, but we
 could not get buy-in to repeat that for typography.
 
-## System design response
+## System Design Response
 
 We created a CLI refactor tool to perform migrations on a per-API basis. With
 40+ APIs, that meant writing 40+ scripts.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We negotiated extra time with management due to limited feature developers and
 worked on tooling to simplify feature-dev input.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.planning-and-decision-making-context.mermaid", alt: "Context snapshot")
 

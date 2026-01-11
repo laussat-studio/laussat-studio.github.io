@@ -1,4 +1,4 @@
-# Cross-platform vs native decision framework
+# Cross-platform vs Native Decision Framework
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Choosing React Native, WebView, or native has long-term product implications.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Shared stacks can slow platform-specific performance tuning.
 - Debugging toolchains multiply when stacks diverge.
 
-## Scale signals
+## Scale Signals
 
 - Performance regressions persist due to stack limitations.
 - Feature delivery slows as teams negotiate ownership.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use a decision rubric that weighs performance, UX, and maintenance cost.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-context.mermaid", alt: "Context snapshot")
 

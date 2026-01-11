@@ -22,7 +22,7 @@ Describe how the system is monitored and operated day to day.
 - Oncall workflows and playbooks.
 - Cost or budget monitoring.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-observability-and-operations-context.mermaid", alt: "Context snapshot")
 

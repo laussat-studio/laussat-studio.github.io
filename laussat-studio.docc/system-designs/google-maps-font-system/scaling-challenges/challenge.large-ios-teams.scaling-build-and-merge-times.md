@@ -1,4 +1,4 @@
-# Scaling build and merge times
+# Scaling Build and Merge Times
 
 @Metadata {
   @PageKind(article)
@@ -18,16 +18,16 @@ creation through merge, so any file change during the long approval window
 forced test cases to re-run. Following the default recommended flow caused
 screenshot outputs to disappear.
 
-## System design response
+## System Design Response
 
 We built a refactor tool that used the alternative permanent path. That meant
 choosing the less-supported of two version control systems to preserve
 screenshots.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: we maintained consistency in screenshots through the migration.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.scaling-build-and-merge-times-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# State management
+# State Management
 
 @Metadata {
   @PageKind(article)
@@ -22,7 +22,7 @@ Fonts also could not use the custom color state harness. Typography state
 instead relied on dependency injection that reset state per test instance in
 concurrent test runs, which only 2 of the 6 test harnesses supported.
 
-## System design response
+## System Design Response
 
 We centralized typography state behind a canonical font loader and provider:
 
@@ -42,7 +42,7 @@ was the first adopter of the new build approach, and colors were expected to
 follow the same method across the rest of the design system. We treated the
 experiment as a chance to level up.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence we used to validate the new state model:
 
@@ -55,7 +55,7 @@ Remaining risks:
 - Dynamic Type validation across all screens was deferred to a follow-up.
 - Some screens required `clipToBounds = false` for tall ascenders, a layout
   compromise we still track.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.state-management-context.mermaid", alt: "Context snapshot")
 

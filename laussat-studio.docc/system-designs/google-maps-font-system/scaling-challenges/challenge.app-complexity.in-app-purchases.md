@@ -1,4 +1,4 @@
-# In-app purchases
+# In-app Purchases
 
 @Metadata {
   @PageKind(article)
@@ -13,11 +13,11 @@ This page records how the Google Maps typography system addressed "In-app purcha
 
 ## Challenge
 
-## System design response
+## System Design Response
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.in-app-purchases-context.mermaid", alt: "Context snapshot")
 

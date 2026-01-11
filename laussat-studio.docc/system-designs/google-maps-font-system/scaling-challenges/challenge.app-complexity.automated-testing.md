@@ -1,4 +1,4 @@
-# Automated testing
+# Automated Testing
 
 @Metadata {
   @PageKind(article)
@@ -19,7 +19,7 @@ generated on Linux, and the existing split/automation tools assumed changes
 stayed within known logical boundaries (for example, a single library). A
 fundamental design primitive touched everything, so that assumption failed.
 
-## System design response
+## System Design Response
 
 We hand-processed JSONL bundles that carried the dynamic locations of
 screenshots to migrate. A custom workflow would:
@@ -28,11 +28,11 @@ screenshots to migrate. A custom workflow would:
 - decode the JSONL bundle,
 - copy the screenshots into the correct cloud version-control environment.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: long-running test runners remained a bottleneck even after the
 manual migration workflow.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.automated-testing-context.mermaid", alt: "Context snapshot")
 

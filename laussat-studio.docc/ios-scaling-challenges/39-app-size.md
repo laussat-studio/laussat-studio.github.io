@@ -1,4 +1,4 @@
-# App size
+# App Size
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Binary size grows with assets, duplicate frameworks, and unused code paths.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Asset catalogs and bundles expand faster than cleanup.
 - Static linking and generics can bloat binaries.
 
-## Scale signals
+## Scale Signals
 
 - App size increases every release without explanation.
 - Downloads drop in low-bandwidth regions.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Audit size budgets and use on-demand resources.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-39-app-size-context.mermaid", alt: "Context snapshot")
 

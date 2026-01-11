@@ -22,7 +22,7 @@ Define what success means and what was explicitly out of scope.
 - Non-goals that prevented scope creep.
 - Tradeoffs implied by those boundaries.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.mermaid", alt: "Context snapshot")
 

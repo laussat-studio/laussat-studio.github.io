@@ -1,4 +1,4 @@
-# Scaling challenges
+# Scaling Challenges
 
 @Metadata {
   @PageKind(article)
@@ -20,7 +20,7 @@ A map of the biggest challenges that surface when iOS apps and teams scale.
 
 @Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-context.mermaid", alt: "Context snapshot")
 

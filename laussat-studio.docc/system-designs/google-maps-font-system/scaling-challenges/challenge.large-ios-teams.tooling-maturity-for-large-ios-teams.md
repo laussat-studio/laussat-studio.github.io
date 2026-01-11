@@ -1,4 +1,4 @@
-# Tooling maturity for large iOS teams
+# Tooling Maturity for Large iOS Teams
 
 @Metadata {
   @PageKind(article)
@@ -17,16 +17,16 @@ With many teams and many test harnesses, upgrading everyone to the latest
 tooling was too costly. The number of harnesses and ownership boundaries made
 uniform adoption unrealistic during the typography migration.
 
-## System design response
+## System Design Response
 
 We coordinated with teams to review and fix test-harness code rather than
 forcing a full upgrade to the latest tooling.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: concurrent tests still surfaced harness gaps that required
 follow-up fixes.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.tooling-maturity-for-large-ios-teams-context.mermaid", alt: "Context snapshot")
 

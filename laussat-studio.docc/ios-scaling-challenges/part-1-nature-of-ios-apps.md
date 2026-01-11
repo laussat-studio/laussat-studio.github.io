@@ -1,4 +1,4 @@
-# Nature Of iOS Apps
+# Nature of iOS Apps
 
 @Metadata {
   @PageKind(article)
@@ -19,7 +19,7 @@
 The constraints of Apple platforms shape every architectural decision, from
 state to distribution.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-context.mermaid", alt: "Context snapshot")
 

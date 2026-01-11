@@ -1,4 +1,4 @@
-# CI and the build train
+# CI and the Build Train
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "CI and the bu
 We needed a custom tool: a CLI refactor to manually retrieve outputs and move
 them over the build pipeline.
 
-## System design response
+## System Design Response
 
 We built the custom CLI to manually retrieve outputs and move them over.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: the next level would require 5x scale in the pipeline.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.ci-cd-and-the-build-train-context.mermaid", alt: "Context snapshot")
 

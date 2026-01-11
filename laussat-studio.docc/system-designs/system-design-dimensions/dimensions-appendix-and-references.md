@@ -21,7 +21,7 @@ Collect supporting artifacts without interrupting the narrative.
 - Links to specs, docs, or tickets.
 - Glossary and terminology.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-appendix-and-references-context.mermaid", alt: "Context snapshot")
 

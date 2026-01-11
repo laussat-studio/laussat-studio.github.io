@@ -17,21 +17,21 @@
 
 Experimentation requires careful rollout, measurement, and guardrails.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Client-side flag evaluation can drift from server expectations.
 - Long release cycles delay feedback loops.
 
-## Scale signals
+## Scale Signals
 
 - Metrics are inconclusive due to inconsistent flag targeting.
 - Experiments outlive their learning goals.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use explicit guardrails and experiment lifecycles.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-30-experimentation-context.mermaid", alt: "Context snapshot")
 

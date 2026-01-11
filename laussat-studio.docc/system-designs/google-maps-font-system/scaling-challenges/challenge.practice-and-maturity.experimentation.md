@@ -16,16 +16,16 @@ This page records how the Google Maps typography system addressed "Experimentati
 Experimentation needed stronger coverage and clearer control planes for a large
 typography change.
 
-## System design response
+## System Design Response
 
 We used four levels of compile-time control and two levels of runtime control.
 The new dependency injection system handled experiment settings and this was
 the first system to use it.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: startup sequence state is service-based, not global variable-based.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.experimentation-context.mermaid", alt: "Context snapshot")
 

@@ -22,7 +22,7 @@ Capture what changed in your mental model and what you would do next.
 - One process or collaboration lesson.
 - A credible follow-up phase.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-lessons-and-next-steps-context.mermaid", alt: "Context snapshot")
 

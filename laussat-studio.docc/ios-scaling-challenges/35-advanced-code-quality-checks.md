@@ -1,4 +1,4 @@
-# Advanced code quality checks
+# Advanced Code Quality Checks
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Static analysis, sanitizers, and API break checks guard long-term quality.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Quality checks add time unless automated and budgeted.
 - Inconsistent enforcement leads to uneven standards.
 
-## Scale signals
+## Scale Signals
 
 - Warnings are ignored or waived without review.
 - Security and concurrency issues surface late.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Enforce quality gates in CI with clear escape hatches.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-context.mermaid", alt: "Context snapshot")
 

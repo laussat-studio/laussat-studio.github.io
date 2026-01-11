@@ -15,20 +15,20 @@
 
 @Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-hero.codex", alt: "Project deep dive expectations Hero")
 
-## What they evaluate
+## What They Evaluate
 
 They are evaluating senior impact: scope, ownership, complexity, execution,
 collaboration, and measurable outcomes. You win by being concrete, quantified,
 and decision-driven. This is not a code walkthrough.
 
-## Ten-minute narrative template
+## Ten-minute Narrative Template
 
 ### 0:00 To 0:45 - Context and Why It Mattered
 
 - Problem, user impact, business risk, scale.
 - Mention that the work is within the last year.
 
-### 0:45 To 1:45 - What You Were Solving For and Scope
+### 0:45 To 1:45 - What You Were Solving for and Scope
 
 - Success definition and constraints.
 - Explicit non-goals and why they were excluded.
@@ -72,27 +72,27 @@ and decision-driven. This is not a code walkthrough.
 - One technical learning, one process learning.
 - A credible next step.
 
-## Common ways candidates lose
+## Common Ways Candidates Lose
 
 - Too much background and not enough "I did X; result was Y."
 - Listing technologies without explaining the choices.
 - No rollout or validation story.
 - No metrics or only vague metrics.
 
-## Transition mindset
+## Transition Mindset
 
 - Coding exercise mindset: ship correctness fast, prove with state and tests,
   polish last.
 - Deep dive mindset: tell a decision-and-results story, show ownership and
   impact with numbers.
 
-## Offer to draft the script
+## Offer to Draft the Script
 
 If you provide a one-paragraph description of your deep dive project
 (problem, role, and one outcome metric), we will produce a tight 10-minute
 script plus the diagram content you should draw from memory.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-context.mermaid", alt: "Context snapshot")
 

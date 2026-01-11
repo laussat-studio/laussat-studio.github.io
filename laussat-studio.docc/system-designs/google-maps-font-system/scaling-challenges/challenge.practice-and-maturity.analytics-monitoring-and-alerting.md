@@ -1,4 +1,4 @@
-# Analytics, monitoring, and alerting
+# Analytics, Monitoring, and Alerting
 
 @Metadata {
   @PageKind(article)
@@ -16,16 +16,16 @@ This page records how the Google Maps typography system addressed "Analytics, mo
 We needed post-submit checks to catch regressions that escaped test suites, so
 we watched for overnight target failures.
 
-## System design response
+## System Design Response
 
 Mitigation: run global-tap and monitor overnight target failures for missed
 cases.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: the experiment can be shut down on the next load, so missed
 cases may still slip through if monitoring is disabled too early.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.analytics-monitoring-and-alerting-context.mermaid", alt: "Context snapshot")
 

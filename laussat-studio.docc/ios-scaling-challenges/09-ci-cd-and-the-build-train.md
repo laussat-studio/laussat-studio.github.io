@@ -1,4 +1,4 @@
-# CI and the build train
+# CI and the Build Train
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 Code signing, provisioning, and Xcode tooling make mobile release pipelines more
 fragile.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Build reproducibility depends on exact toolchain and signing state.
 - TestFlight and App Store gating introduce non-engineering delays.
 
-## Scale signals
+## Scale Signals
 
 - CI pipelines fail on signing or provisioning drift.
 - Release candidates stall due to slow validation cycles.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Automate signing and document promotion rules for each train.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-context.mermaid", alt: "Context snapshot")
 

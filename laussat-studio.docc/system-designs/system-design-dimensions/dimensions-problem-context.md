@@ -22,7 +22,7 @@ Explain the environment, constraints, and scale that shaped the design.
 - Scale, risk, and why the current system was failing.
 - What forced a redesign instead of a local fix.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-problem-context-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Web, PWA, and server-driven apps
+# Web, PWA, and Server-driven Apps
 
 @Metadata {
   @PageKind(article)
@@ -18,21 +18,21 @@
 WKWebView and server-driven UI introduce new constraints for navigation, auth,
 and accessibility.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - App and web navigation must stay in sync.
 - Latency and caching behavior drive user perception.
 
-## Scale signals
+## Scale Signals
 
 - Users get stuck between web and native routes.
 - Accessibility parity breaks between native and web views.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Define explicit app-web contracts for navigation and state.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.mermaid", alt: "Context snapshot")
 

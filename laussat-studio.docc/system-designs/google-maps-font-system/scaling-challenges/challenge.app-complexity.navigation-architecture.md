@@ -1,4 +1,4 @@
-# Navigation architecture
+# Navigation Architecture
 
 @Metadata {
   @PageKind(article)
@@ -15,15 +15,15 @@ This page records how the Google Maps typography system addressed "Navigation ar
 
 Google Fonts needed to be used in the main navigation element.
 
-## System design response
+## System Design Response
 
 N/A.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We timed the milliseconds to load for the main navigation typography.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.navigation-architecture-context.mermaid", alt: "Context snapshot")
 

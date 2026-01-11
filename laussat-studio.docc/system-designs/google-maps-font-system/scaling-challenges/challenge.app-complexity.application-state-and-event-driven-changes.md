@@ -1,4 +1,4 @@
-# Application state and event-driven changes
+# Application State and Event-driven Changes
 
 @Metadata {
   @PageKind(article)
@@ -15,13 +15,13 @@ This page records how the Google Maps typography system addressed "Application s
 
 Dynamic font is still not possible. This remains a known limitation.
 
-## System design response
+## System Design Response
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Remaining risk: test harnesses would need 5x screenshots, which is not viable
 with 100k screenshots.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.application-state-and-event-driven-changes-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Compliance, privacy, and security
+# Compliance, Privacy, and Security
 
 @Metadata {
   @PageKind(article)
@@ -15,14 +15,14 @@ This page records how the Google Maps typography system addressed "Compliance, p
 
 We needed legal approval on certain font weights and minimum sizes.
 
-## System design response
+## System Design Response
 
 We worked with lawyers to confirm compliance for ad fonts.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: we passed legal reviews for the new weights and minimum sizes.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.compliance-privacy-and-security-context.mermaid", alt: "Context snapshot")
 

@@ -1,4 +1,4 @@
-# Forced upgrading
+# Forced Upgrading
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Minimum OS or app version enforcement must balance safety and user trust.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Users can stay on old versions for months.
 - Backend compatibility windows complicate enforcement.
 
-## Scale signals
+## Scale Signals
 
 - Sudden drops in active users after version gates.
 - Support tickets spike after forced updates.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Phase enforcement with warnings and clear communication.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-38-forced-upgrading-context.mermaid", alt: "Context snapshot")
 

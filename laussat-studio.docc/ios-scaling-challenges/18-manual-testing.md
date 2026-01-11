@@ -1,4 +1,4 @@
-# Manual testing
+# Manual Testing
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Manual testing is still essential for device-specific and accessibility checks.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Device matrices expand faster than test capacity.
 - Accessibility and low-memory scenarios need real hardware.
 
-## Scale signals
+## Scale Signals
 
 - Late-cycle regressions appear after TestFlight rollout.
 - Teams skip exploratory sessions under release pressure.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Define TestFlight RC playbooks and device coverage requirements.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-18-manual-testing-context.mermaid", alt: "Context snapshot")
 

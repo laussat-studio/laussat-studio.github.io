@@ -31,7 +31,7 @@
 - Search Results shipped the new mapping with no max-size truncation regressions.
 - Performance held at baseline with no regression signals.
 
-## Metrics And Signals
+## Metrics and Signals
 
 - Crash-free sessions during staged rollouts.
 - Snapshot diff volume and regression counts.
@@ -40,7 +40,7 @@
 - Text layout performance in scroll-heavy screens.
 - Scroll FPS and text layout time for Search Results before and after the flag.
 
-## Diagram: Snapshot triage loop
+## Diagram: Snapshot Triage Loop
 
 @Image(source: "maps-font-snapshot-triage.mermaid", alt: "Snapshot triage loop")
 

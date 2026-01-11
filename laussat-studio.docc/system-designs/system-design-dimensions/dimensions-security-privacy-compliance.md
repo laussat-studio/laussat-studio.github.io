@@ -22,7 +22,7 @@ Capture data handling, compliance risk, and guardrails.
 - Data retention, encryption, or access controls.
 - Privacy and compliance requirements.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-system-design-dimensions-dimensions-security-privacy-compliance-context.mermaid", alt: "Context snapshot")
 

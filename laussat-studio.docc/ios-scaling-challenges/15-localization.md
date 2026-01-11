@@ -17,21 +17,21 @@
 
 Localization expands layout and can destabilize UI when strings grow.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - String catalogs and pluralization rules are easy to fragment.
 - Right-to-left and accessibility sizes amplify layout issues.
 
-## Scale signals
+## Scale Signals
 
 - Truncation and clipping appear in secondary locales.
 - UI test coverage misses localized regressions.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Use pseudo-localization and RTL testing in CI.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-15-localization-context.mermaid", alt: "Context snapshot")
 

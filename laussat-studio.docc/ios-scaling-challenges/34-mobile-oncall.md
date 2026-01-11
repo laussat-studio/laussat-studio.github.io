@@ -1,4 +1,4 @@
-# Mobile oncall
+# Mobile Oncall
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Mobile incidents require quick triage, rollback paths, and server gating.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Rollout timelines and App Store delays slow mitigation.
 - Cross-platform coordination complicates incident response.
 
-## Scale signals
+## Scale Signals
 
 - Oncall lacks clear runbooks for client regressions.
 - Incidents repeat without postmortem follow-through.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Maintain incident playbooks and rehearsal drills.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-34-mobile-oncall-context.mermaid", alt: "Context snapshot")
 

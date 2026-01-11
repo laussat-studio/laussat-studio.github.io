@@ -1,4 +1,4 @@
-# Shared architecture across iOS apps
+# Shared Architecture Across iOS Apps
 
 @Metadata {
   @PageKind(article)
@@ -16,14 +16,14 @@ This page records how the Google Maps typography system addressed "Shared archit
 Multiple apps used the design system, so each app needed to be configured to
 use the new APIs.
 
-## System design response
+## System Design Response
 
 We ensured one API surface for every consumer.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: the right fonts were linked at compile time.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.shared-architecture-across-ios-apps-context.mermaid", alt: "Context snapshot")
 

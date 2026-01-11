@@ -1,4 +1,4 @@
-# Requirements And Constraints
+# Requirements and Constraints
 
 @Metadata {
   @PageKind(article)
@@ -36,7 +36,7 @@
 - The migration needed to be reversible during the experimentation window.
 - Performance budgets for scroll-heavy screens could not regress.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-context.mermaid", alt: "Context snapshot")
 

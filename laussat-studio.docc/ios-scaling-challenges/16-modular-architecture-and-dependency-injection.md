@@ -1,4 +1,4 @@
-# Modular architecture and dependency injection
+# Modular Architecture and Dependency Injection
 
 @Metadata {
   @PageKind(article)
@@ -17,21 +17,21 @@
 
 Modularization helps scale, but only if boundaries align with product domains.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - Module graphs drift without ownership and API contracts.
 - DI systems can become global service locators.
 
-## Scale signals
+## Scale Signals
 
 - Circular dependencies and forbidden imports creep in.
 - Build times rise despite more modules.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Define composition roots per feature and enforce API surface contracts.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.mermaid", alt: "Context snapshot")
 

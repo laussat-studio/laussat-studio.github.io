@@ -1,4 +1,4 @@
-# Architecting to avoid collisions
+# Architecting to Avoid Collisions
 
 @Metadata {
   @PageKind(article)
@@ -16,15 +16,15 @@ This page records how the Google Maps typography system addressed "Architecting 
 For colors, state was passed at the controller level, which required handing
 values off between controllers and increased collision risk.
 
-## System design response
+## System Design Response
 
 For fonts, we moved state to a base service level and provided a single API
 surface for developers to use.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 Evidence: all old APIs were wrapped around the new API protocol.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.architecting-to-avoid-collisions-context.mermaid", alt: "Context snapshot")
 

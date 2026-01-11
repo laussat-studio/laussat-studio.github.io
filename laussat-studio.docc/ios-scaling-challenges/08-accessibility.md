@@ -17,21 +17,21 @@
 
 Large apps regress accessibility as screens multiply and UI components diverge.
 
-## Why it gets harder at scale
+## Why It Gets Harder at Scale
 
 - VoiceOver order, labels, and Dynamic Type must be maintained across modules.
 - Visual changes can break contrast or motion expectations quietly.
 
-## Scale signals
+## Scale Signals
 
 - Accessibility audits uncover repeated label or focus defects.
 - High Dynamic Type sizes break layout and truncation rules.
 
-## Studio Laussat take
+## Laussat Studio Take
 
 - Include accessibility checks in CI and in release checklists.
 
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "ios-scaling-challenges-08-accessibility-context.mermaid", alt: "Context snapshot")
 

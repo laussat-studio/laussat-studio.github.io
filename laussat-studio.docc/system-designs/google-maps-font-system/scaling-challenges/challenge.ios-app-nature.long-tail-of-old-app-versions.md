@@ -1,4 +1,4 @@
-# Long tail of old app versions
+# Long Tail of Old App Versions
 
 @Metadata {
   @PageKind(article)
@@ -15,15 +15,15 @@ This page records how the Google Maps typography system addressed "Long tail of 
 
 All typography APIs needed to remain available across old app versions.
 
-## System design response
+## System Design Response
 
 We ensured that disabling the experiment correctly invalidates caches.
 
-## Evidence and remaining risk
+## Evidence and Remaining Risk
 
 We monitored older devices that run slower to make sure nothing was out of
 whack.
-## Diagram: Context snapshot
+## Diagram: Context Snapshot
 
 @Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.long-tail-of-old-app-versions-context.mermaid", alt: "Context snapshot")
 
