@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Appendix and References")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-appendix-and-references-icon.codex", alt: "Appendix and References icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-appendix-and-references-card.codex", alt: "Appendix and References card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Appendix and References icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Appendix and References card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-appendix-and-references-hero.codex", alt: "Appendix and References hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Appendix and References hero")
 
 Collect supporting artifacts without interrupting the narrative.
 

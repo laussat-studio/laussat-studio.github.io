@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.app-crashes-icon.codex", alt: "App crashes icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.app-crashes-card.codex", alt: "App crashes card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-06-app-crashes-icon.codex", alt: "App crashes icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-06-app-crashes-card.codex", alt: "App crashes card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.app-crashes-hero.codex", alt: "App crashes hero")
+@Image(source: "ios-scaling-challenges-06-app-crashes-hero.codex", alt: "App crashes hero")
 
 This page records how the Google Maps typography system addressed "App crashes".
 

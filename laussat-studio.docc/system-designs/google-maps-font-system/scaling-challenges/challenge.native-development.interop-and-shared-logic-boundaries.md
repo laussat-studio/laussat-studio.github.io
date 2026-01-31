@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.interop-and-shared-logic-boundaries-icon.codex", alt: "Interop and shared logic boundaries icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.interop-and-shared-logic-boundaries-card.codex", alt: "Interop and shared logic boundaries card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-icon.codex", alt: "Interop and shared logic boundaries icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-card.codex", alt: "Interop and shared logic boundaries card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.interop-and-shared-logic-boundaries-hero.codex", alt: "Interop and shared logic boundaries hero")
+@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-hero.codex", alt: "Interop and shared logic boundaries hero")
 
 This page records how the Google Maps typography system addressed "Interop and shared logic boundaries".
 

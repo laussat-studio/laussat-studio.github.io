@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.analytics-monitoring-and-alerting-icon.codex", alt: "Analytics, monitoring, and alerting icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.analytics-monitoring-and-alerting-card.codex", alt: "Analytics, monitoring, and alerting card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-icon.codex", alt: "Analytics, monitoring, and alerting icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-card.codex", alt: "Analytics, monitoring, and alerting card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.analytics-monitoring-and-alerting-hero.codex", alt: "Analytics, monitoring, and alerting hero")
+@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-hero.codex", alt: "Analytics, monitoring, and alerting hero")
 
 This page records how the Google Maps typography system addressed "Analytics, monitoring, and alerting".
 

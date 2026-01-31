@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.accessibility-icon.codex", alt: "Accessibility icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.accessibility-card.codex", alt: "Accessibility card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-08-accessibility-icon.codex", alt: "Accessibility icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-08-accessibility-card.codex", alt: "Accessibility card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.accessibility-hero.codex", alt: "Accessibility hero")
+@Image(source: "ios-scaling-challenges-08-accessibility-hero.codex", alt: "Accessibility hero")
 
 This page records how the Google Maps typography system addressed "Accessibility".
 

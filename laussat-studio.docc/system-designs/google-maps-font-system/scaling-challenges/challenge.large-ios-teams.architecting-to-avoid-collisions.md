@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.architecting-to-avoid-collisions-icon.codex", alt: "Architecting to avoid collisions icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.architecting-to-avoid-collisions-card.codex", alt: "Architecting to avoid collisions card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-icon.codex", alt: "Architecting to avoid collisions icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-card.codex", alt: "Architecting to avoid collisions card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.architecting-to-avoid-collisions-hero.codex", alt: "Architecting to avoid collisions hero")
+@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-hero.codex", alt: "Architecting to avoid collisions hero")
 
 This page records how the Google Maps typography system addressed "Architecting to avoid collisions".
 

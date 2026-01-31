@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Security, Privacy, Compliance")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-security-privacy-compliance-icon.codex", alt: "Security, Privacy, Compliance icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-security-privacy-compliance-card.codex", alt: "Security, Privacy, Compliance card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Security, Privacy, Compliance icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Security, Privacy, Compliance card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-security-privacy-compliance-hero.codex", alt: "Security, Privacy, Compliance hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Security, Privacy, Compliance hero")
 
 Capture data handling, compliance risk, and guardrails.
 

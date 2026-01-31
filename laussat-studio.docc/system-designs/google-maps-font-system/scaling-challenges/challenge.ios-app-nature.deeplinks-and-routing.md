@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.deeplinks-and-routing-icon.codex", alt: "Deeplinks and routing icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.deeplinks-and-routing-card.codex", alt: "Deeplinks and routing card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-04-deeplinks-and-routing-icon.codex", alt: "Deeplinks and routing icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-04-deeplinks-and-routing-card.codex", alt: "Deeplinks and routing card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.deeplinks-and-routing-hero.codex", alt: "Deeplinks and routing hero")
+@Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-hero.codex", alt: "Deeplinks and routing hero")
 
 This page records how the Google Maps typography system addressed "Deeplinks and routing".
 

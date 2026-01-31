@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.app-size-icon.codex", alt: "App size icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.app-size-card.codex", alt: "App size card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-39-app-size-icon.codex", alt: "App size icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-39-app-size-card.codex", alt: "App size card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.app-size-hero.codex", alt: "App size hero")
+@Image(source: "ios-scaling-challenges-39-app-size-hero.codex", alt: "App size hero")
 
 This page records how the Google Maps typography system addressed "App size".
 

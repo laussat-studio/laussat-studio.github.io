@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.cross-platform.web-pwa-and-server-driven-apps-icon.codex", alt: "Web, PWA, and server-driven apps icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.cross-platform.web-pwa-and-server-driven-apps-card.codex", alt: "Web, PWA, and server-driven apps card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-icon.codex", alt: "Web, PWA, and server-driven apps icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-card.codex", alt: "Web, PWA, and server-driven apps card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.cross-platform.web-pwa-and-server-driven-apps-hero.codex", alt: "Web, PWA, and server-driven apps hero")
+@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-hero.codex", alt: "Web, PWA, and server-driven apps hero")
 
 This page records how the Google Maps typography system addressed "Web, PWA, and server-driven apps".
 

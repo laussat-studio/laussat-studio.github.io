@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.performance-icon.codex", alt: "Performance icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.performance-card.codex", alt: "Performance card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-32-performance-icon.codex", alt: "Performance icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-32-performance-card.codex", alt: "Performance card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.performance-hero.codex", alt: "Performance hero")
+@Image(source: "ios-scaling-challenges-32-performance-hero.codex", alt: "Performance hero")
 
 This page records how the Google Maps typography system addressed "Performance".
 

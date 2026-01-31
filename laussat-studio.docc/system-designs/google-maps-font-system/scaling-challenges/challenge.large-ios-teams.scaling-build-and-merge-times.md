@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.scaling-build-and-merge-times-icon.codex", alt: "Scaling build and merge times icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.scaling-build-and-merge-times-card.codex", alt: "Scaling build and merge times card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-icon.codex", alt: "Scaling build and merge times icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-card.codex", alt: "Scaling build and merge times card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.scaling-build-and-merge-times-hero.codex", alt: "Scaling build and merge times hero")
+@Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-hero.codex", alt: "Scaling build and merge times hero")
 
 This page records how the Google Maps typography system addressed "Scaling build and merge times".
 

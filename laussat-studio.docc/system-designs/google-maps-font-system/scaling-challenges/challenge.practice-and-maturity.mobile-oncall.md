@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.mobile-oncall-icon.codex", alt: "Mobile oncall icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.mobile-oncall-card.codex", alt: "Mobile oncall card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-34-mobile-oncall-icon.codex", alt: "Mobile oncall icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-34-mobile-oncall-card.codex", alt: "Mobile oncall card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.mobile-oncall-hero.codex", alt: "Mobile oncall hero")
+@Image(source: "ios-scaling-challenges-34-mobile-oncall-hero.codex", alt: "Mobile oncall hero")
 
 This page records how the Google Maps typography system addressed "Mobile oncall".
 

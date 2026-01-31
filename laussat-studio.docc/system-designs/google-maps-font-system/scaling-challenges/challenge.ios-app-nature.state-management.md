@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.state-management-icon.codex", alt: "State management icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.state-management-card.codex", alt: "State management card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-01-state-management-icon.codex", alt: "State management icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-01-state-management-card.codex", alt: "State management card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.state-management-hero.codex", alt: "State management hero")
+@Image(source: "ios-scaling-challenges-01-state-management-hero.codex", alt: "State management hero")
 
 This page records how the Google Maps typography system addressed "State management".
 

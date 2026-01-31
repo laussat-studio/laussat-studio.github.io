@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.modular-architecture-and-dependency-injection-icon.codex", alt: "Modular architecture and dependency injection icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.modular-architecture-and-dependency-injection-card.codex", alt: "Modular architecture and dependency injection card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-icon.codex", alt: "Modular architecture and dependency injection icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-card.codex", alt: "Modular architecture and dependency injection card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.modular-architecture-and-dependency-injection-hero.codex", alt: "Modular architecture and dependency injection hero")
+@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-hero.codex", alt: "Modular architecture and dependency injection hero")
 
 This page records how the Google Maps typography system addressed "Modular architecture and dependency injection".
 

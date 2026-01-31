@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.manual-testing-icon.codex", alt: "Manual testing icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.manual-testing-card.codex", alt: "Manual testing card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-18-manual-testing-icon.codex", alt: "Manual testing icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-18-manual-testing-card.codex", alt: "Manual testing card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.manual-testing-hero.codex", alt: "Manual testing hero")
+@Image(source: "ios-scaling-challenges-18-manual-testing-hero.codex", alt: "Manual testing hero")
 
 This page records how the Google Maps typography system addressed "Manual testing".
 

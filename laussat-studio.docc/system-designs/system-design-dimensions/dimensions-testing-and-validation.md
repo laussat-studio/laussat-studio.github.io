@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Testing and Validation")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-testing-and-validation-icon.codex", alt: "Testing and Validation icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-testing-and-validation-card.codex", alt: "Testing and Validation card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Testing and Validation icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Testing and Validation card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-testing-and-validation-hero.codex", alt: "Testing and Validation hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Testing and Validation hero")
 
 Explain how correctness was proven before and after launch.
 

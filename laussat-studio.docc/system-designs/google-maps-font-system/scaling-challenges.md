@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-icon.codex", alt: "Scaling challenges coverage icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-card.codex", alt: "Scaling challenges coverage card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-icon.codex", alt: "Scaling challenges coverage icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-card.codex", alt: "Scaling challenges coverage card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-hero.codex", alt: "Scaling challenges coverage hero")
+@Image(source: "ios-scaling-challenges-hero.codex", alt: "Scaling challenges coverage hero")
 
 A coverage map for how the Google Maps typography system addressed each scaling challenge.
 

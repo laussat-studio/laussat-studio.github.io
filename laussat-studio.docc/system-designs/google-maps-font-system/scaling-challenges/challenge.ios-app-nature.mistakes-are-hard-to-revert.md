@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.mistakes-are-hard-to-revert-icon.codex", alt: "Mistakes are hard to revert icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.mistakes-are-hard-to-revert-card.codex", alt: "Mistakes are hard to revert card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-icon.codex", alt: "Mistakes are hard to revert icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-card.codex", alt: "Mistakes are hard to revert card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.mistakes-are-hard-to-revert-hero.codex", alt: "Mistakes are hard to revert hero")
+@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-hero.codex", alt: "Mistakes are hard to revert hero")
 
 This page records how the Google Maps typography system addressed "Mistakes are hard to revert".
 

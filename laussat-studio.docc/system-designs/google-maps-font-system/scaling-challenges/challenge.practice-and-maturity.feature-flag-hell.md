@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.feature-flag-hell-icon.codex", alt: "Feature flag hell icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.feature-flag-hell-card.codex", alt: "Feature flag hell card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-31-feature-flag-hell-icon.codex", alt: "Feature flag hell icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-31-feature-flag-hell-card.codex", alt: "Feature flag hell card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.feature-flag-hell-hero.codex", alt: "Feature flag hell hero")
+@Image(source: "ios-scaling-challenges-31-feature-flag-hell-hero.codex", alt: "Feature flag hell hero")
 
 This page records how the Google Maps typography system addressed "Feature flag hell".
 

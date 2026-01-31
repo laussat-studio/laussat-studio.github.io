@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Results and Metrics")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-results-and-metrics-icon.codex", alt: "Results and Metrics icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-results-and-metrics-card.codex", alt: "Results and Metrics card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Results and Metrics icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Results and Metrics card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-results-and-metrics-hero.codex", alt: "Results and Metrics hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Results and Metrics hero")
 
 Show the measurable impact of the system design.
 

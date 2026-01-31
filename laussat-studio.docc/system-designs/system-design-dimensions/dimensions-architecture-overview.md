@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Architecture Overview")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-architecture-overview-icon.codex", alt: "Architecture Overview icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-architecture-overview-card.codex", alt: "Architecture Overview card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Architecture Overview icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Architecture Overview card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-architecture-overview-hero.codex", alt: "Architecture Overview hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Architecture Overview hero")
 
 Describe the system at a high level and show where the hard parts live.
 

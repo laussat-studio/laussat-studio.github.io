@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.navigation-architecture-icon.codex", alt: "Navigation architecture icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.navigation-architecture-card.codex", alt: "Navigation architecture card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-13-navigation-architecture-icon.codex", alt: "Navigation architecture icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-13-navigation-architecture-card.codex", alt: "Navigation architecture card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.navigation-architecture-hero.codex", alt: "Navigation architecture hero")
+@Image(source: "ios-scaling-challenges-13-navigation-architecture-hero.codex", alt: "Navigation architecture hero")
 
 This page records how the Google Maps typography system addressed "Navigation architecture".
 

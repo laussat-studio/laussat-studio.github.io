@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.in-app-purchases-icon.codex", alt: "In-app purchases icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.in-app-purchases-card.codex", alt: "In-app purchases card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-12-in-app-purchases-icon.codex", alt: "In-app purchases icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-12-in-app-purchases-card.codex", alt: "In-app purchases card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.in-app-purchases-hero.codex", alt: "In-app purchases hero")
+@Image(source: "ios-scaling-challenges-12-in-app-purchases-hero.codex", alt: "In-app purchases hero")
 
 This page records how the Google Maps typography system addressed "In-app purchases".
 

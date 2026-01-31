@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.tooling-maturity-for-large-ios-teams-icon.codex", alt: "Tooling maturity for large iOS teams icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.tooling-maturity-for-large-ios-teams-card.codex", alt: "Tooling maturity for large iOS teams card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-icon.codex", alt: "Tooling maturity for large iOS teams icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-card.codex", alt: "Tooling maturity for large iOS teams card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.tooling-maturity-for-large-ios-teams-hero.codex", alt: "Tooling maturity for large iOS teams hero")
+@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-hero.codex", alt: "Tooling maturity for large iOS teams hero")
 
 This page records how the Google Maps typography system addressed "Tooling maturity for large iOS teams".
 

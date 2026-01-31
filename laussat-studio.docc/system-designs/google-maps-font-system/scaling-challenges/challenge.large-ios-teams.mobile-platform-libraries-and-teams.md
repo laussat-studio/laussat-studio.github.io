@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.mobile-platform-libraries-and-teams-icon.codex", alt: "Mobile platform libraries and teams icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.mobile-platform-libraries-and-teams-card.codex", alt: "Mobile platform libraries and teams card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-icon.codex", alt: "Mobile platform libraries and teams icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-card.codex", alt: "Mobile platform libraries and teams card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.mobile-platform-libraries-and-teams-hero.codex", alt: "Mobile platform libraries and teams hero")
+@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-hero.codex", alt: "Mobile platform libraries and teams hero")
 
 This page records how the Google Maps typography system addressed "Mobile platform libraries and teams".
 

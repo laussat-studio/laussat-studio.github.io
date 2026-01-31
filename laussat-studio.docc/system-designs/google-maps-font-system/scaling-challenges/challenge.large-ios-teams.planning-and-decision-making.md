@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.planning-and-decision-making-icon.codex", alt: "Planning and decision making icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.planning-and-decision-making-card.codex", alt: "Planning and decision making card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-19-planning-and-decision-making-icon.codex", alt: "Planning and decision making icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-19-planning-and-decision-making-card.codex", alt: "Planning and decision making card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.large-ios-teams.planning-and-decision-making-hero.codex", alt: "Planning and decision making hero")
+@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-hero.codex", alt: "Planning and decision making hero")
 
 This page records how the Google Maps typography system addressed "Planning and decision making".
 

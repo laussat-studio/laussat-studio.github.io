@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.device-and-os-fragmentation-icon.codex", alt: "Device and OS fragmentation icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.device-and-os-fragmentation-card.codex", alt: "Device and OS fragmentation card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-11-device-and-os-fragmentation-icon.codex", alt: "Device and OS fragmentation icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-11-device-and-os-fragmentation-card.codex", alt: "Device and OS fragmentation card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.device-and-os-fragmentation-hero.codex", alt: "Device and OS fragmentation hero")
+@Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-hero.codex", alt: "Device and OS fragmentation hero")
 
 This page records how the Google Maps typography system addressed "Device and OS fragmentation".
 

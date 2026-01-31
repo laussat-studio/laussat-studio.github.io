@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Migration and Rollout")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-migration-and-rollout-icon.codex", alt: "Migration and Rollout icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-migration-and-rollout-card.codex", alt: "Migration and Rollout card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Migration and Rollout icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Migration and Rollout card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-migration-and-rollout-hero.codex", alt: "Migration and Rollout hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Migration and Rollout hero")
 
 Describe how the new system replaced the old one safely.
 

@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.long-tail-of-old-app-versions-icon.codex", alt: "Long tail of old app versions icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.long-tail-of-old-app-versions-card.codex", alt: "Long tail of old app versions card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-icon.codex", alt: "Long tail of old app versions icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-card.codex", alt: "Long tail of old app versions card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.long-tail-of-old-app-versions-hero.codex", alt: "Long tail of old app versions hero")
+@Image(source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-hero.codex", alt: "Long tail of old app versions hero")
 
 This page records how the Google Maps typography system addressed "Long tail of old app versions".
 

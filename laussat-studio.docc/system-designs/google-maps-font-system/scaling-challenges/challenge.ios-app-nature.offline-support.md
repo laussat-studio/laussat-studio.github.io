@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.offline-support-icon.codex", alt: "Offline support icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.offline-support-card.codex", alt: "Offline support card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-07-offline-support-icon.codex", alt: "Offline support icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-07-offline-support-card.codex", alt: "Offline support card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.ios-app-nature.offline-support-hero.codex", alt: "Offline support hero")
+@Image(source: "ios-scaling-challenges-07-offline-support-hero.codex", alt: "Offline support hero")
 
 This page records how the Google Maps typography system addressed "Offline support".
 

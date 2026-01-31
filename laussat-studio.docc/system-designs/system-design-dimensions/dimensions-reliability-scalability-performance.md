@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Reliability, Scalability, Performance")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-icon.codex", alt: "Reliability, Scalability, Performance icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-card.codex", alt: "Reliability, Scalability, Performance card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Reliability, Scalability, Performance icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Reliability, Scalability, Performance card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-hero.codex", alt: "Reliability, Scalability, Performance hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Reliability, Scalability, Performance hero")
 
 Document SLOs and performance expectations.
 

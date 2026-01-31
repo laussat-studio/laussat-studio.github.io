@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("System Design Dimensions")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-system-design-dimensions-icon.codex", alt: "System Design Dimensions icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-system-design-dimensions-card.codex", alt: "System Design Dimensions card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "System Design Dimensions icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "System Design Dimensions card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-system-design-dimensions-hero.codex", alt: "System Design Dimensions hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "System Design Dimensions hero")
 
 A system design template organized as dimensions. Use it as a checklist for what
 could matter, then select only the dimensions that fit your case study.

@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.adopting-new-languages-and-frameworks-icon.codex", alt: "Adopting new languages and frameworks icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.adopting-new-languages-and-frameworks-card.codex", alt: "Adopting new languages and frameworks card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-icon.codex", alt: "Adopting new languages and frameworks icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-card.codex", alt: "Adopting new languages and frameworks card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.native-development.adopting-new-languages-and-frameworks-hero.codex", alt: "Adopting new languages and frameworks hero")
+@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-hero.codex", alt: "Adopting new languages and frameworks hero")
 
 This page records how the Google Maps typography system addressed "Adopting new languages and frameworks".
 

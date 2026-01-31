@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.advanced-code-quality-checks-icon.codex", alt: "Advanced code quality checks icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.advanced-code-quality-checks-card.codex", alt: "Advanced code quality checks card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-35-advanced-code-quality-checks-icon.codex", alt: "Advanced code quality checks icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-35-advanced-code-quality-checks-card.codex", alt: "Advanced code quality checks card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.advanced-code-quality-checks-hero.codex", alt: "Advanced code quality checks hero")
+@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-hero.codex", alt: "Advanced code quality checks hero")
 
 This page records how the Google Maps typography system addressed "Advanced code quality checks".
 

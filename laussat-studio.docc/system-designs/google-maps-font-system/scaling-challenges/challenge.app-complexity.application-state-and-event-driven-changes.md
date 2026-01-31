@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.application-state-and-event-driven-changes-icon.codex", alt: "Application state and event-driven changes icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.application-state-and-event-driven-changes-card.codex", alt: "Application state and event-driven changes card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-14-application-state-and-event-driven-changes-icon.codex", alt: "Application state and event-driven changes icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-14-application-state-and-event-driven-changes-card.codex", alt: "Application state and event-driven changes card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.application-state-and-event-driven-changes-hero.codex", alt: "Application state and event-driven changes hero")
+@Image(source: "ios-scaling-challenges-14-application-state-and-event-driven-changes-hero.codex", alt: "Application state and event-driven changes hero")
 
 This page records how the Google Maps typography system addressed "Application state and event-driven changes".
 

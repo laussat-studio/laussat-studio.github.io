@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.client-side-data-migrations-icon.codex", alt: "Client-side data migrations icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.client-side-data-migrations-card.codex", alt: "Client-side data migrations card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-37-client-side-data-migrations-icon.codex", alt: "Client-side data migrations icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-37-client-side-data-migrations-card.codex", alt: "Client-side data migrations card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.practice-and-maturity.client-side-data-migrations-hero.codex", alt: "Client-side data migrations hero")
+@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-hero.codex", alt: "Client-side data migrations hero")
 
 This page records how the Google Maps typography system addressed "Client-side data migrations".
 

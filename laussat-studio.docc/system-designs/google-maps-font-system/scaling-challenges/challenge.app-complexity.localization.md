@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.localization-icon.codex", alt: "Localization icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.localization-card.codex", alt: "Localization card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-15-localization-icon.codex", alt: "Localization icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-15-localization-card.codex", alt: "Localization card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.localization-hero.codex", alt: "Localization hero")
+@Image(source: "ios-scaling-challenges-15-localization-hero.codex", alt: "Localization hero")
 
 This page records how the Google Maps typography system addressed "Localization".
 

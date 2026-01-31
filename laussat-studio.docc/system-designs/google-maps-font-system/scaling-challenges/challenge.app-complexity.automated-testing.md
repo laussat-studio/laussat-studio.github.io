@@ -3,11 +3,11 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.automated-testing-icon.codex", alt: "Automated testing icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.automated-testing-card.codex", alt: "Automated testing card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-17-automated-testing-icon.codex", alt: "Automated testing icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-17-automated-testing-card.codex", alt: "Automated testing card")
 }
 
-@Image(source: "system-designs-google-maps-font-system-scaling-challenges-challenge.app-complexity.automated-testing-hero.codex", alt: "Automated testing hero")
+@Image(source: "ios-scaling-challenges-17-automated-testing-hero.codex", alt: "Automated testing hero")
 
 This page records how the Google Maps typography system addressed "Automated testing".
 
