@@ -38,6 +38,10 @@ flowchart LR
 
 ## Topics
 
-- <doc:system-design-dimensions>
-- <doc:google-maps-typography-design-overview>
+### System Design Framework
 
+- <doc:system-design-dimensions>
+
+### Case Studies
+
+- <doc:google-maps-typography-design-overview>

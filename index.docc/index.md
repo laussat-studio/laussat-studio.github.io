@@ -37,7 +37,6 @@ constraints, and the decisions that made them shippable.
 ### System Designs
 
 - <doc:system-designs>
-- <doc:google-maps-typography-design-overview>
 
 ### Scaling Challenges
 
