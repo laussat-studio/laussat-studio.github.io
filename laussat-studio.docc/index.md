@@ -37,7 +37,3 @@ Studio Laussat is the creative imprint for our published applications and media 
 ### Scaling Challenges
 
 - <doc:ios-scaling-challenges>
-
-### System Designs
-
-- <doc:system-designs>

@@ -3,7 +3,6 @@
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @TechnologyRoot
   @TitleHeading("Creative Studio")
   @PageImage(purpose: icon, source: "laussat-studio-icon.codex", alt: "Laussat Studio Icon")
   @PageImage(purpose: card, source: "laussat-studio-card.codex", alt: "Laussat Studio Card")
@@ -17,6 +16,9 @@
 @Image(source: "laussat-studio-wordmark", alt: "Laussat Studio wordmark")
 
 A creative production house for apps, media, and digital experiences.
+
+Legacy note: the canonical DocC entry point now lives at
+`laussat-studio.docc/index.md`.
 
 @Image(source: "laussat-studio.codex", alt: "Laussat Studio mark")
 
