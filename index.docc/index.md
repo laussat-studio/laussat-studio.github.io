@@ -28,6 +28,8 @@ A technical studio focused on system design, architecture, and production-scale 
 Studio Laussat documents the system designs behind our products, with an emphasis on scale,
 constraints, and the decisions that made them shippable.
 
+**Visit the Studio:** https://laussat.studio
+
 ## Mermaid Source
 
 - [laussat-studio-context.mermaid](laussat-studio-context.mermaid)
