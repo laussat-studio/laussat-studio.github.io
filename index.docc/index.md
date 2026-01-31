@@ -36,7 +36,7 @@ constraints, and the decisions that made them shippable.
 
 ### System Designs
 
-- <doc:system-designs>
+- <doc:system-designs-introduction>
 
 ### Scaling Challenges
 
