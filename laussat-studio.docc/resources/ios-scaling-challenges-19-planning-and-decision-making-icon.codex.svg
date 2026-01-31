@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#1D4E89"/>
     </linearGradient>
   </defs>
-  <rect width="100%" height="100%" rx="30.72" fill="url(#bg)"/>
+  
   <rect x="33.43" y="162.93" width="105.83" height="91.47" rx="35.84" fill="#1D4E89" opacity="0.85"/>
   <circle cx="171.41" cy="66.73" r="33.79" fill="#ADB5BD" opacity="0.9"/>
   <path d="M 28.03 174.95 L 74.11 215.91 L 115.07 159.59 Z" fill="#ADB5BD" opacity="0.6"/>
