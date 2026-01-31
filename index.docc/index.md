@@ -4,7 +4,7 @@
   @PageKind(article)
   @PageColor(gray)
   @TechnologyRoot
-  @TitleHeading("Creative Studio")
+  @TitleHeading("System Design Studio")
   @PageImage(purpose: icon, source: "index-icon.codex", alt: "Studio Laussat Icon")
   @PageImage(purpose: card, source: "index-card.codex", alt: "Studio Laussat Card")
 }
@@ -17,7 +17,7 @@
 @Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
 
 
-A creative production house for apps, media, and digital experiences.
+A technical studio focused on system design, architecture, and production-scale delivery.
 
 @Image(source: "laussat-studio.codex", alt: "Studio Laussat mark")
 
@@ -25,7 +25,8 @@ A creative production house for apps, media, and digital experiences.
 
 ## Overview
 
-Studio Laussat is the creative imprint for our published applications and media productions.
+Studio Laussat documents the system designs behind our products, with an emphasis on scale,
+constraints, and the decisions that made them shippable.
 
 ## Mermaid Source
 
@@ -33,6 +34,10 @@ Studio Laussat is the creative imprint for our published applications and media 
 
 ## Topics
 
+### System Designs
+
+- <doc:system-designs>
+- <doc:google-maps-typography-design-overview>
 
 ### Scaling Challenges
 
