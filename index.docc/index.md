@@ -14,9 +14,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
-
-
 A technical studio focused on system design, architecture, and production-scale delivery.
 
 @Image(source: "laussat-studio.codex", alt: "Studio Laussat mark")
