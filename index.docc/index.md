@@ -27,10 +27,6 @@ constraints, and the decisions that made them shippable.
 
 **Visit the Studio:** https://laussat.studio
 
-## Mermaid Source
-
-- [laussat-studio-context.mmd](mermaid/laussat-studio-context.mmd)
-
 ## Topics
 
 ### System Designs
