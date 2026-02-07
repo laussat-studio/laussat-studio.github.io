@@ -29,7 +29,7 @@ constraints, and the decisions that made them shippable.
 
 ## Mermaid Source
 
-- [laussat-studio-context.mermaid](laussat-studio-context.mermaid)
+- [laussat-studio-context.mmd](mermaid/laussat-studio-context.mmd)
 
 ## Topics
 
