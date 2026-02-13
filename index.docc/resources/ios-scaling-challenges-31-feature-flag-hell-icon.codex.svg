@@ -11,5 +11,5 @@
   <rect x="27.88" y="44.33" width="96.81" height="61.21" rx="35.84" fill="#6C757D" opacity="0.85"/>
   <circle cx="138.16" cy="66.73" r="36.25" fill="#F95738" opacity="0.9"/>
   <path d="M 138.83 199.68 L 184.91 240.64 L 225.87 184.32 Z" fill="#F95738" opacity="0.6"/>
-  <text x="20.48" y="225.28" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 31 feature flag hell</text>
+  <text x="20.48" y="225.28" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 31 feature flag hell</text>
 </svg>

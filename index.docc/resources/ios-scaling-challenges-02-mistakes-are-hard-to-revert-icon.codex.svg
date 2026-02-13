@@ -11,5 +11,5 @@
   <rect x="46.39" y="81.27" width="152.70" height="70.46" rx="35.84" fill="#2D6A4F" opacity="0.85"/>
   <circle cx="173.26" cy="154.75" r="46.08" fill="#63C7B2" opacity="0.9"/>
   <path d="M 136.31 143.71 L 182.39 184.67 L 223.35 128.35 Z" fill="#63C7B2" opacity="0.6"/>
-  <text x="20.48" y="225.28" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 02 mistakes are hard to revert</text>
+  <text x="20.48" y="225.28" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 02 mistakes are hard to revert</text>
 </svg>

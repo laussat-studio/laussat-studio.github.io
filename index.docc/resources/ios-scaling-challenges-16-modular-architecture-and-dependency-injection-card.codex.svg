@@ -11,5 +11,5 @@
   <rect x="386.31" y="133.06" width="294.51" height="104.84" rx="56.00" fill="#B23A48" opacity="0.85"/>
   <circle cx="406.08" cy="214.83" r="71.04" fill="#FCA311" opacity="0.9"/>
   <path d="M 337.18 216.41 L 445.18 280.41 L 541.18 192.41 Z" fill="#FCA311" opacity="0.6"/>
-  <text x="48.00" y="352.00" font-family="Garamond, "EB Garamond", "Cormorant Garamond", "Times New Roman", serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 16 modular architecture and dependency injection</text>
+  <text x="48.00" y="352.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 16 modular architecture and dependency injection</text>
 </svg>
