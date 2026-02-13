@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-06-app-crashes-icon.codex", alt: "App crashes Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-06-app-crashes-card.codex", alt: "App crashes Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-06-app-crashes-icon.codex.svg", alt: "App crashes Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-06-app-crashes-card.codex.svg", alt: "App crashes Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-06-app-crashes-hero.codex", alt: "App crashes Hero")
+@Image(source: "ios-scaling-challenges-06-app-crashes-hero.codex.svg", alt: "App crashes Hero")
 
 Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 
@@ -33,7 +33,7 @@ Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-06-app-crashes-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-06-app-crashes-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-06-app-crashes-context.codex.svg

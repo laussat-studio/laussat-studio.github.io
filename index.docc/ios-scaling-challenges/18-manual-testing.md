@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-18-manual-testing-icon.codex", alt: "Manual testing Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-18-manual-testing-card.codex", alt: "Manual testing Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-18-manual-testing-icon.codex.svg", alt: "Manual testing Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-18-manual-testing-card.codex.svg", alt: "Manual testing Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-18-manual-testing-hero.codex", alt: "Manual testing Hero")
+@Image(source: "ios-scaling-challenges-18-manual-testing-hero.codex.svg", alt: "Manual testing Hero")
 
 Manual testing is still essential for device-specific and accessibility checks.
 
@@ -33,7 +33,7 @@ Manual testing is still essential for device-specific and accessibility checks.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-18-manual-testing-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-18-manual-testing-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-18-manual-testing-context.svg

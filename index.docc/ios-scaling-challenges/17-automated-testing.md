@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-17-automated-testing-icon.codex", alt: "Automated testing Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-17-automated-testing-card.codex", alt: "Automated testing Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-17-automated-testing-icon.codex.svg", alt: "Automated testing Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-17-automated-testing-card.codex.svg", alt: "Automated testing Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-17-automated-testing-hero.codex", alt: "Automated testing Hero")
+@Image(source: "ios-scaling-challenges-17-automated-testing-hero.codex.svg", alt: "Automated testing Hero")
 
 iOS test stability is fragile under concurrency, UI timing, and data variance.
 
@@ -33,7 +33,7 @@ iOS test stability is fragile under concurrency, UI timing, and data variance.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-17-automated-testing-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-17-automated-testing-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-17-automated-testing-context.svg

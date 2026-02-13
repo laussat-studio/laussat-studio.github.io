@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Requirements and Constraints")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Requirements and Constraints icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Requirements and Constraints card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Requirements and Constraints icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Requirements and Constraints card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Requirements and Constraints hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Requirements and Constraints hero")
 
 Capture the technical and organizational guardrails.
 
@@ -24,7 +24,7 @@ Capture the technical and organizational guardrails.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-requirements-and-constraints-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-requirements-and-constraints-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-requirements-and-constraints-context.svg

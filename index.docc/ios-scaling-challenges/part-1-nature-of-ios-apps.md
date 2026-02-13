@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Nature Of iOS Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-1-nature-of-ios-apps-icon.codex", alt: "Nature of iOS apps icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-part-1-nature-of-ios-apps-card.codex", alt: "Nature of iOS apps card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-1-nature-of-ios-apps-icon.codex.svg", alt: "Nature of iOS apps icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-part-1-nature-of-ios-apps-card.codex.svg", alt: "Nature of iOS apps card")
 }
 
 @Options {
@@ -14,14 +14,14 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-hero.codex", alt: "Nature of iOS apps hero")
+@Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-hero.codex.svg", alt: "Nature of iOS apps hero")
 
 The constraints of Apple platforms shape every architectural decision, from
 state to distribution.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-part-1-nature-of-ios-apps-context.svg

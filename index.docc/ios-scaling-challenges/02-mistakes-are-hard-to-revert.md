@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-icon.codex", alt: "Mistakes are hard to revert Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-card.codex", alt: "Mistakes are hard to revert Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-icon.codex.svg", alt: "Mistakes are hard to revert Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-card.codex.svg", alt: "Mistakes are hard to revert Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-hero.codex", alt: "Mistakes are hard to revert Hero")
+@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-hero.codex.svg", alt: "Mistakes are hard to revert Hero")
 
 App Store review, phased release, and client rollout make hotfixes slow and
 rollback paths narrow.
@@ -34,7 +34,7 @@ rollback paths narrow.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-02-mistakes-are-hard-to-revert-context.codex.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-05-push-and-background-notifications-icon.codex", alt: "Push and background notifications Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-05-push-and-background-notifications-card.codex", alt: "Push and background notifications Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-05-push-and-background-notifications-icon.codex.svg", alt: "Push and background notifications Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-05-push-and-background-notifications-card.codex.svg", alt: "Push and background notifications Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-05-push-and-background-notifications-hero.codex", alt: "Push and background notifications Hero")
+@Image(source: "ios-scaling-challenges-05-push-and-background-notifications-hero.codex.svg", alt: "Push and background notifications Hero")
 
 APNs delivery is best-effort, and background work is constrained by OS policy.
 
@@ -33,7 +33,7 @@ APNs delivery is best-effort, and background work is constrained by OS policy.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-05-push-and-background-notifications-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-05-push-and-background-notifications-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-05-push-and-background-notifications-context.codex.svg

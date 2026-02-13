@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-37-client-side-data-migrations-icon.codex", alt: "Client-side data migrations Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-37-client-side-data-migrations-card.codex", alt: "Client-side data migrations Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-37-client-side-data-migrations-icon.codex.svg", alt: "Client-side data migrations Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-37-client-side-data-migrations-card.codex.svg", alt: "Client-side data migrations Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-hero.codex", alt: "Client-side data migrations Hero")
+@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-hero.codex.svg", alt: "Client-side data migrations Hero")
 
 Core Data and SQLite migrations require careful versioning and testing.
 
@@ -33,7 +33,7 @@ Core Data and SQLite migrations require careful versioning and testing.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-37-client-side-data-migrations-context.svg

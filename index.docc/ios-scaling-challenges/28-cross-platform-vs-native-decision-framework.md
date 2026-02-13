@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-icon.codex", alt: "Cross-platform vs native decision framework Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-card.codex", alt: "Cross-platform vs native decision framework Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-icon.codex.svg", alt: "Cross-platform vs native decision framework Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-card.codex.svg", alt: "Cross-platform vs native decision framework Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-hero.codex", alt: "Cross-platform vs native decision framework Hero")
+@Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-hero.codex.svg", alt: "Cross-platform vs native decision framework Hero")
 
 Choosing React Native, WebView, or native has long-term product implications.
 
@@ -33,7 +33,7 @@ Choosing React Native, WebView, or native has long-term product implications.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-28-cross-platform-vs-native-decision-framework-context.svg

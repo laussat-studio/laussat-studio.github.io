@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-12-in-app-purchases-icon.codex", alt: "In-app purchases Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-12-in-app-purchases-card.codex", alt: "In-app purchases Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-12-in-app-purchases-icon.codex.svg", alt: "In-app purchases Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-12-in-app-purchases-card.codex.svg", alt: "In-app purchases Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-12-in-app-purchases-hero.codex", alt: "In-app purchases Hero")
+@Image(source: "ios-scaling-challenges-12-in-app-purchases-hero.codex.svg", alt: "In-app purchases Hero")
 
 StoreKit subscriptions and entitlements require strict modeling and verification.
 
@@ -33,7 +33,7 @@ StoreKit subscriptions and entitlements require strict modeling and verification
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-12-in-app-purchases-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-12-in-app-purchases-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-12-in-app-purchases-context.svg

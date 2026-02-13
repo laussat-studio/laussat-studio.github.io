@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-icon.codex", alt: "Modular architecture and dependency injection Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-card.codex", alt: "Modular architecture and dependency injection Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-icon.codex.svg", alt: "Modular architecture and dependency injection Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-card.codex.svg", alt: "Modular architecture and dependency injection Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-hero.codex", alt: "Modular architecture and dependency injection Hero")
+@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-hero.codex.svg", alt: "Modular architecture and dependency injection Hero")
 
 Modularization helps scale, but only if boundaries align with product domains.
 
@@ -33,7 +33,7 @@ Modularization helps scale, but only if boundaries align with product domains.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.svg

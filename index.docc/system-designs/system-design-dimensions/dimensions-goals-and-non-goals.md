@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Goals and Non-goals")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Goals and Non-goals icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Goals and Non-goals card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Goals and Non-goals icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Goals and Non-goals card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Goals and Non-goals hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Goals and Non-goals hero")
 
 Define what success means and what was explicitly out of scope.
 
@@ -24,7 +24,7 @@ Define what success means and what was explicitly out of scope.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.svg

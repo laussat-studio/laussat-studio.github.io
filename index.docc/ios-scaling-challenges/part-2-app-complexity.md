@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("App Complexity")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-2-app-complexity-icon.codex", alt: "App complexity icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-part-2-app-complexity-card.codex", alt: "App complexity card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-2-app-complexity-icon.codex.svg", alt: "App complexity icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-part-2-app-complexity-card.codex.svg", alt: "App complexity card")
 }
 
 @Options {
@@ -14,13 +14,13 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-part-2-app-complexity-hero.codex", alt: "App complexity hero")
+@Image(source: "ios-scaling-challenges-part-2-app-complexity-hero.codex.svg", alt: "App complexity hero")
 
 As apps grow, navigation, localization, and testing become systems problems.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-part-2-app-complexity-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-part-2-app-complexity-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-part-2-app-complexity-context.svg

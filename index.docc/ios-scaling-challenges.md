@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-icon.codex", alt: "Scaling challenges Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-card.codex", alt: "Scaling challenges Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-icon.codex.svg", alt: "Scaling challenges Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-card.codex.svg", alt: "Scaling challenges Card")
 }
 
 @Options {
@@ -14,15 +14,15 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-hero.codex", alt: "Scaling challenges Hero")
+@Image(source: "ios-scaling-challenges-hero.codex.svg", alt: "Scaling challenges Hero")
 
 A map of the biggest challenges that surface when iOS apps and teams scale.
 
-@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
+@Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-context.svg

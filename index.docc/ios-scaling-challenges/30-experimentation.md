@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-30-experimentation-icon.codex", alt: "Experimentation Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-30-experimentation-card.codex", alt: "Experimentation Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-30-experimentation-icon.codex.svg", alt: "Experimentation Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-30-experimentation-card.codex.svg", alt: "Experimentation Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-30-experimentation-hero.codex", alt: "Experimentation Hero")
+@Image(source: "ios-scaling-challenges-30-experimentation-hero.codex.svg", alt: "Experimentation Hero")
 
 Experimentation requires careful rollout, measurement, and guardrails.
 
@@ -33,7 +33,7 @@ Experimentation requires careful rollout, measurement, and guardrails.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-30-experimentation-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-30-experimentation-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-30-experimentation-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Behavioral Success Story")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-executive-summary-icon.codex", alt: "Executive summary icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-executive-summary-card.codex", alt: "Executive summary card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-executive-summary-icon.codex.svg", alt: "Executive summary icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-executive-summary-card.codex.svg", alt: "Executive summary card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-executive-summary-hero.codex", alt: "Executive summary hero")
+@Image(source: "system-designs-google-maps-font-system-executive-summary-hero.codex.svg", alt: "Executive summary hero")
 
 ## Story
 
@@ -43,7 +43,7 @@ and distance badge that previously drifted across teams and release trains.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-executive-summary-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-executive-summary-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-executive-summary-context.svg
@@ -61,10 +61,10 @@ flowchart LR
 
 @TabNavigator {
   @Tab("Animated") {
-    @Image(source: "system-designs-google-maps-font-system-typography-stack-start", alt: "Typography stack before migration (animated)")
+    @Image(source: "system-designs-google-maps-font-system-typography-stack-start.svg", alt: "Typography stack before migration (animated)")
   }
   @Tab("Exploded") {
-    @Image(source: "system-designs-google-maps-font-system-typography-stack-start-exploded", alt: "Typography stack before migration (exploded)")
+    @Image(source: "system-designs-google-maps-font-system-typography-stack-start-exploded.svg", alt: "Typography stack before migration (exploded)")
   }
 }
 
@@ -72,9 +72,9 @@ flowchart LR
 
 @TabNavigator {
   @Tab("Animated") {
-    @Image(source: "svg-google-maps-fonts-terra-stack-animated", alt: "Google Maps typography stack from front to isometric")
+    @Image(source: "svg-google-maps-fonts-terra-stack-animated.svg", alt: "Google Maps typography stack from front to isometric")
   }
   @Tab("Exploded") {
-    @Image(source: "svg-google-maps-fonts-terra-stack-exploded", alt: "Google Maps typography stack exploded")
+    @Image(source: "svg-google-maps-fonts-terra-stack-exploded.svg", alt: "Google Maps typography stack exploded")
   }
 }

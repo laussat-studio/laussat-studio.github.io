@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Architecture Overview")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Architecture Overview icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Architecture Overview card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Architecture Overview icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Architecture Overview card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Architecture Overview hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Architecture Overview hero")
 
 Describe the system at a high level and show where the hard parts live.
 
@@ -24,7 +24,7 @@ Describe the system at a high level and show where the hard parts live.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-architecture-overview-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-architecture-overview-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-architecture-overview-context.svg

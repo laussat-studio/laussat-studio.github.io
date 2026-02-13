@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-icon.codex", alt: "Tooling maturity for large iOS teams Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-card.codex", alt: "Tooling maturity for large iOS teams Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-icon.codex.svg", alt: "Tooling maturity for large iOS teams Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-card.codex.svg", alt: "Tooling maturity for large iOS teams Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-hero.codex", alt: "Tooling maturity for large iOS teams Hero")
+@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-hero.codex.svg", alt: "Tooling maturity for large iOS teams Hero")
 
 Large teams need consistent linting, documentation, and metrics to scale.
 
@@ -33,7 +33,7 @@ Large teams need consistent linting, documentation, and metrics to scale.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.svg

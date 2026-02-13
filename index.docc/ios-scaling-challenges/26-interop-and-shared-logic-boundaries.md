@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-icon.codex", alt: "Interop and shared logic boundaries Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-card.codex", alt: "Interop and shared logic boundaries Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-icon.codex.svg", alt: "Interop and shared logic boundaries Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-card.codex.svg", alt: "Interop and shared logic boundaries Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-hero.codex", alt: "Interop and shared logic boundaries Hero")
+@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-hero.codex.svg", alt: "Interop and shared logic boundaries Hero")
 
 iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 
@@ -33,7 +33,7 @@ iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.svg

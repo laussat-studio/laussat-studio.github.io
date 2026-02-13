@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Why Typography Drifted")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-problem-context-icon.codex", alt: "Problem context icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-problem-context-card.codex", alt: "Problem context card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-problem-context-icon.codex.svg", alt: "Problem context icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-problem-context-card.codex.svg", alt: "Problem context card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-google-maps-font-system-problem-context-hero.codex", alt: "Problem context hero")
+@Image(source: "system-designs-google-maps-font-system-problem-context-hero.codex.svg", alt: "Problem context hero")
 
 ## Context
 
@@ -46,7 +46,7 @@ different font helpers, creating visible drift and unpredictable truncation.
 
 ## Diagram: API Sprawl (Before State)
 
-@Image(source: "maps-font-before-apis-40plus.mermaid", alt: "Before state with 40 plus font APIs")
+@Image(source: "maps-font-before-apis-40plus.mermaid.svg", alt: "Before state with 40 plus font APIs")
 
 ```mermaid
 %% file: maps-font-before-apis-40plus.svg
@@ -82,7 +82,7 @@ flowchart LR
 
 ## Diagram: Umbrella Coupling
 
-@Image(source: "maps-font-umbrella-before.mermaid", alt: "Umbrella header coupling before the migration")
+@Image(source: "maps-font-umbrella-before.mermaid.svg", alt: "Umbrella header coupling before the migration")
 
 ```mermaid
 %% file: maps-font-umbrella-before.codex.svg

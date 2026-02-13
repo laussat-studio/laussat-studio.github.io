@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Stepping Up Your Game")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-5-stepping-up-your-game-icon.codex", alt: "Stepping up your game icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-part-5-stepping-up-your-game-card.codex", alt: "Stepping up your game card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-5-stepping-up-your-game-icon.codex.svg", alt: "Stepping up your game icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-part-5-stepping-up-your-game-card.codex.svg", alt: "Stepping up your game card")
 }
 
 @Options {
@@ -14,13 +14,13 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-hero.codex", alt: "Stepping up your game hero")
+@Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-hero.codex.svg", alt: "Stepping up your game hero")
 
 Operational maturity keeps large apps stable, observable, and trustworthy.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-part-5-stepping-up-your-game-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-part-5-stepping-up-your-game-context.svg

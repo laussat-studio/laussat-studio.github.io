@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Migration Strategy")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-strategy-and-execution-icon.codex", alt: "Strategy and execution icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-strategy-and-execution-card.codex", alt: "Strategy and execution card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-strategy-and-execution-icon.codex.svg", alt: "Strategy and execution icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-strategy-and-execution-card.codex.svg", alt: "Strategy and execution card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-strategy-and-execution-hero.codex", alt: "Strategy and execution hero")
+@Image(source: "system-designs-google-maps-font-system-strategy-and-execution-hero.codex.svg", alt: "Strategy and execution hero")
 
 ## Approach
 
@@ -79,7 +79,7 @@ font change dropped from weeks of QA to a measured, staged rollout.
 
 ## Diagram: Shared Dependency Map
 
-@Image(source: "maps-font-dependency-map.mermaid", alt: "Dependency map for shared API first")
+@Image(source: "maps-font-dependency-map.mermaid.svg", alt: "Dependency map for shared API first")
 
 ```mermaid
 %% file: maps-font-dependency-map.codex.svg
@@ -104,7 +104,7 @@ flowchart TB
 
 ## Diagram: Migration Decision Tree
 
-@Image(source: "maps-font-decision-tree.mermaid", alt: "Decision tree for migration strategy")
+@Image(source: "maps-font-decision-tree.mermaid.svg", alt: "Decision tree for migration strategy")
 
 ```mermaid
 %% file: maps-font-decision-tree.codex.svg
@@ -127,7 +127,7 @@ flowchart TB
 
 ## Diagram: Automation Pipeline
 
-@Image(source: "maps-font-automation-pipeline.mermaid", alt: "Automation pipeline")
+@Image(source: "maps-font-automation-pipeline.mermaid.svg", alt: "Automation pipeline")
 
 ```mermaid
 %% file: maps-font-automation-pipeline.codex.svg

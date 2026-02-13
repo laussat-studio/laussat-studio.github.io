@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Executive Summary")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Executive Summary icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Executive Summary card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Executive Summary icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Executive Summary card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Executive Summary hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Executive Summary hero")
 
 A one-page narrative that states the problem, the solution, and the measurable
 impact.
@@ -29,7 +29,7 @@ impact.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-executive-summary-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-executive-summary-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-executive-summary-context.svg

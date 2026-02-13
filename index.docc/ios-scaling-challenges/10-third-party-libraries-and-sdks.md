@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-icon.codex", alt: "Third-party libraries and SDKs Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-card.codex", alt: "Third-party libraries and SDKs Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-icon.codex.svg", alt: "Third-party libraries and SDKs Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-card.codex.svg", alt: "Third-party libraries and SDKs Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-hero.codex", alt: "Third-party libraries and SDKs Hero")
+@Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-hero.codex.svg", alt: "Third-party libraries and SDKs Hero")
 
 SDK sprawl affects startup time, privacy posture, and update cadence.
 
@@ -33,7 +33,7 @@ SDK sprawl affects startup time, privacy posture, and update cadence.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-10-third-party-libraries-and-sdks-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-icon.codex", alt: "Architecting to avoid collisions Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-card.codex", alt: "Architecting to avoid collisions Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-icon.codex.svg", alt: "Architecting to avoid collisions Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-card.codex.svg", alt: "Architecting to avoid collisions Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-hero.codex", alt: "Architecting to avoid collisions Hero")
+@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-hero.codex.svg", alt: "Architecting to avoid collisions Hero")
 
 Large teams need boundaries to avoid multiple features colliding in one area.
 
@@ -33,7 +33,7 @@ Large teams need boundaries to avoid multiple features colliding in one area.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-20-architecting-to-avoid-collisions-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-08-accessibility-icon.codex", alt: "Accessibility Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-08-accessibility-card.codex", alt: "Accessibility Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-08-accessibility-icon.codex.svg", alt: "Accessibility Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-08-accessibility-card.codex.svg", alt: "Accessibility Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-08-accessibility-hero.codex", alt: "Accessibility Hero")
+@Image(source: "ios-scaling-challenges-08-accessibility-hero.codex.svg", alt: "Accessibility Hero")
 
 Large apps regress accessibility as screens multiply and UI components diverge.
 
@@ -33,7 +33,7 @@ Large apps regress accessibility as screens multiply and UI components diverge.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-08-accessibility-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-08-accessibility-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-08-accessibility-context.codex.svg

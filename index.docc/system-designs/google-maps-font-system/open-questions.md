@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Open Questions")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-open-questions-icon.codex", alt: "system-designs-google-maps-font-system-open-questions icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-open-questions-card.codex", alt: "system-designs-google-maps-font-system-open-questions card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-open-questions-icon.codex.svg", alt: "system-designs-google-maps-font-system-open-questions icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-open-questions-card.codex.svg", alt: "system-designs-google-maps-font-system-open-questions card")
 }
 
 @Options {
@@ -13,10 +13,10 @@
 }
 
 Use this page to capture missing details as we refine the system design story.
-@Image(source: "system-designs-open-questions-hero.codex", alt: "Open Questions hero")
-@Image(source: "system-designs-open-questions-icon.codex", alt: "Legacy open questions icon")
-@Image(source: "system-designs-open-questions-card.codex", alt: "Legacy open questions card")
-@Image(source: "system-designs-google-maps-font-system-open-questions-hero.codex", alt: "Open Questions hero")
+@Image(source: "system-designs-open-questions-hero.codex.svg", alt: "Open Questions hero")
+@Image(source: "system-designs-open-questions-icon.codex.svg", alt: "Legacy open questions icon")
+@Image(source: "system-designs-open-questions-card.codex.svg", alt: "Legacy open questions card")
+@Image(source: "system-designs-google-maps-font-system-open-questions-hero.codex.svg", alt: "Open Questions hero")
 
 
 
@@ -87,7 +87,7 @@ Use this page to capture missing details as we refine the system design story.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-open-questions-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-open-questions-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-open-questions-context.svg

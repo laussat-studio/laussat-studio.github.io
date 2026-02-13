@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Risks and Tradeoffs")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Risks and Tradeoffs icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Risks and Tradeoffs card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Risks and Tradeoffs icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Risks and Tradeoffs card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Risks and Tradeoffs hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Risks and Tradeoffs hero")
 
 Make the decision logic explicit.
 
@@ -24,7 +24,7 @@ Make the decision logic explicit.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.svg

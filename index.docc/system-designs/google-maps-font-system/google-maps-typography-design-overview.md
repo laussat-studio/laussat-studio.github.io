@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Google Maps Typography Design Overview")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-icon.codex", alt: "Google Maps typography design overview icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-card.codex", alt: "Google Maps typography design overview card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-icon.codex.svg", alt: "Google Maps typography design overview icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-card.codex.svg", alt: "Google Maps typography design overview card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-hero.codex", alt: "Google Maps typography design overview hero")
+@Image(source: "system-designs-google-maps-font-system-google-maps-typography-design-overview-hero.codex.svg", alt: "Google Maps typography design overview hero")
 
 A case study on building a typography system for Google Maps iOS: how we moved
 from fragmented font APIs to a canonical pipeline without breaking layout,
@@ -88,7 +88,7 @@ import stability.
 - **Telemetry hooks:** Snapshot diff signals, runtime warnings, and performance
   counters for layout and text rendering.
 
-@Image(source: "maps-font-level0.mermaid", alt: "Google Maps font migration overview")
+@Image(source: "maps-font-level0.mermaid.svg", alt: "Google Maps font migration overview")
 
 ```mermaid
 %% file: maps-font-level0.codex.svg
@@ -113,7 +113,7 @@ flowchart LR
 
 ## Before State (What Made This Hard)
 
-@Image(source: "maps-font-before-apis.mermaid", alt: "Before state with five typography APIs")
+@Image(source: "maps-font-before-apis.mermaid.svg", alt: "Before state with five typography APIs")
 
 ```mermaid
 %% file: maps-font-before-apis.codex.svg
@@ -179,7 +179,7 @@ flowchart TB
 
 ## Canonical Pipeline (After State)
 
-@Image(source: "maps-font-after-canonical.mermaid", alt: "After state with canonical tokens and shims")
+@Image(source: "maps-font-after-canonical.mermaid.svg", alt: "After state with canonical tokens and shims")
 
 ```mermaid
 %% file: maps-font-after-canonical.codex.svg

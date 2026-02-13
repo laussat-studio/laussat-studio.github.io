@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-icon.codex", alt: "Shared architecture across iOS apps Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-card.codex", alt: "Shared architecture across iOS apps Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-icon.codex.svg", alt: "Shared architecture across iOS apps Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-card.codex.svg", alt: "Shared architecture across iOS apps Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-hero.codex", alt: "Shared architecture across iOS apps Hero")
+@Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-hero.codex.svg", alt: "Shared architecture across iOS apps Hero")
 
 Shared SDKs and design systems can scale a portfolio, but only with careful
 versioning.
@@ -34,7 +34,7 @@ versioning.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-21-shared-architecture-across-ios-apps-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-21-shared-architecture-across-ios-apps-context.svg

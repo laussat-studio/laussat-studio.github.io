@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Font Migration Details")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-migration-details-icon.codex", alt: "Font migration details Icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-migration-details-card.codex", alt: "Font migration details Card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-migration-details-icon.codex.svg", alt: "Font migration details Icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-migration-details-card.codex.svg", alt: "Font migration details Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-migration-details-hero.codex", alt: "Font migration details Hero")
+@Image(source: "system-designs-google-maps-font-system-migration-details-hero.codex.svg", alt: "Font migration details Hero")
 
 ## Context
 
@@ -49,7 +49,7 @@ pipeline that was safe to roll out in a large iOS app ecosystem.
 
 ## Diagram: Runtime Font Resolution
 
-@Image(source: "maps-font-runtime-flow.mermaid", alt: "Canonical pipeline runtime flow")
+@Image(source: "maps-font-runtime-flow.mermaid.svg", alt: "Canonical pipeline runtime flow")
 
 ```mermaid
 %% file: maps-font-runtime-flow.codex.svg
@@ -71,7 +71,7 @@ sequenceDiagram
 
 ## Diagram: Compat Umbrella During Transition
 
-@Image(source: "maps-font-umbrella-after.mermaid", alt: "Compat umbrella during transition")
+@Image(source: "maps-font-umbrella-after.mermaid.svg", alt: "Compat umbrella during transition")
 
 ```mermaid
 %% file: maps-font-umbrella-after.codex.svg
@@ -149,7 +149,7 @@ tool could run end-to-end:
 
 ## Diagram: Migration Plan
 
-@Image(source: "maps-font-migration-plan.mermaid", alt: "Migration plan and rollback points")
+@Image(source: "maps-font-migration-plan.mermaid.svg", alt: "Migration plan and rollback points")
 
 ```mermaid
 %% file: maps-font-migration-plan.codex.svg
@@ -183,7 +183,7 @@ JSON array of steps (find, replace, add import, build, test, find screenshots,
 send for review, set directory). It launches processes ad hoc and reports
 failures directly from stdout/stderr.
 
-@Image(source: "maps-font-automation-cli-architecture.mermaid", alt: "Refactor CLI architecture")
+@Image(source: "maps-font-automation-cli-architecture.mermaid.svg", alt: "Refactor CLI architecture")
 
 ```mermaid
 %% file: maps-font-automation-cli-architecture.svg
@@ -219,7 +219,7 @@ flowchart LR
 
 ## Before to After: API Sprawl to Dependency Injection
 
-@Image(source: "maps-font-before-after-di.mermaid", alt: "Before to after typography system")
+@Image(source: "maps-font-before-after-di.mermaid.svg", alt: "Before to after typography system")
 
 ```mermaid
 %% file: maps-font-before-after-di.svg

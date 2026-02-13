@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Lessons Learned")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-lessons-icon.codex", alt: "Lessons icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-lessons-card.codex", alt: "Lessons card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-lessons-icon.codex.svg", alt: "Lessons icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-lessons-card.codex.svg", alt: "Lessons card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-lessons-hero.codex", alt: "Lessons hero")
+@Image(source: "system-designs-google-maps-font-system-lessons-hero.codex.svg", alt: "Lessons hero")
 
 ## What Stuck
 
@@ -39,7 +39,7 @@
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-lessons-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-lessons-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-lessons-context.svg

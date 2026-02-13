@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-27-cross-platform-feature-development-icon.codex", alt: "Cross-platform feature development Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-27-cross-platform-feature-development-card.codex", alt: "Cross-platform feature development Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-27-cross-platform-feature-development-icon.codex.svg", alt: "Cross-platform feature development Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-27-cross-platform-feature-development-card.codex.svg", alt: "Cross-platform feature development Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-hero.codex", alt: "Cross-platform feature development Hero")
+@Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-hero.codex.svg", alt: "Cross-platform feature development Hero")
 
 Feature parity across platforms requires shared contracts without shared UI.
 
@@ -33,7 +33,7 @@ Feature parity across platforms requires shared contracts without shared UI.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-27-cross-platform-feature-development-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-31-feature-flag-hell-icon.codex", alt: "Feature flag hell Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-31-feature-flag-hell-card.codex", alt: "Feature flag hell Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-31-feature-flag-hell-icon.codex.svg", alt: "Feature flag hell Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-31-feature-flag-hell-card.codex.svg", alt: "Feature flag hell Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-31-feature-flag-hell-hero.codex", alt: "Feature flag hell Hero")
+@Image(source: "ios-scaling-challenges-31-feature-flag-hell-hero.codex.svg", alt: "Feature flag hell Hero")
 
 Flags accumulate quickly and can harden into permanent complexity.
 
@@ -33,7 +33,7 @@ Flags accumulate quickly and can harden into permanent complexity.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-31-feature-flag-hell-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-31-feature-flag-hell-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-31-feature-flag-hell-context.svg

@@ -4,18 +4,18 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Requirements And Constraints")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-requirements-and-constraints-icon.codex", alt: "system-designs-google-maps-font-system-requirements-and-constraints icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-requirements-and-constraints-card.codex", alt: "system-designs-google-maps-font-system-requirements-and-constraints card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-requirements-and-constraints-icon.codex.svg", alt: "system-designs-google-maps-font-system-requirements-and-constraints icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-requirements-and-constraints-card.codex.svg", alt: "system-designs-google-maps-font-system-requirements-and-constraints card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-requirements-and-constraints-hero.codex", alt: "Requirements And Constraints hero")
-@Image(source: "system-designs-requirements-and-constraints-icon.codex", alt: "Legacy requirements icon")
-@Image(source: "system-designs-requirements-and-constraints-card.codex", alt: "Legacy requirements card")
-@Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-hero.codex", alt: "Requirements And Constraints hero")
+@Image(source: "system-designs-requirements-and-constraints-hero.codex.svg", alt: "Requirements And Constraints hero")
+@Image(source: "system-designs-requirements-and-constraints-icon.codex.svg", alt: "Legacy requirements icon")
+@Image(source: "system-designs-requirements-and-constraints-card.codex.svg", alt: "Legacy requirements card")
+@Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-hero.codex.svg", alt: "Requirements And Constraints hero")
 
 
 ## Requirements
@@ -38,7 +38,7 @@
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-requirements-and-constraints-context.svg

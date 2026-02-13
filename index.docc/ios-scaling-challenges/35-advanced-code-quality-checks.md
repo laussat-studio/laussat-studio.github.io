@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-35-advanced-code-quality-checks-icon.codex", alt: "Advanced code quality checks Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-35-advanced-code-quality-checks-card.codex", alt: "Advanced code quality checks Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-35-advanced-code-quality-checks-icon.codex.svg", alt: "Advanced code quality checks Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-35-advanced-code-quality-checks-card.codex.svg", alt: "Advanced code quality checks Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-hero.codex", alt: "Advanced code quality checks Hero")
+@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-hero.codex.svg", alt: "Advanced code quality checks Hero")
 
 Static analysis, sanitizers, and API break checks guard long-term quality.
 
@@ -33,7 +33,7 @@ Static analysis, sanitizers, and API break checks guard long-term quality.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-35-advanced-code-quality-checks-context.svg

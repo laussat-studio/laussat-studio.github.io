@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-icon.codex", alt: "Mobile platform libraries and teams Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-card.codex", alt: "Mobile platform libraries and teams Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-icon.codex.svg", alt: "Mobile platform libraries and teams Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-card.codex.svg", alt: "Mobile platform libraries and teams Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-hero.codex", alt: "Mobile platform libraries and teams Hero")
+@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-hero.codex.svg", alt: "Mobile platform libraries and teams Hero")
 
 A platform team provides shared foundations and guardrails for product teams.
 
@@ -33,7 +33,7 @@ A platform team provides shared foundations and guardrails for product teams.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.svg

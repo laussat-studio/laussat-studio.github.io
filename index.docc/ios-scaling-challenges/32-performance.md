@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-32-performance-icon.codex", alt: "Performance Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-32-performance-card.codex", alt: "Performance Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-32-performance-icon.codex.svg", alt: "Performance Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-32-performance-card.codex.svg", alt: "Performance Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-32-performance-hero.codex", alt: "Performance Hero")
+@Image(source: "ios-scaling-challenges-32-performance-hero.codex.svg", alt: "Performance Hero")
 
 Performance issues surface as cold starts, jank, and energy regressions.
 
@@ -33,7 +33,7 @@ Performance issues surface as cold starts, jank, and energy regressions.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-32-performance-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-32-performance-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-32-performance-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-19-planning-and-decision-making-icon.codex", alt: "Planning and decision making Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-19-planning-and-decision-making-card.codex", alt: "Planning and decision making Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-19-planning-and-decision-making-icon.codex.svg", alt: "Planning and decision making Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-19-planning-and-decision-making-card.codex.svg", alt: "Planning and decision making Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-hero.codex", alt: "Planning and decision making Hero")
+@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-hero.codex.svg", alt: "Planning and decision making Hero")
 
 Planning must account for App Store latency, platform changes, and deprecations.
 
@@ -33,7 +33,7 @@ Planning must account for App Store latency, platform changes, and deprecations.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-19-planning-and-decision-making-context.svg

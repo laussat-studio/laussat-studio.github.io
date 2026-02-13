@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Rollout and Results")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-rollout-and-results-icon.codex", alt: "Rollout and results icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-rollout-and-results-card.codex", alt: "Rollout and results card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-rollout-and-results-icon.codex.svg", alt: "Rollout and results icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-rollout-and-results-card.codex.svg", alt: "Rollout and results card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-rollout-and-results-hero.codex", alt: "Rollout and results hero")
+@Image(source: "system-designs-google-maps-font-system-rollout-and-results-hero.codex.svg", alt: "Rollout and results hero")
 
 ## Rollout
 
@@ -42,7 +42,7 @@
 
 ## Diagram: Snapshot Triage Loop
 
-@Image(source: "maps-font-snapshot-triage.mermaid", alt: "Snapshot triage loop")
+@Image(source: "maps-font-snapshot-triage.mermaid.svg", alt: "Snapshot triage loop")
 
 ```mermaid
 %% file: maps-font-snapshot-triage.codex.svg

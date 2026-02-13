@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Creative Studio")
-  @PageImage(purpose: icon, source: "laussat-studio-icon.codex", alt: "Laussat Studio Icon")
-  @PageImage(purpose: card, source: "laussat-studio-card.codex", alt: "Laussat Studio Card")
+  @PageImage(purpose: icon, source: "laussat-studio-icon.codex.svg", alt: "Laussat Studio Icon")
+  @PageImage(purpose: card, source: "laussat-studio-card.codex.svg", alt: "Laussat Studio Card")
 }
 
 @Options {
@@ -13,16 +13,16 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "laussat-studio-wordmark", alt: "Laussat Studio wordmark")
+@Image(source: "laussat-studio-wordmark.svg", alt: "Laussat Studio wordmark")
 
 A creative production house for apps, media, and digital experiences.
 
 Legacy note: the canonical DocC entry point now lives at
 `laussat-studio.docc/index.md`.
 
-@Image(source: "laussat-studio.codex", alt: "Laussat Studio mark")
+@Image(source: "laussat-studio.codex.svg", alt: "Laussat Studio mark")
 
-@Image(source: "laussat-studio-context.mermaid", alt: "Laussat Studio context map")
+@Image(source: "laussat-studio-context.mermaid.svg", alt: "Laussat Studio context map")
 
 ## Overview
 

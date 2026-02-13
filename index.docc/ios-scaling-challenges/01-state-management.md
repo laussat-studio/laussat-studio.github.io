@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-01-state-management-icon.codex", alt: "State management Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-01-state-management-card.codex", alt: "State management Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-01-state-management-icon.codex.svg", alt: "State management Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-01-state-management-card.codex.svg", alt: "State management Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-01-state-management-hero.codex", alt: "State management Hero")
+@Image(source: "ios-scaling-challenges-01-state-management-hero.codex.svg", alt: "State management Hero")
 
 Large iOS apps juggle UIKit and SwiftUI lifecycles, async state, and multiple
 stores of truth.
@@ -34,7 +34,7 @@ stores of truth.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-01-state-management-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-01-state-management-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-01-state-management-context.codex.svg

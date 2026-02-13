@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Reliability, Scalability, Performance")
-  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex", alt: "Reliability, Scalability, Performance icon")
-  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex", alt: "Reliability, Scalability, Performance card")
+  @PageImage(purpose: icon, source: "system-designs-system-design-dimensions-icon.codex.svg", alt: "Reliability, Scalability, Performance icon")
+  @PageImage(purpose: card, source: "system-designs-system-design-dimensions-card.codex.svg", alt: "Reliability, Scalability, Performance card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex", alt: "Reliability, Scalability, Performance hero")
+@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Reliability, Scalability, Performance hero")
 
 Document SLOs and performance expectations.
 
@@ -24,7 +24,7 @@ Document SLOs and performance expectations.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-system-design-dimensions-dimensions-reliability-scalability-performance-context.svg

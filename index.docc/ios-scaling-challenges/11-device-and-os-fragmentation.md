@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-11-device-and-os-fragmentation-icon.codex", alt: "Device and OS fragmentation Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-11-device-and-os-fragmentation-card.codex", alt: "Device and OS fragmentation Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-11-device-and-os-fragmentation-icon.codex.svg", alt: "Device and OS fragmentation Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-11-device-and-os-fragmentation-card.codex.svg", alt: "Device and OS fragmentation Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-hero.codex", alt: "Device and OS fragmentation Hero")
+@Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-hero.codex.svg", alt: "Device and OS fragmentation Hero")
 
 iOS fragmentation is subtle: iPad multitasking, input modes, and hardware
 capability tiers.
@@ -34,7 +34,7 @@ capability tiers.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-11-device-and-os-fragmentation-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-11-device-and-os-fragmentation-context.svg

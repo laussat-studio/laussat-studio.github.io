@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large iOS Teams")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-3-large-ios-teams-icon.codex", alt: "Large iOS teams icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-part-3-large-ios-teams-card.codex", alt: "Large iOS teams card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-part-3-large-ios-teams-icon.codex.svg", alt: "Large iOS teams icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-part-3-large-ios-teams-card.codex.svg", alt: "Large iOS teams card")
 }
 
 @Options {
@@ -14,13 +14,13 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-part-3-large-ios-teams-hero.codex", alt: "Large iOS teams hero")
+@Image(source: "ios-scaling-challenges-part-3-large-ios-teams-hero.codex.svg", alt: "Large iOS teams hero")
 
 Scale is a coordination problem: ownership, tooling, and shared platforms.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-part-3-large-ios-teams-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-part-3-large-ios-teams-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-part-3-large-ios-teams-context.svg

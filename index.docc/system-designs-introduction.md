@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Introduction")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex", alt: "System designs Icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex", alt: "System designs Card")
+  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "System designs Icon")
+  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "System designs Card")
 }
 
 @Options {
@@ -13,17 +13,15 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-hero.codex", alt: "System designs Hero")
+@Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
 This section includes real system designs from the past decade that I have done
 for teams, covering systems that shipped in production and were refined under
 real‑world constraints.
 
-@Image(source: "index-hero.codex", alt: "Studio Laussat Hero")
+@Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-context.mermaid", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-icon.codex", alt: "Analytics, monitoring, and alerting Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-card.codex", alt: "Analytics, monitoring, and alerting Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-icon.codex.svg", alt: "Analytics, monitoring, and alerting Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-card.codex.svg", alt: "Analytics, monitoring, and alerting Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-hero.codex", alt: "Analytics, monitoring, and alerting Hero")
+@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-hero.codex.svg", alt: "Analytics, monitoring, and alerting Hero")
 
 Mobile observability needs client metrics, crash rates, and SLOs.
 
@@ -33,7 +33,7 @@ Mobile observability needs client metrics, crash rates, and SLOs.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.svg

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-39-app-size-icon.codex", alt: "App size Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-39-app-size-card.codex", alt: "App size Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-39-app-size-icon.codex.svg", alt: "App size Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-39-app-size-card.codex.svg", alt: "App size Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-39-app-size-hero.codex", alt: "App size Hero")
+@Image(source: "ios-scaling-challenges-39-app-size-hero.codex.svg", alt: "App size Hero")
 
 Binary size grows with assets, duplicate frameworks, and unused code paths.
 
@@ -33,7 +33,7 @@ Binary size grows with assets, duplicate frameworks, and unused code paths.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-39-app-size-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-39-app-size-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-39-app-size-context.svg

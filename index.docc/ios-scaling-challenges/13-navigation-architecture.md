@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-13-navigation-architecture-icon.codex", alt: "Navigation architecture Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-13-navigation-architecture-card.codex", alt: "Navigation architecture Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-13-navigation-architecture-icon.codex.svg", alt: "Navigation architecture Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-13-navigation-architecture-card.codex.svg", alt: "Navigation architecture Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-13-navigation-architecture-hero.codex", alt: "Navigation architecture Hero")
+@Image(source: "ios-scaling-challenges-13-navigation-architecture-hero.codex.svg", alt: "Navigation architecture Hero")
 
 Large apps combine stacks, tabs, and split views that must remain consistent
 under deep link entry.
@@ -34,7 +34,7 @@ under deep link entry.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-13-navigation-architecture-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-13-navigation-architecture-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-13-navigation-architecture-context.svg

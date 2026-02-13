@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-15-localization-icon.codex", alt: "Localization Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-15-localization-card.codex", alt: "Localization Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-15-localization-icon.codex.svg", alt: "Localization Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-15-localization-card.codex.svg", alt: "Localization Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-15-localization-hero.codex", alt: "Localization Hero")
+@Image(source: "ios-scaling-challenges-15-localization-hero.codex.svg", alt: "Localization Hero")
 
 Localization expands layout and can destabilize UI when strings grow.
 
@@ -33,7 +33,7 @@ Localization expands layout and can destabilize UI when strings grow.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-15-localization-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-15-localization-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-15-localization-context.svg

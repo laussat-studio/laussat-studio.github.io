@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-04-deeplinks-and-routing-icon.codex", alt: "Deeplinks and routing Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-04-deeplinks-and-routing-card.codex", alt: "Deeplinks and routing Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-04-deeplinks-and-routing-icon.codex.svg", alt: "Deeplinks and routing Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-04-deeplinks-and-routing-card.codex.svg", alt: "Deeplinks and routing Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-hero.codex", alt: "Deeplinks and routing Hero")
+@Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-hero.codex.svg", alt: "Deeplinks and routing Hero")
 
 Universal Links, custom schemes, and scene lifecycles make deep links brittle at
 scale.
@@ -34,7 +34,7 @@ scale.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-04-deeplinks-and-routing-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-04-deeplinks-and-routing-context.codex.svg

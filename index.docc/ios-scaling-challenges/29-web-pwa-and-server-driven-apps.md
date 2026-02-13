@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-icon.codex", alt: "Web, PWA, and server-driven apps Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-card.codex", alt: "Web, PWA, and server-driven apps Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-icon.codex.svg", alt: "Web, PWA, and server-driven apps Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-card.codex.svg", alt: "Web, PWA, and server-driven apps Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-hero.codex", alt: "Web, PWA, and server-driven apps Hero")
+@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-hero.codex.svg", alt: "Web, PWA, and server-driven apps Hero")
 
 WKWebView and server-driven UI introduce new constraints for navigation, auth,
 and accessibility.
@@ -34,7 +34,7 @@ and accessibility.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.svg

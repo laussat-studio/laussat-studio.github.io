@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-icon.codex", alt: "Scaling build and merge times Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-card.codex", alt: "Scaling build and merge times Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-icon.codex.svg", alt: "Scaling build and merge times Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-23-scaling-build-and-merge-times-card.codex.svg", alt: "Scaling build and merge times Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-hero.codex", alt: "Scaling build and merge times Hero")
+@Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-hero.codex.svg", alt: "Scaling build and merge times Hero")
 
 Swift build costs rise fast when module boundaries and interfaces drift.
 
@@ -33,7 +33,7 @@ Swift build costs rise fast when module boundaries and interfaces drift.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-23-scaling-build-and-merge-times-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-23-scaling-build-and-merge-times-context.svg

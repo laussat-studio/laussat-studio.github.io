@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Project Deep Dive Expectations")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-deep-dive-expectations-icon.codex", alt: "Project deep dive expectations Icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-deep-dive-expectations-card.codex", alt: "Project deep dive expectations Card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-deep-dive-expectations-icon.codex.svg", alt: "Project deep dive expectations Icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-deep-dive-expectations-card.codex.svg", alt: "Project deep dive expectations Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-hero.codex", alt: "Project deep dive expectations Hero")
+@Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-hero.codex.svg", alt: "Project deep dive expectations Hero")
 
 ## What They Evaluate
 
@@ -94,7 +94,7 @@ script plus the diagram content you should draw from memory.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-deep-dive-expectations-context.svg

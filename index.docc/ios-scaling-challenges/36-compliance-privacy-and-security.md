@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-36-compliance-privacy-and-security-icon.codex", alt: "Compliance, privacy, and security Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-36-compliance-privacy-and-security-card.codex", alt: "Compliance, privacy, and security Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-36-compliance-privacy-and-security-icon.codex.svg", alt: "Compliance, privacy, and security Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-36-compliance-privacy-and-security-card.codex.svg", alt: "Compliance, privacy, and security Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-hero.codex", alt: "Compliance, privacy, and security Hero")
+@Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-hero.codex.svg", alt: "Compliance, privacy, and security Hero")
 
 Privacy manifests, ATT, and secure storage require disciplined governance.
 
@@ -33,7 +33,7 @@ Privacy manifests, ATT, and secure storage require disciplined governance.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-36-compliance-privacy-and-security-context.svg

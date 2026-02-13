@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-07-offline-support-icon.codex", alt: "Offline support Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-07-offline-support-card.codex", alt: "Offline support Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-07-offline-support-icon.codex.svg", alt: "Offline support Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-07-offline-support-card.codex.svg", alt: "Offline support Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-07-offline-support-hero.codex", alt: "Offline support Hero")
+@Image(source: "ios-scaling-challenges-07-offline-support-hero.codex.svg", alt: "Offline support Hero")
 
 Offline experiences demand durable persistence, conflict resolution, and clear
 sync rules.
@@ -34,7 +34,7 @@ sync rules.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-07-offline-support-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-07-offline-support-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-07-offline-support-context.codex.svg

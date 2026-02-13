@@ -4,18 +4,18 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Stakeholders And Ownership")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-stakeholders-and-ownership-icon.codex", alt: "system-designs-google-maps-font-system-stakeholders-and-ownership icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-stakeholders-and-ownership-card.codex", alt: "system-designs-google-maps-font-system-stakeholders-and-ownership card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-stakeholders-and-ownership-icon.codex.svg", alt: "system-designs-google-maps-font-system-stakeholders-and-ownership icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-stakeholders-and-ownership-card.codex.svg", alt: "system-designs-google-maps-font-system-stakeholders-and-ownership card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-stakeholders-and-ownership-hero.codex", alt: "Stakeholders And Ownership hero")
-@Image(source: "system-designs-stakeholders-and-ownership-icon.codex", alt: "Legacy stakeholders icon")
-@Image(source: "system-designs-stakeholders-and-ownership-card.codex", alt: "Legacy stakeholders card")
-@Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-hero.codex", alt: "Stakeholders And Ownership hero")
+@Image(source: "system-designs-stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders And Ownership hero")
+@Image(source: "system-designs-stakeholders-and-ownership-icon.codex.svg", alt: "Legacy stakeholders icon")
+@Image(source: "system-designs-stakeholders-and-ownership-card.codex.svg", alt: "Legacy stakeholders card")
+@Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders And Ownership hero")
 
 
 ## Owners
@@ -35,7 +35,7 @@
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-stakeholders-and-ownership-context.svg

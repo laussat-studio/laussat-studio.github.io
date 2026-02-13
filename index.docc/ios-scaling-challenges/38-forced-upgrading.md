@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-38-forced-upgrading-icon.codex", alt: "Forced upgrading Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-38-forced-upgrading-card.codex", alt: "Forced upgrading Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-38-forced-upgrading-icon.codex.svg", alt: "Forced upgrading Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-38-forced-upgrading-card.codex.svg", alt: "Forced upgrading Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-38-forced-upgrading-hero.codex", alt: "Forced upgrading Hero")
+@Image(source: "ios-scaling-challenges-38-forced-upgrading-hero.codex.svg", alt: "Forced upgrading Hero")
 
 Minimum OS or app version enforcement must balance safety and user trust.
 
@@ -33,7 +33,7 @@ Minimum OS or app version enforcement must balance safety and user trust.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-38-forced-upgrading-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-38-forced-upgrading-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-38-forced-upgrading-context.svg

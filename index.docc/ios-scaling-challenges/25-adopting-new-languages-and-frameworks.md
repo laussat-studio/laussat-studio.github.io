@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-icon.codex", alt: "Adopting new languages and frameworks Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-card.codex", alt: "Adopting new languages and frameworks Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-icon.codex.svg", alt: "Adopting new languages and frameworks Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-card.codex.svg", alt: "Adopting new languages and frameworks Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-hero.codex", alt: "Adopting new languages and frameworks Hero")
+@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-hero.codex.svg", alt: "Adopting new languages and frameworks Hero")
 
 Swift language updates and SwiftUI adoption require staged migration strategy.
 
@@ -33,7 +33,7 @@ Swift language updates and SwiftUI adoption require staged migration strategy.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.svg

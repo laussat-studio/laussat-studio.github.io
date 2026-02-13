@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-34-mobile-oncall-icon.codex", alt: "Mobile oncall Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-34-mobile-oncall-card.codex", alt: "Mobile oncall Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-34-mobile-oncall-icon.codex.svg", alt: "Mobile oncall Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-34-mobile-oncall-card.codex.svg", alt: "Mobile oncall Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-34-mobile-oncall-hero.codex", alt: "Mobile oncall Hero")
+@Image(source: "ios-scaling-challenges-34-mobile-oncall-hero.codex.svg", alt: "Mobile oncall Hero")
 
 Mobile incidents require quick triage, rollback paths, and server gating.
 
@@ -33,7 +33,7 @@ Mobile incidents require quick triage, rollback paths, and server gating.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-34-mobile-oncall-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-34-mobile-oncall-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-34-mobile-oncall-context.svg

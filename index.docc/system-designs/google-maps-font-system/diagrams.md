@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Design System Diagrams")
-  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-diagrams-icon.codex", alt: "Diagrams Icon")
-  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-diagrams-card.codex", alt: "Diagrams Card")
+  @PageImage(purpose: icon, source: "system-designs-google-maps-font-system-diagrams-icon.codex.svg", alt: "Diagrams Icon")
+  @PageImage(purpose: card, source: "system-designs-google-maps-font-system-diagrams-card.codex.svg", alt: "Diagrams Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "system-designs-google-maps-font-system-diagrams-hero.codex", alt: "Diagrams Hero")
+@Image(source: "system-designs-google-maps-font-system-diagrams-hero.codex.svg", alt: "Diagrams Hero")
 
 Diagrams now live alongside the narrative sections that explain them. Use this
 page as an index and a rendering note, not a gallery.
@@ -36,7 +36,7 @@ Rendered SVGs live at the bundle root: `wrkstrm.docc/resources/`.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-diagrams-context.mermaid", alt: "Context snapshot")
+@Image(source: "system-designs-google-maps-font-system-diagrams-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: system-designs-google-maps-font-system-diagrams-context.svg
@@ -52,15 +52,15 @@ flowchart LR
 
 ## Rendered Exports (Validator Index)
 
-@Image(source: "maps-font-level0.codex", alt: "Google Maps font migration overview")
-@Image(source: "maps-font-before-apis.codex", alt: "Before state with five typography APIs")
-@Image(source: "maps-font-after-canonical.codex", alt: "After state with canonical tokens and shims")
-@Image(source: "maps-font-dependency-map.codex", alt: "Dependency map for shared API first")
-@Image(source: "maps-font-decision-tree.codex", alt: "Decision tree for migration strategy")
-@Image(source: "maps-font-automation-pipeline.codex", alt: "Automation pipeline")
-@Image(source: "maps-font-before-after-di.mermaid", alt: "Before to after typography system")
-@Image(source: "maps-font-runtime-flow.codex", alt: "Canonical pipeline runtime flow")
-@Image(source: "maps-font-migration-plan.codex", alt: "Migration plan and rollback points")
-@Image(source: "maps-font-snapshot-triage.codex", alt: "Snapshot triage loop")
-@Image(source: "maps-font-umbrella-before.codex", alt: "Umbrella header coupling before the migration")
-@Image(source: "maps-font-umbrella-after.codex", alt: "Compat umbrella during transition")
+@Image(source: "maps-font-level0.codex.svg", alt: "Google Maps font migration overview")
+@Image(source: "maps-font-before-apis.codex.svg", alt: "Before state with five typography APIs")
+@Image(source: "maps-font-after-canonical.codex.svg", alt: "After state with canonical tokens and shims")
+@Image(source: "maps-font-dependency-map.codex.svg", alt: "Dependency map for shared API first")
+@Image(source: "maps-font-decision-tree.codex.svg", alt: "Decision tree for migration strategy")
+@Image(source: "maps-font-automation-pipeline.codex.svg", alt: "Automation pipeline")
+@Image(source: "maps-font-before-after-di.mermaid.svg", alt: "Before to after typography system")
+@Image(source: "maps-font-runtime-flow.codex.svg", alt: "Canonical pipeline runtime flow")
+@Image(source: "maps-font-migration-plan.codex.svg", alt: "Migration plan and rollback points")
+@Image(source: "maps-font-snapshot-triage.codex.svg", alt: "Snapshot triage loop")
+@Image(source: "maps-font-umbrella-before.codex.svg", alt: "Umbrella header coupling before the migration")
+@Image(source: "maps-font-umbrella-after.codex.svg", alt: "Compat umbrella during transition")

@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Large Mobile Apps")
-  @PageImage(purpose: icon, source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-icon.codex", alt: "CI and the build train Icon")
-  @PageImage(purpose: card, source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-card.codex", alt: "CI and the build train Card")
+  @PageImage(purpose: icon, source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-icon.codex.svg", alt: "CI and the build train Icon")
+  @PageImage(purpose: card, source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-card.codex.svg", alt: "CI and the build train Card")
 }
 
 @Options {
@@ -13,7 +13,7 @@
 }
 
 
-@Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-hero.codex", alt: "CI and the build train Hero")
+@Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-hero.codex.svg", alt: "CI and the build train Hero")
 
 Code signing, provisioning, and Xcode tooling make mobile release pipelines more
 fragile.
@@ -34,7 +34,7 @@ fragile.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-context.mermaid", alt: "Context snapshot")
+@Image(source: "ios-scaling-challenges-09-ci-cd-and-the-build-train-context.mermaid.svg", alt: "Context snapshot")
 
 ```mermaid
 %% file: ios-scaling-challenges-09-ci-cd-and-the-build-train-context.svg
