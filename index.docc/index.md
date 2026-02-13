@@ -5,8 +5,9 @@
   @PageColor(gray)
   @TechnologyRoot
   @TitleHeading("System Design Studio")
-  @PageImage(purpose: icon, source: "index-icon.codex", alt: "Studio Laussat Icon")
-  @PageImage(purpose: card, source: "index-card.codex", alt: "Studio Laussat Card")
+  @PageImage(purpose: icon, source: "index-icon.codex.svg", alt: "Studio Laussat Icon")
+  @PageImage(purpose: card, source: "index-card.codex.svg", alt: "Studio Laussat Card")
+  @CallToAction(url: "mailto:hello@laussat.studio", label: "Contact")
 }
 
 @Options {
@@ -16,9 +17,9 @@
 
 A technical studio focused on system design, architecture, and production-scale delivery.
 
-@Image(source: "laussat-studio.codex", alt: "Studio Laussat mark")
+@Image(source: "laussat-studio.codex.svg", alt: "Studio Laussat mark")
 
-@Image(source: "laussat-studio-context.mermaid", alt: "Studio Laussat context map")
+@Image(source: "laussat-studio-context.mermaid.svg", alt: "Studio Laussat context map")
 
 ## Overview
 
@@ -28,6 +29,12 @@ constraints, and the decisions that made them shippable.
 **Visit the Studio:** https://laussat.studio
 
 ## Topics
+
+### Start here
+
+- <doc:contact>
+- <doc:privacy>
+- <doc:terms>
 
 ### System Designs
 
