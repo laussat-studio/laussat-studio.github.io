@@ -1,4 +1,4 @@
-# Studio Laussat
+# Studio Laussat, LLC
 
 @Metadata {
   @PageKind(article)
@@ -7,7 +7,7 @@
   @TitleHeading("System Design Studio")
   @PageImage(purpose: icon, source: "index-icon.codex.svg", alt: "Studio Laussat Icon")
   @PageImage(purpose: card, source: "index-card.codex.svg", alt: "Studio Laussat Card")
-  @CallToAction(url: "mailto:cmonterroza@laussat.studio", label: "Contact")
+  @CallToAction(url: "mailto:support@laussat.studio", label: "Support")
 }
 
 @Options {
@@ -17,7 +17,10 @@
 
 A technical studio focused on system design, architecture, and production-scale delivery.
 
+**Legal entity:** Studio Laussat, LLC
+
 @Image(source: "laussat-studio.codex.svg", alt: "Studio Laussat mark")
+
 ## Overview
 
 Studio Laussat documents the system designs behind our products, with an emphasis on scale,
