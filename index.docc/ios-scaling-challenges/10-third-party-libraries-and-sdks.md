@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-hero.codex.svg", alt: "Third-party libraries and SDKs Hero")
 
 SDK sprawl affects startup time, privacy posture, and update cadence.
@@ -32,17 +31,3 @@ SDK sprawl affects startup time, privacy posture, and update cadence.
 - Wrap third-party SDKs behind internal adapters and version them.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-10-third-party-libraries-and-sdks-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-10-third-party-libraries-and-sdks-context.svg
-%% title: Third-party libraries and SDKs - Context snapshot
-flowchart LR
-  A["Third-party libraries and SDKs"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

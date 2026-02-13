@@ -46,33 +46,6 @@ different font helpers, creating visible drift and unpredictable truncation.
 
 ## Diagram: API Sprawl (Before State)
 
-@Image(source: "maps-font-before-apis-40plus.mermaid.svg", alt: "Before state with 40 plus font APIs")
-
-```mermaid
-%% file: maps-font-before-apis-40plus.svg
-%% title: Before - 40 plus font APIs across the codebase
-flowchart LR
-  A["Codebase: 40 plus font APIs"] --> B["Enum-based API (Swift)"]
-  A --> C["Objective-C class API"]
-  A --> D["Direct UIFont usage"]
-  A --> E["Legacy helpers and wrappers"]
-  A --> N["No single answer for developers"]
-
-  B --> B1["FontStyle enum<br>case body<br>case display"]
-  C --> C1["LSFontCatalog<br>+fontForRole:"]
-  D --> D1["UIFont.systemFont"]
-  D --> D2["UIFont(name:, size:)"]
-  E --> E1["feature-specific helpers"]
-  E --> E2["one-off overrides"]
-  N --> N1["Teams chose different APIs"]
-  N --> N2["Inconsistent UI outcomes"]
-
-  A --> F["Scaling logic diverges"]
-  F --> G["Layout regressions"]
-  F --> H["Accessibility gaps"]
-  F --> I["UIKit vs SwiftUI mismatch"]
-```
-
 ## Stakeholders and Ownership
 
 - **Design systems:** defined typography tokens and semantic roles.
@@ -81,42 +54,3 @@ flowchart LR
 - **Quality and release:** monitored rollouts and triaged regressions.
 
 ## Diagram: Umbrella Coupling
-
-@Image(source: "maps-font-umbrella-before.mermaid.svg", alt: "Umbrella header coupling before the migration")
-
-```mermaid
-%% file: maps-font-umbrella-before.codex.svg
-%% title: Before - Umbrella header coupling
-flowchart LR
-  subgraph FEATURES[Features hundreds of files]
-    F1[Maps UI screens]
-    F2[Search / Explore]
-    F3[Navigation / ETA]
-    F4[Shared components usage]
-  end
-
-  subgraph DS_UMBRELLA[Design system umbrella header / module]
-    U[DesignSystem umbrella]
-  end
-
-  subgraph SUBSYSTEMS[Design system subsystems behind umbrella]
-    T[Typography]
-    C[Color tokens]
-    I[Icons]
-    L[Layout metrics / spacing]
-    A[Appearance / theming]
-    X[Categories / utilities]
-  end
-
-  FEATURES -->|import umbrella| U
-  U --> T
-  U --> C
-  U --> I
-  U --> L
-  U --> A
-  U --> X
-
-  T --> P1[Font drift / scaling inconsistency]
-  U --> P2[Transitive import coupling]
-  P2 --> R[Removing typography breaks unrelated paths]
-```

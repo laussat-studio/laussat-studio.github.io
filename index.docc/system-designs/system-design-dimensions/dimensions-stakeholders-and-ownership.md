@@ -23,17 +23,3 @@ Clarify who owned which parts of the work and who depended on the outcome.
 - Decision-making and escalation paths.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-stakeholders-and-ownership-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-stakeholders-and-ownership-context.svg
-%% title: Stakeholders and Ownership - Context snapshot
-flowchart LR
-  A["Stakeholders and Ownership"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

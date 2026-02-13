@@ -23,17 +23,3 @@ Capture the technical and organizational guardrails.
 - Organizational constraints (teams, timelines, dependencies).
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-requirements-and-constraints-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-requirements-and-constraints-context.svg
-%% title: Requirements and Constraints - Context snapshot
-flowchart LR
-  A["Requirements and Constraints"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

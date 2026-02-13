@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-strategy-and-execution-hero.codex.svg", alt: "Strategy and execution hero")
 
 ## Approach
@@ -79,68 +78,6 @@ font change dropped from weeks of QA to a measured, staged rollout.
 
 ## Diagram: Shared Dependency Map
 
-@Image(source: "maps-font-dependency-map.mermaid.svg", alt: "Dependency map for shared API first")
-
-```mermaid
-%% file: maps-font-dependency-map.codex.svg
-%% title: Dependency map
-flowchart TB
-  subgraph DS[Design system layer]
-    FP[FontProvider API]
-    TK[Typography tokens]
-    SH[Shim layer legacy to tokens]
-  end
-
-  subgraph APPS[Apps]
-    M[Maps iOS]
-    X[Dependent iOS apps]
-  end
-
-  TK --> FP
-  SH --> TK
-  M --> SH
-  X --> SH
-```
-
 ## Diagram: Migration Decision Tree
 
-@Image(source: "maps-font-decision-tree.mermaid.svg", alt: "Decision tree for migration strategy")
-
-```mermaid
-%% file: maps-font-decision-tree.codex.svg
-%% title: Migration strategy decision tree
-flowchart TB
-  D0{Font migration approach}
-  D0 --> D1[Big bang replacement]
-  D0 --> D2[Incremental via shim and tokens]
-
-  D1 --> R1{Large surface area}
-  R1 -->|Yes| O1[High risk and hard rollback]
-  R1 -->|No| O2[Possible but rare at scale]
-
-  D2 --> R2{Multi app support}
-  R2 -->|Yes| O3[Best path for shared API and safe rollout]
-  R2 -->|No| O4[Still safer and more reviewable]
-
-  O3 --> P[Chosen: incremental via shim and tokens]
-```
-
 ## Diagram: Automation Pipeline
-
-@Image(source: "maps-font-automation-pipeline.mermaid.svg", alt: "Automation pipeline")
-
-```mermaid
-%% file: maps-font-automation-pipeline.codex.svg
-%% title: Automation pipeline
-flowchart LR
-  A[Codebase] --> B[Static scan for font call sites]
-  B --> C[Cluster by module and owner]
-  C --> D[Generate batch migrations]
-  D --> E[Apply transform to token API]
-  E --> F[Determine impacted tests]
-  F --> G[Run targeted unit and UI tests]
-  G --> H[Run snapshot suite]
-  H --> I[Update baselines when expected]
-  I --> J[Human review and triage]
-  J --> K[Merge and track metrics]
-```

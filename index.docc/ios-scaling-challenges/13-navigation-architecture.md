@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-13-navigation-architecture-hero.codex.svg", alt: "Navigation architecture Hero")
 
 Large apps combine stacks, tabs, and split views that must remain consistent
@@ -33,17 +32,3 @@ under deep link entry.
 - Maintain a single route registry with clear ownership rules.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-13-navigation-architecture-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-13-navigation-architecture-context.svg
-%% title: Navigation architecture - Context snapshot
-flowchart LR
-  A["Navigation architecture"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

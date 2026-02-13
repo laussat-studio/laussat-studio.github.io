@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-01-state-management-hero.codex.svg", alt: "State management Hero")
 
 Large iOS apps juggle UIKit and SwiftUI lifecycles, async state, and multiple
@@ -33,17 +32,3 @@ stores of truth.
 - Define a single state graph per feature and enforce ownership.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-01-state-management-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-01-state-management-context.codex.svg
-%% title: State management - Context snapshot
-flowchart LR
-  A["State management"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

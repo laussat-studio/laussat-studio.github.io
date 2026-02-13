@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-hero.codex.svg", alt: "Architecting to avoid collisions Hero")
 
 Large teams need boundaries to avoid multiple features colliding in one area.
@@ -32,17 +31,3 @@ Large teams need boundaries to avoid multiple features colliding in one area.
 - Establish code ownership and enforce dependency direction rules.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-20-architecting-to-avoid-collisions-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-20-architecting-to-avoid-collisions-context.svg
-%% title: Architecting to avoid collisions - Context snapshot
-flowchart LR
-  A["Architecting to avoid collisions"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

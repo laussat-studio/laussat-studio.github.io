@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-hero.codex.svg", alt: "Long tail of old app versions Hero")
 
 Real adoption curves mean you support multiple OS and app versions long after a
@@ -33,17 +32,3 @@ release ships.
 - Maintain a capabilities matrix and plan deprecations in advance.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-03-long-tail-of-old-app-versions-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-03-long-tail-of-old-app-versions-context.codex.svg
-%% title: Long tail of old app versions - Context snapshot
-flowchart LR
-  A["Long tail of old app versions"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

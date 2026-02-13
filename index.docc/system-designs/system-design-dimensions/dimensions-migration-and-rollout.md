@@ -23,17 +23,3 @@ Describe how the new system replaced the old one safely.
 - Rollback criteria and thresholds.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-migration-and-rollout-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-migration-and-rollout-context.svg
-%% title: Migration and Rollout - Context snapshot
-flowchart LR
-  A["Migration and Rollout"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

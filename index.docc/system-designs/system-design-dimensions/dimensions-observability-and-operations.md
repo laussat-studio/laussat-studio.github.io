@@ -23,17 +23,3 @@ Describe how the system is monitored and operated day to day.
 - Cost or budget monitoring.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-observability-and-operations-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-observability-and-operations-context.svg
-%% title: Observability and Operations - Context snapshot
-flowchart LR
-  A["Observability and Operations"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

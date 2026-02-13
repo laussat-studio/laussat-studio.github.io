@@ -23,18 +23,6 @@ real‑world constraints.
 
 ## Diagram: Context Snapshot
 
-```mermaid
-%% file: system-designs-context.svg
-%% title: System designs - Context snapshot
-flowchart LR
-  A["System designs"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
-
 ## Topics
 
 ### System Design Framework

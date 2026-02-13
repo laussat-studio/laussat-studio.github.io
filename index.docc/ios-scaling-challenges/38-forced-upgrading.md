@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-38-forced-upgrading-hero.codex.svg", alt: "Forced upgrading Hero")
 
 Minimum OS or app version enforcement must balance safety and user trust.
@@ -32,17 +31,3 @@ Minimum OS or app version enforcement must balance safety and user trust.
 - Phase enforcement with warnings and clear communication.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-38-forced-upgrading-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-38-forced-upgrading-context.svg
-%% title: Forced upgrading - Context snapshot
-flowchart LR
-  A["Forced upgrading"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

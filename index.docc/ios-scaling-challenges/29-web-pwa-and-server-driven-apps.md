@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-hero.codex.svg", alt: "Web, PWA, and server-driven apps Hero")
 
 WKWebView and server-driven UI introduce new constraints for navigation, auth,
@@ -33,17 +32,3 @@ and accessibility.
 - Define explicit app-web contracts for navigation and state.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-29-web-pwa-and-server-driven-apps-context.svg
-%% title: Web, PWA, and server-driven apps - Context snapshot
-flowchart LR
-  A["Web, PWA, and server-driven apps"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

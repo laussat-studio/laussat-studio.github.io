@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-diagrams-hero.codex.svg", alt: "Diagrams Hero")
 
 Diagrams now live alongside the narrative sections that explain them. Use this
@@ -36,20 +35,6 @@ Rendered SVGs live at the bundle root: `wrkstrm.docc/resources/`.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-google-maps-font-system-diagrams-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-diagrams-context.svg
-%% title: Diagrams - Context snapshot
-flowchart LR
-  A["Diagrams"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
-
 ## Rendered Exports (Validator Index)
 
 @Image(source: "maps-font-level0.codex.svg", alt: "Google Maps font migration overview")
@@ -58,7 +43,6 @@ flowchart LR
 @Image(source: "maps-font-dependency-map.codex.svg", alt: "Dependency map for shared API first")
 @Image(source: "maps-font-decision-tree.codex.svg", alt: "Decision tree for migration strategy")
 @Image(source: "maps-font-automation-pipeline.codex.svg", alt: "Automation pipeline")
-@Image(source: "maps-font-before-after-di.mermaid.svg", alt: "Before to after typography system")
 @Image(source: "maps-font-runtime-flow.codex.svg", alt: "Canonical pipeline runtime flow")
 @Image(source: "maps-font-migration-plan.codex.svg", alt: "Migration plan and rollback points")
 @Image(source: "maps-font-snapshot-triage.codex.svg", alt: "Snapshot triage loop")

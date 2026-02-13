@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-39-app-size-hero.codex.svg", alt: "App size Hero")
 
 Binary size grows with assets, duplicate frameworks, and unused code paths.
@@ -32,17 +31,3 @@ Binary size grows with assets, duplicate frameworks, and unused code paths.
 - Audit size budgets and use on-demand resources.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-39-app-size-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-39-app-size-context.svg
-%% title: App size - Context snapshot
-flowchart LR
-  A["App size"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

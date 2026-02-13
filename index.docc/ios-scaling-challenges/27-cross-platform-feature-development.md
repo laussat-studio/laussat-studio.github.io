@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-hero.codex.svg", alt: "Cross-platform feature development Hero")
 
 Feature parity across platforms requires shared contracts without shared UI.
@@ -32,17 +31,3 @@ Feature parity across platforms requires shared contracts without shared UI.
 - Use shared schemas and contract tests to keep parity.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-27-cross-platform-feature-development-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-27-cross-platform-feature-development-context.svg
-%% title: Cross-platform feature development - Context snapshot
-flowchart LR
-  A["Cross-platform feature development"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

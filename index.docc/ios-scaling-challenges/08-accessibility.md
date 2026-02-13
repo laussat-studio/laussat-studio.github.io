@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-08-accessibility-hero.codex.svg", alt: "Accessibility Hero")
 
 Large apps regress accessibility as screens multiply and UI components diverge.
@@ -32,17 +31,3 @@ Large apps regress accessibility as screens multiply and UI components diverge.
 - Include accessibility checks in CI and in release checklists.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-08-accessibility-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-08-accessibility-context.codex.svg
-%% title: Accessibility - Context snapshot
-flowchart LR
-  A["Accessibility"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

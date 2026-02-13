@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-hero.codex.svg", alt: "Adopting new languages and frameworks Hero")
 
 Swift language updates and SwiftUI adoption require staged migration strategy.
@@ -32,17 +31,3 @@ Swift language updates and SwiftUI adoption require staged migration strategy.
 - Use staged migrations with playbooks and training checkpoints.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-25-adopting-new-languages-and-frameworks-context.svg
-%% title: Adopting new languages and frameworks - Context snapshot
-flowchart LR
-  A["Adopting new languages and frameworks"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

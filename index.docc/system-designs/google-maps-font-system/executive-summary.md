@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-executive-summary-hero.codex.svg", alt: "Executive summary hero")
 
 ## Story
@@ -42,20 +41,6 @@ and distance badge that previously drifted across teams and release trains.
 - We phased migration through shared components before feature surfaces.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-executive-summary-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-executive-summary-context.svg
-%% title: Executive Summary - Context snapshot
-flowchart LR
-  A["Executive Summary"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Start State
 

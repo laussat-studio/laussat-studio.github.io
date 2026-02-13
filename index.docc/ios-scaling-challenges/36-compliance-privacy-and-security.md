@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-hero.codex.svg", alt: "Compliance, privacy, and security Hero")
 
 Privacy manifests, ATT, and secure storage require disciplined governance.
@@ -32,17 +31,3 @@ Privacy manifests, ATT, and secure storage require disciplined governance.
 - Include privacy review gates in release workflows.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-36-compliance-privacy-and-security-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-36-compliance-privacy-and-security-context.svg
-%% title: Compliance, privacy, and security - Context snapshot
-flowchart LR
-  A["Compliance, privacy, and security"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-06-app-crashes-hero.codex.svg", alt: "App crashes Hero")
 
 Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
@@ -32,17 +31,3 @@ Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 - Treat crash-free rate as a budget with strict alerting.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-06-app-crashes-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-06-app-crashes-context.codex.svg
-%% title: App crashes - Context snapshot
-flowchart LR
-  A["App crashes"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-lessons-hero.codex.svg", alt: "Lessons hero")
 
 ## What Stuck
@@ -38,17 +37,3 @@
 - Document the Search Results example as a reusable template for future rollouts.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-lessons-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-lessons-context.svg
-%% title: Lessons Learned - Context snapshot
-flowchart LR
-  A["Lessons Learned"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

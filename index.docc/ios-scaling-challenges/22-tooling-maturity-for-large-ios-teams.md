@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-hero.codex.svg", alt: "Tooling maturity for large iOS teams Hero")
 
 Large teams need consistent linting, documentation, and metrics to scale.
@@ -32,17 +31,3 @@ Large teams need consistent linting, documentation, and metrics to scale.
 - Provide a paved road for linting, docs, and performance budgets.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-22-tooling-maturity-for-large-ios-teams-context.svg
-%% title: Tooling maturity for large iOS teams - Context snapshot
-flowchart LR
-  A["Tooling maturity for large iOS teams"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

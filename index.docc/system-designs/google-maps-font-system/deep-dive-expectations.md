@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-hero.codex.svg", alt: "Project deep dive expectations Hero")
 
 ## What They Evaluate
@@ -93,17 +92,3 @@ If you provide a one-paragraph description of your deep dive project
 script plus the diagram content you should draw from memory.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-deep-dive-expectations-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-deep-dive-expectations-context.svg
-%% title: Project Deep Dive Expectations - Context snapshot
-flowchart LR
-  A["Project Deep Dive Expectations"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

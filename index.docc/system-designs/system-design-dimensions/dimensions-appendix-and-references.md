@@ -22,17 +22,3 @@ Collect supporting artifacts without interrupting the narrative.
 - Glossary and terminology.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-appendix-and-references-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-appendix-and-references-context.svg
-%% title: Appendix and References - Context snapshot
-flowchart LR
-  A["Appendix and References"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

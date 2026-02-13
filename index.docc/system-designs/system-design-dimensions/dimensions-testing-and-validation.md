@@ -23,17 +23,3 @@ Explain how correctness was proven before and after launch.
 - Regression or snapshot tooling.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-testing-and-validation-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-testing-and-validation-context.svg
-%% title: Testing and Validation - Context snapshot
-flowchart LR
-  A["Testing and Validation"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

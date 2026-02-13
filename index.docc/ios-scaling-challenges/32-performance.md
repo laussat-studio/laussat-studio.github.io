@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-32-performance-hero.codex.svg", alt: "Performance Hero")
 
 Performance issues surface as cold starts, jank, and energy regressions.
@@ -32,17 +31,3 @@ Performance issues surface as cold starts, jank, and energy regressions.
 - Set explicit budgets and profile against them every release.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-32-performance-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-32-performance-context.svg
-%% title: Performance - Context snapshot
-flowchart LR
-  A["Performance"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

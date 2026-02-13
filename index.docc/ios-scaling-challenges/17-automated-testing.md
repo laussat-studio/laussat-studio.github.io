@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-17-automated-testing-hero.codex.svg", alt: "Automated testing Hero")
 
 iOS test stability is fragile under concurrency, UI timing, and data variance.
@@ -32,17 +31,3 @@ iOS test stability is fragile under concurrency, UI timing, and data variance.
 - Use hermetic test data and enforce flake budgets.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-17-automated-testing-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-17-automated-testing-context.svg
-%% title: Automated testing - Context snapshot
-flowchart LR
-  A["Automated testing"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

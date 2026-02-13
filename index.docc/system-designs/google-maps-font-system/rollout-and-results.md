@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "system-designs-google-maps-font-system-rollout-and-results-hero.codex.svg", alt: "Rollout and results hero")
 
 ## Rollout
@@ -41,19 +40,3 @@
 - Scroll FPS and text layout time for Search Results before and after the flag.
 
 ## Diagram: Snapshot Triage Loop
-
-@Image(source: "maps-font-snapshot-triage.mermaid.svg", alt: "Snapshot triage loop")
-
-```mermaid
-%% file: maps-font-snapshot-triage.codex.svg
-%% title: Snapshot triage loop
-flowchart TB
-  S1[Snapshot diff detected] --> Q1{Expected spec change}
-  Q1 -->|Yes| A1[Update baselines and note reason]
-  Q1 -->|No| Q2{Regression}
-  Q2 -->|Yes| F1[Fix token mapping or layout]
-  Q2 -->|No| I1[Mark as noise and refine tests]
-  A1 --> M[Proceed]
-  F1 --> M
-  I1 --> M
-```

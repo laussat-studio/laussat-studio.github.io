@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-hero.codex.svg", alt: "Modular architecture and dependency injection Hero")
 
 Modularization helps scale, but only if boundaries align with product domains.
@@ -32,17 +31,3 @@ Modularization helps scale, but only if boundaries align with product domains.
 - Define composition roots per feature and enforce API surface contracts.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-16-modular-architecture-and-dependency-injection-context.svg
-%% title: Modular architecture and dependency injection - Context snapshot
-flowchart LR
-  A["Modular architecture and dependency injection"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

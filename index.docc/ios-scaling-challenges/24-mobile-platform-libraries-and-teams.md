@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-hero.codex.svg", alt: "Mobile platform libraries and teams Hero")
 
 A platform team provides shared foundations and guardrails for product teams.
@@ -32,17 +31,3 @@ A platform team provides shared foundations and guardrails for product teams.
 - Define a platform roadmap with adoption and deprecation plans.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-24-mobile-platform-libraries-and-teams-context.svg
-%% title: Mobile platform libraries and teams - Context snapshot
-flowchart LR
-  A["Mobile platform libraries and teams"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

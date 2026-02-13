@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-18-manual-testing-hero.codex.svg", alt: "Manual testing Hero")
 
 Manual testing is still essential for device-specific and accessibility checks.
@@ -32,17 +31,3 @@ Manual testing is still essential for device-specific and accessibility checks.
 - Define TestFlight RC playbooks and device coverage requirements.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-18-manual-testing-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-18-manual-testing-context.svg
-%% title: Manual testing - Context snapshot
-flowchart LR
-  A["Manual testing"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

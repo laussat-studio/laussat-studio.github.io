@@ -13,7 +13,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-hero.codex.svg", alt: "Scaling challenges Hero")
 
 A map of the biggest challenges that surface when iOS apps and teams scale.
@@ -21,20 +20,6 @@ A map of the biggest challenges that surface when iOS apps and teams scale.
 @Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-context.svg
-%% title: Scaling challenges - Context snapshot
-flowchart LR
-  A["Scaling challenges"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Topics
 

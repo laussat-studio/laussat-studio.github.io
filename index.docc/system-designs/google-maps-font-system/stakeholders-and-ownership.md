@@ -17,7 +17,6 @@
 @Image(source: "system-designs-stakeholders-and-ownership-card.codex.svg", alt: "Legacy stakeholders card")
 @Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders And Ownership hero")
 
-
 ## Owners
 
 - **Typography tokens:** Terra design team.
@@ -34,17 +33,3 @@
 - Search Results owners approved token mapping and snapshot baselines.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-stakeholders-and-ownership-context.svg
-%% title: Stakeholders And Ownership - Context snapshot
-flowchart LR
-  A["Stakeholders And Ownership"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

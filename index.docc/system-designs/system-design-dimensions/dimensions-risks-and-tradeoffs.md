@@ -23,17 +23,3 @@ Make the decision logic explicit.
 - Risk mitigations and escape hatches.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-risks-and-tradeoffs-context.svg
-%% title: Risks and Tradeoffs - Context snapshot
-flowchart LR
-  A["Risks and Tradeoffs"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

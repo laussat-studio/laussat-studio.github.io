@@ -13,26 +13,11 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-part-3-large-ios-teams-hero.codex.svg", alt: "Large iOS teams hero")
 
 Scale is a coordination problem: ownership, tooling, and shared platforms.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-part-3-large-ios-teams-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-part-3-large-ios-teams-context.svg
-%% title: Large iOS Teams - Context snapshot
-flowchart LR
-  A["Large iOS Teams"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Topics
 
@@ -42,5 +27,4 @@ flowchart LR
 - <doc:22-tooling-maturity-for-large-ios-teams>
 - <doc:23-scaling-build-and-merge-times>
 - <doc:24-mobile-platform-libraries-and-teams>
-
 

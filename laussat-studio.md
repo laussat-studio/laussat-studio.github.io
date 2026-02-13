@@ -21,9 +21,6 @@ Legacy note: the canonical DocC entry point now lives at
 `laussat-studio.docc/index.md`.
 
 @Image(source: "laussat-studio.codex.svg", alt: "Laussat Studio mark")
-
-@Image(source: "laussat-studio-context.mermaid.svg", alt: "Laussat Studio context map")
-
 ## Overview
 
 Laussat Studio is the creative imprint for our published applications and media productions.
@@ -33,7 +30,6 @@ Laussat Studio is the creative imprint for our published applications and media 
 - [laussat-studio-context.mermaid](laussat-studio-context.mermaid)
 
 ## Topics
-
 
 ### Scaling Challenges
 

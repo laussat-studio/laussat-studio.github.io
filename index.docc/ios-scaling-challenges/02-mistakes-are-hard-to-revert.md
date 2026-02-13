@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-hero.codex.svg", alt: "Mistakes are hard to revert Hero")
 
 App Store review, phased release, and client rollout make hotfixes slow and
@@ -33,17 +32,3 @@ rollback paths narrow.
 - Ship every change with a rollback story and a kill switch plan.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-02-mistakes-are-hard-to-revert-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-02-mistakes-are-hard-to-revert-context.codex.svg
-%% title: Mistakes are hard to revert - Context snapshot
-flowchart LR
-  A["Mistakes are hard to revert"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

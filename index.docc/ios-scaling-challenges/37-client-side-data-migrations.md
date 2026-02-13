@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-37-client-side-data-migrations-hero.codex.svg", alt: "Client-side data migrations Hero")
 
 Core Data and SQLite migrations require careful versioning and testing.
@@ -32,17 +31,3 @@ Core Data and SQLite migrations require careful versioning and testing.
 - Test migrations against historical snapshots and large data sets.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-37-client-side-data-migrations-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-37-client-side-data-migrations-context.svg
-%% title: Client-side data migrations - Context snapshot
-flowchart LR
-  A["Client-side data migrations"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

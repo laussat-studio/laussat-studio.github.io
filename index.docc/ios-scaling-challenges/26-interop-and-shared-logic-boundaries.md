@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-hero.codex.svg", alt: "Interop and shared logic boundaries Hero")
 
 iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
@@ -32,17 +31,3 @@ iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 - Keep bridges thin and isolate shared logic behind stable APIs.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-26-interop-and-shared-logic-boundaries-context.svg
-%% title: Interop and shared logic boundaries - Context snapshot
-flowchart LR
-  A["Interop and shared logic boundaries"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

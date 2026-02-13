@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-hero.codex.svg", alt: "Analytics, monitoring, and alerting Hero")
 
 Mobile observability needs client metrics, crash rates, and SLOs.
@@ -32,17 +31,3 @@ Mobile observability needs client metrics, crash rates, and SLOs.
 - Standardize metrics and alerting for each release.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-33-analytics-monitoring-and-alerting-context.svg
-%% title: Analytics, monitoring, and alerting - Context snapshot
-flowchart LR
-  A["Analytics, monitoring, and alerting"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

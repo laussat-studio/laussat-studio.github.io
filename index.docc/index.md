@@ -18,9 +18,6 @@
 A technical studio focused on system design, architecture, and production-scale delivery.
 
 @Image(source: "laussat-studio.codex.svg", alt: "Studio Laussat mark")
-
-@Image(source: "laussat-studio-context.mermaid.svg", alt: "Studio Laussat context map")
-
 ## Overview
 
 Studio Laussat documents the system designs behind our products, with an emphasis on scale,

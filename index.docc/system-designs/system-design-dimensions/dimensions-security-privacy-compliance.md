@@ -23,17 +23,3 @@ Capture data handling, compliance risk, and guardrails.
 - Privacy and compliance requirements.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-security-privacy-compliance-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-security-privacy-compliance-context.svg
-%% title: Security, Privacy, Compliance - Context snapshot
-flowchart LR
-  A["Security, Privacy, Compliance"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

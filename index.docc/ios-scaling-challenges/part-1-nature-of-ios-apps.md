@@ -13,27 +13,12 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-hero.codex.svg", alt: "Nature of iOS apps hero")
 
 The constraints of Apple platforms shape every architectural decision, from
 state to distribution.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-part-1-nature-of-ios-apps-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-part-1-nature-of-ios-apps-context.svg
-%% title: Nature Of iOS Apps - Context snapshot
-flowchart LR
-  A["Nature Of iOS Apps"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Topics
 
@@ -49,5 +34,4 @@ flowchart LR
 - <doc:10-third-party-libraries-and-sdks>
 - <doc:11-device-and-os-fragmentation>
 - <doc:12-in-app-purchases>
-
 

@@ -25,20 +25,6 @@ could matter, then select only the dimensions that fit your case study.
 
 ## Diagram: Context Snapshot
 
-@Image(source: "system-designs-system-design-dimensions-system-design-dimensions-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-system-design-dimensions-context.svg
-%% title: System Design Dimensions - Context snapshot
-flowchart LR
-  A["System Design Dimensions"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
-
 ## Topics
 
 - <doc:dimensions-executive-summary>
@@ -57,5 +43,4 @@ flowchart LR
 - <doc:dimensions-results-and-metrics>
 - <doc:dimensions-lessons-and-next-steps>
 - <doc:dimensions-appendix-and-references>
-
 

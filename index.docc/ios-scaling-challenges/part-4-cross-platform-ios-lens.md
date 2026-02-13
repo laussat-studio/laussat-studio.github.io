@@ -13,26 +13,11 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-part-4-cross-platform-ios-lens-hero.codex.svg", alt: "Cross-platform iOS lens hero")
 
 Cross-platform choices still land inside the Apple ecosystem and its tradeoffs.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-part-4-cross-platform-ios-lens-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-part-4-cross-platform-ios-lens-context.svg
-%% title: Cross-Platform Through An iOS Lens - Context snapshot
-flowchart LR
-  A["Cross-Platform Through An iOS Lens"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Topics
 
@@ -41,5 +26,4 @@ flowchart LR
 - <doc:27-cross-platform-feature-development>
 - <doc:28-cross-platform-vs-native-decision-framework>
 - <doc:29-web-pwa-and-server-driven-apps>
-
 

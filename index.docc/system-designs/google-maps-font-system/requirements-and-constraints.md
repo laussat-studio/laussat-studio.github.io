@@ -17,7 +17,6 @@
 @Image(source: "system-designs-requirements-and-constraints-card.codex.svg", alt: "Legacy requirements card")
 @Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-hero.codex.svg", alt: "Requirements And Constraints hero")
 
-
 ## Requirements
 
 - Experimentation was required to validate the migration plan.
@@ -37,17 +36,3 @@
 - Performance budgets for scroll-heavy screens could not regress.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-requirements-and-constraints-context.svg
-%% title: Requirements And Constraints - Context snapshot
-flowchart LR
-  A["Requirements And Constraints"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

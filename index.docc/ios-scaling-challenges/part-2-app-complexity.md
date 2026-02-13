@@ -13,26 +13,11 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-part-2-app-complexity-hero.codex.svg", alt: "App complexity hero")
 
 As apps grow, navigation, localization, and testing become systems problems.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-part-2-app-complexity-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-part-2-app-complexity-context.svg
-%% title: App Complexity - Context snapshot
-flowchart LR
-  A["App Complexity"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
 
 ## Topics
 
@@ -42,5 +27,4 @@ flowchart LR
 - <doc:16-modular-architecture-and-dependency-injection>
 - <doc:17-automated-testing>
 - <doc:18-manual-testing>
-
 

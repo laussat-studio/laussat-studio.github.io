@@ -18,8 +18,6 @@ Use this page to capture missing details as we refine the system design story.
 @Image(source: "system-designs-open-questions-card.codex.svg", alt: "Legacy open questions card")
 @Image(source: "system-designs-google-maps-font-system-open-questions-hero.codex.svg", alt: "Open Questions hero")
 
-
-
 ## Resolved Details
 
 - Google Sans for headline/actions, Apple system for 16pt and below.
@@ -86,17 +84,3 @@ Use this page to capture missing details as we refine the system design story.
 - Confirm whether this was not applicable, or list any policy requirements.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-google-maps-font-system-open-questions-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-google-maps-font-system-open-questions-context.svg
-%% title: Open Questions - Context snapshot
-flowchart LR
-  A["Open Questions"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

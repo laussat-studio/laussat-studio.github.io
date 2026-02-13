@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-12-in-app-purchases-hero.codex.svg", alt: "In-app purchases Hero")
 
 StoreKit subscriptions and entitlements require strict modeling and verification.
@@ -32,17 +31,3 @@ StoreKit subscriptions and entitlements require strict modeling and verification
 - Treat entitlements as server-verified state, not client truth.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-12-in-app-purchases-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-12-in-app-purchases-context.svg
-%% title: In-app purchases - Context snapshot
-flowchart LR
-  A["In-app purchases"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

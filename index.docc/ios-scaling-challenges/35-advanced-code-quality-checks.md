@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-hero.codex.svg", alt: "Advanced code quality checks Hero")
 
 Static analysis, sanitizers, and API break checks guard long-term quality.
@@ -32,17 +31,3 @@ Static analysis, sanitizers, and API break checks guard long-term quality.
 - Enforce quality gates in CI with clear escape hatches.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-35-advanced-code-quality-checks-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-35-advanced-code-quality-checks-context.svg
-%% title: Advanced code quality checks - Context snapshot
-flowchart LR
-  A["Advanced code quality checks"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

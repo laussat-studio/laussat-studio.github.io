@@ -88,21 +88,6 @@ import stability.
 - **Telemetry hooks:** Snapshot diff signals, runtime warnings, and performance
   counters for layout and text rendering.
 
-@Image(source: "maps-font-level0.mermaid.svg", alt: "Google Maps font migration overview")
-
-```mermaid
-%% file: maps-font-level0.codex.svg
-%% title: Google Maps Font Migration Level 0
-flowchart LR
-  A[Brand refresh / typography spec] --> B[New font API + tokens]
-  B --> C[Shared UI kit / design system]
-  C --> D[Google Maps iOS app]
-  C --> E[Dependent iOS apps]
-  D --> F[Dynamic Type + accessibility parity]
-  E --> F
-  B --> G[Reduce drift: single source of truth]
-```
-
 ## Execution Strategy
 
 - Establish a canonical font registry and token contract.
@@ -112,60 +97,6 @@ flowchart LR
 - Roll out by shared components first, then feature call sites.
 
 ## Before State (What Made This Hard)
-
-@Image(source: "maps-font-before-apis.mermaid.svg", alt: "Before state with five typography APIs")
-
-```mermaid
-%% file: maps-font-before-apis.codex.svg
-%% title: Before - Five API families + direct/indirect imports
-flowchart TB
-  subgraph CONSUMERS[Consumption sites - hundreds total]
-    F[Feature screens / controllers / SwiftUI views]
-    C[Reusable UI components - cells, buttons, headers]
-    S[Style builders - NSAttributedString, text styles]
-  end
-
-  subgraph APISETS[Five parallel typography API families]
-    A[API A: Direct UIFont calls - systemFont / preferredFont]
-    B[API B: Legacy helper - Font.style...]
-    C1[API C: Design-system wrapper v1 - TerraTypography.*]
-    D[API D: Feature-local extensions - UILabel+FeatureFonts]
-    E[API E: Hard-coded fonts - font names/sizes]
-  end
-
-  F -. direct import .-> A
-  F -. direct import .-> B
-  F -. direct import .-> C1
-  F -. direct import .-> D
-  F -. direct import .-> E
-
-  F -->|indirect via dependency| C
-  F -->|indirect via dependency| S
-
-  C --> A
-  C --> B
-  C --> C1
-  C --> D
-  C --> E
-
-  S --> A
-  S --> B
-  S --> C1
-  S --> D
-  S --> E
-
-  A --> P1[Scaling inconsistencies]
-  B --> P2[Weight/size drift]
-  C1 --> P3[Token/version skew]
-  D --> P4[Local overrides]
-  E --> P5[Hard-coded regressions]
-
-  P1 --> R[Snapshot noise + UI drift]
-  P2 --> R
-  P3 --> R
-  P4 --> R
-  P5 --> R
-```
 
 - **Five parallel font API families** spread across hundreds of references.
 - **Import side effects:** The typography API was also an import gateway. It
@@ -178,55 +109,6 @@ flowchart TB
   in unrelated code, exploding the churn and review risk.
 
 ## Canonical Pipeline (After State)
-
-@Image(source: "maps-font-after-canonical.mermaid.svg", alt: "After state with canonical tokens and shims")
-
-```mermaid
-%% file: maps-font-after-canonical.codex.svg
-%% title: After - Canonical typography pipeline + shims
-flowchart TB
-  subgraph CANON[Canonical typography pipeline]
-    T[Typography Tokens - titleMedium, bodySmall]
-    FP[FontProvider - token to font descriptor]
-    DT[Dynamic Type Scaler - content size category]
-    OUT[UIFont / attributed output]
-    T --> FP --> DT --> OUT
-  end
-
-  subgraph DIRECT[Direct usage - new code]
-    F[Feature screens / controllers / views]
-    F -->|direct use of tokens| T
-  end
-
-  subgraph INDIRECT[Indirect usage - via dependencies]
-    C[Reusable UI components]
-    S[Style builders]
-    C -->|component uses tokens| T
-    S -->|builder uses tokens| T
-    F -->|uses components/builders| C
-    F -->|uses components/builders| S
-  end
-
-  subgraph SHIMS[Temporary shims for legacy API families]
-    SA[Shim A: direct UIFont calls to tokens]
-    SB[Shim B: legacy helper to tokens]
-    SC[Shim C: wrapper v1 to tokens]
-    SD[Shim D: feature extensions to tokens]
-    SE[Shim E: hard-coded detection to mapping]
-  end
-
-  LEGACY[Legacy call sites + legacy deps] --> SA
-  LEGACY --> SB
-  LEGACY --> SC
-  LEGACY --> SD
-  LEGACY --> SE
-
-  SA --> T
-  SB --> T
-  SC --> T
-  SD --> T
-  SE --> T
-```
 
 ## Migration Implications
 
@@ -332,7 +214,6 @@ font descriptors and profile layout passes.
 
 Centralized typography control with safer rollouts. Reduced visual drift across
 UIKit and SwiftUI. A migration playbook that scaled across the product surface.
-
 
 ## Topics
 

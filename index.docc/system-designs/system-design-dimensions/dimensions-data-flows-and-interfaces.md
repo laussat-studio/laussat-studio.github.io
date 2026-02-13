@@ -23,17 +23,3 @@ Detail the inputs, outputs, and API contracts that define system boundaries.
 - Backward compatibility expectations.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-data-flows-and-interfaces-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-data-flows-and-interfaces-context.svg
-%% title: Data Flows and Interfaces - Context snapshot
-flowchart LR
-  A["Data Flows and Interfaces"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

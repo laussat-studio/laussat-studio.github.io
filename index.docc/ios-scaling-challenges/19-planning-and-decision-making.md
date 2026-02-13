@@ -12,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-
 @Image(source: "ios-scaling-challenges-19-planning-and-decision-making-hero.codex.svg", alt: "Planning and decision making Hero")
 
 Planning must account for App Store latency, platform changes, and deprecations.
@@ -32,17 +31,3 @@ Planning must account for App Store latency, platform changes, and deprecations.
 - Use RFCs with explicit rollback and migration timelines.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "ios-scaling-challenges-19-planning-and-decision-making-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: ios-scaling-challenges-19-planning-and-decision-making-context.svg
-%% title: Planning and decision making - Context snapshot
-flowchart LR
-  A["Planning and decision making"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```

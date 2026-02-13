@@ -23,17 +23,3 @@ Define what success means and what was explicitly out of scope.
 - Tradeoffs implied by those boundaries.
 
 ## Diagram: Context Snapshot
-
-@Image(source: "system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.mermaid.svg", alt: "Context snapshot")
-
-```mermaid
-%% file: system-designs-system-design-dimensions-dimensions-goals-and-non-goals-context.svg
-%% title: Goals and Non-goals - Context snapshot
-flowchart LR
-  A["Goals and Non-goals"] --> B["Constraints and scope"]
-  B --> C["Complexity drivers"]
-  C --> D["Design tradeoffs"]
-  D --> E["Risk: regressions and drift"]
-  D --> F["Risk: migration cost"]
-  D --> G["Risk: stakeholder misalignment"]
-```
