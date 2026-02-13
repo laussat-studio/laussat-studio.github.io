@@ -30,11 +30,12 @@ constraints, and the decisions that made them shippable.
 
 ## Topics
 
-### Start here
+### Company
 
-- <doc:contact>
-- <doc:privacy>
-- <doc:terms>
+- <doc:company>
+- <doc:company/support>
+- <doc:company/privacy-policy>
+- <doc:company/terms-of-service>
 
 ### System Designs
 
