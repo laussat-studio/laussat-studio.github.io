@@ -28,6 +28,6 @@ Studio Laussat respects your privacy.
 
 ## Contact
 
-Questions? Email <hello@laussat.studio>.
+Questions? Email <cmonterroza@laussat.studio>.
 
 _Last updated: 2026-02-13_
