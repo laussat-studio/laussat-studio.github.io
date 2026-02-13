@@ -37,6 +37,12 @@ constraints, and the decisions that made them shippable.
 - <doc:company/privacy-policy>
 - <doc:company/terms-of-service>
 
+### Support & Policies
+
+- <doc:company/support>
+- <doc:company/privacy-policy>
+- <doc:company/terms-of-service>
+
 ### System Designs
 
 - <doc:system-designs-introduction>
