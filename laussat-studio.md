@@ -1,11 +1,11 @@
-# Laussat Studio
+# Studio Laussat, LLC
 
 @Metadata {
   @PageKind(article)
   @PageColor(gray)
-  @TitleHeading("Creative Studio")
-  @PageImage(purpose: icon, source: "laussat-studio-icon.codex.svg", alt: "Laussat Studio Icon")
-  @PageImage(purpose: card, source: "laussat-studio-card.codex.svg", alt: "Laussat Studio Card")
+  @TitleHeading("System Design Studio")
+  @PageImage(purpose: icon, source: "laussat-studio-icon.codex.svg", alt: "Studio Laussat Icon")
+  @PageImage(purpose: card, source: "laussat-studio-card.codex.svg", alt: "Studio Laussat Card")
 }
 
 @Options {
@@ -13,17 +13,25 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "laussat-studio-wordmark.svg", alt: "Laussat Studio wordmark")
+@Image(source: "laussat-studio-wordmark.svg", alt: "Studio Laussat wordmark")
 
-A creative production house for apps, media, and digital experiences.
+A technical studio focused on system design, architecture, and production-scale delivery.
 
-Legacy note: the canonical DocC entry point now lives at
-`laussat-studio.docc/index.md`.
+Note: the canonical DocC entry point lives at `index.docc/index.md`.
 
-@Image(source: "laussat-studio.codex.svg", alt: "Laussat Studio mark")
+@Image(source: "laussat-studio.codex.svg", alt: "Studio Laussat mark")
+
 ## Overview
 
-Laussat Studio is the creative imprint for our published applications and media productions.
+**Legal entity:** Studio Laussat, LLC
+
+**Official website:** https://laussat.studio
+
+For Apple App Store review and general inquiries, see our support and policy pages:
+
+- <doc:company/support>
+- <doc:company/privacy-policy>
+- <doc:company/terms-of-service>
 
 ## Mermaid source
 
@@ -31,10 +39,14 @@ Laussat Studio is the creative imprint for our published applications and media 
 
 ## Topics
 
+### Company
+
+- <doc:company>
+
 ### Scaling Challenges
 
 - <doc:ios-scaling-challenges>
 
 ### System Designs
 
-- <doc:system-designs>
+- <doc:system-designs-introduction>
