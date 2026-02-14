@@ -4,6 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Terms")
+  @PageImage(purpose: icon, source: "index-icon.codex.svg", alt: "Studio Laussat Icon")
+  @PageImage(purpose: card, source: "index-card.codex.svg", alt: "Studio Laussat Card")
 }
 
 This website is provided for informational purposes.
