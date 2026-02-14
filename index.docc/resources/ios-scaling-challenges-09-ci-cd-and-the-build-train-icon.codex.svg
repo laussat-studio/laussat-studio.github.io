@@ -11,5 +11,4 @@
   <rect x="63.04" y="54.05" width="135.57" height="67.94" rx="35.84" fill="#D98E04" opacity="0.85"/>
   <circle cx="186.19" cy="166.83" r="37.48" fill="#F95738" opacity="0.9"/>
   <path d="M 113.65 156.72 L 159.73 197.68 L 200.69 141.36 Z" fill="#F95738" opacity="0.6"/>
-  <text x="20.48" y="225.28" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 09 ci cd and the build train</text>
 </svg>

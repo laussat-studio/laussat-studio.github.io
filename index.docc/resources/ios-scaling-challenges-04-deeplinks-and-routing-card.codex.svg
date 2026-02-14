@@ -11,5 +11,4 @@
   <rect x="147.76" y="202.94" width="214.23" height="81.19" rx="56.00" fill="#5E548E" opacity="0.85"/>
   <circle cx="271.86" cy="228.31" r="62.40" fill="#63C7B2" opacity="0.9"/>
   <path d="M 289.97 277.42 L 397.97 341.42 L 493.97 253.42 Z" fill="#63C7B2" opacity="0.6"/>
-  <text x="48.00" y="352.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 04 deeplinks and routing</text>
 </svg>

@@ -11,5 +11,4 @@
   <rect x="321.25" y="139.14" width="252.25" height="137.67" rx="56.00" fill="#0E3A53" opacity="0.85"/>
   <circle cx="445.05" cy="93.48" r="82.56" fill="#ADB5BD" opacity="0.9"/>
   <path d="M 260.46 277.42 L 368.46 341.42 L 464.46 253.42 Z" fill="#ADB5BD" opacity="0.6"/>
-  <text x="48.00" y="352.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 29 web pwa and server driven apps</text>
 </svg>

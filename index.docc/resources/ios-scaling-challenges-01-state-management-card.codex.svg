@@ -11,5 +11,4 @@
   <rect x="234.51" y="260.66" width="267.04" height="95.64" rx="56.00" fill="#2A6F97" opacity="0.85"/>
   <circle cx="401.75" cy="239.10" r="81.60" fill="#ADB5BD" opacity="0.9"/>
   <path d="M 396.20 236.75 L 504.20 300.75 L 600.20 212.75 Z" fill="#ADB5BD" opacity="0.6"/>
-  <text x="48.00" y="352.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 01 state management</text>
 </svg>

@@ -11,5 +11,4 @@
   <rect x="42.69" y="79.33" width="94.11" height="99.04" rx="35.84" fill="#1D4E89" opacity="0.85"/>
   <circle cx="138.16" cy="75.36" r="37.48" fill="#B8F2E6" opacity="0.9"/>
   <path d="M 28.03 124.18 L 74.11 165.14 L 115.07 108.82 Z" fill="#B8F2E6" opacity="0.6"/>
-  <text x="20.48" y="225.28" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="23.04" fill="#F8F4EE" opacity="0.9">ios scaling challenges 26 interop and shared logic boundaries</text>
 </svg>

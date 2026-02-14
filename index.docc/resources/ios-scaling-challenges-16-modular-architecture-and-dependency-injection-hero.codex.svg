@@ -11,5 +11,4 @@
   <rect x="208.77" y="336.30" width="690.42" height="212.42" rx="84.00" fill="#2D6A4F" opacity="0.85"/>
   <circle cx="439.79" cy="200.90" r="90.72" fill="#A1C181" opacity="0.9"/>
   <path d="M 544.52 425.29 L 760.52 521.29 L 952.52 389.29 Z" fill="#A1C181" opacity="0.6"/>
-  <text x="96.00" y="528.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="54.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 16 modular architecture and dependency injection</text>
 </svg>

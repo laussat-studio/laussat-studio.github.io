@@ -22,8 +22,5 @@
   <circle cx="624" cy="154" r="18" fill="url(#accent)"/>
   <circle cx="772" cy="198" r="12" fill="#6B7280"/>
   <circle cx="946" cy="136" r="10" fill="#9CA3AF"/>
-  <text x="120" y="206" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif"
-    font-size="48" fill="#F7F5F2" letter-spacing="2">LAUSSAT</text>
-  <text x="120" y="258" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif"
-    font-size="28" fill="#D6D3D1" letter-spacing="3">STUDIO</text>
+
 </svg>

@@ -11,5 +11,4 @@
   <rect x="160.77" y="72.30" width="321.97" height="142.93" rx="56.00" fill="#6C757D" opacity="0.85"/>
   <circle cx="219.90" cy="284.94" r="56.64" fill="#E5989B" opacity="0.9"/>
   <path d="M 242.75 299.80 L 350.75 363.80 L 446.75 275.80 Z" fill="#E5989B" opacity="0.6"/>
-  <text x="48.00" y="352.00" font-family="Garamond, EB Garamond, Cormorant Garamond, Times New Roman, serif" font-size="36.00" fill="#F8F4EE" opacity="0.9">ios scaling challenges 23 scaling build and merge times</text>
 </svg>
