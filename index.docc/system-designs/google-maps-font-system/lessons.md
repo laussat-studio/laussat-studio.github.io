@@ -36,4 +36,3 @@
 - Extend tokens to cover new typography use cases without adding new APIs.
 - Document the Search Results example as a reusable template for future rollouts.
 
-## Diagram: Context Snapshot

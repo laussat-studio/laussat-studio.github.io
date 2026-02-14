@@ -17,8 +17,6 @@
 
 Operational maturity keeps large apps stable, observable, and trustworthy.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:30-experimentation>

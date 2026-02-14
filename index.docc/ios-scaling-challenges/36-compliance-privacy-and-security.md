@@ -30,4 +30,3 @@ Privacy manifests, ATT, and secure storage require disciplined governance.
 
 - Include privacy review gates in release workflows.
 
-## Diagram: Context Snapshot

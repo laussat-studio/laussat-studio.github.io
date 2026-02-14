@@ -22,4 +22,3 @@ Make the decision logic explicit.
 - Alternative designs that were rejected.
 - Risk mitigations and escape hatches.
 
-## Diagram: Context Snapshot

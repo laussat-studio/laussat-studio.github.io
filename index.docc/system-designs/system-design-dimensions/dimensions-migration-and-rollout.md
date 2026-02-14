@@ -22,4 +22,3 @@ Describe how the new system replaced the old one safely.
 - Backwards compatibility plan.
 - Rollback criteria and thresholds.
 
-## Diagram: Context Snapshot

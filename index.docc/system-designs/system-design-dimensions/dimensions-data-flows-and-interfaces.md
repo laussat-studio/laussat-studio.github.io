@@ -22,4 +22,3 @@ Detail the inputs, outputs, and API contracts that define system boundaries.
 - Data ownership and versioning.
 - Backward compatibility expectations.
 
-## Diagram: Context Snapshot

@@ -30,4 +30,3 @@ Performance issues surface as cold starts, jank, and energy regressions.
 
 - Set explicit budgets and profile against them every release.
 
-## Diagram: Context Snapshot

@@ -27,4 +27,3 @@ impact.
 
 - Detailed architecture or full decision logs.
 
-## Diagram: Context Snapshot

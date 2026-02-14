@@ -30,4 +30,3 @@ Localization expands layout and can destabilize UI when strings grow.
 
 - Use pseudo-localization and RTL testing in CI.
 
-## Diagram: Context Snapshot

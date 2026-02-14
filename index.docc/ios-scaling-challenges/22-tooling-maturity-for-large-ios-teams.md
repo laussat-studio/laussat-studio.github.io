@@ -30,4 +30,3 @@ Large teams need consistent linting, documentation, and metrics to scale.
 
 - Provide a paved road for linting, docs, and performance budgets.
 
-## Diagram: Context Snapshot

@@ -22,4 +22,3 @@ Capture what changed in your mental model and what you would do next.
 - One process or collaboration lesson.
 - A credible follow-up phase.
 
-## Diagram: Context Snapshot

@@ -17,8 +17,6 @@
 Diagrams now live alongside the narrative sections that explain them. Use this
 page as an index and a rendering note, not a gallery.
 
-## Diagram Locations
-
 - Google Maps typography design overview
 - Problem context
 - Strategy and execution
@@ -32,8 +30,6 @@ page as an index and a rendering note, not a gallery.
 
 Mermaid sources live in `wrkstrm.docc/resources/mermaid/`.
 Rendered SVGs live at the bundle root: `wrkstrm.docc/resources/`.
-
-## Diagram: Context Snapshot
 
 ## Rendered Exports (Validator Index)
 

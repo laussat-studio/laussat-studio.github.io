@@ -31,4 +31,3 @@ capability tiers.
 
 - Build capability-driven UI paths and test real device tiers.
 
-## Diagram: Context Snapshot

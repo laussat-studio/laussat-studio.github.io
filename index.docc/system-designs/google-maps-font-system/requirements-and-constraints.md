@@ -35,4 +35,3 @@
 - The migration needed to be reversible during the experimentation window.
 - Performance budgets for scroll-heavy screens could not regress.
 
-## Diagram: Context Snapshot

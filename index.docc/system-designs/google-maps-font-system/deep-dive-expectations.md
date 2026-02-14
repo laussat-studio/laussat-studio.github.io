@@ -91,4 +91,3 @@ If you provide a one-paragraph description of your deep dive project
 (problem, role, and one outcome metric), we will produce a tight 10-minute
 script plus the diagram content you should draw from memory.
 
-## Diagram: Context Snapshot

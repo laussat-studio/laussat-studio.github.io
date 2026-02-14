@@ -46,10 +46,6 @@ pipeline that was safe to roll out in a large iOS app ecosystem.
   - `fontFamilyMedium`
   - `fontFamilyLarge`
 
-## Diagram: Runtime Font Resolution
-
-## Diagram: Compat Umbrella During Transition
-
 ## Migration Strategy
 
 1. Freeze the typography spec and build a token map.
@@ -82,8 +78,6 @@ tool could run end-to-end:
 3. Enable the new mapping behind a surface flag for Search Results.
 4. Run max Dynamic Type snapshots and scroll perf benchmarks.
 5. Promote after two green cohorts; keep rollback to legacy helpers.
-
-## Diagram: Migration Plan
 
 ## Automation Pipeline
 

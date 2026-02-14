@@ -31,4 +31,3 @@ release ships.
 
 - Maintain a capabilities matrix and plan deprecations in advance.
 
-## Diagram: Context Snapshot

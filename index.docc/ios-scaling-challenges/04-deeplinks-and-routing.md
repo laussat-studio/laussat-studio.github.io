@@ -31,4 +31,3 @@ scale.
 
 - Centralize routing and log every deep link decision path.
 
-## Diagram: Context Snapshot

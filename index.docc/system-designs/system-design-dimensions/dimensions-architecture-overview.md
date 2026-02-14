@@ -22,4 +22,3 @@ Describe the system at a high level and show where the hard parts live.
 - A short narrative of the core flow.
 - Diagram(s) embedded directly in this section when needed.
 
-## Diagram: Context Snapshot

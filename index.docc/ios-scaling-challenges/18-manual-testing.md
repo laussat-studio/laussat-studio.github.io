@@ -30,4 +30,3 @@ Manual testing is still essential for device-specific and accessibility checks.
 
 - Define TestFlight RC playbooks and device coverage requirements.
 
-## Diagram: Context Snapshot

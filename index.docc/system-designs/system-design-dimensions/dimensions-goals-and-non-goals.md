@@ -22,4 +22,3 @@ Define what success means and what was explicitly out of scope.
 - Non-goals that prevented scope creep.
 - Tradeoffs implied by those boundaries.
 
-## Diagram: Context Snapshot

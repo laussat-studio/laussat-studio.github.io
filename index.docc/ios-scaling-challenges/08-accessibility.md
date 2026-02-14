@@ -30,4 +30,3 @@ Large apps regress accessibility as screens multiply and UI components diverge.
 
 - Include accessibility checks in CI and in release checklists.
 
-## Diagram: Context Snapshot

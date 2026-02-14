@@ -30,4 +30,3 @@ Large teams need boundaries to avoid multiple features colliding in one area.
 
 - Establish code ownership and enforce dependency direction rules.
 
-## Diagram: Context Snapshot

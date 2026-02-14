@@ -31,4 +31,3 @@ versioning.
 
 - Use semantic versioning and adapters for backward compatibility.
 
-## Diagram: Context Snapshot

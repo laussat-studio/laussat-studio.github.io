@@ -22,4 +22,3 @@ Explain how correctness was proven before and after launch.
 - Validation steps or QA gates.
 - Regression or snapshot tooling.
 
-## Diagram: Context Snapshot

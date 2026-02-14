@@ -22,4 +22,3 @@ Show the measurable impact of the system design.
 - User or business impact.
 - Long-term maintenance wins.
 
-## Diagram: Context Snapshot

@@ -22,4 +22,3 @@ Capture data handling, compliance risk, and guardrails.
 - Data retention, encryption, or access controls.
 - Privacy and compliance requirements.
 
-## Diagram: Context Snapshot

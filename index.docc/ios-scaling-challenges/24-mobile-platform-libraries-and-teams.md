@@ -30,4 +30,3 @@ A platform team provides shared foundations and guardrails for product teams.
 
 - Define a platform roadmap with adoption and deprecation plans.
 
-## Diagram: Context Snapshot

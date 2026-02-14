@@ -30,4 +30,3 @@ Static analysis, sanitizers, and API break checks guard long-term quality.
 
 - Enforce quality gates in CI with clear escape hatches.
 
-## Diagram: Context Snapshot

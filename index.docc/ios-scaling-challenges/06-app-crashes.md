@@ -30,4 +30,3 @@ Crashes at scale are often OOMs, watchdog kills, or edge-case lifecycle races.
 
 - Treat crash-free rate as a budget with strict alerting.
 
-## Diagram: Context Snapshot

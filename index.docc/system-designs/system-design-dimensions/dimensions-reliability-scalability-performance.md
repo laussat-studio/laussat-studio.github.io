@@ -22,4 +22,3 @@ Document SLOs and performance expectations.
 - Failure modes and recovery strategy.
 - Capacity planning or scale limits.
 
-## Diagram: Context Snapshot

@@ -30,4 +30,3 @@ Core Data and SQLite migrations require careful versioning and testing.
 
 - Test migrations against historical snapshots and large data sets.
 
-## Diagram: Context Snapshot

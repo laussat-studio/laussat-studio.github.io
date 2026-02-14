@@ -17,8 +17,6 @@
 
 Scale is a coordination problem: ownership, tooling, and shared platforms.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:19-planning-and-decision-making>

@@ -31,4 +31,3 @@ stores of truth.
 
 - Define a single state graph per feature and enforce ownership.
 
-## Diagram: Context Snapshot

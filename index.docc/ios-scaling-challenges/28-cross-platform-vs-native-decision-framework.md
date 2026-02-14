@@ -30,4 +30,3 @@ Choosing React Native, WebView, or native has long-term product implications.
 
 - Use a decision rubric that weighs performance, UX, and maintenance cost.
 
-## Diagram: Context Snapshot

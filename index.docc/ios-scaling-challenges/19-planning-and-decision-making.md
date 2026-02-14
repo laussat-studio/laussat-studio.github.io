@@ -30,4 +30,3 @@ Planning must account for App Store latency, platform changes, and deprecations.
 
 - Use RFCs with explicit rollback and migration timelines.
 
-## Diagram: Context Snapshot

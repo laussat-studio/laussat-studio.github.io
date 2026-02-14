@@ -31,4 +31,3 @@ sync rules.
 
 - Build an offline state machine with explicit sync stages.
 
-## Diagram: Context Snapshot

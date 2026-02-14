@@ -30,4 +30,3 @@ Flags accumulate quickly and can harden into permanent complexity.
 
 - Enforce flag lifetimes and audits each release.
 
-## Diagram: Context Snapshot

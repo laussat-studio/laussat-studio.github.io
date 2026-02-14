@@ -17,8 +17,6 @@
 
 As apps grow, navigation, localization, and testing become systems problems.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:13-navigation-architecture>

@@ -21,4 +21,3 @@ Collect supporting artifacts without interrupting the narrative.
 - Links to specs, docs, or tickets.
 - Glossary and terminology.
 
-## Diagram: Context Snapshot

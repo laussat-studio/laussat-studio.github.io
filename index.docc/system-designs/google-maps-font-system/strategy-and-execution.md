@@ -76,8 +76,3 @@ creating new APIs.
 Teams stopped hand‑tuning fonts per screen and instead aligned on semantic roles. The cost of a
 font change dropped from weeks of QA to a measured, staged rollout.
 
-## Diagram: Shared Dependency Map
-
-## Diagram: Migration Decision Tree
-
-## Diagram: Automation Pipeline

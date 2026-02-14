@@ -17,8 +17,6 @@
 
 Cross-platform choices still land inside the Apple ecosystem and its tradeoffs.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:25-adopting-new-languages-and-frameworks>

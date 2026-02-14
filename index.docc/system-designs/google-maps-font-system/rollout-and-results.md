@@ -39,4 +39,3 @@
 - Text layout performance in scroll-heavy screens.
 - Scroll FPS and text layout time for Search Results before and after the flag.
 
-## Diagram: Snapshot Triage Loop

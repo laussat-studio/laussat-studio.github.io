@@ -23,8 +23,6 @@ could matter, then select only the dimensions that fit your case study.
 - Add only the dimensions that change decisions or outcomes.
 - Keep diagrams embedded in the dimension where they are discussed.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:dimensions-executive-summary>

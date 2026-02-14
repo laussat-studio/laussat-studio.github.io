@@ -30,4 +30,3 @@ SDK sprawl affects startup time, privacy posture, and update cadence.
 
 - Wrap third-party SDKs behind internal adapters and version them.
 
-## Diagram: Context Snapshot

@@ -21,8 +21,6 @@ real‑world constraints.
 
 @Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 ### System Design Framework

@@ -31,4 +31,3 @@ and accessibility.
 
 - Define explicit app-web contracts for navigation and state.
 
-## Diagram: Context Snapshot

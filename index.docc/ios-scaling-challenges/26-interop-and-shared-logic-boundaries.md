@@ -30,4 +30,3 @@ iOS apps often interop with Objective-C, C, C++, or Rust for shared logic.
 
 - Keep bridges thin and isolate shared logic behind stable APIs.
 
-## Diagram: Context Snapshot

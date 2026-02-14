@@ -30,4 +30,3 @@ iOS test stability is fragile under concurrency, UI timing, and data variance.
 
 - Use hermetic test data and enforce flake budgets.
 
-## Diagram: Context Snapshot

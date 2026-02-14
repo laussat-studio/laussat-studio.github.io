@@ -31,4 +31,3 @@ fragile.
 
 - Automate signing and document promotion rules for each train.
 
-## Diagram: Context Snapshot

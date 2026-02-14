@@ -19,8 +19,6 @@ A map of the biggest challenges that surface when iOS apps and teams scale.
 
 @Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:part-1-nature-of-ios-apps>

@@ -30,4 +30,3 @@ APNs delivery is best-effort, and background work is constrained by OS policy.
 
 - Design idempotent background work with explicit retry queues.
 
-## Diagram: Context Snapshot

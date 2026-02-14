@@ -30,4 +30,3 @@ Binary size grows with assets, duplicate frameworks, and unused code paths.
 
 - Audit size budgets and use on-demand resources.
 
-## Diagram: Context Snapshot

@@ -30,4 +30,3 @@ StoreKit subscriptions and entitlements require strict modeling and verification
 
 - Treat entitlements as server-verified state, not client truth.
 
-## Diagram: Context Snapshot

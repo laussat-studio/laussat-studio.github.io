@@ -30,4 +30,3 @@ Feature parity across platforms requires shared contracts without shared UI.
 
 - Use shared schemas and contract tests to keep parity.
 
-## Diagram: Context Snapshot

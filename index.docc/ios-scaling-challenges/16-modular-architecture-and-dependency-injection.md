@@ -30,4 +30,3 @@ Modularization helps scale, but only if boundaries align with product domains.
 
 - Define composition roots per feature and enforce API surface contracts.
 
-## Diagram: Context Snapshot

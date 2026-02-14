@@ -31,4 +31,3 @@ under deep link entry.
 
 - Maintain a single route registry with clear ownership rules.
 
-## Diagram: Context Snapshot

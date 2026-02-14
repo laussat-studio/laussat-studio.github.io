@@ -30,4 +30,3 @@ Mobile incidents require quick triage, rollback paths, and server gating.
 
 - Maintain incident playbooks and rehearsal drills.
 
-## Diagram: Context Snapshot

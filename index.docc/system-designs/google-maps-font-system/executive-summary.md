@@ -40,8 +40,6 @@ and distance badge that previously drifted across teams and release trains.
 - We preserved legacy call sites with compatibility shims.
 - We phased migration through shared components before feature surfaces.
 
-## Diagram: Context Snapshot
-
 ## Start State
 
 @TabNavigator {

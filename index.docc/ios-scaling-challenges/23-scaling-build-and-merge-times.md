@@ -30,4 +30,3 @@ Swift build costs rise fast when module boundaries and interfaces drift.
 
 - Invest in module graph hygiene and cache-aware build tooling.
 
-## Diagram: Context Snapshot

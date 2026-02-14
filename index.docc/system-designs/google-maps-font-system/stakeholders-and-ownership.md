@@ -32,4 +32,3 @@
 - QA validated staged rollouts across multiple OS and device cohorts.
 - Search Results owners approved token mapping and snapshot baselines.
 
-## Diagram: Context Snapshot

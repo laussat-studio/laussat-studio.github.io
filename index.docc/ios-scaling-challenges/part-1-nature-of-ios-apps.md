@@ -18,8 +18,6 @@
 The constraints of Apple platforms shape every architectural decision, from
 state to distribution.
 
-## Diagram: Context Snapshot
-
 ## Topics
 
 - <doc:01-state-management>

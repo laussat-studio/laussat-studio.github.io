@@ -22,4 +22,3 @@ Describe how the system is monitored and operated day to day.
 - Oncall workflows and playbooks.
 - Cost or budget monitoring.
 
-## Diagram: Context Snapshot

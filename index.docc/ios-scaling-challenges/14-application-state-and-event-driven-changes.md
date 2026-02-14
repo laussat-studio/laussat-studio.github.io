@@ -30,4 +30,3 @@ App lifecycle events, push notifications, and auth refreshes collide at scale.
 
 - Centralize event handling with throttling and clear priorities.
 
-## Diagram: Context Snapshot

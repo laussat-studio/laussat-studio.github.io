@@ -83,4 +83,3 @@ Use this page to capture missing details as we refine the system design story.
 
 - Confirm whether this was not applicable, or list any policy requirements.
 
-## Diagram: Context Snapshot

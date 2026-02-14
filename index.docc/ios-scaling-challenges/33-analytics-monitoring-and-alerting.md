@@ -30,4 +30,3 @@ Mobile observability needs client metrics, crash rates, and SLOs.
 
 - Standardize metrics and alerting for each release.
 
-## Diagram: Context Snapshot

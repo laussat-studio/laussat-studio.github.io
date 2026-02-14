@@ -22,4 +22,3 @@ Capture the technical and organizational guardrails.
 - Non-functional constraints (latency, cost, offline, accessibility).
 - Organizational constraints (teams, timelines, dependencies).
 
-## Diagram: Context Snapshot

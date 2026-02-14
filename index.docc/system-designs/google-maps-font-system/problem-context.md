@@ -44,8 +44,6 @@ different font helpers, creating visible drift and unpredictable truncation.
 - Inconsistent scaling logic across screens and components.
 - No shared cache for font descriptors, causing repeated work in scroll-heavy views.
 
-## Diagram: API Sprawl (Before State)
-
 ## Stakeholders and Ownership
 
 - **Design systems:** defined typography tokens and semantic roles.
@@ -53,4 +51,3 @@ different font helpers, creating visible drift and unpredictable truncation.
 - **Feature teams:** migrated call sites and validated layout behavior.
 - **Quality and release:** monitored rollouts and triaged regressions.
 
-## Diagram: Umbrella Coupling

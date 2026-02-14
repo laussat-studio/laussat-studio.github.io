@@ -30,4 +30,3 @@ Minimum OS or app version enforcement must balance safety and user trust.
 
 - Phase enforcement with warnings and clear communication.
 
-## Diagram: Context Snapshot

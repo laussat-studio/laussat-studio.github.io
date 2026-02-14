@@ -30,4 +30,3 @@ Experimentation requires careful rollout, measurement, and guardrails.
 
 - Use explicit guardrails and experiment lifecycles.
 
-## Diagram: Context Snapshot

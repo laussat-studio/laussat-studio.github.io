@@ -31,4 +31,3 @@ rollback paths narrow.
 
 - Ship every change with a rollback story and a kill switch plan.
 
-## Diagram: Context Snapshot

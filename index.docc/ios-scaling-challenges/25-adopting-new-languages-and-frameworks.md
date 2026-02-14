@@ -30,4 +30,3 @@ Swift language updates and SwiftUI adoption require staged migration strategy.
 
 - Use staged migrations with playbooks and training checkpoints.
 
-## Diagram: Context Snapshot
