@@ -19,8 +19,6 @@ This section includes real system designs from the past decade that I have done
 for teams, covering systems that shipped in production and were refined under
 real‑world constraints.
 
-@Image(source: "index-hero.codex.svg", alt: "Studio Laussat Hero")
-
 ## Topics
 
 ### System Design Framework
