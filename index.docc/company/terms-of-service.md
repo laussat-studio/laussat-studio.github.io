@@ -6,7 +6,7 @@
   @TitleHeading("Terms")
 }
 
-**Effective date:** 2026-02-12
+**Effective date:** 2026-02-14
 
 By accessing our websites (https://laussat.studio and https://laussat-studio.github.io) you agree to these terms.
 
@@ -25,7 +25,9 @@ The site and content are provided “as is” without warranties of any kind.
 
 ## Contact
 
-Questions about these terms: **support@laussat.studio**
+Questions about these terms: **legal@laussat.studio**
+
+For general product support: **support@laussat.studio**
 
 ## Related
 
