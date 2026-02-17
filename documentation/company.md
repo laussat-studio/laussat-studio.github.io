@@ -9,7 +9,12 @@
 Studio Laussat, LLC is a technical studio focused on system design, architecture, and production-scale delivery.
 
 **Legal entity:** Studio Laussat, LLC  
-**Official website:** https://laussat.studio
+**Business location:** United States  
+**Official website:** https://laussat.studio  
+
+**Contact:** support@laussat.studio  
+**Privacy:** privacy@laussat.studio  
+**Legal:** legal@laussat.studio
 
 ## Support & Policies
 
