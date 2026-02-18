@@ -14,7 +14,9 @@ If you need help with a Studio Laussat product, have a question about the compan
 
 Contact options:
 
-- **Email:** support@laussat.studio
+- **Support:** support@laussat.studio
+- **Privacy:** privacy@laussat.studio
+- **Legal:** legal@laussat.studio
 - **Website:** https://laussat.studio
 
 ### For App Store review
