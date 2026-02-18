@@ -14,10 +14,10 @@ If you need help with a Studio Laussat product, have a question about the compan
 
 Contact options:
 
-- **Support:** support@laussat.studio
-- **Privacy:** privacy@laussat.studio
-- **Legal:** legal@laussat.studio
-- **Website:** https://laussat.studio
+- **Support:** [support@laussat.studio](mailto:support@laussat.studio)
+- **Privacy:** [privacy@laussat.studio](mailto:privacy@laussat.studio)
+- **Legal:** [legal@laussat.studio](mailto:legal@laussat.studio)
+- **Website:** <https://laussat.studio>
 
 ### For App Store review
 

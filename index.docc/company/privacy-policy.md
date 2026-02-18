@@ -38,7 +38,7 @@ If we add analytics or other tracking in the future, we will update this policy 
 
 ### Information you provide to us
 
-If you contact us (for example, by emailing support@laussat.studio), we will receive the information you include in your message (such as your email address and the contents of your request). We use it only to respond and provide support.
+If you contact us (for example, by emailing [support@laussat.studio](mailto:support@laussat.studio)), we will receive the information you include in your message (such as your email address and the contents of your request). We use it only to respond and provide support.
 
 ## Products
 
@@ -67,7 +67,7 @@ We may share limited information with service providers that help us operate our
 
 ## Contact
 
-For privacy questions or requests, email: **privacy@laussat.studio**
+For privacy questions or requests, email: **[privacy@laussat.studio](mailto:privacy@laussat.studio)**
 
 ## Changes
 

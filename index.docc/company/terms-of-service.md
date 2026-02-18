@@ -25,9 +25,9 @@ The site and content are provided “as is” without warranties of any kind.
 
 ## Contact
 
-Questions about these terms: **legal@laussat.studio**
+Questions about these terms: **[legal@laussat.studio](mailto:legal@laussat.studio)**
 
-For general product support: **support@laussat.studio**
+For general product support: **[support@laussat.studio](mailto:support@laussat.studio)**
 
 ## Related
 
