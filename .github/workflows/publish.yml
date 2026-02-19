@@ -39,9 +39,28 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path / \
+            --hosting-base-path /documentation/index \
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
+
+          # Normalize DocC output paths to /documentation/index (brand requirement)
+          # DocC defaults to /documentation/<bundle-identifier>/ and /images/<bundle-identifier>/.
+          # We rewrite the static-hosting output to use /documentation/index and /images/index.
+          if [ -d "${output_root}/documentation/studio-laussat" ] && [ ! -d "${output_root}/documentation/index" ]; then
+            mkdir -p "${output_root}/documentation"
+            mv "${output_root}/documentation/studio-laussat" "${output_root}/documentation/index"
+          fi
+          if [ -d "${output_root}/images/Studio-Laussat" ] && [ ! -d "${output_root}/images/index" ]; then
+            mkdir -p "${output_root}/images"
+            mv "${output_root}/images/Studio-Laussat" "${output_root}/images/index"
+          fi
+
+          # Rewrite internal references in JSON + HTML to match new paths.
+          # - /documentation/studio-laussat/  -> /documentation/index/
+          # - /images/Studio-Laussat/         -> /images/index/
+          # - doc://Studio-Laussat/...        -> doc://index/... (best-effort; stable id isn't user-facing)
+          find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+            | xargs -0 perl -0777 -pi -e 's#/documentation/studio-laussat/#/documentation/index/#g; s#/images/Studio-Laussat/#/images/index/#g; s#doc://Studio-Laussat/#doc://index/#g; s#doc:\\/Studio-Laussat\\/#doc:\\/index\\/#g'
           # Documentation index fallback (only when DocC didn't generate it).
           if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
             mkdir -p "${output_root}/documentation/index"
