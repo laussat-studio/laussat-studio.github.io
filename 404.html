@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <script>
+      (function () {
+        var path = window.location.pathname || "/";
+        var search = window.location.search || "";
+        var hash = window.location.hash || "";
+
+        // Legacy DocC URLs (old site layout)
+        // /documentation/index/<slug>  → /documentation/studio-laussat/<slug>
+        if (path === "/documentation/index" || path === "/documentation/index/") {
+          window.location.replace("/documentation/studio-laussat/" + search + hash);
+          return;
+        }
+
+        var prefix = "/documentation/index/";
+        if (path.startsWith(prefix)) {
+          var rest = path.slice(prefix.length);
+          window.location.replace("/documentation/studio-laussat/" + rest + search + hash);
+          return;
+        }
+
+        // Default: send to docs root (better than a dead end)
+        window.location.replace("/documentation/" + search + hash);
+      })();
+    </script>
+  </body>
+</html>
