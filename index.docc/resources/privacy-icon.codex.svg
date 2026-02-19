@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Privacy Policy icon</title>
+  <desc id="desc">Philographics icon for privacy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A6F97"/>
+      <stop offset="100%" stop-color="#5E548E"/>
+    </linearGradient>
+  </defs>
+  <rect x="94.72" y="161.28" width="107.52" height="71.68" rx="26.52" fill="#5E548E" opacity="0.85"/>
+  <circle cx="179.20" cy="120.32" r="43.52" fill="#ADB5BD" opacity="0.90"/>
+  <path d="M 138.24 120.32 L 248.32 166.40 L 238.08 74.24 Z" fill="#ADB5BD" opacity="0.60"/>
+</svg>

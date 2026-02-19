@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Results and Metrics icon</title>
+  <desc id="desc">Philographics icon for system-designs-system-design-dimensions-dimensions-results-and-metrics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A6F97"/>
+      <stop offset="100%" stop-color="#5E548E"/>
+    </linearGradient>
+  </defs>
+  <rect x="58.88" y="163.84" width="138.24" height="92.16" rx="32.26" fill="#5E548E" opacity="0.85"/>
+  <circle cx="186.88" cy="153.60" r="40.96" fill="#ADB5BD" opacity="0.90"/>
+  <path d="M 153.60 76.80 L 197.12 161.28 L 243.20 76.80 Z" fill="#ADB5BD" opacity="0.60"/>
+</svg>

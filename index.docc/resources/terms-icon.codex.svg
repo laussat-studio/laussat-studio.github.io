@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Terms icon</title>
+  <desc id="desc">Philographics icon for terms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B6CA8"/>
+      <stop offset="100%" stop-color="#14213D"/>
+    </linearGradient>
+  </defs>
+  <rect x="64.00" y="156.16" width="120.32" height="56.32" rx="25.91" fill="#14213D" opacity="0.85"/>
+  <circle cx="215.04" cy="128.00" r="51.20" fill="#F4ACB7" opacity="0.90"/>
+  <path d="M 122.88 94.72 L 192.00 151.04 L 253.44 84.48 Z" fill="#F4ACB7" opacity="0.60"/>
+</svg>

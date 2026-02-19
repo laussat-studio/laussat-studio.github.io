@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">System Design Dimensions icon</title>
+  <desc id="desc">Philographics icon for system-designs-system-design-dimensions-system-design-dimensions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B23A48"/>
+      <stop offset="100%" stop-color="#1F1F1F"/>
+    </linearGradient>
+  </defs>
+  <rect x="61.44" y="181.76" width="135.68" height="84.48" rx="32.95" fill="#1F1F1F" opacity="0.85"/>
+  <circle cx="143.36" cy="120.32" r="35.84" fill="#F8F4EE" opacity="0.90"/>
+  <path d="M 151.04 110.08 L 197.12 135.68 L 248.32 66.56 Z" fill="#F8F4EE" opacity="0.60"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Requirements and Constraints icon</title>
+  <desc id="desc">Philographics icon for system-designs-system-design-dimensions-dimensions-requirements-and-constraints.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B6CA8"/>
+      <stop offset="100%" stop-color="#14213D"/>
+    </linearGradient>
+  </defs>
+  <rect x="69.12" y="140.80" width="115.20" height="56.32" rx="19.71" fill="#14213D" opacity="0.85"/>
+  <circle cx="148.48" cy="112.64" r="56.32" fill="#F4ACB7" opacity="0.90"/>
+  <path d="M 156.16 79.36 L 217.60 171.52 L 235.52 66.56 Z" fill="#F4ACB7" opacity="0.60"/>
+</svg>

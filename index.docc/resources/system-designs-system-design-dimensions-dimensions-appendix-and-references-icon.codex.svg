@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Appendix and References icon</title>
+  <desc id="desc">Philographics icon for system-designs-system-design-dimensions-dimensions-appendix-and-references.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A6F97"/>
+      <stop offset="100%" stop-color="#5E548E"/>
+    </linearGradient>
+  </defs>
+  <rect x="53.76" y="158.72" width="145.92" height="76.80" rx="35.33" fill="#5E548E" opacity="0.85"/>
+  <circle cx="204.80" cy="92.16" r="51.20" fill="#ADB5BD" opacity="0.90"/>
+  <path d="M 151.04 104.96 L 212.48 148.48 L 232.96 81.92 Z" fill="#ADB5BD" opacity="0.60"/>
+</svg>

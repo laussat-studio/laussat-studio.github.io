@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Introduction icon</title>
+  <desc id="desc">Philographics icon for system-designs-introduction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2A6F97"/>
+      <stop offset="100%" stop-color="#5E548E"/>
+    </linearGradient>
+  </defs>
+  <rect x="97.28" y="181.76" width="143.36" height="79.36" rx="35.71" fill="#5E548E" opacity="0.85"/>
+  <circle cx="143.36" cy="84.48" r="35.84" fill="#ADB5BD" opacity="0.90"/>
+  <path d="M 128.00 107.52 L 222.72 135.68 L 243.20 84.48 Z" fill="#ADB5BD" opacity="0.60"/>
+</svg>

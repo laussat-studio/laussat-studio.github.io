@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Security, Privacy, Compliance icon</title>
+  <desc id="desc">Philographics icon for system-designs-system-design-dimensions-dimensions-security-privacy-compliance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1B263B"/>
+    </linearGradient>
+  </defs>
+  <rect x="64.00" y="176.64" width="125.44" height="71.68" rx="27.24" fill="#1B263B" opacity="0.85"/>
+  <circle cx="184.32" cy="87.04" r="48.64" fill="#B8F2E6" opacity="0.90"/>
+  <path d="M 161.28 89.60 L 209.92 140.80 L 250.88 76.80 Z" fill="#B8F2E6" opacity="0.60"/>
+</svg>
