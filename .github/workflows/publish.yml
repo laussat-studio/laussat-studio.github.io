@@ -39,11 +39,12 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path /documentation/index \
+            --hosting-base-path /documentation/studio-laussat \
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
-          # Documentation index fallback (only when DocC didn't generate it).
+          # Optional compatibility: if we have a legacy redirect stub at documentation/index/index.html,
+          # copy it through (but do not overwrite DocC output).
           if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
             mkdir -p "${output_root}/documentation/index"
             cp "documentation/index/index.html" "${output_root}/documentation/index/index.html"
@@ -61,8 +62,8 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta name="robots" content="noindex"/>
             <title>Studio Laussat</title>
-            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
-            <script>window.location.replace('/documentation/index/');</script>
+            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/"/>
+            <script>window.location.replace('/documentation/studio-laussat/');</script>
           </head>
           <body></body>
           </html>
@@ -94,9 +95,9 @@ jobs:
             <meta name="twitter:description" content="System design studio."/>
             <meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>
 
-            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
+            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/"/>
             <script>
-              window.location.replace('/documentation/index/');
+              window.location.replace('/documentation/studio-laussat/');
             </script>
             <style>
               :root { color-scheme: light dark; }
@@ -117,24 +118,24 @@ jobs:
           EOF
 
           # Fix common "white page" failure mode: ensure assets exist where the DocC shell expects them.
-          # The DocC shell for this site expects assets under /documentation/index/{css,js}.
-          if [ -d "${output_root}/css" ] && [ ! -d "${output_root}/documentation/index/css" ]; then
-            mkdir -p "${output_root}/documentation/index/css"
-            cp -R "${output_root}/css/." "${output_root}/documentation/index/css/"
+          # With canonical root /documentation/studio-laussat, ensure assets exist under that prefix.
+          if [ -d "${output_root}/css" ] && [ ! -d "${output_root}/documentation/studio-laussat/css" ]; then
+            mkdir -p "${output_root}/documentation/studio-laussat/css"
+            cp -R "${output_root}/css/." "${output_root}/documentation/studio-laussat/css/"
           fi
-          if [ -d "${output_root}/js" ] && [ ! -d "${output_root}/documentation/index/js" ]; then
-            mkdir -p "${output_root}/documentation/index/js"
-            cp -R "${output_root}/js/." "${output_root}/documentation/index/js/"
+          if [ -d "${output_root}/js" ] && [ ! -d "${output_root}/documentation/studio-laussat/js" ]; then
+            mkdir -p "${output_root}/documentation/studio-laussat/js"
+            cp -R "${output_root}/js/." "${output_root}/documentation/studio-laussat/js/"
           fi
 
           # DocC render uses a BASE_PATH placeholder in JS/CSS that must match window.baseUrl.
           # This must run AFTER any path-copy steps (so we don't overwrite the rewritten files).
           find "${output_root}" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/index#g'
+            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/studio-laussat#g'
 
           # OG/Twitter tags on the DocC entrypoint itself (nice unfurls when sharing a docs URL).
-          if [ -f "${output_root}/documentation/index/index.html" ]; then
-            perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/index/index.html" || true
+          if [ -f "${output_root}/documentation/studio-laussat/index.html" ]; then
+            perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/studio-laussat/index.html" || true
           fi
 
           touch "${output_root}/.nojekyll"
