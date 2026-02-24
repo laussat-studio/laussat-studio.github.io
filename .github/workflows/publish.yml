@@ -53,7 +53,7 @@ jobs:
           # Redirect vanity paths -> canonical tech-root (redirect-only; do not overwrite DocC output)
           mkdir -p "${output_root}/documentation"
 
-          # /documentation/ -> /documentation/index/
+          # /documentation/ -> /documentation/studio-laussat/index/
           cat > "${output_root}/documentation/index.html" <<'EOF'
           <!doctype html>
           <html lang="en">
@@ -62,8 +62,25 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta name="robots" content="noindex"/>
             <title>Studio Laussat</title>
-            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/"/>
-            <script>window.location.replace('/documentation/studio-laussat/');</script>
+            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
+            <script>window.location.replace('/documentation/studio-laussat/index/');</script>
+          </head>
+          <body></body>
+          </html>
+          EOF
+
+          # /documentation/index/ -> /documentation/studio-laussat/index/
+          mkdir -p "${output_root}/documentation/index"
+          cat > "${output_root}/documentation/index/index.html" <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="robots" content="noindex"/>
+            <title>Studio Laussat</title>
+            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
+            <script>window.location.replace('/documentation/studio-laussat/index/');</script>
           </head>
           <body></body>
           </html>
@@ -95,9 +112,9 @@ jobs:
             <meta name="twitter:description" content="System design studio."/>
             <meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>
 
-            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/"/>
+            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
             <script>
-              window.location.replace('/documentation/studio-laussat/');
+              window.location.replace('/documentation/studio-laussat/index/');
             </script>
             <style>
               :root { color-scheme: light dark; }
