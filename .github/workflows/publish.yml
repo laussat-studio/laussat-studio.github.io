@@ -171,10 +171,12 @@ jobs:
             cp -R "${output_root}/js/." "${output_root}/documentation/index/js/"
 
 
-          # DocC render uses a BASE_PATH placeholder in JS/CSS that must match window.baseUrl.
-          # This must run AFTER any path-copy steps (so we don't overwrite the rewritten files).
-          find "${output_root}" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0             | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/index#g'
           fi
+
+          # DocC render uses a BASE_PATH placeholder in JS/CSS that must match window.baseUrl.
+          # If this isn't rewritten, Safari can fail to load chunks and render a black/empty page.
+          find "${output_root}" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/index#g'
           if [ -f "${output_root}/documentation/index/index.html" ]; then
             perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/index/index.html" || true
           fi
