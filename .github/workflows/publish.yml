@@ -119,12 +119,12 @@ jobs:
           # Some deploys end up with css/js at the output root; the generated HTML for this site expects
           # them under /documentation/index/{css,js}.
           if [ -d "${output_root}/css" ] && [ ! -d "${output_root}/documentation/index/css" ]; then
-            mkdir -p "${output_root}/documentation/index"
-            cp -R "${output_root}/css" "${output_root}/documentation/index/css"
+            mkdir -p "${output_root}/documentation/index/css"
+            cp -R "${output_root}/css/." "${output_root}/documentation/index/css/"
           fi
           if [ -d "${output_root}/js" ] && [ ! -d "${output_root}/documentation/index/js" ]; then
-            mkdir -p "${output_root}/documentation/index"
-            cp -R "${output_root}/js" "${output_root}/documentation/index/js"
+            mkdir -p "${output_root}/documentation/index/js"
+            cp -R "${output_root}/js/." "${output_root}/documentation/index/js/"
           fi
           if [ -f "${output_root}/documentation/index/index.html" ]; then
             perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/index/index.html" || true
