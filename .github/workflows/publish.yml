@@ -66,6 +66,40 @@ jobs:
             mkdir -p "${output_root}/documentation/index"
             cp "documentation/index/index.html" "${output_root}/documentation/index/index.html"
           fi
+
+          # Redirect /documentation/ -> /documentation/index/ (matches wrkstrm-style entrypoint)
+          mkdir -p "${output_root}/documentation"
+          cat > "${output_root}/documentation/index.html" <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="robots" content="noindex"/>
+            <title>Studio Laussat</title>
+            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
+            <script>window.location.replace('/documentation/index/');</script>
+          </head>
+          <body></body>
+          </html>
+          EOF
+
+          # Legacy compatibility: /documentation/studio-laussat/ -> /documentation/index/
+          mkdir -p "${output_root}/documentation/studio-laussat"
+          cat > "${output_root}/documentation/studio-laussat/index.html" <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="robots" content="noindex"/>
+            <title>Studio Laussat</title>
+            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
+            <script>window.location.replace('/documentation/index/');</script>
+          </head>
+          <body></body>
+          </html>
+          EOF
           # Static assets for link previews (kept simple + on-brand; not "techy")
           mkdir -p "${output_root}/assets"
           if [ -f "assets/og-laussat.svg" ]; then
