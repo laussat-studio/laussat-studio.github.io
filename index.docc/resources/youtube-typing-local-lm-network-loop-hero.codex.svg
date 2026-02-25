@@ -1,84 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Typing to local LM and network request loop</title>
-  <desc id="desc">System diagram showing keystroke input, local inference, debounced network request, response, cache, and composition loop.</desc>
+  <title id="title">Typing to local AI and network synthesis loop</title>
+  <desc id="desc">A creator types a keystroke, local neural engine detects language, a parallel 3 second debounce runs, then a network request is sent to Big G Cloud for audio synthesis.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1020"/>
-      <stop offset="55%" stop-color="#1a0f2e"/>
-      <stop offset="100%" stop-color="#2a0d1b"/>
+      <stop offset="0%" stop-color="#0b0f1d"/>
+      <stop offset="58%" stop-color="#221038"/>
+      <stop offset="100%" stop-color="#340f20"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ff0033"/>
-      <stop offset="45%" stop-color="#ff4d6d"/>
-      <stop offset="100%" stop-color="#00d1ff"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="52%" stop-color="#ff6a88"/>
+      <stop offset="100%" stop-color="#56d9ff"/>
     </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8"/>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-      <path d="M0,0 L12,6 L0,12 z" fill="#ffd6e0"/>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <path d="M0,0 L14,7 L0,14 z" fill="#ffe2ea"/>
     </marker>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
-
-  <g opacity="0.22" filter="url(#soft)">
-    <circle cx="210" cy="170" r="130" fill="#ff2d55"/>
-    <circle cx="1400" cy="760" r="190" fill="#3a7bfd"/>
+  <g opacity="0.2" filter="url(#glow)">
+    <circle cx="180" cy="170" r="120" fill="#ff2d55"/>
+    <circle cx="1410" cy="760" r="200" fill="#43a2ff"/>
   </g>
 
-  <text x="80" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="700" fill="#ffffff" opacity="0.95">YouTube AI Audio Uploads</text>
-  <text x="80" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" fill="#ffdce6" opacity="0.92">Typing -> Local LM -> Debounced Network Request -> Cache -> Composition</text>
+  <text x="76" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="700" fill="#ffffff">YouTube AI Audio Uploads</text>
+  <text x="76" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" fill="#ffd5df">Typing keystroke -> Local Neural Engine -> Parallel 3s debounce -> Big G Cloud request</text>
+
+  <line x1="420" y1="180" x2="420" y2="820" stroke="#ffffff" stroke-opacity="0.25" stroke-dasharray="8 10"/>
+  <text x="440" y="208" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#ffdce7">parallel lanes</text>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    <rect x="80" y="220" width="250" height="110" rx="22" fill="#201428" stroke="#ff7a94" stroke-width="2"/>
-    <text x="105" y="267" font-size="30" font-weight="700" fill="#ffffff">Typing Input</text>
-    <text x="105" y="300" font-size="22" fill="#ffdbe5">every keystroke</text>
+    <rect x="72" y="236" width="300" height="172" rx="24" fill="#2a1826" stroke="#ff7898" stroke-width="2"/>
+    <text x="98" y="282" font-size="30" font-weight="700" fill="#ffffff">Creator Typing</text>
+    <rect x="98" y="304" width="90" height="70" rx="12" fill="#ffedf2" stroke="#ff6a88" stroke-width="2"/>
+    <text x="133" y="351" font-size="42" font-weight="800" fill="#b20f33">k</text>
+    <text x="206" y="334" font-size="22" fill="#ffdbe5">Keystroke event</text>
+    <text x="206" y="364" font-size="22" fill="#ffdbe5">\"k\" inserted</text>
 
-    <rect x="420" y="220" width="280" height="110" rx="22" fill="#1a1f33" stroke="#7cb6ff" stroke-width="2"/>
-    <text x="445" y="267" font-size="30" font-weight="700" fill="#ffffff">Local LM Decision</text>
-    <text x="445" y="300" font-size="22" fill="#d6e8ff">&lt; 1s language detect</text>
+    <rect x="470" y="196" width="360" height="178" rx="24" fill="#1b263d" stroke="#79b7ff" stroke-width="2"/>
+    <text x="498" y="244" font-size="31" font-weight="700" fill="#ffffff">Local AI (Neural Engine)</text>
+    <rect x="502" y="266" width="136" height="82" rx="14" fill="#0f1729" stroke="#88c3ff" stroke-width="2"/>
+    <circle cx="536" cy="307" r="9" fill="#56d9ff"/>
+    <circle cx="570" cy="307" r="9" fill="#56d9ff"/>
+    <circle cx="604" cy="307" r="9" fill="#56d9ff"/>
+    <path d="M536 307 L570 307 L604 307" stroke="#c8e6ff" stroke-width="3" fill="none"/>
+    <text x="656" y="300" font-size="22" fill="#d9ebff">Language detect</text>
+    <text x="656" y="332" font-size="22" fill="#d9ebff">EN within &lt;1s</text>
 
-    <rect x="780" y="220" width="270" height="110" rx="22" fill="#2a1b2b" stroke="#c58bff" stroke-width="2"/>
-    <text x="805" y="267" font-size="30" font-weight="700" fill="#ffffff">Debounce Gate</text>
-    <text x="805" y="300" font-size="22" fill="#f0ddff">3s request window</text>
+    <rect x="470" y="444" width="360" height="178" rx="24" fill="#2a1d32" stroke="#d19bff" stroke-width="2"/>
+    <text x="498" y="492" font-size="31" font-weight="700" fill="#ffffff">3s Debounce Lane</text>
+    <circle cx="560" cy="536" r="46" fill="none" stroke="#f0d7ff" stroke-width="6"/>
+    <path d="M560 516 L560 536 L585 550" stroke="#f0d7ff" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <text x="628" y="530" font-size="22" fill="#f4e3ff">Wait 3 seconds</text>
+    <text x="628" y="560" font-size="22" fill="#f4e3ff">cancel stale requests</text>
 
-    <rect x="1130" y="220" width="380" height="110" rx="22" fill="#221722" stroke="#ff9bb0" stroke-width="2"/>
-    <text x="1155" y="267" font-size="30" font-weight="700" fill="#ffffff">Network Synthesis Request</text>
-    <text x="1155" y="300" font-size="22" fill="#ffdbe5">voice + text -> backend audio</text>
+    <rect x="920" y="286" width="330" height="144" rx="22" fill="#2a1820" stroke="#ff94ad" stroke-width="2"/>
+    <text x="948" y="332" font-size="30" font-weight="700" fill="#ffffff">Network Request</text>
+    <text x="948" y="366" font-size="22" fill="#ffe1e9">voice + text hash</text>
+    <text x="948" y="396" font-size="22" fill="#ffe1e9">request audio synthesis</text>
 
-    <rect x="1130" y="410" width="380" height="120" rx="22" fill="#162337" stroke="#76d5ff" stroke-width="2"/>
-    <text x="1155" y="458" font-size="30" font-weight="700" fill="#ffffff">Audio Response</text>
-    <text x="1155" y="492" font-size="22" fill="#d7f5ff">encoded clip + metadata</text>
+    <rect x="1290" y="206" width="248" height="230" rx="22" fill="#192432" stroke="#7ecbff" stroke-width="2"/>
+    <g transform="translate(1318 254)">
+      <circle cx="58" cy="42" r="34" fill="#eaf6ff"/>
+      <circle cx="98" cy="30" r="42" fill="#eaf6ff"/>
+      <circle cx="138" cy="45" r="32" fill="#eaf6ff"/>
+      <rect x="58" y="42" width="112" height="42" fill="#eaf6ff"/>
+    </g>
+    <text x="1320" y="360" font-size="31" font-weight="700" fill="#ffffff">Big G Cloud</text>
+    <text x="1320" y="392" font-size="22" fill="#d9efff">AI audio synthesis</text>
 
-    <rect x="740" y="410" width="300" height="120" rx="22" fill="#1d2332" stroke="#90b8ff" stroke-width="2"/>
-    <text x="765" y="458" font-size="30" font-weight="700" fill="#ffffff">Session Cache</text>
-    <text x="765" y="492" font-size="22" fill="#d7e6ff">voice + text hash</text>
-
-    <rect x="360" y="410" width="300" height="120" rx="22" fill="#232026" stroke="#ff95c9" stroke-width="2"/>
-    <text x="385" y="458" font-size="30" font-weight="700" fill="#ffffff">Mix + Preview</text>
-    <text x="385" y="492" font-size="22" fill="#ffe3f4">on-device composition</text>
-
-    <rect x="80" y="410" width="220" height="120" rx="22" fill="#1f2a1f" stroke="#6dd79c" stroke-width="2"/>
-    <text x="105" y="458" font-size="30" font-weight="700" fill="#ffffff">Final Save</text>
-    <text x="105" y="492" font-size="22" fill="#d7ffe8">prepare upload</text>
+    <rect x="920" y="506" width="618" height="190" rx="24" fill="#162531" stroke="#74cfff" stroke-width="2"/>
+    <text x="948" y="552" font-size="30" font-weight="700" fill="#ffffff">Response, Cache, and Composition</text>
+    <text x="948" y="584" font-size="22" fill="#d8f3ff">response -> session cache -> final save -> on-device mix -> upload prep</text>
+    <rect x="948" y="606" width="220" height="58" rx="12" fill="#0f1c26" stroke="#79d0ff" stroke-width="2"/>
+    <text x="972" y="644" font-size="24" fill="#e6f7ff">voice + text hash cache</text>
+    <rect x="1192" y="606" width="320" height="58" rx="12" fill="#0f1c26" stroke="#79d0ff" stroke-width="2"/>
+    <text x="1218" y="644" font-size="24" fill="#e6f7ff">mix with 20 concurrent tracks</text>
   </g>
 
-  <g stroke="url(#accent)" stroke-width="5" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
-    <path d="M330 275 L420 275"/>
-    <path d="M700 275 L780 275"/>
-    <path d="M1050 275 L1130 275"/>
-    <path d="M1320 330 L1320 410"/>
-    <path d="M1130 470 L1040 470"/>
-    <path d="M740 470 L660 470"/>
-    <path d="M360 470 L300 470"/>
+  <g stroke="url(#line)" stroke-width="5" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+    <path d="M372 290 C420 270, 440 260, 470 260"/>
+    <path d="M372 354 C430 420, 452 464, 470 500"/>
+    <path d="M830 286 L920 328"/>
+    <path d="M830 536 C890 460, 898 412, 920 366"/>
+    <path d="M1250 358 L1290 338"/>
+    <path d="M1290 420 C1242 470, 1170 506, 1090 536"/>
+    <path d="M1210 698 C1140 760, 540 806, 240 694"/>
   </g>
 
-  <g stroke="#ffd6e0" stroke-opacity="0.72" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round" stroke-dasharray="10 12">
-    <path d="M520 410 C520 360, 520 345, 560 330"/>
-    <path d="M880 530 C890 620, 500 650, 240 530"/>
-  </g>
-
-  <text x="566" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#ffe4ec">keystroke loop</text>
-  <text x="860" y="640" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" fill="#ffe4ec">repeat CTA cache reuse</text>
+  <text x="888" y="448" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" fill="#ffe7ef">only send when local AI decision + debounce gate are satisfied</text>
+  <text x="836" y="800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" fill="#ffe7ef">loop repeats for each new keystroke while creator edits text</text>
 </svg>
