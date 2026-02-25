@@ -43,20 +43,47 @@ jobs:
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
-          # Normalize DocC output paths to /documentation/index.
-          # DocC defaults to /documentation/<bundle-identifier>/ and /images/<bundle-identifier>/.
-          if [ -d "${output_root}/documentation/studio-laussat" ] && [ ! -d "${output_root}/documentation/index" ]; then
-            mkdir -p "${output_root}/documentation"
-            mv "${output_root}/documentation/studio-laussat" "${output_root}/documentation/index"
+          # Normalize DocC output paths to /documentation/index and /images/index.
+          doc_dir=""
+          if [ -d "${output_root}/documentation" ]; then
+            doc_dir=$(find "${output_root}/documentation" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
           fi
-          if [ -d "${output_root}/images/Studio-Laussat" ] && [ ! -d "${output_root}/images/index" ]; then
-            mkdir -p "${output_root}/images"
-            mv "${output_root}/images/Studio-Laussat" "${output_root}/images/index"
+          if [ -n "${doc_dir}" ]; then
+            doc_slug=$(basename "${doc_dir}")
+            if [ "${doc_slug}" != "index" ] && [ ! -d "${output_root}/documentation/index" ]; then
+              mv "${doc_dir}" "${output_root}/documentation/index"
+            fi
           fi
 
-          # Rewrite references to the canonical /documentation/index and /images/index paths.
+          image_dir=""
+          if [ -d "${output_root}/images" ]; then
+            image_dir=$(find "${output_root}/images" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+          fi
+          if [ -n "${image_dir}" ]; then
+            image_slug=$(basename "${image_dir}")
+            if [ "${image_slug}" != "index" ] && [ ! -d "${output_root}/images/index" ]; then
+              mv "${image_dir}" "${output_root}/images/index"
+            fi
+          fi
+
+          # Rewrite references to canonical paths without hard-coding any tech-root slug.
+          doc_slug="${doc_slug:-}"
+          image_slug="${image_slug:-}"
+          export DOC_SLUG="${doc_slug}"
+          export IMAGE_SLUG="${image_slug}"
           find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-            | xargs -0 perl -0777 -pi -e 's#/documentation/studio-laussat/#/documentation/index/#g; s#/images/Studio-Laussat/#/images/index/#g; s#doc://Studio-Laussat/#doc://index/#g; s#doc:\\/\\/Studio-Laussat\\/#doc:\\/\\/index\\/#g'
+            | xargs -0 perl -0777 -pi -e '
+                my $doc = $ENV{"DOC_SLUG"} // "";
+                my $img = $ENV{"IMAGE_SLUG"} // "";
+                if ($doc ne "" && $doc ne "index") {
+                  s#/documentation/\Q$doc\E/#/documentation/index/#g;
+                  s#doc://\Q$doc\E/#doc://index/#g;
+                  s#doc:\\/\\/\Q$doc\E\\/#doc:\\/\\/index\\/#g;
+                }
+                if ($img ne "" && $img ne "index") {
+                  s#/images/\Q$img\E/#/images/index/#g;
+                }
+              '
 
           # Optional compatibility: if we have a legacy redirect stub at documentation/index/index.html,
           # copy it through (but do not overwrite DocC output).

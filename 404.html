@@ -12,26 +12,33 @@
         var path = window.location.pathname || "/";
         var search = window.location.search || "";
         var hash = window.location.hash || "";
+        var docPrefix = "/documentation/";
 
-        // Canonical docs root
-        if (path === "/documentation/index" || path === "/documentation/index/") {
-          window.location.replace("/documentation/index/" + search + hash);
+        if (path.startsWith(docPrefix)) {
+          var rest = path.slice(docPrefix.length);
+          var segments = rest.split("/").filter(Boolean);
+          var trailingSlash = path.endsWith("/") ? "/" : "";
+
+          if (segments.length === 0) {
+            window.location.replace("/documentation/index/" + search + hash);
+            return;
+          }
+
+          if (segments[0] === "index") {
+            segments = segments.slice(1);
+          } else if (segments.length > 1) {
+            // If there is an extra leading tech-root segment, drop it.
+            segments = segments.slice(1);
+          }
+
+          var destination = "/documentation/index/";
+          if (segments.length > 0) {
+            destination += segments.join("/") + trailingSlash;
+          }
+          window.location.replace(destination + search + hash);
           return;
         }
 
-        // Legacy DocC tech root -> canonical docs root
-        if (path === "/documentation/studio-laussat" || path === "/documentation/studio-laussat/") {
-          window.location.replace("/documentation/index/" + search + hash);
-          return;
-        }
-        var legacyPrefix = "/documentation/studio-laussat/";
-        if (path.startsWith(legacyPrefix)) {
-          var rest = path.slice(legacyPrefix.length);
-          window.location.replace("/documentation/index/" + rest + search + hash);
-          return;
-        }
-
-        // Default: send to docs root (better than a dead end)
         window.location.replace("/documentation/index/" + search + hash);
       })();
     </script>

@@ -79,12 +79,12 @@ If `baseUrl` is `/` but the deployed files are still under a subdirectory, the a
 
 `laussat.studio` was deployed with DocC built for a non-root base path. The generated HTML contained:
 
-- `baseUrl = "/documentation/studio-laussat/"`
+- `baseUrl = "/documentation/<tech-root>/"`
 
 This meant:
 
-- the DocC SPA expected to live at `/documentation/studio-laussat/`
-- assets were referenced under `/documentation/studio-laussat/js/...`
+- the DocC SPA expected to live at `/documentation/<tech-root>/`
+- assets were referenced under `/documentation/<tech-root>/js/...`
 
 …but the public URL policy we wanted was:
 
