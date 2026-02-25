@@ -48,6 +48,38 @@ jobs:
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
+          # Normalize DocC output paths to /documentation/index and /images/index
+          # while keeping wrkstrm's root hosting strategy (baseUrl = "/").
+          doc_dir=""
+          if [ -d "${output_root}/documentation" ]; then
+            doc_dir=$(find "${output_root}/documentation" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+          fi
+          if [ -n "${doc_dir}" ]; then
+            doc_slug=$(basename "${doc_dir}")
+            if [ "${doc_slug}" != "index" ]; then
+              mkdir -p "${output_root}/documentation/index"
+              cp -R "${doc_dir}/." "${output_root}/documentation/index/"
+              rm -rf "${doc_dir}"
+              find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+                | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
+            fi
+          fi
+
+          image_dir=""
+          if [ -d "${output_root}/images" ]; then
+            image_dir=$(find "${output_root}/images" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+          fi
+          if [ -n "${image_dir}" ]; then
+            image_slug=$(basename "${image_dir}")
+            if [ "${image_slug}" != "index" ]; then
+              mkdir -p "${output_root}/images/index"
+              cp -R "${image_dir}/." "${output_root}/images/index/"
+              rm -rf "${image_dir}"
+              find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+                | xargs -0 perl -0777 -pi -e "s#/images/${image_slug}/#/images/index/#g"
+            fi
+          fi
+
           # Root landing page: add OG/Twitter meta for link previews, then redirect into DocC.
           cat > "${output_root}/index.html" <<'EOF'
           <!doctype html>
