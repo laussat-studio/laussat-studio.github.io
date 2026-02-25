@@ -9,28 +9,42 @@
 }
 
 @Options {
+  @TopicsVisualStyle(detailedGrid)
   @AutomaticSeeAlso(disabled)
 }
 
-A case study on building and scaling AI-powered audio workflows for video upload pipelines, with a focus on reliability, quality, and operational safety.
+A case study on shipping AI-powered audio sticker narration for YouTube Shorts uploads.
 
-## Problem Context
+@Image(source: "index-hero.codex.svg", alt: "YouTube AI Audio for Video Uploads hero")
 
-Video creators need high-quality audio processing during upload, but pipelines must stay fast, predictable, and safe at scale.
+Creators wanted a fast way to narrate sticker text without recording their own voice. The product direction was to improve upload quality and encourage more sharing by letting creators choose one of five voices and preview audio while writing.
 
-## Scope
+Implementation ran for one quarter, followed by one quarter of experimentation.
 
-- Ingestion-time AI audio processing.
-- Quality and policy gates before publish.
-- Observability and rollback controls for production rollout.
+## Product Summary
 
-## System Design Focus
+- Primary user: YouTube Shorts creators.
+- Client ownership: iOS.
+- Input loop: local language detection decisions on each keystroke.
+- Network cadence: debounced requests at 3 seconds while typing.
+- Generation: backend AI audio synthesis.
+- Composition: on-device audio mixing into video.
+- Scale target: up to 20 concurrent audio stickers, 5 available voices.
+- Language scope: English only.
 
-- Reliability under burst upload traffic.
-- Latency budgets for creator experience.
-- Model/version governance and safe migration.
-- Cost controls and quality thresholds.
+## Pipeline
 
-## Status
+Text input -> language detection -> debounced network request -> network response -> audio cache -> save audio -> merge into video -> prepare upload -> upload.
 
-This case study is being expanded with full dimension-by-dimension coverage and dedicated YouTube visual assets.
+## Topics
+
+- <doc:executive-summary>
+- <doc:problem-context>
+- <doc:requirements-and-constraints>
+- <doc:stakeholders-and-ownership>
+- <doc:strategy-and-execution>
+- <doc:rollout-and-results>
+- <doc:lessons>
+- <doc:migration-details>
+- <doc:deep-dive-expectations>
+- <doc:open-questions>
