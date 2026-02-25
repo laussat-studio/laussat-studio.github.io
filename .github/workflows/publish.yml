@@ -33,6 +33,7 @@ jobs:
       - name: Build DocC
         run: |
           set -euo pipefail
+          # Runbook: docs/docc-hosting-basepath.md
           output_root="${GITHUB_WORKSPACE}/_site"
           rm -rf "${output_root}"
           mkdir -p "${output_root}"
