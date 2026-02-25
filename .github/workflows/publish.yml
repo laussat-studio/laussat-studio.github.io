@@ -69,21 +69,14 @@ jobs:
           # Rewrite references to canonical paths without hard-coding any tech-root slug.
           doc_slug="${doc_slug:-}"
           image_slug="${image_slug:-}"
-          export DOC_SLUG="${doc_slug}"
-          export IMAGE_SLUG="${image_slug}"
-          find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-            | xargs -0 perl -0777 -pi -e '
-                my $doc = $ENV{"DOC_SLUG"} // "";
-                my $img = $ENV{"IMAGE_SLUG"} // "";
-                if ($doc ne "" && $doc ne "index") {
-                  s#/documentation/\Q$doc\E/#/documentation/index/#g;
-                  s#doc://\Q$doc\E/#doc://index/#g;
-                  s#doc:\\/\\/\Q$doc\E\\/#doc:\\/\\/index\\/#g;
-                }
-                if ($img ne "" && $img ne "index") {
-                  s#/images/\Q$img\E/#/images/index/#g;
-                }
-              '
+          if [ -n "${doc_slug}" ] && [ "${doc_slug}" != "index" ]; then
+            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+              | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
+          fi
+          if [ -n "${image_slug}" ] && [ "${image_slug}" != "index" ]; then
+            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+              | xargs -0 perl -0777 -pi -e "s#/images/${image_slug}/#/images/index/#g"
+          fi
 
           # Optional compatibility: if we have a legacy redirect stub at documentation/index/index.html,
           # copy it through (but do not overwrite DocC output).
