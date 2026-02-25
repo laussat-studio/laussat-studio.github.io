@@ -1,67 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Audio to video edit and upload flow</title>
-  <desc id="desc">Diagram of generated audio entering editor timeline, mixing with video tracks, preview validation, and upload to Shorts.</desc>
+  <title id="title">Audio to upload flow with visual stages</title>
+  <desc id="desc">Five-stage flow with pictograms and roman numeral tags: generated audio, timeline edit, creator preview, final composition, and upload.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1222"/>
-      <stop offset="55%" stop-color="#1a1f38"/>
-      <stop offset="100%" stop-color="#351428"/>
+      <stop offset="0%" stop-color="#0a1222"/>
+      <stop offset="56%" stop-color="#1b1f39"/>
+      <stop offset="100%" stop-color="#361427"/>
     </linearGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#48c6ff"/>
-      <stop offset="48%" stop-color="#8a8dff"/>
-      <stop offset="100%" stop-color="#ff4d6d"/>
+      <stop offset="0%" stop-color="#4ed0ff"/>
+      <stop offset="48%" stop-color="#8f95ff"/>
+      <stop offset="100%" stop-color="#ff5b7d"/>
     </linearGradient>
+    <filter id="blur" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
     <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
-      <path d="M0,0 L14,7 L0,14 z" fill="#e4e9ff"/>
+      <path d="M0,0 L14,7 L0,14 z" fill="#e8edff"/>
     </marker>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
 
-  <text x="70" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#ffffff">Flow 2: Audio -> Video Edit -> Upload</text>
-  <text x="70" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" fill="#dce7ff">generated audio -> timeline mix -> creator preview -> final render -> upload</text>
+  <g opacity="0.18" filter="url(#blur)">
+    <circle cx="200" cy="170" r="130" fill="#49c6ff"/>
+    <circle cx="1400" cy="760" r="210" fill="#ff4f72"/>
+  </g>
+
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 12">
+    <line x1="800" y1="150" x2="800" y2="760"/>
+  </g>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    <rect x="70" y="220" width="260" height="140" rx="22" fill="#17273b" stroke="#76ceff" stroke-width="2"/>
-    <text x="95" y="266" font-size="30" font-weight="700" fill="#ffffff">Generated Audio</text>
-    <path d="M95 314 C115 282, 135 346, 155 314 C175 282, 195 346, 215 314 C235 282, 255 346, 275 314" stroke="#9fe2ff" stroke-width="4" fill="none"/>
-    <text x="95" y="346" font-size="21" fill="#d8f4ff">voice clip ready</text>
+    <rect x="110" y="318" width="190" height="190" rx="36" fill="#17263a" stroke="#79ceff" stroke-width="3"/>
+    <circle cx="138" cy="346" r="18" fill="#79ceff"/>
+    <text x="138" y="352" text-anchor="middle" font-size="18" font-weight="800" fill="#0f1b2a">I</text>
+    <g transform="translate(140 382)">
+      <rect x="0" y="0" width="120" height="62" rx="12" fill="#eaf8ff" stroke="#79ceff" stroke-width="2"/>
+      <path d="M12 38 C20 22, 28 54, 36 38 C44 22, 52 54, 60 38 C68 22, 76 54, 84 38 C92 22, 100 54, 108 38" fill="none" stroke="#5bc3ff" stroke-width="4"/>
+    </g>
 
-    <rect x="390" y="200" width="500" height="300" rx="24" fill="#1d1f34" stroke="#96a3ff" stroke-width="2"/>
-    <text x="420" y="246" font-size="31" font-weight="700" fill="#ffffff">On-Device Video Editor Timeline</text>
-    <rect x="420" y="278" width="440" height="42" rx="10" fill="#112031" stroke="#5db4ff" stroke-width="2"/>
-    <text x="434" y="306" font-size="19" fill="#d9f1ff">Video track</text>
-    <rect x="420" y="336" width="360" height="42" rx="10" fill="#24183a" stroke="#cc9cff" stroke-width="2"/>
-    <text x="434" y="364" font-size="19" fill="#f1ddff">Narration track A</text>
-    <rect x="420" y="394" width="410" height="42" rx="10" fill="#2b1730" stroke="#ff90b0" stroke-width="2"/>
-    <text x="434" y="422" font-size="19" fill="#ffe1ea">Narration track B</text>
-    <text x="420" y="470" font-size="21" fill="#dce6ff">supports up to 20 overlapping audio stickers</text>
+    <rect x="490" y="190" width="240" height="190" rx="36" fill="#1f2237" stroke="#93a1ff" stroke-width="3"/>
+    <circle cx="522" cy="218" r="18" fill="#93a1ff"/>
+    <text x="522" y="224" text-anchor="middle" font-size="18" font-weight="800" fill="#15172a">II</text>
+    <g transform="translate(540 246)">
+      <rect x="0" y="0" width="142" height="42" rx="10" fill="#102033" stroke="#66baff" stroke-width="2"/>
+      <rect x="0" y="50" width="118" height="42" rx="10" fill="#22173a" stroke="#cb9cff" stroke-width="2"/>
+      <rect x="0" y="100" width="132" height="42" rx="10" fill="#2a1732" stroke="#ff92b2" stroke-width="2"/>
+      <line x1="24" y1="10" x2="24" y2="132" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      <line x1="62" y1="10" x2="62" y2="132" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      <line x1="96" y1="10" x2="96" y2="132" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+    </g>
 
-    <rect x="940" y="220" width="280" height="140" rx="22" fill="#20232f" stroke="#ff9eb4" stroke-width="2"/>
-    <text x="966" y="266" font-size="30" font-weight="700" fill="#ffffff">Creator Preview</text>
-    <text x="966" y="302" font-size="22" fill="#ffe2eb">timing + quality check</text>
-    <text x="966" y="334" font-size="22" fill="#ffe2eb">edit until accepted</text>
+    <rect x="490" y="526" width="240" height="190" rx="36" fill="#2b1a35" stroke="#d2a6ff" stroke-width="3"/>
+    <circle cx="522" cy="554" r="18" fill="#d2a6ff"/>
+    <text x="522" y="560" text-anchor="middle" font-size="15" font-weight="800" fill="#1a1022">III</text>
+    <g transform="translate(544 584)">
+      <rect x="0" y="0" width="132" height="82" rx="14" fill="#f3e8ff" stroke="#d2a6ff" stroke-width="2"/>
+      <polygon points="54,24 54,58 84,41" fill="#ad7dff"/>
+      <circle cx="16" cy="41" r="5" fill="#ad7dff"/>
+      <circle cx="116" cy="41" r="5" fill="#ad7dff"/>
+    </g>
 
-    <rect x="940" y="420" width="280" height="140" rx="22" fill="#182938" stroke="#7ccfff" stroke-width="2"/>
-    <text x="966" y="466" font-size="30" font-weight="700" fill="#ffffff">Final Composition</text>
-    <text x="966" y="502" font-size="22" fill="#d8f5ff">mux video + audio</text>
-    <text x="966" y="534" font-size="22" fill="#d8f5ff">prepare upload asset</text>
+    <rect x="910" y="318" width="240" height="190" rx="36" fill="#1a2838" stroke="#80d2ff" stroke-width="3"/>
+    <circle cx="942" cy="346" r="18" fill="#80d2ff"/>
+    <text x="942" y="352" text-anchor="middle" font-size="15" font-weight="800" fill="#0f1c2b">IV</text>
+    <g transform="translate(952 378)">
+      <rect x="0" y="0" width="156" height="34" rx="8" fill="#e6f7ff" stroke="#80d2ff" stroke-width="2"/>
+      <rect x="18" y="42" width="156" height="34" rx="8" fill="#d8f0ff" stroke="#80d2ff" stroke-width="2"/>
+      <rect x="36" y="84" width="156" height="34" rx="8" fill="#cae9ff" stroke="#80d2ff" stroke-width="2"/>
+    </g>
 
-    <rect x="1270" y="320" width="260" height="170" rx="22" fill="#2c1726" stroke="#ff6f92" stroke-width="2"/>
-    <text x="1296" y="366" font-size="30" font-weight="700" fill="#ffffff">YouTube Upload</text>
-    <text x="1296" y="402" font-size="22" fill="#ffe0e9">Shorts publish path</text>
-    <text x="1296" y="434" font-size="22" fill="#ffe0e9">experiment cohort gates</text>
+    <rect x="1290" y="318" width="210" height="190" rx="36" fill="#2b1727" stroke="#ff7f9f" stroke-width="3"/>
+    <circle cx="1320" cy="346" r="18" fill="#ff7f9f"/>
+    <text x="1320" y="352" text-anchor="middle" font-size="18" font-weight="800" fill="#240f1a">V</text>
+    <g transform="translate(1326 372)">
+      <circle cx="34" cy="34" r="22" fill="#ffeaf0"/>
+      <circle cx="60" cy="24" r="28" fill="#ffeaf0"/>
+      <circle cx="88" cy="34" r="20" fill="#ffeaf0"/>
+      <rect x="34" y="34" width="74" height="24" fill="#ffeaf0"/>
+      <path d="M71 86 L71 122" stroke="#ffd3df" stroke-width="6" stroke-linecap="round"/>
+      <path d="M53 104 L71 124 L89 104" fill="none" stroke="#ffd3df" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
   </g>
 
-  <g stroke="url(#line)" stroke-width="5" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
-    <path d="M330 290 L390 290"/>
-    <path d="M890 290 L940 290"/>
-    <path d="M1080 360 L1080 420"/>
-    <path d="M1220 490 L1270 420"/>
-    <path d="M1220 280 C1260 260, 1300 260, 1320 300"/>
-    <path d="M1080 560 C1080 650, 610 720, 300 600"/>
+  <g stroke="url(#line)" stroke-width="6" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+    <path d="M300 413 C390 413, 420 305, 490 285"/>
+    <path d="M300 413 C390 413, 420 600, 490 620"/>
+    <path d="M730 285 C820 305, 860 390, 910 413"/>
+    <path d="M730 620 C820 600, 860 436, 910 413"/>
+    <path d="M1150 413 L1290 413"/>
   </g>
-
-  <text x="1126" y="626" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#f3dfe7">rollback path if composition limits regress</text>
 </svg>
