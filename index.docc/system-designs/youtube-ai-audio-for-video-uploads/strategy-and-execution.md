@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "strategy-and-execution-hero.codex.svg", alt: "Strategy and Execution hero")
+@Image(source: "youtube-typing-local-lm-network-loop-hero.codex.svg", alt: "Typing to local LM to network request loop")
 
 ## Execution Plan
 
