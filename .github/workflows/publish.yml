@@ -39,7 +39,7 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path /documentation/studio-laussat \
+            --hosting-base-path / \
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
