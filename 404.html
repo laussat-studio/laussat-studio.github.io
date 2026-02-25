@@ -13,22 +13,26 @@
         var search = window.location.search || "";
         var hash = window.location.hash || "";
 
-        // Legacy DocC URLs (old site layout)
-        // /documentation/index/<slug>  → /documentation/studio-laussat/<slug>
+        // Canonical docs root
         if (path === "/documentation/index" || path === "/documentation/index/") {
-          window.location.replace("/documentation/studio-laussat/" + search + hash);
+          window.location.replace("/documentation/index/" + search + hash);
           return;
         }
 
-        var prefix = "/documentation/index/";
-        if (path.startsWith(prefix)) {
-          var rest = path.slice(prefix.length);
-          window.location.replace("/documentation/studio-laussat/" + rest + search + hash);
+        // Legacy DocC tech root -> canonical docs root
+        if (path === "/documentation/studio-laussat" || path === "/documentation/studio-laussat/") {
+          window.location.replace("/documentation/index/" + search + hash);
+          return;
+        }
+        var legacyPrefix = "/documentation/studio-laussat/";
+        if (path.startsWith(legacyPrefix)) {
+          var rest = path.slice(legacyPrefix.length);
+          window.location.replace("/documentation/index/" + rest + search + hash);
           return;
         }
 
         // Default: send to docs root (better than a dead end)
-        window.location.replace("/documentation/" + search + hash);
+        window.location.replace("/documentation/index/" + search + hash);
       })();
     </script>
   </body>

@@ -33,16 +33,30 @@ jobs:
       - name: Build DocC
         run: |
           set -euo pipefail
-          # Runbook: docs/docc-hosting-basepath.md
           output_root="${GITHUB_WORKSPACE}/_site"
           rm -rf "${output_root}"
           mkdir -p "${output_root}"
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path / \
+            --hosting-base-path /documentation/index \
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
+
+          # Normalize DocC output paths to /documentation/index.
+          # DocC defaults to /documentation/<bundle-identifier>/ and /images/<bundle-identifier>/.
+          if [ -d "${output_root}/documentation/studio-laussat" ] && [ ! -d "${output_root}/documentation/index" ]; then
+            mkdir -p "${output_root}/documentation"
+            mv "${output_root}/documentation/studio-laussat" "${output_root}/documentation/index"
+          fi
+          if [ -d "${output_root}/images/Studio-Laussat" ] && [ ! -d "${output_root}/images/index" ]; then
+            mkdir -p "${output_root}/images"
+            mv "${output_root}/images/Studio-Laussat" "${output_root}/images/index"
+          fi
+
+          # Rewrite references to the canonical /documentation/index and /images/index paths.
+          find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
+            | xargs -0 perl -0777 -pi -e 's#/documentation/studio-laussat/#/documentation/index/#g; s#/images/Studio-Laussat/#/images/index/#g; s#doc://Studio-Laussat/#doc://index/#g; s#doc:\\/\\/Studio-Laussat\\/#doc:\\/\\/index\\/#g'
 
           # Optional compatibility: if we have a legacy redirect stub at documentation/index/index.html,
           # copy it through (but do not overwrite DocC output).
@@ -51,10 +65,10 @@ jobs:
             cp "documentation/index/index.html" "${output_root}/documentation/index/index.html"
           fi
 
-          # Redirect vanity paths -> canonical tech-root (redirect-only; do not overwrite DocC output)
+          # Redirect vanity paths -> canonical /documentation/index (redirect-only; do not overwrite DocC output)
           mkdir -p "${output_root}/documentation"
 
-          # /documentation/ -> /documentation/studio-laussat/index/
+          # /documentation/ -> /documentation/index/
           cat > "${output_root}/documentation/index.html" <<'EOF'
           <!doctype html>
           <html lang="en">
@@ -63,14 +77,14 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta name="robots" content="noindex"/>
             <title>Studio Laussat</title>
-            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
-            <script>window.location.replace('/documentation/studio-laussat/index/');</script>
+            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
+            <script>window.location.replace('/documentation/index/');</script>
           </head>
           <body></body>
           </html>
           EOF
 
-          # /documentation/index/ -> /documentation/studio-laussat/index/
+          # /documentation/index/ -> /documentation/index/
           mkdir -p "${output_root}/documentation/index"
           cat > "${output_root}/documentation/index/index.html" <<'EOF'
           <!doctype html>
@@ -80,8 +94,8 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta name="robots" content="noindex"/>
             <title>Studio Laussat</title>
-            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
-            <script>window.location.replace('/documentation/studio-laussat/index/');</script>
+            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
+            <script>window.location.replace('/documentation/index/');</script>
           </head>
           <body></body>
           </html>
@@ -113,9 +127,9 @@ jobs:
             <meta name="twitter:description" content="System design studio."/>
             <meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>
 
-            <meta http-equiv="refresh" content="0; url=/documentation/studio-laussat/index/"/>
+            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
             <script>
-              window.location.replace('/documentation/studio-laussat/index/');
+              window.location.replace('/documentation/index/');
             </script>
             <style>
               :root { color-scheme: light dark; }
@@ -135,25 +149,13 @@ jobs:
           </html>
           EOF
 
-          # Fix common "white page" failure mode: ensure assets exist where the DocC shell expects them.
-          # With canonical root /documentation/studio-laussat, ensure assets exist under that prefix.
-          if [ -d "${output_root}/css" ] && [ ! -d "${output_root}/documentation/studio-laussat/css" ]; then
-            mkdir -p "${output_root}/documentation/studio-laussat/css"
-            cp -R "${output_root}/css/." "${output_root}/documentation/studio-laussat/css/"
-          fi
-          if [ -d "${output_root}/js" ] && [ ! -d "${output_root}/documentation/studio-laussat/js" ]; then
-            mkdir -p "${output_root}/documentation/studio-laussat/js"
-            cp -R "${output_root}/js/." "${output_root}/documentation/studio-laussat/js/"
-          fi
-
           # DocC render uses a BASE_PATH placeholder in JS/CSS that must match window.baseUrl.
-          # This must run AFTER any path-copy steps (so we don't overwrite the rewritten files).
           find "${output_root}" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/studio-laussat#g'
+            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/index#g'
 
           # OG/Twitter tags on the DocC entrypoint itself (nice unfurls when sharing a docs URL).
-          if [ -f "${output_root}/documentation/studio-laussat/index.html" ]; then
-            perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/studio-laussat/index.html" || true
+          if [ -f "${output_root}/documentation/index/index.html" ]; then
+            perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/index/index.html" || true
           fi
 
           touch "${output_root}/.nojekyll"
