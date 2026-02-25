@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Requirements and Constraints hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Requirements and Constraints hero")
 
 Capture the technical and organizational guardrails.
 

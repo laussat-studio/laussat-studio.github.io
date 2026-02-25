@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Lessons and Next Steps hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Lessons and Next Steps hero")
 
 Capture what changed in your mental model and what you would do next.
 

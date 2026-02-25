@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Goals and Non-goals hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Goals and Non-goals hero")
 
 Define what success means and what was explicitly out of scope.
 

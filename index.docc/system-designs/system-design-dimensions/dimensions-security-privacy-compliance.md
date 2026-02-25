@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Security, Privacy, Compliance hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Security, Privacy, Compliance hero")
 
 Capture data handling, compliance risk, and guardrails.
 

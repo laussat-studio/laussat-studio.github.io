@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Observability and Operations hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Observability and Operations hero")
 
 Describe how the system is monitored and operated day to day.
 

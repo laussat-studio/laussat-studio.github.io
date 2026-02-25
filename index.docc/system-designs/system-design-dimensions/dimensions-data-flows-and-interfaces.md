@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Data Flows and Interfaces hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Data Flows and Interfaces hero")
 
 Detail the inputs, outputs, and API contracts that define system boundaries.
 

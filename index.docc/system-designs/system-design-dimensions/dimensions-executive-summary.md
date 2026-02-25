@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Executive Summary hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Executive Summary hero")
 
 A one-page narrative that states the problem, the solution, and the measurable
 impact.

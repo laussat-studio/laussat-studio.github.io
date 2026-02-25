@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Results and Metrics hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Results and Metrics hero")
 
 Show the measurable impact of the system design.
 

@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Appendix and References hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Appendix and References hero")
 
 Collect supporting artifacts without interrupting the narrative.
 

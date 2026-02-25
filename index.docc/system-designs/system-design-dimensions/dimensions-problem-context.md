@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Problem Context hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Problem Context hero")
 
 Explain the environment, constraints, and scale that shaped the design.
 

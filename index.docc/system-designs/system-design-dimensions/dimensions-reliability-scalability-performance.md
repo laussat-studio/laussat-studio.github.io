@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Reliability, Scalability, Performance hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Reliability, Scalability, Performance hero")
 
 Document SLOs and performance expectations.
 

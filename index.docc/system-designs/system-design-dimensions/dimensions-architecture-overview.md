@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Architecture Overview hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Architecture Overview hero")
 
 Describe the system at a high level and show where the hard parts live.
 

@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Testing and Validation hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Testing and Validation hero")
 
 Explain how correctness was proven before and after launch.
 

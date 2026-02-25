@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Stakeholders and Ownership hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Stakeholders and Ownership hero")
 
 Clarify who owned which parts of the work and who depended on the outcome.
 

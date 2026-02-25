@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "Migration and Rollout hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "Migration and Rollout hero")
 
 Describe how the new system replaced the old one safely.
 

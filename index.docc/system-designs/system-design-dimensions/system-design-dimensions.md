@@ -12,7 +12,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-system-design-dimensions-hero.codex.svg", alt: "System Design Dimensions hero")
+@Image(source: "system-designs-system-design-dimensions-hero-v2.codex.svg", alt: "System Design Dimensions hero")
 
 A system design template organized as dimensions. Use it as a checklist for what
 could matter, then select only the dimensions that fit your case study.
