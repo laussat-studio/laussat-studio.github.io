@@ -36,6 +36,11 @@ jobs:
           output_root="${GITHUB_WORKSPACE}/_site"
           rm -rf "${output_root}"
           mkdir -p "${output_root}"
+
+          # Build DocC bundles.
+          # IMPORTANT: this repo publishes exactly one catalog (index.docc).
+          # Other catalogs (e.g. investigations) must publish from their own Pages repo,
+          # otherwise root-level DocC artifacts like /index/index.json can be overwritten.
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
@@ -43,78 +48,7 @@ jobs:
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
-          # Normalize DocC output paths to /documentation/index and /images/index.
-          doc_slugs=""
-          if [ -d "${output_root}/documentation" ]; then
-            mkdir -p "${output_root}/documentation/index"
-            while IFS= read -r doc_dir; do
-              doc_slug=$(basename "${doc_dir}")
-              if [ "${doc_slug}" = "index" ]; then
-                continue
-              fi
-              doc_slugs="${doc_slugs} ${doc_slug}"
-              cp -R "${doc_dir}/." "${output_root}/documentation/index/"
-              rm -rf "${doc_dir}"
-            done < <(find "${output_root}/documentation" -mindepth 1 -maxdepth 1 -type d | sort)
-          fi
-
-          image_slugs=""
-          if [ -d "${output_root}/images" ]; then
-            mkdir -p "${output_root}/images/index"
-            while IFS= read -r image_dir; do
-              image_slug=$(basename "${image_dir}")
-              if [ "${image_slug}" = "index" ]; then
-                continue
-              fi
-              image_slugs="${image_slugs} ${image_slug}"
-              cp -R "${image_dir}/." "${output_root}/images/index/"
-              rm -rf "${image_dir}"
-            done < <(find "${output_root}/images" -mindepth 1 -maxdepth 1 -type d | sort)
-          fi
-
-          # Rewrite any remaining references to canonical paths.
-          for doc_slug in ${doc_slugs}; do
-            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-              | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
-          done
-          for image_slug in ${image_slugs}; do
-            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-              | xargs -0 perl -0777 -pi -e "s#/images/${image_slug}/#/images/index/#g"
-          done
-
-          # Optional compatibility: if we have a legacy redirect stub at documentation/index/index.html,
-          # copy it through (but do not overwrite DocC output).
-          if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
-            mkdir -p "${output_root}/documentation/index"
-            cp "documentation/index/index.html" "${output_root}/documentation/index/index.html"
-          fi
-
-          # Redirect vanity paths -> canonical /documentation/index (redirect-only; do not overwrite DocC output)
-          mkdir -p "${output_root}/documentation"
-
-          # /documentation/ -> /documentation/index/
-          cat > "${output_root}/documentation/index.html" <<'EOF'
-          <!doctype html>
-          <html lang="en">
-          <head>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <meta name="robots" content="noindex"/>
-            <title>Studio Laussat</title>
-            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
-            <script>window.location.replace('/documentation/index/');</script>
-          </head>
-          <body></body>
-          </html>
-          EOF
-
-          # Static assets for link previews (kept simple + on-brand; not "techy")
-          mkdir -p "${output_root}/assets"
-          if [ -f "assets/og-laussat.svg" ]; then
-            cp "assets/og-laussat.svg" "${output_root}/assets/og-laussat.svg"
-          fi
-
-          # Root landing page: branded OG/Twitter preview + redirect into DocC.
+          # Root landing page: add OG/Twitter meta for link previews, then redirect into DocC.
           cat > "${output_root}/index.html" <<'EOF'
           <!doctype html>
           <html lang="en">
@@ -122,45 +56,43 @@ jobs:
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>Studio Laussat</title>
-            <meta name="description" content="System design studio."/>
+            <meta name="description" content="Studio Laussat is a system design studio."/>
             <link rel="canonical" href="https://laussat.studio/"/>
 
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Studio Laussat"/>
-            <meta property="og:description" content="System design studio."/>
-            <meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/>
+            <meta property="og:description" content="Studio Laussat is a system design studio."/>
+            <meta property="og:image" content="https://github.com/laussat-studio.png?size=512"/>
 
             <meta name="twitter:card" content="summary_large_image"/>
             <meta name="twitter:title" content="Studio Laussat"/>
-            <meta name="twitter:description" content="System design studio."/>
-            <meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>
+            <meta name="twitter:description" content="Studio Laussat is a system design studio."/>
+            <meta name="twitter:image" content="https://github.com/laussat-studio.png?size=512"/>
 
             <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
             <script>
+              // Avoid an all-white flash on mobile before DocC loads.
               window.location.replace('/documentation/index/');
             </script>
             <style>
               :root { color-scheme: light dark; }
-              body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: ui-serif, Georgia, "Times New Roman", serif; background: #F7F3ED; color: #111; }
-              .wrap { text-align: center; padding: 56px 18px; }
-              .title { font-size: 22px; letter-spacing: -0.02em; }
-              .sub { margin-top: 10px; opacity: 0.72; font-size: 14px; }
-              a { color: inherit; }
+              body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+              .wrap { text-align: center; padding: 28px 18px; }
+              .title { font-size: 20px; letter-spacing: -0.02em; }
+              .sub { margin-top: 8px; opacity: 0.75; font-size: 13px; }
             </style>
           </head>
           <body>
             <div class="wrap">
               <div class="title">Studio Laussat</div>
-              <div class="sub">Redirecting…</div>
+              <div class="sub">System design studio.</div>
             </div>
           </body>
           </html>
           EOF
 
-          # OG/Twitter tags on the DocC entrypoint itself (nice unfurls when sharing a docs URL).
-          if [ -f "${output_root}/documentation/index/index.html" ]; then
-            perl -0777 -pi -e 's#<head>#<head><meta property="og:type" content="website"/><meta property="og:title" content="Studio Laussat"/><meta property="og:description" content="System design studio."/><meta property="og:image" content="https://laussat.studio/assets/og-laussat.svg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Studio Laussat"/><meta name="twitter:description" content="System design studio."/><meta name="twitter:image" content="https://laussat.studio/assets/og-laussat.svg"/>#' "${output_root}/documentation/index/index.html" || true
-          fi
+          # 404 should also route into the docs index (prevents dead-end previews).
+          cp "${output_root}/index.html" "${output_root}/404.html"
 
           touch "${output_root}/.nojekyll"
 
