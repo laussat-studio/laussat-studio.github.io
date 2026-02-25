@@ -64,8 +64,9 @@ jobs:
             done < <(find "${output_root}/documentation" -mindepth 1 -maxdepth 1 -type d | sort)
           fi
           for doc_slug in ${doc_slugs}; do
+            doc_slug_lower=$(printf '%s' "${doc_slug}" | tr '[:upper:]' '[:lower:]')
             find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-              | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
+              | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#/documentation/${doc_slug_lower}/#/documentation/index/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc://${doc_slug_lower}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g; s#doc:\\\\/\\\\/${doc_slug_lower}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
           done
 
           image_slugs=""
