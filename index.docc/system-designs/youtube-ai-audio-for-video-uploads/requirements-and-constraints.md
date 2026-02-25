@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Requirements and Constraints")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Requirements and Constraints icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Requirements and Constraints card")
+  @PageImage(purpose: icon, source: "requirements-and-constraints-icon.codex.svg", alt: "Requirements and Constraints icon")
+  @PageImage(purpose: card, source: "requirements-and-constraints-card.codex.svg", alt: "Requirements and Constraints card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Requirements and Constraints hero")
+@Image(source: "requirements-and-constraints-hero.codex.svg", alt: "Requirements and Constraints hero")
 
 ## Requirements
 

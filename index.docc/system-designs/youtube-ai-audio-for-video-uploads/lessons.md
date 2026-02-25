@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Lessons")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Lessons icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Lessons card")
+  @PageImage(purpose: icon, source: "lessons-icon.codex.svg", alt: "Lessons icon")
+  @PageImage(purpose: card, source: "lessons-card.codex.svg", alt: "Lessons card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Lessons hero")
+@Image(source: "lessons-hero.codex.svg", alt: "Lessons hero")
 
 ## Key Lessons
 

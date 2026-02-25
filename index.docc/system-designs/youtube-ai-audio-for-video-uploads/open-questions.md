@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Open Questions")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Open Questions icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Open Questions card")
+  @PageImage(purpose: icon, source: "open-questions-icon.codex.svg", alt: "Open Questions icon")
+  @PageImage(purpose: card, source: "open-questions-card.codex.svg", alt: "Open Questions card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Open Questions hero")
+@Image(source: "open-questions-hero.codex.svg", alt: "Open Questions hero")
 
 ## Non-goals
 

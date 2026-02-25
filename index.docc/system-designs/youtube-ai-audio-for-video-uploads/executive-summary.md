@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Executive Summary")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Executive Summary icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Executive Summary card")
+  @PageImage(purpose: icon, source: "executive-summary-icon.codex.svg", alt: "Executive Summary icon")
+  @PageImage(purpose: card, source: "executive-summary-card.codex.svg", alt: "Executive Summary card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Executive Summary hero")
+@Image(source: "executive-summary-hero.codex.svg", alt: "Executive Summary hero")
 
 YouTube Shorts creators needed quick narration without recording voice. We shipped AI audio sticker narration on iOS with five selectable voices and support for up to 20 concurrent audio tracks in one composition.
 

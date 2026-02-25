@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Rollout and Results")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Rollout and Results icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Rollout and Results card")
+  @PageImage(purpose: icon, source: "rollout-and-results-icon.codex.svg", alt: "Rollout and Results icon")
+  @PageImage(purpose: card, source: "rollout-and-results-card.codex.svg", alt: "Rollout and Results card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Rollout and Results hero")
+@Image(source: "rollout-and-results-hero.codex.svg", alt: "Rollout and Results hero")
 
 ## Rollout
 

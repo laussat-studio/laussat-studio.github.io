@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Strategy and Execution")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Strategy and Execution icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Strategy and Execution card")
+  @PageImage(purpose: icon, source: "strategy-and-execution-icon.codex.svg", alt: "Strategy and Execution icon")
+  @PageImage(purpose: card, source: "strategy-and-execution-card.codex.svg", alt: "Strategy and Execution card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Strategy and Execution hero")
+@Image(source: "strategy-and-execution-hero.codex.svg", alt: "Strategy and Execution hero")
 
 ## Execution Plan
 

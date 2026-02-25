@@ -4,8 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("YouTube AI Audio for Video Uploads")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "YouTube AI Audio for Video Uploads icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "YouTube AI Audio for Video Uploads card")
+  @PageImage(purpose: icon, source: "youtube-ai-audio-for-video-uploads-icon.codex.svg", alt: "YouTube AI Audio for Video Uploads icon")
+  @PageImage(purpose: card, source: "youtube-ai-audio-for-video-uploads-card.codex.svg", alt: "YouTube AI Audio for Video Uploads card")
 }
 
 @Options {
@@ -15,7 +15,7 @@
 
 A case study on shipping AI-powered audio sticker narration for YouTube Shorts uploads.
 
-@Image(source: "index-hero.codex.svg", alt: "YouTube AI Audio for Video Uploads hero")
+@Image(source: "youtube-ai-audio-for-video-uploads-hero.codex.svg", alt: "YouTube AI Audio for Video Uploads hero")
 
 Creators wanted a fast way to narrate sticker text without recording their own voice. The product direction was to improve upload quality and encourage more sharing by letting creators choose one of five voices and preview audio while writing.
 

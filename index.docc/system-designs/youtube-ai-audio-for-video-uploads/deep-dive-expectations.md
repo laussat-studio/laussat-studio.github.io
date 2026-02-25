@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Deep Dive Expectations")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Deep Dive Expectations icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Deep Dive Expectations card")
+  @PageImage(purpose: icon, source: "deep-dive-expectations-icon.codex.svg", alt: "Deep Dive Expectations icon")
+  @PageImage(purpose: card, source: "deep-dive-expectations-card.codex.svg", alt: "Deep Dive Expectations card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Deep Dive Expectations hero")
+@Image(source: "deep-dive-expectations-hero.codex.svg", alt: "Deep Dive Expectations hero")
 
 For an engineering deep dive, this case study should include:
 

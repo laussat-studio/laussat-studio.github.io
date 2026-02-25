@@ -4,15 +4,15 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Migration Details")
-  @PageImage(purpose: icon, source: "system-designs-icon.codex.svg", alt: "Migration Details icon")
-  @PageImage(purpose: card, source: "system-designs-card.codex.svg", alt: "Migration Details card")
+  @PageImage(purpose: icon, source: "migration-details-icon.codex.svg", alt: "Migration Details icon")
+  @PageImage(purpose: card, source: "migration-details-card.codex.svg", alt: "Migration Details card")
 }
 
 @Options {
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "index-hero.codex.svg", alt: "Migration Details hero")
+@Image(source: "migration-details-hero.codex.svg", alt: "Migration Details hero")
 
 ## Baseline to New Flow
 
