@@ -28,3 +28,4 @@ real‑world constraints.
 ### Case Studies
 
 - <doc:google-maps-typography-design-overview>
+- <doc:youtube-ai-audio-for-video-uploads>

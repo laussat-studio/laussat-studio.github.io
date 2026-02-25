@@ -33,6 +33,7 @@ constraints, and the decisions that made them shippable.
 ### Case Studies
 
 - <doc:google-maps-typography-design-overview>
+- <doc:youtube-ai-audio-for-video-uploads>
 
 ### Company
 
