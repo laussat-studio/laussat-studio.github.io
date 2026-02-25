@@ -12,9 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders And Ownership hero")
-@Image(source: "system-designs-stakeholders-and-ownership-icon.codex.svg", alt: "Legacy stakeholders icon")
-@Image(source: "system-designs-stakeholders-and-ownership-card.codex.svg", alt: "Legacy stakeholders card")
 @Image(source: "system-designs-google-maps-font-system-stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders And Ownership hero")
 
 ## Owners
@@ -31,4 +28,3 @@
 - Design and engineering aligned on token semantics before migration.
 - QA validated staged rollouts across multiple OS and device cohorts.
 - Search Results owners approved token mapping and snapshot baselines.
-

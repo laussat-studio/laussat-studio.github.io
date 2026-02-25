@@ -13,9 +13,6 @@
 }
 
 Use this page to capture missing details as we refine the system design story.
-@Image(source: "system-designs-open-questions-hero.codex.svg", alt: "Open Questions hero")
-@Image(source: "system-designs-open-questions-icon.codex.svg", alt: "Legacy open questions icon")
-@Image(source: "system-designs-open-questions-card.codex.svg", alt: "Legacy open questions card")
 @Image(source: "system-designs-google-maps-font-system-open-questions-hero.codex.svg", alt: "Open Questions hero")
 
 ## Resolved Details
@@ -82,4 +79,3 @@ Use this page to capture missing details as we refine the system design story.
 ## Security, Privacy, and Compliance
 
 - Confirm whether this was not applicable, or list any policy requirements.
-
