@@ -15,9 +15,6 @@
     <filter id="blur" x="-25%" y="-25%" width="150%" height="150%">
       <feGaussianBlur stdDeviation="10"/>
     </filter>
-    <marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 z" fill="#e8edff"/>
-    </marker>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
@@ -84,7 +81,7 @@
     </g>
   </g>
 
-  <g stroke="url(#line)" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+  <g stroke="url(#line)" stroke-width="4" fill="none" stroke-linecap="round">
     <path d="M300 413 C390 413, 420 305, 490 285"/>
     <path d="M300 413 C390 413, 420 600, 490 620"/>
     <path d="M730 285 C820 305, 860 390, 910 413"/>
@@ -92,8 +89,8 @@
     <path d="M1150 413 L1290 413"/>
   </g>
 
-  <g stroke="#ffd8e5" stroke-opacity="0.78" stroke-width="3" fill="none" marker-end="url(#arrow)" stroke-linecap="round" stroke-dasharray="10 12">
-    <path d="M1080 520 C1020 700, 560 810, 250 560 C170 498, 170 330, 320 310"/>
+  <g stroke="#ffd8e5" stroke-opacity="0.78" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="10 12">
+    <path d="M1030 508 C980 700, 560 810, 260 560 C180 500, 180 340, 300 413"/>
   </g>
   <text x="862" y="770" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#ffe5ee">editor loop</text>
 </svg>
