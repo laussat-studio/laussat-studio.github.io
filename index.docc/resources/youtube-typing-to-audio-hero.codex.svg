@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Keyboard input to audio generation flow</title>
+  <desc id="desc">Diagram of keystroke input to local neural engine, debounce gate, network request, and generated audio response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1020"/>
+      <stop offset="56%" stop-color="#22113a"/>
+      <stop offset="100%" stop-color="#3a101f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="45%" stop-color="#ff7a96"/>
+      <stop offset="100%" stop-color="#4dd7ff"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <path d="M0,0 L14,7 L0,14 z" fill="#ffe3eb"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="70" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#ffffff">Flow 1: Keyboard Input to Audio</text>
+  <text x="70" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" fill="#ffd7e2">keystroke -> local AI -> 3s debounce -> Big G cloud synthesis -> audio</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="70" y="220" width="270" height="145" rx="22" fill="#2c1928" stroke="#ff809d" stroke-width="2"/>
+    <text x="95" y="266" font-size="30" font-weight="700" fill="#ffffff">Creator Typing</text>
+    <rect x="98" y="286" width="84" height="62" rx="12" fill="#ffeff4" stroke="#ff6f8f" stroke-width="2"/>
+    <text x="131" y="328" font-size="40" font-weight="800" fill="#b21034">k</text>
+    <text x="196" y="318" font-size="22" fill="#ffe0e8">keystroke event</text>
+
+    <rect x="400" y="220" width="300" height="145" rx="22" fill="#1a263a" stroke="#82bfff" stroke-width="2"/>
+    <text x="426" y="266" font-size="30" font-weight="700" fill="#ffffff">Local Neural Engine</text>
+    <text x="426" y="302" font-size="22" fill="#dcecff">language detect</text>
+    <text x="426" y="332" font-size="22" fill="#dcecff">target &lt;1 second</text>
+
+    <rect x="760" y="220" width="250" height="145" rx="22" fill="#2a1c33" stroke="#d2a2ff" stroke-width="2"/>
+    <text x="785" y="266" font-size="30" font-weight="700" fill="#ffffff">Debounce</text>
+    <circle cx="830" cy="315" r="36" fill="none" stroke="#f1dcff" stroke-width="6"/>
+    <path d="M830 296 L830 315 L852 327" stroke="#f1dcff" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <text x="880" y="322" font-size="24" fill="#f3e4ff">3 sec gate</text>
+
+    <rect x="1060" y="220" width="250" height="145" rx="22" fill="#2a1820" stroke="#ff9bb0" stroke-width="2"/>
+    <text x="1087" y="266" font-size="30" font-weight="700" fill="#ffffff">Network Request</text>
+    <text x="1087" y="302" font-size="22" fill="#ffe0e8">voice + text hash</text>
+    <text x="1087" y="332" font-size="22" fill="#ffe0e8">send synthesis job</text>
+
+    <rect x="1360" y="192" width="170" height="190" rx="20" fill="#172437" stroke="#79ccff" stroke-width="2"/>
+    <g transform="translate(1382 232)">
+      <circle cx="36" cy="36" r="24" fill="#ecf8ff"/>
+      <circle cx="64" cy="24" r="30" fill="#ecf8ff"/>
+      <circle cx="94" cy="38" r="22" fill="#ecf8ff"/>
+      <rect x="36" y="36" width="82" height="32" fill="#ecf8ff"/>
+    </g>
+    <text x="1378" y="334" font-size="28" font-weight="700" fill="#ffffff">Big G Cloud</text>
+    <text x="1378" y="362" font-size="20" fill="#d9f1ff">audio synth</text>
+
+    <rect x="1060" y="500" width="470" height="160" rx="22" fill="#162434" stroke="#6fd1ff" stroke-width="2"/>
+    <text x="1088" y="550" font-size="30" font-weight="700" fill="#ffffff">Generated Audio Response</text>
+    <text x="1088" y="586" font-size="22" fill="#d8f4ff">clip bytes + metadata</text>
+    <path d="M1090 625 C1110 590, 1130 660, 1150 625 C1170 590, 1190 660, 1210 625 C1230 590, 1250 660, 1270 625 C1290 590, 1310 660, 1330 625" stroke="#9fe2ff" stroke-width="4" fill="none"/>
+  </g>
+
+  <g stroke="url(#line)" stroke-width="5" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+    <path d="M340 292 L400 292"/>
+    <path d="M700 292 L760 292"/>
+    <path d="M1010 292 L1060 292"/>
+    <path d="M1310 292 L1360 292"/>
+    <path d="M1445 382 L1445 500"/>
+    <path d="M1360 580 L1270 580"/>
+  </g>
+
+  <text x="760" y="430" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#ffe8ef">request fires only after local decision and debounce alignment</text>
+</svg>

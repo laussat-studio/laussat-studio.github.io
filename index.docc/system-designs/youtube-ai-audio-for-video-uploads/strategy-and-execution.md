@@ -12,7 +12,13 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "youtube-typing-local-lm-network-loop-hero.codex.svg", alt: "Typing to local LM to network request loop")
+## Flow 1: Keyboard Input to Audio
+
+@Image(source: "youtube-typing-to-audio-hero.codex.svg", alt: "Keyboard input to local AI to network audio generation flow")
+
+## Flow 2: Audio to Video Edit to Upload
+
+@Image(source: "youtube-audio-to-video-upload-hero.codex.svg", alt: "Generated audio to video edit and upload flow")
 
 ## Execution Plan
 
