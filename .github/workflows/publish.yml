@@ -48,51 +48,16 @@ jobs:
             --experimental-enable-custom-templates \
             --fallback-display-name "index"
 
-          # Root landing page: add OG/Twitter meta for link previews, then redirect into DocC.
-          cat > "${output_root}/index.html" <<'EOF'
-          <!doctype html>
-          <html lang="en">
-          <head>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <title>Studio Laussat</title>
-            <meta name="description" content="Studio Laussat is a system design studio."/>
-            <link rel="canonical" href="https://laussat.studio/"/>
+          # Flatten DocC entrypoint to site root (experimental):
+          # copy /documentation/index/* to / so laussat.studio serves docs directly.
+          if [ -d "${output_root}/documentation/index" ]; then
+            cp -R "${output_root}/documentation/index/." "${output_root}/"
+          fi
 
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="Studio Laussat"/>
-            <meta property="og:description" content="Studio Laussat is a system design studio."/>
-            <meta property="og:image" content="https://github.com/laussat-studio.png?size=512"/>
-
-            <meta name="twitter:card" content="summary_large_image"/>
-            <meta name="twitter:title" content="Studio Laussat"/>
-            <meta name="twitter:description" content="Studio Laussat is a system design studio."/>
-            <meta name="twitter:image" content="https://github.com/laussat-studio.png?size=512"/>
-
-            <meta http-equiv="refresh" content="0; url=/documentation/index/"/>
-            <script>
-              // Avoid an all-white flash on mobile before DocC loads.
-              window.location.replace('/documentation/index/');
-            </script>
-            <style>
-              :root { color-scheme: light dark; }
-              body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-              .wrap { text-align: center; padding: 28px 18px; }
-              .title { font-size: 20px; letter-spacing: -0.02em; }
-              .sub { margin-top: 8px; opacity: 0.75; font-size: 13px; }
-            </style>
-          </head>
-          <body>
-            <div class="wrap">
-              <div class="title">Studio Laussat</div>
-              <div class="sub">System design studio.</div>
-            </div>
-          </body>
-          </html>
-          EOF
-
-          # 404 should also route into the docs index (prevents dead-end previews).
-          cp "${output_root}/index.html" "${output_root}/404.html"
+          # Keep 404 aligned with the root docs entry.
+          if [ -f "${output_root}/index.html" ]; then
+            cp "${output_root}/index.html" "${output_root}/404.html"
+          fi
 
           touch "${output_root}/.nojekyll"
 
