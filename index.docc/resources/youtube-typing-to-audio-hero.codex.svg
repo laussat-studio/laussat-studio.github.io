@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Keyboard to audio flow with roman numerals</title>
-  <desc id="desc">Visual flow showing five stages using roman numerals from keystroke through network audio response.</desc>
+  <title id="title">Keyboard to audio flow with visual stages</title>
+  <desc id="desc">Five-stage flow with pictograms and roman numeral tags: typing, local neural engine, debounce timer, network request, and cloud audio response.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#090f1d"/>
@@ -33,19 +33,81 @@
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
     <rect x="110" y="318" width="190" height="190" rx="36" fill="#291826" stroke="#ff8da8" stroke-width="3"/>
-    <text x="205" y="436" text-anchor="middle" font-size="92" font-weight="800" fill="#ffffff">I</text>
+    <circle cx="138" cy="346" r="18" fill="#ff8da8"/>
+    <text x="138" y="352" text-anchor="middle" font-size="18" font-weight="800" fill="#24111e">I</text>
+    <g transform="translate(147 375)">
+      <rect x="0" y="0" width="116" height="72" rx="12" fill="#ffeef4" stroke="#ff8da8" stroke-width="2"/>
+      <g fill="#ff8da8">
+        <rect x="10" y="12" width="12" height="8" rx="2"/>
+        <rect x="28" y="12" width="12" height="8" rx="2"/>
+        <rect x="46" y="12" width="12" height="8" rx="2"/>
+        <rect x="64" y="12" width="12" height="8" rx="2"/>
+        <rect x="82" y="12" width="12" height="8" rx="2"/>
+        <rect x="10" y="26" width="12" height="8" rx="2"/>
+        <rect x="28" y="26" width="12" height="8" rx="2"/>
+        <rect x="46" y="26" width="12" height="8" rx="2"/>
+        <rect x="64" y="26" width="12" height="8" rx="2"/>
+        <rect x="82" y="26" width="12" height="8" rx="2"/>
+        <rect x="10" y="40" width="40" height="8" rx="2"/>
+        <rect x="56" y="40" width="38" height="8" rx="2"/>
+        <rect x="10" y="54" width="84" height="8" rx="2"/>
+      </g>
+      <rect x="98" y="20" width="6" height="28" fill="#b21034"/>
+    </g>
 
     <rect x="490" y="190" width="240" height="190" rx="36" fill="#18273b" stroke="#84c1ff" stroke-width="3"/>
-    <text x="610" y="308" text-anchor="middle" font-size="92" font-weight="800" fill="#ffffff">II</text>
+    <circle cx="522" cy="218" r="18" fill="#84c1ff"/>
+    <text x="522" y="224" text-anchor="middle" font-size="18" font-weight="800" fill="#0f1827">II</text>
+    <g transform="translate(545 244)">
+      <rect x="0" y="0" width="130" height="82" rx="14" fill="#0f1728" stroke="#8fc9ff" stroke-width="2"/>
+      <g fill="#8fc9ff">
+        <rect x="24" y="-10" width="10" height="10" rx="2"/>
+        <rect x="44" y="-10" width="10" height="10" rx="2"/>
+        <rect x="64" y="-10" width="10" height="10" rx="2"/>
+        <rect x="84" y="-10" width="10" height="10" rx="2"/>
+        <rect x="24" y="82" width="10" height="10" rx="2"/>
+        <rect x="44" y="82" width="10" height="10" rx="2"/>
+        <rect x="64" y="82" width="10" height="10" rx="2"/>
+        <rect x="84" y="82" width="10" height="10" rx="2"/>
+      </g>
+      <circle cx="30" cy="41" r="7" fill="#58d7ff"/>
+      <circle cx="65" cy="24" r="7" fill="#58d7ff"/>
+      <circle cx="100" cy="41" r="7" fill="#58d7ff"/>
+      <circle cx="65" cy="58" r="7" fill="#58d7ff"/>
+      <path d="M30 41 L65 24 L100 41 L65 58 Z" fill="none" stroke="#d7eeff" stroke-width="2"/>
+    </g>
 
     <rect x="490" y="526" width="240" height="190" rx="36" fill="#2b1b35" stroke="#d2a6ff" stroke-width="3"/>
-    <text x="610" y="644" text-anchor="middle" font-size="92" font-weight="800" fill="#ffffff">III</text>
+    <circle cx="522" cy="554" r="18" fill="#d2a6ff"/>
+    <text x="522" y="560" text-anchor="middle" font-size="15" font-weight="800" fill="#1a1021">III</text>
+    <g transform="translate(555 572)">
+      <circle cx="56" cy="46" r="42" fill="none" stroke="#f2ddff" stroke-width="6"/>
+      <path d="M56 24 L56 46 L76 58" fill="none" stroke="#f2ddff" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="56" cy="46" r="5" fill="#f2ddff"/>
+      <text x="56" y="90" text-anchor="middle" font-size="24" font-weight="700" fill="#f2ddff">3</text>
+    </g>
 
     <rect x="910" y="318" width="240" height="190" rx="36" fill="#2a1821" stroke="#ffa1b5" stroke-width="3"/>
-    <text x="1030" y="436" text-anchor="middle" font-size="92" font-weight="800" fill="#ffffff">IV</text>
+    <circle cx="942" cy="346" r="18" fill="#ffa1b5"/>
+    <text x="942" y="352" text-anchor="middle" font-size="15" font-weight="800" fill="#210f17">IV</text>
+    <g transform="translate(960 382)">
+      <path d="M0 38 L70 14 L70 62 Z" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2"/>
+      <rect x="82" y="26" width="56" height="24" rx="8" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2"/>
+      <path d="M70 38 L82 38" stroke="#ffeaf0" stroke-width="4"/>
+      <path d="M145 22 Q160 38 145 54" fill="none" stroke="#ffd2de" stroke-width="3"/>
+      <path d="M154 16 Q174 38 154 60" fill="none" stroke="#ffd2de" stroke-width="3"/>
+    </g>
 
     <rect x="1290" y="318" width="210" height="190" rx="36" fill="#172537" stroke="#7cd0ff" stroke-width="3"/>
-    <text x="1395" y="436" text-anchor="middle" font-size="92" font-weight="800" fill="#ffffff">V</text>
+    <circle cx="1320" cy="346" r="18" fill="#7cd0ff"/>
+    <text x="1320" y="352" text-anchor="middle" font-size="18" font-weight="800" fill="#0f1b2a">V</text>
+    <g transform="translate(1334 374)">
+      <circle cx="36" cy="34" r="24" fill="#ecf8ff"/>
+      <circle cx="64" cy="24" r="30" fill="#ecf8ff"/>
+      <circle cx="94" cy="36" r="22" fill="#ecf8ff"/>
+      <rect x="36" y="34" width="82" height="28" fill="#ecf8ff"/>
+      <path d="M8 92 C20 74, 32 110, 44 92 C56 74, 68 110, 80 92 C92 74, 104 110, 116 92" fill="none" stroke="#9edfff" stroke-width="4"/>
+    </g>
   </g>
 
   <g stroke="url(#line)" stroke-width="6" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
