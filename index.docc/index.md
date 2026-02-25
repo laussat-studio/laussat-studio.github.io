@@ -30,6 +30,10 @@ constraints, and the decisions that made them shippable.
 
 ## Topics
 
+### Case Studies
+
+- <doc:google-maps-typography-design-overview>
+
 ### Company
 
 - <doc:company>
