@@ -12,9 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-designs-requirements-and-constraints-hero.codex.svg", alt: "Requirements And Constraints hero")
-@Image(source: "system-designs-requirements-and-constraints-icon.codex.svg", alt: "Legacy requirements icon")
-@Image(source: "system-designs-requirements-and-constraints-card.codex.svg", alt: "Legacy requirements card")
 @Image(source: "system-designs-google-maps-font-system-requirements-and-constraints-hero.codex.svg", alt: "Requirements And Constraints hero")
 
 ## Requirements
@@ -34,4 +31,3 @@
 - The system had to support four years of OS versions and device classes.
 - The migration needed to be reversible during the experimentation window.
 - Performance budgets for scroll-heavy screens could not regress.
-
