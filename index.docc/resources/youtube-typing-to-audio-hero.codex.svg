@@ -15,9 +15,6 @@
     <filter id="blur" x="-25%" y="-25%" width="150%" height="150%">
       <feGaussianBlur stdDeviation="10"/>
     </filter>
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
-      <path d="M0,0 L14,7 L0,14 z" fill="#ffe4ec"/>
-    </marker>
   </defs>
 
   <rect width="1600" height="900" fill="url(#bg)"/>
@@ -91,11 +88,10 @@
     <circle cx="942" cy="346" r="18" fill="#ffa1b5"/>
     <text x="942" y="352" text-anchor="middle" font-size="15" font-weight="800" fill="#210f17">IV</text>
     <g transform="translate(960 382)">
-      <path d="M0 38 L70 14 L70 62 Z" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2"/>
-      <rect x="82" y="26" width="56" height="24" rx="8" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2"/>
-      <path d="M70 38 L82 38" stroke="#ffeaf0" stroke-width="4"/>
-      <path d="M145 22 Q160 38 145 54" fill="none" stroke="#ffd2de" stroke-width="3"/>
-      <path d="M154 16 Q174 38 154 60" fill="none" stroke="#ffd2de" stroke-width="3"/>
+      <path d="M0 48 L98 14 L72 60 L98 94 Z" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M26 52 L98 14" stroke="#ffd5e1" stroke-width="2"/>
+      <rect x="116" y="34" width="64" height="30" rx="10" fill="#ffeaf0" stroke="#ff9ab1" stroke-width="2"/>
+      <line x1="126" y1="49" x2="170" y2="49" stroke="#ff9ab1" stroke-width="2" stroke-linecap="round"/>
     </g>
 
     <rect x="1290" y="318" width="210" height="190" rx="36" fill="#172537" stroke="#7cd0ff" stroke-width="3"/>
@@ -110,7 +106,7 @@
     </g>
   </g>
 
-  <g stroke="url(#line)" stroke-width="6" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+  <g stroke="url(#line)" stroke-width="6" fill="none" stroke-linecap="round">
     <path d="M300 413 C390 413, 420 305, 490 285"/>
     <path d="M300 413 C390 413, 420 600, 490 620"/>
     <path d="M730 285 C820 305, 860 390, 910 413"/>
