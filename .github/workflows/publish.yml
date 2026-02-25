@@ -46,46 +46,7 @@ jobs:
             --transform-for-static-hosting \
             --hosting-base-path / \
             --experimental-enable-custom-templates \
-            --fallback-display-name "Laussat Studio"
-
-          # Normalize DocC output paths to /documentation/index and /images/index
-          # while keeping wrkstrm's root hosting strategy (baseUrl = "/").
-          doc_slugs=""
-          if [ -d "${output_root}/documentation" ]; then
-            mkdir -p "${output_root}/documentation/index"
-            while IFS= read -r doc_dir; do
-              doc_slug=$(basename "${doc_dir}")
-              if [ "${doc_slug}" = "index" ]; then
-                continue
-              fi
-              doc_slugs="${doc_slugs} ${doc_slug}"
-              cp -R "${doc_dir}/." "${output_root}/documentation/index/"
-              rm -rf "${doc_dir}"
-            done < <(find "${output_root}/documentation" -mindepth 1 -maxdepth 1 -type d | sort)
-          fi
-          for doc_slug in ${doc_slugs}; do
-            doc_slug_lower=$(printf '%s' "${doc_slug}" | tr '[:upper:]' '[:lower:]')
-            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-              | xargs -0 perl -0777 -pi -e "s#/documentation/${doc_slug}/#/documentation/index/#g; s#/documentation/${doc_slug_lower}/#/documentation/index/#g; s#\\\\/documentation\\\\/${doc_slug}\\\\/#\\\\/documentation\\\\/index\\\\/#g; s#\\\\/documentation\\\\/${doc_slug_lower}\\\\/#\\\\/documentation\\\\/index\\\\/#g; s#doc://${doc_slug}/#doc://index/#g; s#doc://${doc_slug_lower}/#doc://index/#g; s#doc:\\\\/\\\\/${doc_slug}\\\\/#doc:\\\\/\\\\/index\\\\/#g; s#doc:\\\\/\\\\/${doc_slug_lower}\\\\/#doc:\\\\/\\\\/index\\\\/#g"
-          done
-
-          image_slugs=""
-          if [ -d "${output_root}/images" ]; then
-            mkdir -p "${output_root}/images/index"
-            while IFS= read -r image_dir; do
-              image_slug=$(basename "${image_dir}")
-              if [ "${image_slug}" = "index" ]; then
-                continue
-              fi
-              image_slugs="${image_slugs} ${image_slug}"
-              cp -R "${image_dir}/." "${output_root}/images/index/"
-              rm -rf "${image_dir}"
-            done < <(find "${output_root}/images" -mindepth 1 -maxdepth 1 -type d | sort)
-          fi
-          for image_slug in ${image_slugs}; do
-            find "${output_root}" -type f \( -name '*.json' -o -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-              | xargs -0 perl -0777 -pi -e "s#/images/${image_slug}/#/images/index/#g; s#\\\\/images\\\\/${image_slug}\\\\/#\\\\/images\\\\/index\\\\/#g"
-          done
+            --fallback-display-name "index"
 
           # Root landing page: add OG/Twitter meta for link previews, then redirect into DocC.
           cat > "${output_root}/index.html" <<'EOF'
