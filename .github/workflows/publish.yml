@@ -39,7 +39,7 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path /documentation/index \
+            --hosting-base-path / \
             --experimental-enable-custom-templates \
             --fallback-display-name "Studio Laussat"
 
@@ -156,10 +156,6 @@ jobs:
           </body>
           </html>
           EOF
-
-          # DocC render uses a BASE_PATH placeholder in JS/CSS that must match window.baseUrl.
-          find "${output_root}" -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 \
-            | xargs -0 perl -0777 -pi -e 's#\{\{BASE_PATH\}\}#/documentation/index#g'
 
           # OG/Twitter tags on the DocC entrypoint itself (nice unfurls when sharing a docs URL).
           if [ -f "${output_root}/documentation/index/index.html" ]; then
