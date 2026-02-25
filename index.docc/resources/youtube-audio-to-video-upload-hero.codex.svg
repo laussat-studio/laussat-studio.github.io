@@ -91,4 +91,9 @@
     <path d="M730 620 C820 600, 860 436, 910 413"/>
     <path d="M1150 413 L1290 413"/>
   </g>
+
+  <g stroke="#ffd8e5" stroke-opacity="0.78" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round" stroke-dasharray="10 12">
+    <path d="M1080 520 C1020 700, 560 810, 250 560 C170 498, 170 330, 320 310"/>
+  </g>
+  <text x="862" y="770" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#ffe5ee">editor loop</text>
 </svg>
