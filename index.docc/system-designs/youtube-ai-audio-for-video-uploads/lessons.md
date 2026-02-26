@@ -14,13 +14,13 @@
 
 @Image(source: "lessons-hero.codex.svg", alt: "Lessons hero")
 
-## Key Lessons
+## Key lessons
 
-- AI API integration is only a small part of total product delivery effort.
-- Caching and request shaping can materially change cost/performance outcomes.
-- Composition limits and UI behavior become system constraints as soon as overlap capacity increases.
-- Experimentation and rollback design must be treated as first-class architecture.
+- The AI API was the easy part. Shipping the feature was everything around it: editor loop, caching, composition, and rollout.
+- Caching + request shaping isn’t “optimization” — it changes cost, latency, and whether the feature feels reliable.
+- As soon as audio overlap increased, hidden assumptions became bottlenecks which had to be addressed.
+- Experiments and rollback aren’t release chores; they’re architecture. If you don’t design for collisions, production will do it for you.
 
-## Operational Insight
+## Operational insight
 
-“AI is hard. The API is 1/10 of the battle.”
+AI is an amazing API that can generate almost any content you want. But the API is 10% of any feature I’ve ever worked on. The other 90% is the experience.
