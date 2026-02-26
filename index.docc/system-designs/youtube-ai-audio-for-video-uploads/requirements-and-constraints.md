@@ -27,7 +27,7 @@
 
 ## Constraints
 
-- English only (v1). At first thought, shipping only English would seem to make the task easier, but it made the feature harder. On-device language detection gets messy in real editing: detecting Spanish mid-sentence could remove a voice from the composition, then enable it again several keystrokes later.
+- English only (v1). At first thought, shipping only English would seem to make the task easier, but it made the feature harder. On-device language detection gets messy in real editing: detecting Spanish mid-sentence could remove a voice from the composition, then enable it again several keystrokes later. Careful cache management is necessary so a Spanish detection (or a mixed-language fragment) isn’t inadvertently cached and replayed later.
 - Content policy guardrails: curse word handling and emoji exclusions.
 - Existing infrastructure had real operational/integration friction.
 - UI complexity was unavoidable: variable text plus expanded menus/action surfaces increased both layout risk and composition risk.
