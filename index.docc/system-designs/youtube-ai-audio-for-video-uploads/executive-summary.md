@@ -14,15 +14,10 @@
 
 @Image(source: "executive-summary-hero.codex.svg", alt: "Executive Summary hero")
 
-YouTube Shorts creators needed quick narration without recording voice. We shipped AI audio sticker narration on iOS with five selectable voices and support for up to 20 concurrent audio tracks in one composition.
+YouTube Shorts creators needed quick narration without recording their own voice. We shipped AI voiceover for text stickers on iOS: pick one of five voices, type, and hear narration immediately — while supporting up to 20 concurrent audio tracks in a single composition.
 
 Key technical outcomes:
 
-- Local decision loop on each keystroke with network requests debounced to 3 seconds.
-- Backend audio generation plus on-device audio mixing.
-- Request reduction through caching: 30% fewer requests than Android for repeat text/voice usage patterns.
-
-Program structure:
-
-- One quarter implementation.
-- One quarter experiment rollout and monitoring.
+- Keystroke loop with language detection, plus caching to avoid repeat work and reduce duplicate synthesis.
+- Long-term caching that persists beyond the upload flow (post-video upload) for repeat text/voice patterns.
+- Experiments are allowed to collide during the beta period — better to surface feature-mix breakage there than in production.
