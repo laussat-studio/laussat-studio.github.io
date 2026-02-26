@@ -1,41 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview card</title>
-  <desc id="desc">Minimal map card with folded panels, roads, water, and a location pin.</desc>
+  <desc id="desc">Minimal maps abstract card: translucent green landmass and solid water shapes.</desc>
 
   <rect width="1200" height="630" rx="64" fill="#F9F9F9"/>
 
-  <!-- folded map panels -->
-  <g opacity="0.08" stroke="#111111" stroke-width="2" fill="none">
-    <path d="M380 80 V550"/>
-    <path d="M720 80 V550"/>
-  </g>
+  <!-- landmass: translucent green blob, fills the card -->
+  <path d="M-40 420 C120 250, 360 220, 520 290 C640 346, 760 326, 900 380 C1060 444, 1250 410, 1280 480 C1316 566, 1160 704, 900 682 C720 666, 642 610, 520 636 C360 684, 120 704, -20 650 C-120 610, -120 500, -40 420 Z" fill="#22C55E" opacity="0.18"/>
 
-  <!-- water -->
-  <path d="M120 438 C206 360, 336 352, 420 406 C492 452, 584 450, 656 408 C718 372, 816 372, 874 410 C940 454, 924 528, 846 556 C770 582, 704 540, 620 550 C536 560, 470 604, 392 586 C310 568, 246 528, 198 494 C154 464, 84 472, 120 438 Z" fill="#D7E3F0" opacity="0.95"/>
+  <!-- water: solid lakes/bays -->
+  <path d="M170 400 C250 330, 392 324, 474 382 C544 432, 622 428, 700 382 C772 340, 884 344, 948 390 C1020 444, 990 528, 890 560 C792 594, 716 536, 620 556 C512 578, 440 636, 348 612 C252 588, 210 520, 170 468 C142 432, 130 436, 170 400 Z" fill="#D7E3F0"/>
 
-  <!-- land -->
-  <path d="M96 174 C186 86, 342 82, 448 150 C534 204, 618 184, 706 240 C806 306, 822 424, 734 474 C652 522, 578 480, 494 454 C410 428, 350 476, 258 446 C176 418, 142 356, 120 296 C98 232, 48 220, 96 174 Z" fill="#EEF0F3"/>
-  <path d="M650 104 C742 54, 860 62, 940 120 C1004 166, 1078 168, 1120 214 C1160 258, 1126 320, 1058 330 C992 340, 942 300, 878 282 C810 262, 756 294, 698 270 C636 244, 620 140, 650 104 Z" fill="#E7EAEE" opacity="0.92"/>
-
-  <!-- roads -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M92 456 C198 346, 282 522, 388 408 C498 292, 584 476, 694 360 C796 250, 886 420, 1110 268" stroke="#3E4248" stroke-opacity="0.50" stroke-width="14"/>
-    <path d="M120 210 C230 154, 330 240, 440 182 C546 126, 650 206, 760 148 C878 86, 990 166, 1110 120" stroke="#3E4248" stroke-opacity="0.34" stroke-width="10"/>
-    <path d="M220 560 C238 446, 320 408, 380 338 C448 258, 540 246, 630 186 C720 126, 824 132, 980 80" stroke="#3E4248" stroke-opacity="0.26" stroke-width="10"/>
-  </g>
-
-  <!-- nodes -->
-  <g fill="#111111" opacity="0.40">
-    <circle cx="388" cy="408" r="6"/>
-    <circle cx="694" cy="360" r="6"/>
-    <circle cx="980" cy="80" r="6"/>
-  </g>
-
-  <!-- location pin -->
-  <g>
-    <path d="M860 272 C860 238, 888 210, 922 210 C956 210, 984 238, 984 272 C984 332, 922 402, 922 402 C922 402, 860 332, 860 272 Z" fill="#111111" opacity="0.92"/>
-    <circle cx="922" cy="272" r="14" fill="#F9F9F9" opacity="0.95"/>
-  </g>
+  <path d="M770 156 C820 120, 904 124, 954 160 C1004 196, 1070 190, 1108 214 C1154 242, 1146 298, 1096 322 C1040 350, 990 320, 940 300 C890 280, 850 306, 806 288 C756 268, 734 192, 770 156 Z" fill="#D7E3F0"/>
 
   <!-- title -->
   <g>

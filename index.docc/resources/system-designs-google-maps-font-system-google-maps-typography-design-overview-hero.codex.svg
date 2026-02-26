@@ -1,46 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview hero</title>
-  <desc id="desc">Minimal map hero with folded panels, roads, water, and a location pin.</desc>
+  <desc id="desc">Minimal maps abstract: translucent green landmass and solid water shapes.</desc>
 
+  <!-- background (paper) -->
   <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
 
-  <!-- folded map panels -->
-  <g opacity="0.07" stroke="#111111" stroke-width="2" fill="none">
-    <path d="M420 60 V540"/>
-    <path d="M780 60 V540"/>
-  </g>
+  <!-- landmass: full-bleed translucent green blob -->
+  <path d="M-40 390 C120 230, 360 180, 520 250 C640 304, 760 276, 900 332 C1060 398, 1250 360, 1280 430 C1320 520, 1160 650, 900 630 C720 616, 640 560, 520 586 C360 628, 120 650, -20 600 C-120 564, -120 470, -40 390 Z" fill="#22C55E" opacity="0.18"/>
 
-  <!-- water -->
-  <path d="M84 430 C190 314, 358 306, 456 372 C542 430, 650 426, 736 374 C810 330, 926 330, 996 378 C1074 432, 1056 518, 966 552 C878 586, 806 536, 706 552 C610 566, 540 620, 452 596 C360 572, 292 518, 236 474 C184 432, 54 462, 84 430 Z" fill="#D7E3F0" opacity="0.95"/>
+  <!-- water: non-transparent bodies -->
+  <path d="M150 360 C210 300, 330 292, 404 340 C470 384, 540 380, 610 344 C676 310, 768 312, 820 350 C884 396, 860 466, 780 492 C702 516, 642 470, 560 486 C470 504, 410 552, 330 534 C248 516, 198 450, 150 414 C118 390, 110 400, 150 360 Z" fill="#D7E3F0"/>
 
-  <!-- land -->
-  <path d="M86 172 C186 70, 362 72, 476 148 C566 208, 666 184, 762 254 C874 336, 884 476, 782 526 C686 574, 604 516, 510 482 C420 450, 352 508, 250 474 C160 444, 128 368, 104 292 C82 222, 36 214, 86 172 Z" fill="#EEF0F3"/>
-  <path d="M684 92 C792 40, 926 54, 1018 126 C1090 184, 1168 186, 1184 250 C1200 316, 1134 356, 1056 350 C976 344, 928 298, 852 272 C774 244, 710 296, 650 258 C592 222, 602 136, 684 92 Z" fill="#E7EAEE" opacity="0.92"/>
-
-  <!-- roads -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M92 430 C200 322, 284 496, 392 386 C502 274, 590 454, 700 340 C804 232, 900 396, 1110 254" stroke="#3E4248" stroke-opacity="0.54" stroke-width="16"/>
-    <path d="M110 186 C220 130, 322 218, 432 160 C540 102, 650 198, 760 142 C878 82, 992 164, 1110 118" stroke="#3E4248" stroke-opacity="0.34" stroke-width="12"/>
-    <path d="M260 560 C274 436, 350 394, 420 318 C494 238, 592 224, 690 166 C792 104, 910 112, 1060 70" stroke="#3E4248" stroke-opacity="0.24" stroke-width="12"/>
-  </g>
-
-  <!-- nodes -->
-  <g fill="#111111" opacity="0.40">
-    <circle cx="392" cy="386" r="7"/>
-    <circle cx="700" cy="340" r="7"/>
-    <circle cx="1060" cy="70" r="7"/>
-  </g>
-
-  <!-- location pin -->
-  <g>
-    <path d="M872 276 C872 238, 902 208, 940 208 C978 208, 1008 238, 1008 276 C1008 344, 940 420, 940 420 C940 420, 872 344, 872 276 Z" fill="#111111" opacity="0.92"/>
-    <circle cx="940" cy="276" r="15" fill="#F9F9F9" opacity="0.95"/>
-  </g>
+  <path d="M760 164 C808 128, 884 132, 928 166 C972 200, 1032 194, 1064 216 C1102 242, 1096 292, 1052 314 C1004 338, 960 312, 916 296 C872 280, 836 304, 796 288 C752 270, 726 196, 760 164 Z" fill="#D7E3F0"/>
 
   <!-- label -->
   <g>
-    <rect x="72" y="72" width="520" height="96" rx="28" fill="#0A0A0A" opacity="0.92"/>
-    <text x="96" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
+    <rect x="72" y="72" width="560" height="104" rx="28" fill="#0A0A0A" opacity="0.92"/>
+    <text x="96" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
     <text x="96" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#F9F9F9" opacity="0.82">Typography Design Overview</text>
   </g>
 </svg>

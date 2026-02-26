@@ -1,39 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview icon</title>
-  <desc id="desc">Minimal map tile with roads, water, and a location pin.</desc>
+  <desc id="desc">Minimal maps abstract icon: translucent green landmass and solid water.</desc>
 
-  <!-- neutral paper -->
   <rect width="512" height="512" rx="96" fill="#F9F9F9"/>
 
-  <!-- folded-map panels (subtle) -->
-  <g opacity="0.10" stroke="#111111" stroke-width="2" fill="none">
-    <path d="M166 104 V408"/>
-    <path d="M346 104 V408"/>
-  </g>
+  <!-- landmass: full tile translucent green -->
+  <path d="M-24 330 C46 240, 164 210, 252 250 C322 282, 390 268, 448 300 C510 332, 556 322, 560 380 C564 448, 492 544, 382 540 C310 536, 270 498, 224 514 C156 538, 54 552, -10 510 C-54 480, -68 394, -24 330 Z" fill="#22C55E" opacity="0.20"/>
 
-  <!-- water -->
-  <path d="M104 328 C138 286, 208 276, 252 308 C290 334, 332 330, 364 304 C392 282, 430 284, 444 306 C464 340, 440 388, 392 400 C344 412, 314 384, 262 392 C214 400, 170 424, 132 404 C98 386, 82 352, 104 328 Z" fill="#D7E3F0" opacity="0.95"/>
+  <!-- water: solid -->
+  <path d="M96 316 C130 276, 204 270, 244 300 C282 326, 324 322, 356 300 C384 280, 430 282, 444 306 C464 340, 436 388, 388 398 C340 410, 308 382, 260 392 C214 402, 178 430, 132 410 C98 394, 74 354, 96 316 Z" fill="#D7E3F0"/>
 
-  <!-- land mass -->
-  <path d="M92 184 C138 126, 222 116, 280 148 C330 176, 364 160, 406 192 C450 226, 450 294, 416 322 C380 352, 330 346, 294 332 C256 318, 224 330, 188 320 C144 306, 120 282, 108 252 C94 218, 70 210, 92 184 Z" fill="#EEF0F3"/>
-
-  <!-- roads -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M96 304 C162 244, 208 332, 274 276 C338 222, 372 292, 416 250" stroke="#3E4248" stroke-opacity="0.55" stroke-width="14"/>
-    <path d="M120 170 C176 140, 222 178, 282 150 C332 126, 374 148, 414 128" stroke="#3E4248" stroke-opacity="0.38" stroke-width="10"/>
-    <path d="M182 424 C194 356, 238 336, 262 292 C290 238, 320 238, 350 110" stroke="#3E4248" stroke-opacity="0.26" stroke-width="10"/>
-  </g>
-
-  <!-- nodes -->
-  <g fill="#111111" opacity="0.42">
-    <circle cx="274" cy="276" r="6"/>
-    <circle cx="350" cy="110" r="6"/>
-    <circle cx="416" cy="250" r="6"/>
-  </g>
-
-  <!-- location pin -->
-  <g>
-    <path d="M338 214 C338 186, 360 164, 388 164 C416 164, 438 186, 438 214 C438 260, 388 316, 388 316 C388 316, 338 260, 338 214 Z" fill="#111111" opacity="0.92"/>
-    <circle cx="388" cy="214" r="12" fill="#F9F9F9" opacity="0.95"/>
-  </g>
+  <!-- hint of second water body -->
+  <path d="M298 154 C326 130, 372 132, 398 156 C424 182, 462 178, 478 194 C498 214, 492 246, 466 262 C440 278, 414 262, 390 250 C364 238, 340 250, 318 240 C292 228, 280 178, 298 154 Z" fill="#D7E3F0" opacity="0.95"/>
 </svg>
