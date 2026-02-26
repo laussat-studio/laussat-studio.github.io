@@ -1,14 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
-  <title id="title">system designs google maps font system google maps typography design overview hero</title>
-  <desc id="desc">Custom asset for system-designs-google-maps-font-system-google-maps-typography-design-overview (hero).</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#D98E04"/>
-      <stop offset="100%" stop-color="#0E3A53"/>
-    </linearGradient>
-  </defs>
-  
-  <rect x="547.08" y="90.23" width="567.89" height="234.09" rx="84.00" fill="#0E3A53" opacity="0.85"/>
-  <circle cx="344.54" cy="338.43" r="100.80" fill="#84A98C" opacity="0.9"/>
-  <path d="M 166.82 468.00 L 382.82 564.00 L 574.82 432.00 Z" fill="#84A98C" opacity="0.6"/>
+  <title id="title">Google Maps Typography Design Overview hero</title>
+  <desc id="desc">Abstract map topology hero with landmass and lakes; roads drawn in grey (no highlighted route).</desc>
+
+  <!-- rismay-minimal (maps section): neutral paper + topology, no gradients -->
+  <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
+
+  <!-- landmass shapes -->
+  <g>
+    <path d="M70 420 C170 300, 320 284, 420 336 C510 384, 600 352, 700 420 C804 490, 840 580, 740 594 C650 606, 602 548, 520 548 C430 548, 380 604, 280 592 C190 580, 138 530, 116 496 C94 462, 54 458, 70 420 Z" fill="#EEF0F3"/>
+    <path d="M520 96 C640 44, 792 64, 892 142 C968 202, 1044 198, 1122 246 C1200 294, 1190 360, 1120 388 C1046 418, 988 368, 906 344 C824 318, 750 342, 664 320 C580 298, 520 248, 500 204 C482 166, 408 140, 520 96 Z" fill="#E7EAEE" opacity="0.92"/>
+  </g>
+
+  <!-- lakes -->
+  <g opacity="0.9">
+    <path d="M226 424 C260 362, 344 356, 386 414 C428 472, 392 552, 324 566 C272 576, 202 506, 226 424 Z" fill="#D7E3F0"/>
+    <path d="M700 470 C736 424, 820 434, 848 488 C878 546, 824 602, 756 598 C706 596, 668 534, 700 470 Z" fill="#D7E3F0"/>
+    <path d="M930 380 C954 352, 1002 360, 1018 392 C1036 428, 1006 458, 970 456 C944 454, 912 412, 930 380 Z" fill="#D7E3F0" opacity="0.92"/>
+  </g>
+
+  <!-- roads -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 430 C200 322, 284 496, 392 386 C502 274, 590 454, 700 340 C804 232, 900 396, 1110 254" stroke="#3E4248" stroke-opacity="0.55" stroke-width="16"/>
+    <path d="M110 186 C220 130, 322 218, 432 160 C540 102, 650 198, 760 142 C878 82, 992 164, 1110 118" stroke="#3E4248" stroke-opacity="0.34" stroke-width="12"/>
+    <path d="M260 560 C274 436, 350 394, 420 318 C494 238, 592 224, 690 166 C792 104, 910 112, 1060 70" stroke="#3E4248" stroke-opacity="0.24" stroke-width="12"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#111111" opacity="0.42">
+    <circle cx="92" cy="430" r="7"/>
+    <circle cx="392" cy="386" r="7"/>
+    <circle cx="700" cy="340" r="7"/>
+    <circle cx="1110" cy="254" r="7"/>
+  </g>
+
+  <!-- label -->
+  <g>
+    <rect x="72" y="72" width="520" height="96" rx="28" fill="#0A0A0A" opacity="0.92"/>
+    <text x="96" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
+  </g>
 </svg>

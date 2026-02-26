@@ -1,10 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <title id="title">system designs google maps font system google maps typography design overview card</title>
-  <style>
-    .serif { font-family: "Times New Roman", "Times", serif; font-size: 180px; font-weight: 600; fill: #3E4248; }
-    .sans { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 180px; font-weight: 600; fill: #111111; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Google Maps Typography Design Overview card</title>
+  <desc id="desc">Abstract map topology card with landmass, lakes, and roads (no highlighted route).</desc>
 
-  <rect width="1200" height="630" fill="none"/>
+  <!-- rismay-minimal (maps section): neutral paper + topology, no gradients -->
+  <rect width="1200" height="630" rx="64" fill="#F9F9F9"/>
 
+  <!-- landmass -->
+  <g opacity="0.98">
+    <path d="M92 430 C198 296, 336 304, 430 356 C514 402, 600 370, 694 428 C794 492, 824 574, 744 594 C662 614, 602 560, 520 560 C438 560, 380 602, 290 594 C202 586, 148 528, 130 492 C112 456, 82 460, 92 430 Z" fill="#EEF0F3"/>
+    <path d="M520 118 C620 72, 744 86, 828 144 C892 188, 962 184, 1040 226 C1120 270, 1120 330, 1048 362 C978 392, 928 354, 862 334 C792 312, 726 330, 650 312 C574 294, 522 254, 506 214 C492 178, 430 154, 520 118 Z" fill="#E7EAEE" opacity="0.92"/>
+  </g>
+
+  <!-- lakes -->
+  <g opacity="0.9">
+    <path d="M248 426 C280 372, 356 370, 392 418 C428 468, 400 536, 338 550 C288 560, 228 500, 248 426 Z" fill="#D7E3F0"/>
+    <path d="M720 468 C750 430, 816 438, 838 480 C862 526, 820 572, 766 570 C724 568, 694 522, 720 468 Z" fill="#D7E3F0" opacity="0.95"/>
+  </g>
+
+  <!-- roads -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 456 C198 346, 282 522, 388 408 C498 292, 584 476, 694 360 C796 250, 886 420, 1110 268" stroke="#3E4248" stroke-opacity="0.48" stroke-width="14"/>
+    <path d="M120 210 C230 154, 330 240, 440 182 C546 126, 650 206, 760 148 C878 86, 990 166, 1110 120" stroke="#3E4248" stroke-opacity="0.34" stroke-width="10"/>
+    <path d="M220 560 C238 446, 320 408, 380 338 C448 258, 540 246, 630 186 C720 126, 824 132, 980 80" stroke="#3E4248" stroke-opacity="0.26" stroke-width="10"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#111111" opacity="0.42">
+    <circle cx="120" cy="468" r="6"/>
+    <circle cx="388" cy="408" r="6"/>
+    <circle cx="694" cy="360" r="6"/>
+    <circle cx="1110" cy="268" r="6"/>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <text x="80" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#3E4248" opacity="0.85">GOOGLE MAPS TYPOGRAPHY</text>
+    <text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="800" fill="#111111">Typography Design Overview</text>
+    <text x="80" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" fill="#3E4248" opacity="0.9">Case Study</text>
+  </g>
 </svg>
