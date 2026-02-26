@@ -13,7 +13,7 @@
   @AutomaticSeeAlso(disabled)
 }
 
-A case study on shipping AI-powered audio sticker narration for YouTube Shorts uploads.
+A case study on shipping AI voiceover for text stickers in YouTube Shorts uploads — turning keystrokes into stories, without losing a frame.
 
 @Image(source: "youtube-ai-audio-for-video-uploads-hero.codex.svg", alt: "YouTube AI Audio for Video Uploads hero")
 
