@@ -36,7 +36,11 @@ Most of the bugs weren’t about the new feature — they came from older system
 
 ## Pipeline
 
-Text input -> language detection -> debounced network request -> network response -> audio cache -> save audio -> merge into video -> prepare upload -> upload.
+What follows is the exact sequence of steps that turns keystrokes into a perfectly composed, AI-enhanced video — ready for the world to judge.
+
+- **Sequence 1 (keystrokes → sound):** keystroke → string → language detection (debounce timer in parallel) → synthesis request → decode response → audio asset.
+- **Sequence 2 (editor loop):** audio asset → timeline ↔ editing ↔ pre-composition.
+- **Sequence 3 (compose → upload):** compose → transcode → preview → upload.
 
 ## Topics
 
