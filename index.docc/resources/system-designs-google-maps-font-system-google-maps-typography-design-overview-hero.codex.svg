@@ -4,23 +4,17 @@
 
   <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
 
-  <!-- large pictogram -->
-  <g transform="translate(120,90) scale(1.15)">
+  <!-- large pictogram (centered) -->
+  <g transform="translate(220,52) scale(1.15)">
     <path d="M0 120 L220 70 L220 520 L0 580 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
     <path d="M220 70 L440 120 L440 580 L220 520 Z" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
     <path d="M440 120 L660 70 L660 520 L440 580 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
     <path d="M220 70 V520" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
     <path d="M440 120 V580" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
 
-    <!-- pin -->
-    <path d="M300 280 C300 242, 330 212, 368 212 C406 212, 436 242, 436 280 C436 344, 368 430, 368 430 C368 430, 300 344, 300 280 Z" fill="#111111" opacity="0.92"/>
-    <circle cx="368" cy="280" r="16" fill="#F9F9F9" opacity="0.95"/>
+    <!-- pin (centered) -->
+    <path d="M306 292 C306 254, 336 224, 374 224 C412 224, 442 254, 442 292 C442 356, 374 442, 374 442 C374 442, 306 356, 306 292 Z" fill="#111111" opacity="0.92"/>
+    <circle cx="374" cy="292" r="16" fill="#F9F9F9" opacity="0.95"/>
   </g>
 
-  <!-- label -->
-  <g>
-    <rect x="92" y="86" width="560" height="104" rx="28" fill="#0A0A0A" opacity="0.92"/>
-    <text x="116" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
-    <text x="116" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#F9F9F9" opacity="0.82">Typography Design Overview</text>
-  </g>
 </svg>
