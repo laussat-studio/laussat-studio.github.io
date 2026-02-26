@@ -1,23 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview icon</title>
-  <desc id="desc">Recognizable map pictogram: folded map with a pin.</desc>
+  <desc id="desc">Minimal pin icon.</desc>
 
   <rect width="512" height="512" rx="96" fill="#F9F9F9"/>
 
-  <!-- folded map -->
+  <!-- pin only -->
   <g>
-    <path d="M136 148 L232 118 L232 394 L136 422 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
-    <path d="M232 118 L328 148 L328 422 L232 394 Z" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
-    <path d="M328 148 L424 118 L424 394 L328 422 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
-
-    <!-- fold lines -->
-    <path d="M232 118 V394" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
-    <path d="M328 148 V422" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
-  </g>
-
-  <!-- pin -->
-  <g>
-    <path d="M258 244 C258 218, 280 196, 306 196 C332 196, 354 218, 354 244 C354 286, 306 344, 306 344 C306 344, 258 286, 258 244 Z" fill="#111111" opacity="0.92"/>
-    <circle cx="306" cy="244" r="12" fill="#F9F9F9" opacity="0.95"/>
+    <path d="M176 224 C176 180, 212 144, 256 144 C300 144, 336 180, 336 224 C336 298, 256 392, 256 392 C256 392, 176 298, 176 224 Z" fill="#111111" opacity="0.92"/>
+    <circle cx="256" cy="224" r="20" fill="#F9F9F9" opacity="0.95"/>
   </g>
 </svg>
