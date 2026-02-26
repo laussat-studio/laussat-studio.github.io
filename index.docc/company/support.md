@@ -4,6 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Support")
+  @PageImage(purpose: icon, source: "contact-icon.codex.svg", alt: "Support icon")
+  @PageImage(purpose: card, source: "contact-card.codex.svg", alt: "Support card")
 }
 
 If you need help with a Studio Laussat product, have a question about the company, or need to reach us for App Store review, use the contact details below.

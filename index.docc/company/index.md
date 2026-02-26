@@ -4,6 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Company")
+  @PageImage(purpose: icon, source: "company-icon.codex.svg", alt: "Company icon")
+  @PageImage(purpose: card, source: "company-card.codex.svg", alt: "Company card")
 }
 
 Studio Laussat, LLC is a technical studio focused on system design, architecture, and production-scale delivery.

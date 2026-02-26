@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Company card</title>
+  <desc id="desc">Minimal photographic-style card for company pages (paper + subtle depth).</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9F9F9"/>
+      <stop offset="100%" stop-color="#EEF0F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="48" fill="url(#paper)"/>
+  <rect x="78" y="86" width="444" height="228" rx="36" fill="#0A0A0A" opacity="0.06"/>
+  <rect x="96" y="104" width="408" height="192" rx="32" fill="#0A0A0A" opacity="0.05"/>
+  <path d="M120 280 C180 238, 240 252, 292 232 C350 208, 412 214, 468 246" fill="none" stroke="#3E4248" stroke-opacity="0.26" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="468" cy="246" r="10" fill="#3E4248" fill-opacity="0.26"/>
+</svg>

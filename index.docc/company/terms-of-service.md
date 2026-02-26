@@ -4,6 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Terms")
+  @PageImage(purpose: icon, source: "terms-icon.codex.svg", alt: "Terms icon")
+  @PageImage(purpose: card, source: "terms-card.codex.svg", alt: "Terms card")
 }
 
 **Effective date:** 2026-02-14

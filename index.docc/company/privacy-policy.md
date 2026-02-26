@@ -4,6 +4,8 @@
   @PageKind(article)
   @PageColor(gray)
   @TitleHeading("Privacy")
+  @PageImage(purpose: icon, source: "privacy-icon.codex.svg", alt: "Privacy icon")
+  @PageImage(purpose: card, source: "privacy-card.codex.svg", alt: "Privacy card")
 }
 
 **Effective date:** 2026-02-12
