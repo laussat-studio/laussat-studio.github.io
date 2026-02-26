@@ -16,19 +16,18 @@
 
 ## Requirements
 
-- Primary flow had to support YouTube Shorts creators.
-- Creator could choose from 5 voices.
-- Composition had to support up to 20 concurrent audio stickers.
-- Language detection decisions needed to happen on each keystroke.
-- Network requests were debounced to 3 seconds during typing.
-- Language detection latency target was under 1 second.
-- Audio generation happened in backend services.
-- Audio mixing and composition happened on device.
-- Rollout had to run via experiment with crash monitoring.
+- The primary flow had to work for YouTube Shorts creators — fast, in-editor, no friction.
+- Creators needed 5 voice options.
+- The composition had to support up to 10 concurrent audio stickers.
+- Language detection had to run on every keystroke (the editor loop).
+- Network synthesis requests were debounced to 3 seconds so the user isn’t surprised by voice playback firing too quickly while typing.
+- Audio synthesis happens in backend services.
+- Mixing and composition happen on-device.
+- Rollout had to run as an experiment with crash monitoring and fast rollback.
 
 ## Constraints
 
-- English only.
-- Content policy guardrails included curse word handling and emoji exclusions.
-- Existing infrastructure had operational and integration friction points.
-- UI complexity increased due to variable text and expanded action/menu surfaces.
+- English only (v1). At first thought, shipping only English would seem to make the task easier, but it made the feature harder. On-device language detection gets messy in real editing: detecting Spanish mid-sentence could remove a voice from the composition, then enable it again several keystrokes later.
+- Content policy guardrails: curse word handling and emoji exclusions.
+- Existing infrastructure had real operational/integration friction.
+- UI complexity was unavoidable: variable text plus expanded menus/action surfaces increased both layout risk and composition risk.
