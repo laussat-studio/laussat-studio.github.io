@@ -14,18 +14,18 @@
 
 @Image(source: "stakeholders-and-ownership-hero.codex.svg", alt: "Stakeholders and Ownership hero")
 
-## Primary User
+## Primary user
 
 - YouTube Shorts creators.
 
-## Ownership
+## Ownership (who built what)
 
-- Feature design and shipping ownership: iOS.
-- Client-side responsibilities: interaction loop, caching, on-device composition.
-- Server-side dependency: backend AI audio generation endpoint.
+- iOS owned feature design + shipping.
+- Client responsibilities: the editor loop, caching policy, and accessibility.
+- Server dependency: the AI audio generation endpoint (synthesis + response format).
 
-## Partner Surfaces
+## Partner surfaces (who we depended on)
 
-- Experimentation platform for staged rollout.
-- Infrastructure and backend teams for generation services.
-- Policy/compliance stakeholders for allowed content boundaries.
+- Experimentation platform for staged rollout and monitoring.
+- Backend/infrastructure teams for generation services reliability and scale.
+- Policy/compliance for content boundaries (what we allow, what we block).
