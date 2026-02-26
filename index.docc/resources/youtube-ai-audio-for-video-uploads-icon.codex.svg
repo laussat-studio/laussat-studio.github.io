@@ -1,23 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">YouTube AI Audio for Video Uploads icon</title>
-  <desc id="desc">Pictogram: video frame with text sticker and speaker.</desc>
+  <desc id="desc">Pictogram: video frame with play button.</desc>
 
-  <!-- palette: paper #F9F9F9, fill #EEF0F3, stroke #3E4248, ink #1F2937 -->
   <rect width="512" height="512" rx="96" fill="#F9F9F9"/>
 
-  <!-- video frame -->
+  <!-- screen -->
   <rect x="104" y="132" width="304" height="248" rx="44" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
   <rect x="132" y="160" width="248" height="192" rx="34" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
 
-  <!-- text sticker -->
-  <rect x="150" y="296" width="164" height="50" rx="18" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.22" stroke-width="3"/>
-  <path d="M170 320 H278" stroke="#3E4248" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round"/>
-  <path d="M170 336 H250" stroke="#3E4248" stroke-opacity="0.20" stroke-width="6" stroke-linecap="round"/>
-
-  <!-- speaker -->
-  <g>
-    <path d="M342 254 L372 234 V314 L342 294 H320 V254 Z" fill="#1F2937" opacity="0.86"/>
-    <path d="M386 256 C398 268, 398 280, 386 292" fill="none" stroke="#1F2937" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
-    <path d="M404 244 C424 264, 424 284, 404 304" fill="none" stroke="#1F2937" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
-  </g>
+  <!-- play button -->
+  <circle cx="256" cy="256" r="54" fill="#1F2937" opacity="0.10"/>
+  <path d="M242 230 L242 282 L290 256 Z" fill="#1F2937" opacity="0.86"/>
 </svg>
