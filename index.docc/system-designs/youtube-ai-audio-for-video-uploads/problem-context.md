@@ -14,16 +14,16 @@
 
 @Image(source: "problem-context-hero.codex.svg", alt: "Problem Context hero")
 
-Creators were using stickers as a narration workaround because many did not want to record their own voice. The upload experience needed to keep momentum while creators typed, selected voice, and previewed generated audio.
+Creators were already using text stickers as a narration workaround — because a lot of people don’t want to record their own voice. The problem is that voice is time: recording breaks the upload flow. So the upload experience had to keep momentum while creators typed, picked a voice, and previewed generated audio in real time.
 
 Before this project:
 
-- The audio pipeline was not designed for this variety of generated sounds.
-- Audio overlap expectations were low in earlier product versions.
-- Menu surfaces had scaled from 1-2 options to 4 variable-length options, increasing UI and composition complexity.
+- The audio pipeline wasn’t built for this variety of generated sounds showing up mid-edit.
+- Earlier versions assumed low overlap: a few sounds, rarely concurrent, and mostly one at a time.
+- UI and composition complexity had crept up: menu surfaces grew from 1–2 options to multiple variable-length options, which made both layout and mixing logic easier to break.
 
 Business intent:
 
-- Improve quality of Shorts uploads.
+- Improve the quality of Shorts uploads.
 - Encourage more creator sharing activity.
-- Keep interaction responsiveness tight during authoring.
+- Keep interaction responsiveness tight during authoring — without losing a frame.
