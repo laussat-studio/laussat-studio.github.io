@@ -1,20 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">YouTube AI Audio for Video Uploads icon</title>
-  <desc id="desc">Icon for YouTube AI Audio for Video Uploads</desc>
-  <defs>
-    <!-- rismay-minimal: hard neutrals + green accent (no gradients) -->
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="10"/>
-    </filter>
-  </defs>
-  <rect width="512" height="512" rx="96" fill="#0A0A0A"/>
-  <rect x="16" y="16" width="480" height="480" rx="86" fill="none" stroke="#22C55E" stroke-opacity="0.35" stroke-width="6"/>
-  <g opacity="0.22" filter="url(#glow)">
-    <circle cx="110" cy="120" r="70" fill="#22C55E"/>
-    <circle cx="430" cy="390" r="90" fill="#22C55E"/>
+  <desc id="desc">Pictogram: video frame with text sticker and speaker.</desc>
+
+  <!-- palette: paper #F9F9F9, fill #EEF0F3, stroke #3E4248, ink #1F2937 -->
+  <rect width="512" height="512" rx="96" fill="#F9F9F9"/>
+
+  <!-- video frame -->
+  <rect x="104" y="132" width="304" height="248" rx="44" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+  <rect x="132" y="160" width="248" height="192" rx="34" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
+
+  <!-- text sticker -->
+  <rect x="150" y="296" width="164" height="50" rx="18" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.22" stroke-width="3"/>
+  <path d="M170 320 H278" stroke="#3E4248" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round"/>
+  <path d="M170 336 H250" stroke="#3E4248" stroke-opacity="0.20" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- speaker -->
+  <g>
+    <path d="M342 254 L372 234 V314 L342 294 H320 V254 Z" fill="#1F2937" opacity="0.86"/>
+    <path d="M386 256 C398 268, 398 280, 386 292" fill="none" stroke="#1F2937" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+    <path d="M404 244 C424 264, 424 284, 404 304" fill="none" stroke="#1F2937" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
   </g>
-  <g stroke="#22C55E" stroke-opacity="0.85" stroke-width="10" fill="none" stroke-linecap="round">
-    <path d="M76 324 C130 250, 182 396, 236 322 C290 248, 342 396, 436 292"/>
-  </g>
-  <text x="256" y="292" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="136" font-weight="800" fill="#F9F9F9">YT</text>
 </svg>
