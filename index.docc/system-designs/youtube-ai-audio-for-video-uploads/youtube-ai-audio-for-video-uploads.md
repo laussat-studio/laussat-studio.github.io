@@ -19,7 +19,7 @@ A case study on shipping AI-powered audio sticker narration for YouTube Shorts u
 
 TikTok popularized AI voiceovers for text stickers overlaid on short-form video. It’s a quintessential feature for any app trying to compete in the space. This project focused on letting creators choose one of five voices and preview narration while writing — for that instant feedback and gratification.
 
-After shipping, we iterated on the loop: audio quality, perceived latency, and the edge cases that only show up once creators start using it at scale.
+Most of the bugs weren’t about the new feature — they came from older systems that needed to be optimized, and from experiments colliding with each other. That collision is an intended part of the release process: we want feature mixes to break in controlled environments so they don’t inadvertently break the production version. As the number of audio tracks increased, we tightened timeline ordering logic in legacy components so previews stayed instant and exports stayed correct.
 
 ## Product Summary
 
