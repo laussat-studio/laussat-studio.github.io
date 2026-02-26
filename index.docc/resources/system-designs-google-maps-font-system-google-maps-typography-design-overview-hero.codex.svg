@@ -1,41 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview hero</title>
-  <desc id="desc">Abstract map topology hero with landmass and lakes; roads drawn in grey (no highlighted route).</desc>
+  <desc id="desc">Minimal map hero with folded panels, roads, water, and a location pin.</desc>
 
-  <!-- rismay-minimal (maps section): neutral paper + topology, no gradients -->
   <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
 
-  <!-- landmass shapes -->
-  <g>
-    <path d="M70 420 C170 300, 320 284, 420 336 C510 384, 600 352, 700 420 C804 490, 840 580, 740 594 C650 606, 602 548, 520 548 C430 548, 380 604, 280 592 C190 580, 138 530, 116 496 C94 462, 54 458, 70 420 Z" fill="#EEF0F3"/>
-    <path d="M520 96 C640 44, 792 64, 892 142 C968 202, 1044 198, 1122 246 C1200 294, 1190 360, 1120 388 C1046 418, 988 368, 906 344 C824 318, 750 342, 664 320 C580 298, 520 248, 500 204 C482 166, 408 140, 520 96 Z" fill="#E7EAEE" opacity="0.92"/>
+  <!-- folded map panels -->
+  <g opacity="0.07" stroke="#111111" stroke-width="2" fill="none">
+    <path d="M420 60 V540"/>
+    <path d="M780 60 V540"/>
   </g>
 
-  <!-- lakes -->
-  <g opacity="0.9">
-    <path d="M226 424 C260 362, 344 356, 386 414 C428 472, 392 552, 324 566 C272 576, 202 506, 226 424 Z" fill="#D7E3F0"/>
-    <path d="M700 470 C736 424, 820 434, 848 488 C878 546, 824 602, 756 598 C706 596, 668 534, 700 470 Z" fill="#D7E3F0"/>
-    <path d="M930 380 C954 352, 1002 360, 1018 392 C1036 428, 1006 458, 970 456 C944 454, 912 412, 930 380 Z" fill="#D7E3F0" opacity="0.92"/>
-  </g>
+  <!-- water -->
+  <path d="M84 430 C190 314, 358 306, 456 372 C542 430, 650 426, 736 374 C810 330, 926 330, 996 378 C1074 432, 1056 518, 966 552 C878 586, 806 536, 706 552 C610 566, 540 620, 452 596 C360 572, 292 518, 236 474 C184 432, 54 462, 84 430 Z" fill="#D7E3F0" opacity="0.95"/>
+
+  <!-- land -->
+  <path d="M86 172 C186 70, 362 72, 476 148 C566 208, 666 184, 762 254 C874 336, 884 476, 782 526 C686 574, 604 516, 510 482 C420 450, 352 508, 250 474 C160 444, 128 368, 104 292 C82 222, 36 214, 86 172 Z" fill="#EEF0F3"/>
+  <path d="M684 92 C792 40, 926 54, 1018 126 C1090 184, 1168 186, 1184 250 C1200 316, 1134 356, 1056 350 C976 344, 928 298, 852 272 C774 244, 710 296, 650 258 C592 222, 602 136, 684 92 Z" fill="#E7EAEE" opacity="0.92"/>
 
   <!-- roads -->
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M92 430 C200 322, 284 496, 392 386 C502 274, 590 454, 700 340 C804 232, 900 396, 1110 254" stroke="#3E4248" stroke-opacity="0.55" stroke-width="16"/>
+    <path d="M92 430 C200 322, 284 496, 392 386 C502 274, 590 454, 700 340 C804 232, 900 396, 1110 254" stroke="#3E4248" stroke-opacity="0.54" stroke-width="16"/>
     <path d="M110 186 C220 130, 322 218, 432 160 C540 102, 650 198, 760 142 C878 82, 992 164, 1110 118" stroke="#3E4248" stroke-opacity="0.34" stroke-width="12"/>
     <path d="M260 560 C274 436, 350 394, 420 318 C494 238, 592 224, 690 166 C792 104, 910 112, 1060 70" stroke="#3E4248" stroke-opacity="0.24" stroke-width="12"/>
   </g>
 
   <!-- nodes -->
-  <g fill="#111111" opacity="0.42">
-    <circle cx="92" cy="430" r="7"/>
+  <g fill="#111111" opacity="0.40">
     <circle cx="392" cy="386" r="7"/>
     <circle cx="700" cy="340" r="7"/>
-    <circle cx="1110" cy="254" r="7"/>
+    <circle cx="1060" cy="70" r="7"/>
+  </g>
+
+  <!-- location pin -->
+  <g>
+    <path d="M872 276 C872 238, 902 208, 940 208 C978 208, 1008 238, 1008 276 C1008 344, 940 420, 940 420 C940 420, 872 344, 872 276 Z" fill="#111111" opacity="0.92"/>
+    <circle cx="940" cy="276" r="15" fill="#F9F9F9" opacity="0.95"/>
   </g>
 
   <!-- label -->
   <g>
     <rect x="72" y="72" width="520" height="96" rx="28" fill="#0A0A0A" opacity="0.92"/>
     <text x="96" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
+    <text x="96" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#F9F9F9" opacity="0.82">Typography Design Overview</text>
   </g>
 </svg>
