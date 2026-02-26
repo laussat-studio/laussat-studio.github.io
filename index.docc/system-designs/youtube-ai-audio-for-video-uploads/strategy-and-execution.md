@@ -12,35 +12,34 @@
   @AutomaticSeeAlso(disabled)
 }
 
-## Flow 1: Keyboard Input to Audio
+## Sequence 1: Keystrokes → Sound
 
 @Image(source: "youtube-typing-to-audio-hero.codex.svg", alt: "Keyboard input to local AI to network audio generation flow")
 
-## Flow 2: Audio to Video Edit to Upload
+## Sequence 2–3: Editor Loop → Compose → Upload
 
 @Image(source: "youtube-audio-to-video-upload-hero.codex.svg", alt: "Generated audio to video edit and upload flow")
 
-## Execution Plan
+## Execution approach
 
-- Quarter 1: implement pipeline and client-side composition workflow.
-- Quarter 2: run staged experimentation and monitor stability/usage.
+- Ship the end-to-end loop first: type → detect → debounce → synthesize → preview.
+- Then harden it under experimentation. Collisions are expected in beta; production stability isn’t negotiable.
 
-## Core Pipeline
+## Core pipeline (keystrokes → sound)
 
-1. Creator enters text.
-2. Local language detection decision runs per keystroke.
-3. Debounced network request runs at 3-second intervals while editing.
-4. Backend returns synthesized audio for selected voice.
-5. Client writes generation into in-session cache.
-6. Final selection is saved for composition and upload.
+1. Creator types text (keystrokes become the source of truth).
+2. Language detection runs per keystroke; the debounce timer runs in parallel.
+3. Every ~3 seconds (while typing), we send a synthesis request for the selected voice.
+4. Backend returns audio; the client decodes it into an audio asset.
+5. Cache the result for the current session; persist the final selection for composition and upload.
 
-## Caching Strategy
+## Caching strategy
 
 - Keystroke-level cache during text entry to avoid duplicate requests.
-- Final selection persisted to disk for composition.
-- Reuse cache key model: voice + text hash for repeated creator CTAs.
+- Persist the final selection to disk so it can be reused beyond the upload flow (post-video upload).
+- Cache keys need to include voice + text hash + language state — so mixed-language detection doesn’t get cached and replayed later.
 
-## UI and Composition Strategy
+## UI and composition strategy
 
-- Handle expanded action/menu surface with variable text lengths.
-- Support higher concurrent audio track counts in composition without regressing creator flow.
+- Variable text + expanded menus increase layout risk. The UI has to hold up at extremes without jitter.
+- More concurrent audio tracks stress ordering logic (timeline + accessibility). If you don’t order elements correctly, an accessibility bug always pops.
