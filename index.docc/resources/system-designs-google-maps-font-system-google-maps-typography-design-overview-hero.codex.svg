@@ -1,67 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview hero</title>
-  <desc id="desc">Map tile illustration: coastline, water, roads, and labels. Minimal palette, no gradients.</desc>
-
-  <!-- palette -->
-  <!-- paper: #F9F9F9 | ink: #111111 | road: #3E4248 | water: #D7E3F0 | land: #EEF0F3 -->
-
-  <defs>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="0.6"/>
-    </filter>
-  </defs>
+  <desc id="desc">Clean map hero: water, coastline, and road hierarchy. Minimal palette, no gradients.</desc>
 
   <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
 
-  <!-- water (ocean) -->
-  <path d="M0 0H1200V600H0Z" fill="#D7E3F0" opacity="0.62"/>
+  <!-- water -->
+  <rect width="1200" height="600" rx="56" fill="#D7E3F0" opacity="0.70"/>
 
-  <!-- landmass + coastline -->
-  <path d="M-40 420 C120 300, 220 330, 310 290 C402 250, 498 240, 584 270 C672 300, 740 262, 824 294 C906 326, 996 314, 1090 350 C1188 388, 1248 470, 1234 540 C1216 626, 1090 666, 940 636 C792 606, 706 562, 600 592 C474 628, 318 642, 176 602 C40 564, -96 500, -40 420 Z" fill="#EEF0F3"/>
-  <path d="M-40 420 C120 300, 220 330, 310 290 C402 250, 498 240, 584 270 C672 300, 740 262, 824 294 C906 326, 996 314, 1090 350 C1188 388, 1248 470, 1234 540" fill="none" stroke="#3E4248" stroke-opacity="0.22" stroke-width="3"/>
+  <!-- land -->
+  <path d="M-40 430 C120 300, 230 332, 330 294 C432 256, 540 242, 632 276 C730 312, 808 280, 902 316 C1002 352, 1092 350, 1166 392 C1258 444, 1286 530, 1218 576 C1140 630, 1002 638, 870 610 C748 584, 680 544, 574 570 C440 604, 292 618, 166 586 C46 556, -106 498, -40 430 Z" fill="#EEF0F3" opacity="0.92"/>
 
-  <!-- inland lakes -->
-  <path d="M238 404 C270 354, 346 348, 390 392 C434 436, 408 510, 342 528 C286 542, 216 474, 238 404 Z" fill="#D7E3F0" opacity="0.95"/>
-  <path d="M760 406 C790 372, 846 376, 872 410 C900 448, 868 490, 822 488 C784 486, 734 450, 760 406 Z" fill="#D7E3F0" opacity="0.95"/>
+  <!-- coastline -->
+  <path d="M-40 430 C120 300, 230 332, 330 294 C432 256, 540 242, 632 276 C730 312, 808 280, 902 316" fill="none" stroke="#3E4248" stroke-opacity="0.28" stroke-width="3"/>
 
-  <!-- parks (subtle tint) -->
-  <path d="M546 322 C592 292, 650 302, 682 336 C712 366, 704 414, 664 438 C620 464, 560 446, 538 402 C520 368, 520 340, 546 322 Z" fill="#22C55E" opacity="0.07"/>
+  <!-- lakes (small) -->
+  <path d="M232 404 C258 362, 330 354, 372 388 C416 422, 388 488, 330 500 C282 510, 210 458, 232 404 Z" fill="#D7E3F0" opacity="0.96"/>
+  <path d="M760 410 C784 380, 836 382, 860 412 C886 446, 852 484, 812 482 C778 480, 740 448, 760 410 Z" fill="#D7E3F0" opacity="0.96"/>
 
-  <!-- roads: hierarchy -->
+  <!-- roads -->
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <!-- highway -->
-    <path d="M80 468 C186 360, 276 528, 398 414 C520 298, 612 476, 738 360 C864 242, 954 404, 1120 286" stroke="#3E4248" stroke-opacity="0.20" stroke-width="22"/>
-    <path d="M80 468 C186 360, 276 528, 398 414 C520 298, 612 476, 738 360 C864 242, 954 404, 1120 286" stroke="#F9F9F9" stroke-opacity="0.90" stroke-width="10"/>
+    <path d="M92 470 C210 350, 306 534, 432 406 C560 278, 660 476, 796 340 C936 204, 1034 410, 1112 286" stroke="#3E4248" stroke-opacity="0.26" stroke-width="24"/>
+    <path d="M92 470 C210 350, 306 534, 432 406 C560 278, 660 476, 796 340 C936 204, 1034 410, 1112 286" stroke="#F9F9F9" stroke-opacity="0.92" stroke-width="10"/>
 
-    <!-- primary roads -->
-    <path d="M140 210 C260 142, 340 242, 460 176 C590 104, 694 214, 826 146 C960 80, 1042 156, 1140 112" stroke="#3E4248" stroke-opacity="0.22" stroke-width="14"/>
-    <path d="M260 560 C282 446, 356 398, 430 326 C506 250, 604 238, 702 176 C806 112, 932 124, 1066 74" stroke="#3E4248" stroke-opacity="0.16" stroke-width="12"/>
+    <!-- primaries -->
+    <path d="M118 206 C256 130, 352 244, 490 170 C632 98, 744 220, 878 138 C1014 62, 1100 150, 1140 118" stroke="#3E4248" stroke-opacity="0.22" stroke-width="14"/>
+    <path d="M252 560 C278 436, 362 384, 448 312 C540 238, 650 226, 762 162 C884 94, 1008 110, 1086 70" stroke="#3E4248" stroke-opacity="0.18" stroke-width="12"/>
 
-    <!-- local streets -->
-    <path d="M460 468 C510 438, 560 442, 602 468 C640 490, 684 488, 720 468" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
-    <path d="M332 372 C360 342, 402 334, 440 350" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
+    <!-- locals -->
+    <path d="M452 470 C520 432, 594 438, 658 476 C720 512, 782 508, 836 472" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
   </g>
 
-  <!-- intersections / POIs -->
-  <g fill="#111111" opacity="0.35">
-    <circle cx="398" cy="414" r="6"/>
-    <circle cx="738" cy="360" r="6"/>
-    <circle cx="460" cy="176" r="5"/>
-    <circle cx="826" cy="146" r="5"/>
+  <!-- nodes -->
+  <g fill="#111111" opacity="0.28">
+    <circle cx="432" cy="406" r="6"/>
+    <circle cx="796" cy="340" r="6"/>
+    <circle cx="490" cy="170" r="5"/>
+    <circle cx="878" cy="138" r="5"/>
   </g>
 
-  <!-- label chips (maps vibe) -->
-  <g filter="url(#soft)">
+  <!-- label -->
+  <g>
     <rect x="92" y="86" width="560" height="104" rx="28" fill="#0A0A0A" opacity="0.92"/>
     <text x="116" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="36" font-weight="800" fill="#F9F9F9">Google Maps Typography</text>
     <text x="116" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" fill="#F9F9F9" opacity="0.82">Typography Design Overview</text>
-  </g>
-
-  <g>
-    <rect x="820" y="92" width="156" height="40" rx="20" fill="#F9F9F9" opacity="0.82"/>
-    <text x="842" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#111111" opacity="0.78">Bay</text>
-
-    <rect x="214" y="338" width="156" height="40" rx="20" fill="#F9F9F9" opacity="0.82"/>
-    <text x="236" y="364" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#111111" opacity="0.78">Park</text>
   </g>
 </svg>
