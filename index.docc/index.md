@@ -7,7 +7,7 @@
   @TitleHeading("System Design Studio")
   @PageImage(purpose: icon, source: "index-icon.codex.svg", alt: "Studio Laussat Icon")
   @PageImage(purpose: card, source: "index-card.codex.svg", alt: "Studio Laussat Card")
-  @CallToAction(url: "mailto:support@laussat.studio", label: "Support")
+  @CallToAction(url: "mailto:support@laussat.studio", label: "Get in touch")
 }
 
 @Options {
