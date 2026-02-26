@@ -17,7 +17,7 @@ A case study on shipping AI-powered audio sticker narration for YouTube Shorts u
 
 @Image(source: "youtube-ai-audio-for-video-uploads-hero.codex.svg", alt: "YouTube AI Audio for Video Uploads hero")
 
-Creators wanted a fast way to narrate sticker text without recording their own voice. The product direction was to improve upload quality and encourage more sharing by letting creators choose one of five voices and preview audio while writing.
+TikTok popularized AI voiceovers for text stickers overlaid on short-form video. It’s a quintessential feature for any app trying to compete in the space. This project focused on letting creators choose one of five voices and preview narration while writing — for that instant feedback and gratification.
 
 Implementation ran for one quarter, followed by one quarter of experimentation.
 
