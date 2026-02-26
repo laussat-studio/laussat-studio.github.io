@@ -1,47 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview card</title>
-  <desc id="desc">Clean map card: water, coastline, and road hierarchy. Minimal palette, no gradients.</desc>
+  <desc id="desc">Recognizable map pictogram card: folded map with a pin and title text.</desc>
 
   <rect width="1200" height="630" rx="64" fill="#F9F9F9"/>
 
-  <!-- water -->
-  <rect width="1200" height="630" rx="64" fill="#D7E3F0" opacity="0.70"/>
+  <!-- folded map pictogram (center-right) -->
+  <g transform="translate(640,120) scale(1.0)">
+    <path d="M0 80 L150 40 L150 410 L0 450 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M150 40 L300 80 L300 450 L150 410 Z" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M300 80 L450 40 L450 410 L300 450 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M150 40 V410" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
+    <path d="M300 80 V450" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
 
-  <!-- land -->
-  <path d="M-40 448 C118 312, 244 344, 350 308 C456 272, 570 258, 666 296 C768 334, 850 302, 946 340 C1048 380, 1138 378, 1210 422 C1300 478, 1320 570, 1246 612 C1160 664, 1008 670, 870 638 C742 610, 670 566, 560 596 C426 632, 268 650, 142 614 C22 578, -102 512, -40 448 Z" fill="#EEF0F3" opacity="0.92"/>
-
-  <!-- coastline -->
-  <path d="M-40 448 C118 312, 244 344, 350 308 C456 272, 570 258, 666 296 C768 334, 850 302, 946 340" fill="none" stroke="#3E4248" stroke-opacity="0.28" stroke-width="3"/>
-
-  <!-- lakes (very subtle, smaller to avoid "blobs") -->
-  <path d="M268 446 C290 410, 346 404, 382 432 C420 462, 396 512, 348 524 C308 534, 250 492, 268 446 Z" fill="#D7E3F0" opacity="0.96"/>
-  <path d="M740 462 C760 436, 806 438, 826 466 C848 496, 820 530, 784 528 C754 526, 722 498, 740 462 Z" fill="#D7E3F0" opacity="0.96"/>
-
-  <!-- roads -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- highway casing -->
-    <path d="M88 486 C210 360, 308 552, 438 420 C566 292, 668 496, 804 360 C944 222, 1044 430, 1112 306" stroke="#3E4248" stroke-opacity="0.26" stroke-width="22"/>
-    <path d="M88 486 C210 360, 308 552, 438 420 C566 292, 668 496, 804 360 C944 222, 1044 430, 1112 306" stroke="#F9F9F9" stroke-opacity="0.92" stroke-width="10"/>
-
-    <!-- primaries -->
-    <path d="M120 220 C260 140, 356 258, 494 184 C634 110, 748 234, 882 150 C1018 70, 1100 164, 1140 130" stroke="#3E4248" stroke-opacity="0.22" stroke-width="14"/>
-    <path d="M226 590 C254 462, 344 402, 438 320 C534 244, 650 234, 768 166 C892 96, 1018 114, 1086 76" stroke="#3E4248" stroke-opacity="0.18" stroke-width="12"/>
-
-    <!-- locals -->
-    <path d="M458 488 C524 446, 592 452, 650 486 C706 518, 764 514, 814 482" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
-    <path d="M340 382 C376 350, 426 344, 470 362" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
-  </g>
-
-  <!-- nodes -->
-  <g fill="#111111" opacity="0.28">
-    <circle cx="438" cy="420" r="6"/>
-    <circle cx="804" cy="360" r="6"/>
-    <circle cx="494" cy="184" r="5"/>
-    <circle cx="882" cy="150" r="5"/>
+    <!-- pin -->
+    <path d="M200 210 C200 178, 226 152, 258 152 C290 152, 316 178, 316 210 C316 262, 258 334, 258 334 C258 334, 200 262, 200 210 Z" fill="#111111" opacity="0.92"/>
+    <circle cx="258" cy="210" r="14" fill="#F9F9F9" opacity="0.95"/>
   </g>
 
   <!-- title -->
-  <text x="80" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#3E4248" opacity="0.85">GOOGLE MAPS TYPOGRAPHY</text>
-  <text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="800" fill="#111111">Typography Design Overview</text>
-  <text x="80" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" fill="#3E4248" opacity="0.9">Case Study</text>
+  <g>
+    <text x="80" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#3E4248" opacity="0.85">GOOGLE MAPS TYPOGRAPHY</text>
+    <text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="800" fill="#111111">Typography Design Overview</text>
+    <text x="80" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" fill="#3E4248" opacity="0.9">Case Study</text>
+  </g>
 </svg>

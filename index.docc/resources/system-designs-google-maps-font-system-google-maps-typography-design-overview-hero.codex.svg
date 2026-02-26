@@ -1,42 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
   <title id="title">Google Maps Typography Design Overview hero</title>
-  <desc id="desc">Clean map hero: water, coastline, and road hierarchy. Minimal palette, no gradients.</desc>
+  <desc id="desc">Recognizable map pictogram hero: folded map with a pin and label.</desc>
 
   <rect width="1200" height="600" rx="56" fill="#F9F9F9"/>
 
-  <!-- water -->
-  <rect width="1200" height="600" rx="56" fill="#D7E3F0" opacity="0.70"/>
+  <!-- large pictogram -->
+  <g transform="translate(120,90) scale(1.15)">
+    <path d="M0 120 L220 70 L220 520 L0 580 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M220 70 L440 120 L440 580 L220 520 Z" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M440 120 L660 70 L660 520 L440 580 Z" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
+    <path d="M220 70 V520" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
+    <path d="M440 120 V580" fill="none" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
 
-  <!-- land -->
-  <path d="M-40 430 C120 300, 230 332, 330 294 C432 256, 540 242, 632 276 C730 312, 808 280, 902 316 C1002 352, 1092 350, 1166 392 C1258 444, 1286 530, 1218 576 C1140 630, 1002 638, 870 610 C748 584, 680 544, 574 570 C440 604, 292 618, 166 586 C46 556, -106 498, -40 430 Z" fill="#EEF0F3" opacity="0.92"/>
-
-  <!-- coastline -->
-  <path d="M-40 430 C120 300, 230 332, 330 294 C432 256, 540 242, 632 276 C730 312, 808 280, 902 316" fill="none" stroke="#3E4248" stroke-opacity="0.28" stroke-width="3"/>
-
-  <!-- lakes (small) -->
-  <path d="M232 404 C258 362, 330 354, 372 388 C416 422, 388 488, 330 500 C282 510, 210 458, 232 404 Z" fill="#D7E3F0" opacity="0.96"/>
-  <path d="M760 410 C784 380, 836 382, 860 412 C886 446, 852 484, 812 482 C778 480, 740 448, 760 410 Z" fill="#D7E3F0" opacity="0.96"/>
-
-  <!-- roads -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- highway -->
-    <path d="M92 470 C210 350, 306 534, 432 406 C560 278, 660 476, 796 340 C936 204, 1034 410, 1112 286" stroke="#3E4248" stroke-opacity="0.26" stroke-width="24"/>
-    <path d="M92 470 C210 350, 306 534, 432 406 C560 278, 660 476, 796 340 C936 204, 1034 410, 1112 286" stroke="#F9F9F9" stroke-opacity="0.92" stroke-width="10"/>
-
-    <!-- primaries -->
-    <path d="M118 206 C256 130, 352 244, 490 170 C632 98, 744 220, 878 138 C1014 62, 1100 150, 1140 118" stroke="#3E4248" stroke-opacity="0.22" stroke-width="14"/>
-    <path d="M252 560 C278 436, 362 384, 448 312 C540 238, 650 226, 762 162 C884 94, 1008 110, 1086 70" stroke="#3E4248" stroke-opacity="0.18" stroke-width="12"/>
-
-    <!-- locals -->
-    <path d="M452 470 C520 432, 594 438, 658 476 C720 512, 782 508, 836 472" stroke="#3E4248" stroke-opacity="0.14" stroke-width="8"/>
-  </g>
-
-  <!-- nodes -->
-  <g fill="#111111" opacity="0.28">
-    <circle cx="432" cy="406" r="6"/>
-    <circle cx="796" cy="340" r="6"/>
-    <circle cx="490" cy="170" r="5"/>
-    <circle cx="878" cy="138" r="5"/>
+    <!-- pin -->
+    <path d="M300 280 C300 242, 330 212, 368 212 C406 212, 436 242, 436 280 C436 344, 368 430, 368 430 C368 430, 300 344, 300 280 Z" fill="#111111" opacity="0.92"/>
+    <circle cx="368" cy="280" r="16" fill="#F9F9F9" opacity="0.95"/>
   </g>
 
   <!-- label -->
