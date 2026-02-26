@@ -5,7 +5,7 @@
   <rect width="1200" height="630" rx="64" fill="#F9F9F9"/>
 
   <!-- centered screen -->
-  <g transform="translate(340,120) scale(1.25)">
+  <g transform="translate(313,120) scale(1.25)">
     <rect x="0" y="0" width="460" height="340" rx="56" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
     <rect x="36" y="36" width="388" height="268" rx="44" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
 

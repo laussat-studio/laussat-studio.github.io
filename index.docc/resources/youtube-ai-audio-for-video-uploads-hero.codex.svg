@@ -2,12 +2,25 @@
   <title id="title">YouTube AI Audio for Video Uploads hero</title>
   <desc id="desc">Pictogram hero: video screen with play button (no text).</desc>
 
-  <rect width="1600" height="900" rx="72" fill="#F9F9F9"/>
+  <!-- transparent background (inherits page background) -->
 
   <!-- centered screen -->
-  <g transform="translate(430,220) scale(1.6)">
+  <g transform="translate(432,178) scale(1.6)">
+    <defs>
+      <clipPath id="screenClip">
+        <rect x="36" y="36" width="388" height="268" rx="44"/>
+      </clipPath>
+    </defs>
+
     <rect x="0" y="0" width="460" height="340" rx="56" fill="#EEF0F3" stroke="#3E4248" stroke-opacity="0.35" stroke-width="4"/>
     <rect x="36" y="36" width="388" height="268" rx="44" fill="#F9F9F9" stroke="#3E4248" stroke-opacity="0.18" stroke-width="4"/>
+
+    <!-- scanline (SMIL) -->
+    <g clip-path="url(#screenClip)">
+      <rect x="36" y="-90" width="388" height="90" fill="#1F2937" opacity="0.06">
+        <animate attributeName="y" from="-90" to="360" dur="2.6s" repeatCount="indefinite" />
+      </rect>
+    </g>
 
     <!-- play button -->
     <circle cx="230" cy="170" r="92" fill="#1F2937" opacity="0.10"/>
