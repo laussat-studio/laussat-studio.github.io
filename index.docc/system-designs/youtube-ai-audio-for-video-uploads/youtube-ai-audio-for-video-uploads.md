@@ -19,7 +19,7 @@ A case study on shipping AI voiceover for text stickers in YouTube Shorts upload
 
 TikTok made AI voiceovers on text stickers feel inevitable in short-form video. For any app competing in the space, the loop has to be fast: pick a voice, type, hear it immediately — instant feedback and gratification.
 
-Most of the bugs weren’t about the new feature — they came from older systems that needed to be optimized, and from experiments colliding with each other. That collision is an intended part of the release process: we want feature mixes to break in controlled environments so they don’t inadvertently break the production version. As the number of audio tracks increased, we tightened timeline ordering logic in legacy components so previews stayed instant and exports stayed correct.
+Most bugs weren’t in the new feature — they surfaced in older systems that needed optimization (and accessibility bugs always pop when elements aren’t ordered correctly), and in experiments colliding with each other. That collision is intentional: we want feature mixes to break in controlled environments, not in production. As audio tracks scaled up, we tightened timeline ordering in legacy components so previews stayed instant and exports stayed correct.
 
 ## Product Summary
 
