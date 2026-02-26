@@ -70,17 +70,17 @@ const year = new Date().getFullYear()
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:radial-gradient(1200px 800px at 50% 10%, rgba(139,92,246,0.18), transparent 60%), var(--bg); color:var(--fg);
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  font-family: 'DM Sans', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
 }
 a{color:inherit}
 .root{min-height:100vh;max-width:1060px;margin:0 auto;padding:34px 22px}
 .header{display:flex;align-items:center;justify-content:space-between;gap:18px;position:sticky;top:0;padding:14px 18px;border:1px solid var(--border);border-radius:14px;background:rgba(7,8,10,0.6);backdrop-filter: blur(10px)}
-.brand{letter-spacing:0.06em;font-weight:600}
+.brand{letter-spacing:0.08em;font-weight:650}
 .nav{display:flex;gap:14px;flex-wrap:wrap}
-.nav a{color:var(--muted);text-decoration:none}
+.nav a{color:var(--muted);text-decoration:none;font-weight:550}
 .nav a:hover{color:var(--fg)}
 .hero{padding:56px 18px 26px}
-.hero h1{margin:0 0 12px 0;font-size:46px;letter-spacing:-0.02em}
+.hero h1{margin:0 0 12px 0;font-size:48px;letter-spacing:-0.03em;font-weight:700}
 .hero p{margin:0;color:var(--muted);font-size:18px;max-width:68ch}
 .cta{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:12px;border:1px solid var(--border);text-decoration:none;background:linear-gradient(180deg, rgba(139,92,246,0.35), rgba(139,92,246,0.12))}
