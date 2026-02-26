@@ -23,14 +23,16 @@ Most of the bugs weren’t about the new feature — they came from older system
 
 ## Product Summary
 
-- Primary user: YouTube Shorts creators.
-- Client ownership: iOS.
-- Input loop: local language detection decisions on each keystroke.
-- Network cadence: debounced requests at 3 seconds while typing.
-- Generation: backend AI audio synthesis.
-- Composition: on-device audio mixing into video.
-- Scale target: up to 20 concurrent audio stickers, 5 available voices.
-- Language scope: English only.
+| Attribute | Details |
+|---|---|
+| Primary user | YouTube Shorts creators |
+| Client ownership | iOS |
+| Input loop | Language detection on every keystroke |
+| Network cadence | Debounced synthesis requests (~3s) while typing |
+| Generation | Backend audio synthesis |
+| Composition | On-device mixdown into the video timeline |
+| Scale target | Up to 20 concurrent audio stickers; 5 voice options |
+| Language scope | English only (v1) |
 
 ## Pipeline
 
